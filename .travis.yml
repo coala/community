@@ -6,7 +6,13 @@ env:
   - ENCRYPTION_LABEL: "defac9b1fa56"
   - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
 
+before_script:
+  - pip install coala-bears
+
 script:
+  - coala --non-interactive -V
+
+after_success:
   - mkdir _site public
   - python manage.py distill-local public --force
   - ./.ci/deploy.sh
