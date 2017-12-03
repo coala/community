@@ -1,4 +1,6 @@
-"""community URL Configuration."""
+"""
+Community URL configuration.
+"""
 
 from django_distill import distill_url
 

@@ -41,14 +41,12 @@ class GitOrg():
                 self.REPOS[repo_name] = repo
             except Exception:
                 print('Unable to load GitHub repo %s' % full_name)
-                pass
             try:
                 repo = self.IGL.get_repo(full_name)
                 repo.identifier
                 self.REPOS[repo_name] = repo
             except Exception:
                 print('Unable to load GitLab repo %s' % full_name)
-                pass
 
         return self.REPOS[repo_name]
 

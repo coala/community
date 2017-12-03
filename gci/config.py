@@ -8,7 +8,7 @@ def get_api_key(name):
     if env_val:
         return env_val
 
-    homedir = os.path.expanduser("~")
+    homedir = os.path.expanduser('~')
     filename = API_KEY_FILE % name
 
     try:
@@ -16,5 +16,5 @@ def get_api_key(name):
             api_key = api_key_file.readline().strip()
             return api_key
     except IOError:
-        print("Please put your %s API key at %s." % (name, filename))
+        print('Please put your %s API key at %s.' % (name, filename))
         exit(1)
