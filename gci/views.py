@@ -4,6 +4,7 @@ from calendar import timegm
 import requests
 
 from .students import get_students, get_linked_students
+from .gitorg import get_logo
 
 STUDENT_URL = (
     'https://codein.withgoogle.com/dashboard/task-instances/?'
@@ -18,6 +19,18 @@ def index(request):
     org_name = linked_students[0]['organization_name']
     s = []
     s.append('<link rel="stylesheet" href="static/main.css">')
+
+    favicon = get_logo(org_name, 16)
+    with open('_site/favicon.png', 'wb') as favicon_file:
+        favicon_file.write(favicon)
+
+    org_logo = get_logo(org_name)
+    with open('_site/org_logo.png', 'wb') as org_logo_file:
+        org_logo_file.write(org_logo)
+
+    s.append('<link rel="shortcut icon" type="image/png" '
+             'href="static/favicon.png"/>')
+    s.append('<img src="static/org_logo.png" alt="'+org_name+'">')
     s.append('<h2>Welcome</h2>')
     s.append('Hello, world. You are at the {org_name} community GCI website.'
              .format(org_name=org_name))

@@ -5,6 +5,8 @@ from .config import get_api_key
 from IGitt.GitHub.GitHub import GitHub, GitHubToken
 from IGitt.GitLab.GitLab import GitLab, GitLabPrivateToken
 
+import requests
+
 _orgs = {}
 
 
@@ -85,3 +87,12 @@ def get_issue(url):
         print('Unable to load issue %s' % url)
         return
     return issue
+
+
+def get_logo(org_name, size=0):
+    if size != 0:
+        image_url = 'http://github.com/%s.png?size=%s' % (org_name, size)
+    else:
+        image_url = 'http://github.com/%s.png' % (org_name)
+
+    return requests.get(image_url).content
