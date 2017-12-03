@@ -25,6 +25,12 @@ bears = LineLengthBear
 [all.links]
 bears = InvalidLinkBear
 
+[javascript]
+files = static/**/*.js
+bears = JSHintBear
+allow_unused_variables = True
+javascript_strictness = False
+
 [generalization]
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.

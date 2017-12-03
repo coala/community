@@ -8,11 +8,13 @@ env:
 
 before_script:
   - pip install coala-bears
+  - npm i -g jshint
 
 script:
   - coala --non-interactive -V
 
 after_success:
   - mkdir _site public
+  - python manage.py collectstatic --noinput
   - python manage.py distill-local public --force
   - ./.ci/deploy.sh
