@@ -1,0 +1,35 @@
+[all]
+files = *.py, community/**/*.py, gci/**/*.py
+ignore = gci/client.py
+max_line_length = 80
+use_spaces = True
+
+[all.whitespace]
+use_spaces = True
+bears = SpaceConsistencyBear
+default_actions = *: ApplyPatchAction
+
+[all.python]
+language = Python
+bears = QuotesBear
+preferred_quotation = '
+default_actions = *: ApplyPatchAction
+
+[all.autopep8]
+bears = PEP8Bear, PycodestyleBear
+default_actions = PEP8Bear: ApplyPatchAction
+
+[all.linelength]
+bears = LineLengthBear
+
+[all.links]
+bears = InvalidLinkBear
+
+[generalization]
+# Do not allow the word "coala" to ensure the repository can be generalized out
+# for use by other organizations.
+files = **
+ignore = .git/**, .coafile, .travis.yml, LICENSE
+bears = KeywordBear
+language = python 3
+keywords = coala
