@@ -1,7 +1,7 @@
 # community
-Coala Community
+coala Community
 
-### Features
+### This repository
 * It is a static django website;
 * It uses the [GCI private API](https://developers.google.com/open-source/gci/resources/downloads/TaskAPISpec.pdf);
 * But it only re-publishes publicly available information;
