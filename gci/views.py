@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from datetime import datetime
 from calendar import timegm
+import requests
 
 from .students import get_students, get_linked_students
 
@@ -16,18 +17,27 @@ def index(request):
     org_id = linked_students[0]['organization_id']
     org_name = linked_students[0]['organization_name']
     s = []
+    s.append('<link rel="stylesheet" href="static/main.css">')
     s.append('<h2>Welcome</h2>')
     s.append('Hello, world. You are at the {org_name} community GCI website.'
              .format(org_name=org_name))
-    s.append('Students linked to %s issues:<ul>' % org_name)
+    s.append('Students linked to %s issues:<ul class="students">' % org_name)
     for student in linked_students:
         student_id = student['id']
         username = student['username']
+
+        r = requests.get('https://api.github.com/users/{}'.format(username))
+
+        if r.status_code == 404:
+            continue
+
         student_url = STUDENT_URL.format(org_id=org_id,
                                          student_id=student_id,
                                          )
-        s.append('<li><a href="{student_url}">{student_id}</a>: '
-                 '<a href="https://github.com/{username}">{username}</a>'
+        s.append('<li class="student">'
+                 'STUDENT ID: <a href="{student_url}">{student_id}</a><br />'
+                 '<div class="github-card" data-github="{username}" '
+                 'data-width="400" data-theme="default"></div>'
                  .format(student_url=student_url, student_id=student_id,
                          username=username))
 
@@ -38,6 +48,8 @@ def index(request):
              .format(unix=timegm(datetime.utcnow().utctimetuple()),
                      timestamp=timestamp))
 
+    s.append('<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js">'
+             '</script>')
     s.append('<script src="static/timeago.js"></script>')
     s.append('<script>loadTimeElements()</script>')
 
