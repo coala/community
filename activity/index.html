@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Community Activity</title>
+    <style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <h1>Community Activity</h1>
+    <br>
+    <br>
+    <div style="width:75%;">
+        <canvas id="canvas"></canvas>
+    </div>
+    <select id="chartType">
+        <option value="Month">Year</option>
+        <option value="Week">Month</option>
+        <option value="Day">Week</option>
+    </select>
+    <br>
+    <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/static/charts.js"></script>
+    <script>
+    $('#chartType').on('change', function(){
+        updateChart($('#chartType').val())
+    });
+    updateChart($('#chartType').val());
+    </script>
+</body>
+
+</html>
