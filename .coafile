@@ -1,5 +1,5 @@
 [all]
-files = *.py, community/**/*.py, gci/**/*.py
+files = *.py, community/**/*.py, gci/**/*.py, activity/*.py
 ignore = gci/client.py
 max_line_length = 80
 use_spaces = True

@@ -16,6 +16,7 @@ script:
 
 after_success:
   - mkdir _site public
+  - python activity/scraper.py
   - python manage.py collectstatic --noinput
   - python manage.py distill-local public --force
   - ./.ci/deploy.sh
