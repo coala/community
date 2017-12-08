@@ -31,11 +31,16 @@ bears = JSHintBear
 allow_unused_variables = True
 javascript_strictness = False
 
+[bash]
+files = *.sh
+bears = ShellCheckBear
+shell = bash
+
 [generalization]
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.
 files = **
-ignore = .git/**, .coafile, .travis.yml, LICENSE
+ignore = .git/**, org_name.txt, .coafile, .travis.yml, LICENSE
 bears = KeywordBear
 language = python 3
 keywords = coala

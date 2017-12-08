@@ -9,6 +9,7 @@ env:
 before_script:
   - pip install coala-bears
   - npm i -g jshint
+  - bash orgname.sh
 
 script:
   - coala --non-interactive -V
