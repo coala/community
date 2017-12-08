@@ -7,7 +7,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.views.generic import TemplateView
 
-from community.views import info
+from community.views import HomePageView, info
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
@@ -76,7 +76,7 @@ def get_organization():
 
 urlpatterns = [
     distill_url(
-        r'^$', TemplateView.as_view(template_name='index.html'),
+        r'^$', HomePageView.as_view(),
         name='index',
         distill_func=get_index,
         distill_file='index.html',

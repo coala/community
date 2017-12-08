@@ -22,5 +22,8 @@
       <li><a title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it."
         href="static/unassigned-issues.json">Unassigned issues activity</a>
     </ul>
+    {% if isTravis %}
+    <small>This website was built automatically using Travis CI. A link to the build can be found <a href="{{ travisLink }}">here</a>.</small>
+    {% endif %}
   </body>
 </html>

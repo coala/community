@@ -24,6 +24,7 @@ dependencies:
   - django-eventtools
   - git+https://gitlab.com/gitmate/open-source/IGitt.git@1fa5a0a21ea4fb8739d467c06972f748717adbdc
   - requests
+  - git+https://github.com/andrewda/trav.git
   - python-dateutil
   - pillow
   - ruamel.yaml

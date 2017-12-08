@@ -1,4 +1,7 @@
 from django.http import HttpResponse
+from django.views.generic.base import TemplateView
+
+from trav import Travis
 
 from .git import (
     get_deploy_url,
@@ -6,6 +9,21 @@ from .git import (
     get_owner,
     get_upstream_deploy_url,
 )
+
+
+class HomePageView(TemplateView):
+    template_name = 'index.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['isTravis'] = Travis.TRAVIS
+        context['travisLink'] = Travis.BUILD_WEB_URL
+
+        print('Running on Travis: {}, build link: {}'.format(
+            context['isTravis'],
+            context['travisLink']))
+
+        return context
 
 
 def info(request):
