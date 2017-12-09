@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'gci',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',
@@ -84,4 +85,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '_site/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = ['static/']

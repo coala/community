@@ -3,7 +3,8 @@ Community URL configuration.
 """
 
 from django_distill import distill_url
-
+from django.conf.urls.static import static
+from django.conf import settings
 from gci.views import index
 
 
@@ -20,4 +21,4 @@ urlpatterns = [
         distill_func=get_index,
         distill_file='index.html',
     ),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
