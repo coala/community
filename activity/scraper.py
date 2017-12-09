@@ -107,21 +107,21 @@ class Scraper():
 
             mon = self.__diff_month(dt)
             if mon < self.CONSTANTS['month_count']:
-                mon = self.CONSTANTS['month_count'] - mon
+                mon = self.CONSTANTS['month_count'] - mon - 1
                 self.data['year']['opened'][mon] += 1
                 if issue['state'] == 'closed':
                     self.data['year']['closed'][mon] += 1
 
             wk = self.__diff_week(dt)
             if wk < self.CONSTANTS['week_count']:
-                wk = self.CONSTANTS['week_count'] - wk
+                wk = self.CONSTANTS['week_count'] - wk - 1
                 self.data['month']['opened'][wk] += 1
                 if issue['state'] == 'closed':
                     self.data['month']['closed'][wk] += 1
 
             dys = self.__diff_days(dt)
             if dys < self.CONSTANTS['day_count']:
-                dys = self.CONSTANTS['day_count'] - dys
+                dys = self.CONSTANTS['day_count'] - dys - 1
                 self.data['week']['opened'][dys] += 1
                 if issue['state'] == 'closed':
                     self.data['week']['closed'][dys] += 1
