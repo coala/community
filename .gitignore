@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+_site/
+/public/
+org_name.txt
