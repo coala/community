@@ -3,3 +3,4 @@ django-distill
 IGitt
 requests
 python-dateutil
+pillow
