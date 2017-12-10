@@ -6,17 +6,13 @@ env:
   - ENCRYPTION_LABEL: "defac9b1fa56"
   - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
 
-before_script:
-  - pip install coala-bears
+before_install:
+  - echo coala-bears >> requirements.txt
   - npm i -g jshint
-  - bash orgname.sh
 
 script:
+  - ./.ci/build.sh
   - coala --non-interactive -V
 
 after_success:
-  - mkdir _site public
-  - python activity/scraper.py
-  - python manage.py collectstatic --noinput
-  - python manage.py distill-local public --force
   - ./.ci/deploy.sh
