@@ -137,6 +137,7 @@ if __name__ == '__main__':
     issues_url = 'http://' + org_name + '.github.io/gh-board/issues.json'
 
     content = requests.get(issues_url)
+    content.raise_for_status()
     parsed_json = content.json()
 
     real_data = Scraper(parsed_json['issues'], datetime.datetime.today())
