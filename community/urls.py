@@ -8,6 +8,7 @@ from django.conf import settings
 from django.views.generic import TemplateView
 
 from gci.views import index as gci_index
+from twitter.view_twitter import index as twitter_index
 
 
 def get_index():
@@ -34,5 +35,11 @@ urlpatterns = [
         name='community-gci',
         distill_func=get_index,
         distill_file='gci/index.html',
+    ),
+    distill_url(
+        r'twitter/', twitter_index,
+        name='twitter',
+        distill_func=get_index,
+        distill_file='twitter/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
