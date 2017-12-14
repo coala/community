@@ -1,0 +1,24 @@
+{% extends 'includes.html' %}
+{% block content %}
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <ul class="collection">
+                {% for log in logs %}
+                    <li class="collection-item">{{ log }}<a href="#!" class="secondary-content">
+                        {% if '[ERROR]' in log %}
+                        <i class="fa fa-times-circle fa-2x"></i></a>
+                            {% elif '[WARNING]' in log %}
+                            <i class="fa fa-exclamation-triangle fa-2x"></i></a>
+                        {% else %}
+                    <i class="fa fa-info-circle fa-2x"></i></a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+{% endblock %}
+</body>
+</html>

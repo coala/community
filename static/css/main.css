@@ -1,0 +1,20 @@
+.student {
+    padding-bottom: 20px;
+}
+
+.students {
+    list-style: none;
+}
+nav {
+    background-color: #38474e !important;
+}
+
+.page-footer {
+    background-color: #37474f !important;
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

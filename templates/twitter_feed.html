@@ -1,0 +1,15 @@
+{% extends 'includes.html' %}
+{% block content %}
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <a class="twitter-timeline" href="https://twitter.com/{{ org_twitter_handle }}">Tweets
+                by {{ org_twitter_handle }}
+            </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+{% endblock %}
+</body>
+</html>
