@@ -3,7 +3,7 @@ from datetime import datetime
 from calendar import timegm
 import requests
 
-from .students import get_students, get_linked_students
+from .students import get_linked_students
 from .gitorg import get_logo
 from .task import get_tasks
 
@@ -26,7 +26,8 @@ def index(request):
 
 
 def gci_overview():
-    linked_students = list(get_linked_students(get_students()))
+    linked_students = list(get_linked_students())
+
     org_id = linked_students[0]['organization_id']
     org_name = linked_students[0]['organization_name']
     s = []

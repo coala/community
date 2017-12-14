@@ -5,7 +5,7 @@ API_KEY_FILE = '.%s_API_KEY'
 
 GCI_DATA_DIR = os.path.join(
     os.path.dirname(__file__), '..',
-    'private',
+    '_site',
 )
 
 
