@@ -100,6 +100,10 @@ ENV/
 # mypy
 .mypy_cache/
 
+.idea/
+.DS_Store
+
 _site/
 /public/
 org_name.txt
+static/activity-data.json
