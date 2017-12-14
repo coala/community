@@ -1,13 +1,14 @@
+import os
 import re
 
 from .client import GCIAPIClient
 
-from .config import get_api_key
+from .config import get_api_key, load_cache
 from .gitorg import get_issue
+from .task import get_task
 
 _client = None
-_org = {}
-_tasks = {}
+_instances = {}
 
 
 def get_client():
@@ -39,20 +40,7 @@ def _get_tasks():
                 page = int(result.group(1))
 
 
-def get_tasks():
-    global _tasks
-    if not _tasks:
-        for task in _get_tasks():
-            _tasks[task['id']] = task
-    return _tasks
-
-
-def get_task(task_id):
-    tasks = get_tasks()
-    return tasks[task_id]
-
-
-def get_instances():
+def _get_instances():
     client = get_client()
     page = 1
 
@@ -68,9 +56,17 @@ def get_instances():
                 page = int(result.group(1))
 
 
+def get_instances():
+    global _instances
+    if not _instances:
+        _instances = load_cache('instances.yaml')
+
+    return _instances
+
+
 def get_students():
     students = {}
-    for instance in get_instances():
+    for _, instance in get_instances().items():
         student_id = instance['student_id']
         if student_id not in students:
             student = {

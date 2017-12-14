@@ -5,3 +5,4 @@ IGitt
 requests
 python-dateutil
 pillow
+ruamel.yaml
