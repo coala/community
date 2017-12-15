@@ -7,7 +7,7 @@ env:
   - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
 
 before_install:
-  - echo coala-bears >> requirements.txt
+  - sed -i '1s/^/coala-bears\n/' requirements.txt
   - npm i -g jshint
 
 script:
