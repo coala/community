@@ -1,0 +1,4116 @@
+4504880884482048:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "The task here is to create feature requests in the [IGitt](https://gitlab.com/gitmate/open-source/IGitt)\
+    \ library, for any functionality needed to ban a user from using corobo.\n\nThis\
+    \ task **must** only be done by GCI participants that have completed [\"Your first\
+    \ coala issue\"](https://codein.withgoogle.com/dashboard/tasks/4602539020386304/)\
+    \ and a GCI task of an [IGitt `low`+ issue](https://gitlab.com/gitmate/open-source/IGitt/issues/).\n\
+    \nBe sure to read *all* of the other issues and pull requests in IGitt repository,\
+    \ to avoid creating a duplicate.\n\nMore information about this task can be found\
+    \ in the 'medium' difficulty issue in the\ncorobo repository. Here is the issue:\n\
+    \nIssue [#462](https://github.com/coala/corobo/issues/462) Ban user from using\
+    \ corobo"
+  tags:
+  - igitt
+  - ban
+  - github
+  - gitlab
+  - file-issue
+  private_metadata: ''
+  max_instances: 1
+  name: 'corobo: Issue #462 (part 1) Create IGitt issues to support banning users'
+  last_modified: '2017-12-06T04:09:09Z'
+  is_beginner: false
+  id: 4504880884482048
+  categories:
+  - 1
+  - 5
+  external_url: https://github.com/coala/corobo/issues/462
+4557720684331008:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "During Google Code-in, the mentors and other participants will be\
+    \ chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram\
+    \ and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and\
+    \ other collaborative services too!\n\nTo make this easier for everyone, it is\
+    \ important that all participants have one username which is consistent on each\
+    \ of these systems.\n\n# Steps\n\n## Join Zulip\n\nFirst join our Zulip chat server\
+    \ at https://coala.zulipchat.com/ , using the same email address that you used\
+    \ when registering for Google Code-in.\n\n## Choosing your global username\n\n\
+    Think of a username that you would like to use, and check if it is available globally.\
+    \  e.g. if you want to use username `foo`\n\nSome basic checks can be at https://username-check.herokuapp.com/,\
+    \ and more checks can be done at  https://knowem.com/checkusernames.php?u=`<username>`.\n\
+    \nIf the username is already taken on any service, by someone other than you,\
+    \ try a different username.  Keep trying until you have found a username that\
+    \ is yours!\n\nIf you want to keep your existing username, contact any of the\
+    \ mentors.\n\n## Create your accounts with your globally available username\n\n\
+    1. GitHub.com\n2. GitLab.com\n3. OpenHub.net\n4. openSUSE (https://connect.opensuse.org/)\n\
+    5. Behance (see [help](https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-)\
+    \ ) or Deviantart (https://www.deviantart.com/)\n\n## Submit your user profiles\n\
+    \nIn your Google Code-in task instance, add links to your profiles on those services.\n\
+    \nFor more information, see [the zulip stream](https://tinyurl.com/ybdg58f3)"
+  tags:
+  - opensuse
+  - openhub
+  - github
+  - gitlab
+  - zulip
+  private_metadata: ''
+  max_instances: 500
+  name: Join coala chat and set up your accounts
+  last_modified: '2017-12-13T11:13:25Z'
+  is_beginner: true
+  id: 4557720684331008
+  categories:
+  - 5
+  external_url: https://coala.io/#/getinvolved
+4563702248374272:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `g++`. Helpful links to the\
+    \ documentation for `g++` are available in the description of the issue on GitHub\
+    \ associated with this task.\n\nIf you decide to create this page, comment on\
+    \ the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - markdown
+  - build
+  - c++
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: g++'
+  last_modified: '2017-11-30T12:41:22Z'
+  is_beginner: false
+  id: 4563702248374272
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1661
+4566570439278592:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngitmate-2-frontend\
+    \ repository. Here is the issue:\n\nIssue [#63](https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/63)\
+    \ \"See what we can do for your repository\" is off on mobile\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - Angular
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gitmate-2-frontend: Issue #63 See what we can do for your repository is off
+    on mobile'
+  last_modified: '2017-12-05T15:26:05Z'
+  is_beginner: false
+  id: 4566570439278592
+  categories:
+  - 1
+  - 2
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/63
+4567857922834432:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#65](https://github.com/coala/gci-leaders/issues/65)\
+    \ Create blog planet from blog_url\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - ATOM
+  - issues
+  - RSS
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #65 Create blog planet from blog_url'
+  last_modified: '2017-12-15T03:17:03Z'
+  is_beginner: false
+  id: 4567857922834432
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/65
+4602539020386304:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "We have launched http://community.coala.io/ for our GCI website ,\
+    \ and it needs features.\n\nThis task is to privately discuss a missing feature\
+    \ with a mentor, and then **after review by a mentor** create a public issue with\
+    \ your description.\n\nDo not create an issue before a mentor has approved your\
+    \ text.\n\nOther GCI organisations also have GCI websites, so you may find inspiration\
+    \ by looking at them. e.g. http://gci17.fossasia.org/ .\n\nHowever, this website\
+    \ must be re-usable, which means no coala data in the repository, and no mention\
+    \ of coala.  All data must be loaded dynamically from webservices, IGitt, or some\
+    \ other 'open data'.\n\nMentors will help you ensure your idea is feasible.\n\n\
+    The process for your first issue is very important.\n\n1. Write a comment *privately*\
+    \ in your task instance describing the feature.  Your description must be a minimum\
+    \ of 500 characters.  Include as much information as you can, including suggestions\
+    \ on how to implement the feature.\n2. Submit your task instance for review.\n\
+    3. A mentor will review your description, and they will reply with a private comment,\
+    \ either telling you to improve your description, or their comment will say \"\
+    PUBLISH!\".\n4. If you have been told to PUBLISH, do a quick check of [existing\
+    \ issues](https://github.com/coala/community/issues) to prevent duplicates, and\
+    \ then create a new issue in the repository if nobody has beaten you to it .\n\
+    5. Submit your GCI task for review.\n\nAfter you have completed this task, you\
+    \ will be allowed to claim other GCI tasks to create an issue without mentor pre-approval."
+  tags:
+  - create-issue
+  - technical-writing
+  - open-data
+  private_metadata: ''
+  max_instances: 100
+  name: Your first coala issue - describe a feature for the community repository
+  last_modified: '2017-12-08T20:44:03Z'
+  is_beginner: false
+  id: 4602539020386304
+  categories:
+  - 2
+  - 5
+  external_url: https://github.com/coala/community/issues
+4662707275956224:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nlanding repository.\
+    \ Here is the issue:\n\nIssue [#47](https://gitlab.com/coala/landing/issues/47)\
+    \ Add Netlify to CORS_ORIGIN_WHITELIST\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Django
+  - issues
+  - python3
+  - CORS
+  private_metadata: issues
+  max_instances: 1
+  name: 'landing: Issue #47 Add Netlify to CORS_ORIGIN_WHITELIST'
+  last_modified: '2017-12-16T14:28:57Z'
+  is_beginner: false
+  id: 4662707275956224
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/landing/issues/47
+4675973968560128:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#6](https://github.com/coala/community/issues/6)\
+    \ Create a .coafile\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - .coafile
+  - frontend
+  - community
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #6 Create a .coafile'
+  last_modified: '2017-12-14T15:54:51Z'
+  is_beginner: false
+  id: 4675973968560128
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/6
+4705163153506304:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "## Objective \nUse coala CI on a popular GitHub project, of your choice,\
+    \ using a Docker image on Travis CI, and create a wiki page recording the coala\
+    \ output.\n\nSee our coala GCI task wiki page for step by step instructions using\
+    \ only a web browser.\n\n## Background \ncoala unifies code analysis. It provides\
+    \ a single simple user and a developer interface, wrapping many popular code analysis\
+    \ tools, and provides a native code analysis framework for new tools. Demo\n\n\
+    More documentation on coala can be found at http://docs.coala.io .\n\n## Requirements\n\
+    \nA GitHub account. This activity is done entirely using a web browser in your\
+    \ own repositories on GitHub, and does not involve interacting with other repositories,\
+    \ or installing or using any software on your own computer.\nJoin us on our gitter\
+    \ channel where we are very active and happy to help you!\n\n## Expected Outcome\n\
+    \n** You are NOT expected to submit any changes to another OSS project in this\
+    \ beginner task. **\nAccepted work by mentor following steps here\n\nNote: There\
+    \ is a separate GCI task for submitting your changes to other OSS projects, which\
+    \ you can commence after a coala developer has reviewed and accepted your work\
+    \ for this task.\n\nhttps://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala"
+  tags:
+  - static analysis
+  - github
+  - beginner task
+  - testing
+  - usability
+  private_metadata: ''
+  max_instances: 99
+  name: 'CI1: Use coala'
+  last_modified: '2017-12-06T06:44:52Z'
+  is_beginner: true
+  id: 4705163153506304
+  categories:
+  - 3
+  external_url:
+4706466046935040:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngitmate-2-frontend\
+    \ repository. Here is the issue:\n\nIssue [#74](https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74)\
+    \ Customise the 404 page\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - '404'
+  - python3
+  - issues
+  - error
+  private_metadata: issues
+  max_instances: 1
+  name: 'gitmate-2-frontend: Issue #74 Customise the 404 page'
+  last_modified: '2017-12-06T12:36:13Z'
+  is_beginner: false
+  id: 4706466046935040
+  categories:
+  - 1
+  - 2
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74
+4753765758402560:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#67](https://gitlab.com/coala/package_manager/issues/67)\
+    \ Support Haskell stack\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - Haskell
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency management: Issue #67 Support Haskell stack'
+  last_modified: '2017-11-28T20:37:02Z'
+  is_beginner: false
+  id: 4753765758402560
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/67
+4759778242854912:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "The Newcomer guide doesn’t specify that the contributor should try\
+    \ to submit only a single PR for each issue.\nThe Newcomer’s guide should convey\
+    \ that otherwise, it makes it tough for reviewers to see if previous changes have\
+    \ been accommodated in current commit or not."
+  tags:
+  - github
+  - newcomer's guide
+  - documentation
+  private_metadata: ''
+  max_instances: 1
+  name: Enhance coala Newcomers guide to state a single PR per issue
+  last_modified: '2017-11-26T12:20:18Z'
+  is_beginner: true
+  id: 4759778242854912
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4770
+4767641992429568:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `gulp`. Helpful links to the\
+    \ documentation for `gulp` are available in the description of the issue on GitHub\
+    \ associated with this task.\n\nIf you decide to create this page, comment on\
+    \ the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - node
+  - javascript
+  - build
+  - markdown
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: gulp'
+  last_modified: '2017-12-02T10:46:59Z'
+  is_beginner: false
+  id: 4767641992429568
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1664
+4777057097613312:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#127](https://gitlab.com/coala/package_manager/issues/127)\
+    \ Change :param return: to :return:\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - packaging
+  - gitlab
+  - docstring
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #127 Change :param return: to :return: in docstring'
+  last_modified: '2017-12-14T15:54:52Z'
+  is_beginner: true
+  id: 4777057097613312
+  categories:
+  - 1
+  - 3
+  external_url: https://gitlab.com/coala/package_manager/issues/127
+4786340627480576:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#29](https://github.com/coala/gci-leaders/issues/29)\
+    \ Display only 1 column on mobile\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - Mobile
+  - JavaScript
+  - HTML
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #29 Display only 1 column on mobile'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 4786340627480576
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/29
+4790773880979456:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#8](https://github.com/coala/community/issues/8)\
+    \ Add Travis build URL to website\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Travis
+  - frontend
+  - issues
+  - community
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #8 Add Travis build URL to website'
+  last_modified: '2017-12-08T20:43:59Z'
+  is_beginner: false
+  id: 4790773880979456
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/8
+4792956529672192:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4887](https://github.com/coala/coala/issues/4887)\
+    \ No tests for coala --limit-files\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - unittest
+  - pytest
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4887 Create unit tests for coala --limit-files'
+  last_modified: '2017-11-29T04:27:14Z'
+  is_beginner: false
+  id: 4792956529672192
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/coala/coala/issues/4887
+4797688509890560:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#335](https://github.com/coala/corobo/issues/335)\
+    \  'mark pending review' should be accepted\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - regex
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: "corobo: Issue #335  'mark pending review' should be accepted"
+  last_modified: '2017-11-28T20:37:18Z'
+  is_beginner: false
+  id: 4797688509890560
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/335
+4801180586737664:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#69](https://gitlab.com/gitmate/open-source/IGitt/issues/69)\
+    \ Write a setter for description property of GitHubIssue\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - github
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'IGitt: Issue #69 Write a setter for description property of GitHubIssue'
+  last_modified: '2017-11-29T17:03:27Z'
+  is_beginner: false
+  id: 4801180586737664
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/69
+4810952174206976:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#122](https://gitlab.com/coala/package_manager/issues/122)\
+    \ Php pear package manager\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - PHP
+  - PEAR
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency management: Issue #122 Php pear package manager'
+  last_modified: '2017-11-29T15:37:23Z'
+  is_beginner: false
+  id: 4810952174206976
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/122
+4848063644434432:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "A lot of users has reported that python process which is being spawned\
+    \ to access completions isn't closed properly – the goal is to track down the\
+    \ issue and try to find a solution.\n\nTo start, you must use windows and have\
+    \ Atom installed. Clone the repository using `git clone git@github.com:autocomplete-python/autocomplete-python.git`\
+    \ and use `apm link autocomplete-python` to link the git repository as installed\
+    \ package in Atom, so you can preview how your changes affect it. Note that every\
+    \ time you change the code you need to reload your atom window from command palette\
+    \ (Window: Reload).\n\nExternal process spawning is done via [BufferedProcess](https://atom.io/docs/api/v1.9.0/BufferedProcess)\
+    \ (which *could* be a source of problem) which is called from [provider.coffee:34:84](https://github.com/autocomplete-python/autocomplete-python/blob/master/lib/provider.coffee#L34-L84).\
+    \ Note that process is being killed after 10 minutes, you may need to adjust this\
+    \ value to see how it will behave.\n\nPlease submit a pull request with your solution\
+    \ or comment your findings in an issue."
+  tags:
+  - python
+  - coffeescript
+  - atom
+  - javascript
+  - nodejs
+  private_metadata: ''
+  max_instances: 1
+  name: 'autocomplete-python: Investigate process spawning issues on windows'
+  last_modified: '2017-11-27T09:28:13Z'
+  is_beginner: false
+  id: 4848063644434432
+  categories:
+  - 1
+  external_url: https://github.com/autocomplete-python/autocomplete-python/issues/310
+4851850463412224:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#391](https://github.com/coala/corobo/issues/391)\
+    \ File issue should not be permitted in private chat with bot\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #391 File issue should not be permitted in private chat with
+    bot'
+  last_modified: '2017-11-28T20:36:57Z'
+  is_beginner: false
+  id: 4851850463412224
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/391
+4864593698488320:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#333](https://github.com/coala/corobo/issues/333)\
+    \ Ping PR author when marking WIP\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #333 Ping PR author when marking WIP'
+  last_modified: '2017-11-28T20:37:10Z'
+  is_beginner: false
+  id: 4864593698488320
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/333
+4875111964344320:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4952](https://github.com/coala/coala/issues/4952)\
+    \ Add ShellCheckBear to .coafile\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - apt-get
+  - TravisCI
+  - shellcheck
+  - .coafile
+  - issues
+  private_metadata: issues
+  max_instances: 0
+  name: 'coala: Issue #4952 Add ShellCheckBear to .coafile'
+  last_modified: '2017-12-14T15:54:50Z'
+  is_beginner: false
+  id: 4875111964344320
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala/issues/4952
+4892042859642880:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "coala is [software](https://www.wikidata.org/wiki/Q25215462).\ncoala\
+    \ is [an organisation](https://www.wikidata.org/wiki/Q45337328).\n\nThis task\
+    \ is to add one fact to Wikidata about either the software or the organisation.\n\
+    \nWikidata facts are being used to automatically [create Wikipedia articles](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder),\
+    \ and there are lots of interesting tools and viewers like [Reasonator](https://tools.wmflabs.org/reasonator/?q=Q25215462)\
+    \ that consume and re-use Wikidata content.\n\nBefore claiming this task, please\
+    \ complete one 'medium' difficulty task in the coala organisation.\n\nIf you have\
+    \ not edited Wikidata before, read the [Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)\
+    \ and do the [Tutorials](https://www.wikidata.org/wiki/Wikidata:Tours) before\
+    \ attempting this task.\n\nThis task involves editing a live database, and any\
+    \ mistakes may immediately impact thousands of other users around the globe. \
+    \ Care and caution are required.  Communicate with your mentors.\n\nNot surprisingly,\
+    \ [MediaWiki](https://www.wikidata.org/wiki/Q83) and [Wikimedia Foundation](https://www.wikidata.org/wiki/Q180)\
+    \ are a good example to follow for the way to describe software components in\
+    \ the Wikidata ontology.\n\nIf you do not have a Wikimedia account, please ensure\
+    \ your new Wikimedia username is identical to your GitHub username.  As a mentor\
+    \ for help if you can not register the same username.\n\nAfter creating the fact,\
+    \ submit your task with a comment including your contributions URL, such as https://www.wikidata.org/wiki/Special:Contributions/Blazeu"
+  tags:
+  - open data
+  - linked data
+  - ontology
+  - wikidata
+  - json
+  private_metadata: ''
+  max_instances: 5
+  name: Add a fact about coala to Wikidata
+  last_modified: '2017-12-17T11:26:09Z'
+  is_beginner: false
+  id: 4892042859642880
+  categories:
+  - 3
+  - 5
+  external_url: https://github.com/coala/meta/issues/106
+4893041103994880:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#38](https://github.com/coala/gci-leaders/issues/38)\
+    \ Add i18n\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - i18n
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #38 Add i18n'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 4893041103994880
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/38
+4921905138106368:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4886](https://github.com/coala/coala/issues/4886)\
+    \ No tests for coala --ignore\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - unittest
+  - pytest
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4886 Create unit tests for coala --ignore'
+  last_modified: '2017-11-29T04:27:10Z'
+  is_beginner: false
+  id: 4921905138106368
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/coala/coala/issues/4886
+4943472744202240:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#81](https://gitlab.com/gitmate/open-source/IGitt/issues/81)\
+    \ backoff shouldn't log an error if it backs off\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - exceptions
+  - GitHub
+  - logging
+  - issues
+  - github
+  private_metadata: issues
+  max_instances: 1
+  name: "IGitt: Issue #81 backoff shouldn't log an error if it backs off"
+  last_modified: '2017-12-05T15:04:42Z'
+  is_beginner: false
+  id: 4943472744202240
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/81
+4954909814292480:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: The MergeRequest author needs to be available for some of the corobo
+    enhancements planned.
+  tags:
+  - api
+  - gitlab
+  - identity
+  - python3
+  - github
+  private_metadata: ''
+  max_instances: 1
+  name: 'IGitt: Expose MR/PR author'
+  last_modified: '2017-11-29T08:06:32Z'
+  is_beginner: false
+  id: 4954909814292480
+  categories:
+  - 1
+  external_url:
+5015039515820032:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#257](https://github.com/coala/corobo/issues/257)\
+    \ explain: Move hard coded explanations out of code\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - errbot
+  - jinja2
+  - chatops
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #257 explain: Move hard coded explanations out of code'
+  last_modified: '2017-12-04T10:33:38Z'
+  is_beginner: false
+  id: 5015039515820032
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/257
+5029348870455296:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#16](https://github.com/coala/gci-leaders/issues/16)\
+    \ Display the number of tasks completed for each org\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #16 Display the number of tasks completed for each org'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 5029348870455296
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/16
+5040466661736448:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Introduction\nWanna test your level of humour? How witty are you\
+    \ against the competition?\n\nEveryone loves funny loading screens, right? GitMate\
+    \ team has been busy concocting some of them. Check out the repositories tab on\
+    \ https://gitmate.io to watch them in action.\n\nHere are some examples..\n\n\
+    - Opening pod bay doors...\n- Waiting for the right moment...\n- Downloading the\
+    \ internet...\n- Testing your patience...\n- Buying some server space...\n- Hang\
+    \ on a second, I know your data is somewhere here...\n- Sending sheep to Mars...\n\
+    - Stealing your passwords...\n- Gathering your credit card info...\n- Shovelling\
+    \ coal into our servers...\n\n# Objective\n\nYour task is to add more such sentences.\
+    \ Check our the list in issues [here](https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues).\
+    \ Make sure you don't repeat them.\n\nOnce you've got ideas, road test your sentences\
+    \ on your friends to see which of them are more delightful than others and come\
+    \ up with more ideas together with them.\n\nWhen you've gotten a short list of\
+    \ sentences, create issues on GitLab [here](https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues)\
+    \ following the template for each sentence. Ask your friends to vote the issue\
+    \ and comment on what they like.\n\n# Assessment\n\nYour task is considered complete\
+    \ when the following conditions apply:\n\n- You have opened between 5 and 10 issues\
+    \ with ideas.\n- One of your ideas has at least 5 votes.\n- You have voted for\
+    \ at least as many issues as you created. (don't vote for your own)\n\n# EDIT:\n\
+    \nThe requirement of one of your ideas has at least 5 votes has been put down\
+    \ to at least 3 votes."
+  tags:
+  - gitmate
+  - loading-sentences
+  - fun-task
+  - quip
+  - spinner
+  private_metadata: ''
+  max_instances: 10
+  name: Create funny "loading" sentences to amuse users while they wait
+  last_modified: '2017-12-11T13:00:35Z'
+  is_beginner: false
+  id: 5040466661736448
+  categories:
+  - 2
+  - 5
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas
+5049249064550400:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#63](https://github.com/coala/gci-leaders/issues/63)\
+    \ Add Wikidata & Wikipedia links for each organisation\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Wikidata
+  - JavaScript
+  - Wikipedia
+  - sparql
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #63 Add Wikidata & Wikipedia links'
+  last_modified: '2017-12-11T03:37:10Z'
+  is_beginner: false
+  id: 5049249064550400
+  categories:
+  - 1
+  - 5
+  external_url: https://github.com/coala/gci-leaders/issues/63
+5080575549374464:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#21](https://github.com/manu-chroma/username-availability-checker/issues/21)\
+    \ Add tooltip when cursor hovers over the website icon\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Flask
+  - tooltop
+  - heroku
+  - Python
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #21 Add tooltip when cursor hovers over the
+    website icon'
+  last_modified: '2017-12-14T14:22:11Z'
+  is_beginner: false
+  id: 5080575549374464
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/21
+5080668067332096:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala-quickstart\
+    \ repository. Here is the issue:\n\nIssue [#158](https://github.com/coala/coala-quickstart/issues/158)\
+    \ Change usage of LogPrinter\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - logging
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'quickstart: Issue #158 Change usage of LogPrinter'
+  last_modified: '2017-12-05T13:21:06Z'
+  is_beginner: false
+  id: 5080668067332096
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala-quickstart/issues/158
+5082393033572352:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncorobo\
+    \ repository. Here is the issue:\n\nIssue [#401](https://github.com/coala/corobo/issues/401)\
+    \ Labhub.py: Add help message for pr_stats command\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - errbot
+  - markdown
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #401 Labhub.py: Add help message for pr_stats command'
+  last_modified: '2017-11-28T20:15:32Z'
+  is_beginner: true
+  id: 5082393033572352
+  categories:
+  - 3
+  external_url: https://github.com/coala/corobo/issues/401
+5092411338391552:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#11](https://github.com/coala/gci-leaders/issues/11)\
+    \ Add .coafile\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - issues
+  - .coafile
+  - JavaScript
+  - eslint
+  - linting
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #11 Add .coafile'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5092411338391552
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/11
+5096219137277952:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#362](https://github.com/coala/corobo/issues/362)\
+    \ Fix spelling mistake create_issut_cmd\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #362 Fix spelling mistake create_issut_cmd'
+  last_modified: '2017-11-29T04:27:09Z'
+  is_beginner: true
+  id: 5096219137277952
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/362
+5106644616740864:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `pyflakes`. Helpful links to\
+    \ the documentation for `pyflakes` are available in the description of the issue\
+    \ on GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - terminal
+  - python
+  - linux
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: pyflakes'
+  last_modified: '2017-12-02T10:47:47Z'
+  is_beginner: false
+  id: 5106644616740864
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1603
+5130855347388416:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Add a CONTRIBUTING file to [vulture](https://github.com/jendrikseipp/vulture).\
+    \ It should include the following information:\n* How to setup a virtual environment?\n\
+    * How to install the development version of vulture?\n* Coding standards\n   \
+    \ - Ensure that people send a PR from a branch other than the `master` branch.\n\
+    \    - How to name the branches?\n* How to send a Pull Request?\n* Be polite and\
+    \ wait for reviews\n* Take feedback positively!\n\nSome examples may be found\
+    \ here: https://coala.io/newcomer"
+  tags:
+  - python
+  - github
+  private_metadata: ''
+  max_instances: 1
+  name: Add CONTRIBUTING.md on vulture
+  last_modified: '2017-11-28T02:04:40Z'
+  is_beginner: false
+  id: 5130855347388416
+  categories:
+  - 3
+  external_url: https://github.com/jendrikseipp/vulture/issues/101
+5137762208448512:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndocumentation\
+    \ repository. Here is the issue:\n\nIssue [#358](https://github.com/coala/documentation/issues/358)\
+    \ Add bash alias to docker docs\n\nRead [Git Basics](http://coala.io/git) and\
+    \ [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your patch\
+    \ properly."
+  tags:
+  - docker
+  - git
+  - bash
+  - issues
+  - reStructuredText
+  private_metadata: issues
+  max_instances: 1
+  name: 'documentation: Issue #358 Add bash alias to docker docs'
+  last_modified: '2017-12-01T21:51:34Z'
+  is_beginner: true
+  id: 5137762208448512
+  categories:
+  - 3
+  external_url: https://github.com/coala/documentation/issues/358
+5138762466066432:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#9](https://github.com/coala/gci-leaders/issues/9)\
+    \ Link to GitLab organisation for each Google Code-in organisation \n\nRemember\
+    \ to format your [Git Commit Message](http://coala.io/commit)\naccording to the\
+    \ rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - GitLab
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #9 Link to GitLab organisation for each Google Code-in
+    organisation'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5138762466066432
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/9
+5156235600986112:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nprojects repository.\
+    \ Here is the issue:\n\nIssue [#359](https://github.com/coala/projects/issues/359)\
+    \ reports: Make a report list page\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - python3
+  - AngularJS
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'projects: Issue #359 reports: Make a report list page'
+  last_modified: '2017-11-28T20:36:55Z'
+  is_beginner: false
+  id: 5156235600986112
+  categories:
+  - 1
+  external_url: https://github.com/coala/projects/issues/359
+5162667809439744:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#4](https://github.com/coala/gh-board/issues/4)\
+    \ Add currently active repos\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - nodejs
+  private_metadata: ''
+  max_instances: 1
+  name: 'gh-board: Issue #4 Add currently active repos'
+  last_modified: '2017-12-09T18:21:32Z'
+  is_beginner: false
+  id: 5162667809439744
+  categories:
+  - 1
+  external_url: https://github.com/coala/gh-board/issues/4
+5165623594188800:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nprojects repository.\
+    \ Here is the issue:\n\nIssue [#354](https://github.com/coala/projects/issues/354)\
+    \ reports: Make emails clickable, i.e. use `mailto`\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - python3
+  - AngularJS
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'projects: Issue #354 reports: Make emails clickable, i.e. use `mailto`'
+  last_modified: '2017-12-05T13:21:06Z'
+  is_beginner: false
+  id: 5165623594188800
+  categories:
+  - 1
+  external_url: https://github.com/coala/projects/issues/354
+5168029564403712:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `csslint`. Helpful links to\
+    \ the documentation for `csslint` are available in the description of the issue\
+    \ on GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - terminal
+  - node
+  - linter
+  - css
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: csslint'
+  last_modified: '2017-11-30T12:41:22Z'
+  is_beginner: false
+  id: 5168029564403712
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1598
+5179714090041344:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Fix a popular GitHub repository code to conform to coala CI settings\n\
+    \nYou should submit the passing Travis build log and Wiki page explaining results."
+  tags:
+  - static analysis
+  - git
+  - testing
+  - usability
+  private_metadata: ''
+  max_instances: 99
+  name: 'CI2: Use coala Advanced'
+  last_modified: '2017-11-30T06:12:20Z'
+  is_beginner: false
+  id: 5179714090041344
+  categories:
+  - 1
+  - 3
+  - 4
+  external_url:
+5185467416838144:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4514](https://github.com/coala/coala/issues/4514)\
+    \ Create csslint package for debian\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - csslint
+  - issues
+  - python3
+  - Debian
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4514 Create csslint package for debian'
+  last_modified: '2017-11-28T20:36:49Z'
+  is_beginner: false
+  id: 5185467416838144
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala/issues/4514
+5186591716802560:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#167](https://gitlab.com/coala/package_manager/issues/167)\
+    \ PackageRequirement.install_package should return the exit code of the command\n\
+    \nRemember to format your [Git Commit Message](http://coala.io/commit)\naccording\
+    \ to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - shell
+  - issues
+  - sarge
+  - exit-codes
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency management: Issue #167 PackageRequirement.install_package should
+    return the exit code of the command'
+  last_modified: '2017-12-14T06:07:05Z'
+  is_beginner: false
+  id: 5186591716802560
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/167
+5187890919243776:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncoala\
+    \ repository. Here is the issue:\n\nIssue [#4840](https://github.com/coala/coala/issues/4840)\
+    \ docs/Developers: Fix typo in Newcomers_Guide.rst\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - issues
+  - reStructuredText
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4840 docs/Developer: Fix typos in Newcomers_Guide.rst'
+  last_modified: '2017-12-01T21:51:34Z'
+  is_beginner: true
+  id: 5187890919243776
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4840
+5189847838883840:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Please take a look at the list of existing coala language definitions\
+    \ [here](https://github.com/coala/coala/tree/master/coalib/bearlib/languages/definitions)\n\
+    This task is adding a definition for shell : https://en.wikipedia.org/wiki/Shell_(computing)\
+    \ ."
+  tags:
+  - shell
+  - bash
+  - coalib
+  private_metadata: ''
+  max_instances: 1
+  name: Add shell language definitions for coala
+  last_modified: '2017-12-13T10:09:46Z'
+  is_beginner: false
+  id: 5189847838883840
+  categories:
+  - 1
+  - 3
+  external_url: https://github.com/coala/coala/tree/master/coalib/bearlib/languages/definitions
+5201638933397504:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#50](https://github.com/coala/gci-leaders/issues/50)\
+    \ Design overhaul\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - html
+  - issues
+  - css
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #50 Design overhaul'
+  last_modified: '2017-12-08T20:43:59Z'
+  is_beginner: false
+  id: 5201638933397504
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/50
+5218650468384768:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#1](https://github.com/coala/community/issues/1)\
+    \ Add org logo and favicon.ico\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - logo
+  - frontend
+  - community
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #1 Add org logo and favicon.ico'
+  last_modified: '2017-12-08T20:43:59Z'
+  is_beginner: false
+  id: 5218650468384768
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/1
+5264435046252544:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndevops repository.\
+    \ Here is the issue:\n\nIssue [#55](https://github.com/coala/devops/issues/55)\
+    \ Venus: Add proper emoji support with twemoji\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - twemoji
+  - tofu
+  - devops
+  - issues
+  - emoji
+  private_metadata: issues
+  max_instances: 1
+  name: 'devops: Issue #55 Add proper emoji support with twemoji to Venus'
+  last_modified: '2017-12-14T09:18:15Z'
+  is_beginner: false
+  id: 5264435046252544
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/devops/issues/55
+5285165687373824:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `dep`. Helpful links to the\
+    \ documentation for `dep` are available in the description of the issue on GitHub\
+    \ associated with this task.\n\nIf you decide to create this page, comment on\
+    \ the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - go
+  - markdown
+  - linter
+  - dependency management
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: dep'
+  last_modified: '2017-12-02T11:05:25Z'
+  is_beginner: false
+  id: 5285165687373824
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1659
+5314362094911488:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#3](https://github.com/coala/community/issues/3)\
+    \ Build on forks with a static data file\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - data
+  - JSON
+  - frontend
+  - issues
+  - mock
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #3 Build on forks with a static data file'
+  last_modified: '2017-12-08T20:44:01Z'
+  is_beginner: false
+  id: 5314362094911488
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/3
+5326161645142016:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low/newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#47](https://github.com/coala/gci-leaders/issues/47)\
+    \ Wrapping problem in `The Mifos Interactive` box\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - html
+  - bug
+  - issues
+  - css
+  private_metadata: ''
+  max_instances: 1
+  name: 'gci-leaders issue 47: Wrapping problem in `The Mifos Interactive` box'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: true
+  id: 5326161645142016
+  categories:
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/47
+5343117974700032:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Locate and fix technical bugs contained in translated messages contained\
+    \ in a weblate project.\n\n## Aim\n\nThis task aims to help participants gain\
+    \ advanced understanding of text markup and translation file formats, as well\
+    \ as the open source quality check tools available for these file formats.\n\n\
+    DO NOT translate messages. That is not the objective of this task.\n\nDO NOT send\
+    \ pull requests.\n\nYour weblate username **MUST** be the same as your GitHub\
+    \ username, and your email address in GitHub and weblate **MUST** be identical.\n\
+    \n## Find 10 bugs in a translation project\n\nBugs in translated messages include:\n\
+    \n-  semantic problems, such as missing grammatical structure, like a missing\
+    \ period at the end of a sentence.\n\n-  syntax errors, such as invariant parts\
+    \ of the source message that have been translated when they should not be translated.\n\
+    \nThere are existing open source tools that find and even fix these problems automatically.\
+    \  A linter supported by coala DennisBear is [`dennis`](https://github.com/willkg/dennis).\
+    \  Another open source tool is [`translate-toolkit`](https://en.wikipedia.org/wiki/Translate_Toolkit),\
+    \ which is included in most Linux distributions.  \n\nChoose translations projects\
+    \ in either:\n\n- https://hosted.weblate.org/ [projects](https://hosted.weblate.org/projects/)\n\
+    - https://l10n.opensuse.org/ [projects](https://l10n.opensuse.org/projects/)\n\
+    \n### Register your project\n\nTo avoid conflicts, only one participant may work\
+    \ on a project at a time.\n\nOnce you have found a project with technical bugs,\
+    \ register it as your project on Zulip in the #gci stream under topic `weblate`.\n\
+    \n## Fix 10 bugs\n\n1. Fix the translation bugs in weblate\n2. Give _star_ to\
+    \ the repo"
+  tags:
+  - i18n
+  - translation
+  - linting
+  - l10n
+  private_metadata: ''
+  max_instances: 20
+  name: Lint translations in weblate projects
+  last_modified: '2017-12-09T06:43:33Z'
+  is_beginner: false
+  id: 5343117974700032
+  categories:
+  - 1
+  - 2
+  - 3
+  - 4
+  external_url: https://docs.weblate.org/en/latest/admin/continuous.html
+5347808783630336:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala-quickstart\
+    \ repository. Here is the issue:\n\nIssue [#201](https://github.com/coala/coala-quickstart/issues/201)\
+    \ Fix pytest warning\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python3
+  - pytest
+  - setup.cfg
+  - issues
+  - AppVeyor CI
+  private_metadata: issues
+  max_instances: 1
+  name: 'quickstart: Issue #201 Fix pytest warning'
+  last_modified: '2017-12-14T15:54:51Z'
+  is_beginner: false
+  id: 5347808783630336
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala-quickstart/issues/201
+5350115776659456:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `gofmt`. Helpful links to the\
+    \ documentation for gofmt are available in the description of the issue on GitHub\
+    \ associated with this task.\n\nIf you decide to create this page, comment on\
+    \ the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - terminal
+  - go
+  - linux
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: gofmt'
+  last_modified: '2017-11-30T12:41:22Z'
+  is_beginner: false
+  id: 5350115776659456
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1607
+5353273424871424:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#27](https://github.com/coala/gci-leaders/issues/27)\
+    \ Reduce number of GitHub API hits\n\nBuilds must have been rebased when submitted\
+    \ to GCI.\n\nLowest build number wins if two participants make the same improvement.\n\
+    \nUse \"Related to https://github.com/coala/gci-leaders/issues/27\" for the last\
+    \ line of your commit message, as your solution will not be the only one.\n\n\
+    Do you testing offline, so other participants can not steal your performance idea.\n\
+    \nRemember to format your [Git Commit Message](http://coala.io/commit)\naccording\
+    \ to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - open data
+  - API
+  - JavaScript
+  - GitHub
+  - performance
+  private_metadata: issues
+  max_instances: 4
+  name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 5353273424871424
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/27
+5355316998832128:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the `golint`\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing linter golint:\
+    \ https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork repository\n\
+    \nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a go preinstalled\
+    \ (golint requires Go 1.6 or later).\n\nCreate a new Dockerfile based on the previous\
+    \ one and install the linter `golint` (and dependencies if needed).\ne.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the golint\
+    \ linter on a sample go project using golint installed on your computer\n\n2.\
+    \ Perform the same analysis using your container\n```bash\ndocker run -v /local_folder:/container_folder\
+    \ -it linterhub/your_favorite_engine engine_command\n```\nMake sure that outputs\
+    \ are equal.\n\n# Automated tests\n\nIntroduce a simple test as described above\
+    \ using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - go
+  - docker
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for golint'
+  last_modified: '2017-11-30T13:32:47Z'
+  is_beginner: false
+  id: 5355316998832128
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
+5359048209727488:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#32](https://github.com/coala/gci-leaders/issues/32)\
+    \ Detect when display name is a GitHub username\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - Node
+  - GitHub
+  - JavaScript
+  - issues
+  - API
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #32 Detect when display name is a GitHub username'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 5359048209727488
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/32
+5367890230378496:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `postcss`. Helpful links to\
+    \ the documentation for `postcss` are available in the description of the issue\
+    \ on GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - terminal
+  - linux
+  - css
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: postcss'
+  last_modified: '2017-12-02T11:06:03Z'
+  is_beginner: false
+  id: 5367890230378496
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1596
+5370701034815488:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "## Objective\nUse GitMate CI on a GitLab project and report the results\
+    \ to [#gitmate channel on coala.zulipchat.com](https://coala.zulipchat.com/#narrow/stream/gitmate).\n\
+    \n## Background\nGitMate is a tool to automate maintenance tasks on GitHub and\
+    \ GitLab projects. It provides automated code review using a static code analysis\
+    \ tool, called coala.\nMore documentation can be found at https://docs.gitmate.io.\n\
+    \n## Requirements\nA GitLab account. This task is done entirely using a web browser\
+    \ on your forked repository of example-setup on GitLab, and does not involve interacting\
+    \ with other OSS\nprojects, or installing any software on your computer.\n\nJoin\
+    \ us on our Zulip channel at https://coala.zulipchat.com where we are active and\
+    \ ready to help!\n\nVisit the link below for more details."
+  tags:
+  - gitmate
+  - gitlab
+  - hello world
+  private_metadata: ''
+  max_instances: 20
+  name: Use GitMate CI
+  last_modified: '2017-11-28T17:40:15Z'
+  is_beginner: true
+  id: 5370701034815488
+  categories:
+  - 2
+  - 5
+  external_url: https://gitlab.com/gitmate/open-source/GCI/wikis/Tasks/Use-GitMate-CI
+5371448786944000:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#4](https://github.com/coala/gci-leaders/issues/4)\
+    \ Order orgs by number of tasks completed\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Node
+  - scraping
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #4 Order orgs by number of tasks completed'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5371448786944000
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/4
+5386122651762688:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#367](https://github.com/coala/corobo/issues/367)\
+    \ Update README.md to say BOT_ADMINS is space separated list\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - markdown
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #367 Update README.md to say BOT_ADMINS is space separated
+    list'
+  last_modified: '2017-11-29T04:27:10Z'
+  is_beginner: true
+  id: 5386122651762688
+  categories:
+  - 3
+  external_url: https://github.com/coala/corobo/issues/367
+5389709268221952:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `pycodestyle`. Helpful links\
+    \ to the documentation for `pycodestyle` are available in the description of the\
+    \ issue on GitHub associated with this task.\n\nIf you decide to create this page,\
+    \ comment on the issue to let others know that you're creating it.\n\nOnce you've\
+    \ created it, send a Pull Request to the main tldr-pages repository.\n\nGeneral\
+    \ guidelines on what the page could look like can be found in the [contributing\
+    \ guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - terminal
+  - python
+  - linux
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: pycodestyle'
+  last_modified: '2017-11-30T12:41:28Z'
+  is_beginner: false
+  id: 5389709268221952
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1604
+5405942046785536:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#9](https://github.com/coala/community/issues/9)\
+    \ Use logging\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - frontend
+  - logging
+  - issues
+  - community
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #9 Use logging'
+  last_modified: '2017-12-08T20:44:00Z'
+  is_beginner: false
+  id: 5405942046785536
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/9
+5417259780538368:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#64](https://github.com/coala/gci-leaders/issues/64)\
+    \ Add twitter and G+ icons with links\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - Twitter
+  - Google+
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #64 Add twitter and G+ icons with links'
+  last_modified: '2017-12-11T04:40:29Z'
+  is_beginner: false
+  id: 5417259780538368
+  categories:
+  - 1
+  - 2
+  - 5
+  external_url: https://github.com/coala/gci-leaders/issues/64
+5422018000322560:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#26](https://github.com/coala/gci-leaders/issues/26)\
+    \ Add fork me ribbon\n\nRead [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - Node
+  - git
+  - HTML
+  - issues
+  - github
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #26 Add fork me ribbon'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: true
+  id: 5422018000322560
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/26
+5437975280222208:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#25](https://github.com/coala/community/issues/25)\
+    \ Progress of solving & creating issues\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - analytics
+  - frontend
+  - issues
+  - community
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #25 Progress of solving & creating issues'
+  last_modified: '2017-12-08T20:44:00Z'
+  is_beginner: false
+  id: 5437975280222208
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/25
+5457310619009024:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#55](https://github.com/coala/gci-leaders/issues/55)\
+    \ Getting perfect Lighthouse score\n\nBuilds must have been rebased when submitted\
+    \ to GCI.\n\nThe first PR submitted wins if two participants make the same audit\
+    \ passes.\n\nUse \"Related to https://github.com/coala/gci-leaders/issues/55\"\
+    \ for the last line of your commit message, as your solution will not be the only\
+    \ one.\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - performance
+  - lighthouse
+  - html
+  - accessibility
+  - javascript
+  private_metadata: ''
+  max_instances: 5
+  name: 'gci-leaders: Issue #55 Getting perfect Lighthouse score'
+  last_modified: '2017-12-09T15:06:32Z'
+  is_beginner: false
+  id: 5457310619009024
+  categories:
+  - 1
+  external_url:
+5465395400015872:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#73](https://gitlab.com/coala/package_manager/issues/73)\
+    \ RscriptRequirement: deprecate `flag` argument\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - Rscript
+  - packaging
+  - docstring
+  - doctest
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #73 RscriptRequirement: deprecate `flag` argument'
+  last_modified: '2017-12-14T13:04:51Z'
+  is_beginner: false
+  id: 5465395400015872
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/73
+5468807483097088:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#7](https://github.com/coala/community/issues/7)\
+    \ Add \"last generated\" timestamp\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - time
+  - frontend
+  - issues
+  - community
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #7 Add last generated timestamp'
+  last_modified: '2017-12-08T20:43:59Z'
+  is_beginner: false
+  id: 5468807483097088
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/7
+5474610235572224:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `pylint`. Helpful links to the\
+    \ documentation for `pylint` are available in the description of the issue on\
+    \ GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - python
+  - terminal
+  - linux
+  - command line
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: pylint'
+  last_modified: '2017-12-02T11:06:36Z'
+  is_beginner: false
+  id: 5474610235572224
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1605
+5477529756368896:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the `csvlint`\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing linter csvlint:\
+    \ https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork repository\n\
+    \nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a ruby\
+    \ package manager that can install `csvlint`.\n\nCreate a new Dockerfile based\
+    \ on the previous one and install the linter `csvlint` (and dependencies if needed).\n\
+    e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the csvlint\
+    \ linter on a sample CSV file using csvlint installed on your computer\n\n2. Perform\
+    \ the same analysis using your container\n```bash\ndocker run -v /local_folder:/container_folder\
+    \ -it linterhub/your_favorite_engine engine_command\n```\nMake sure that outputs\
+    \ are equal.\n\n# Automated tests\n\nIntroduce a simple test as described above\
+    \ using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker\
+    \ ."
+  tags:
+  - docker
+  - csv
+  - ruby
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for csvlint'
+  last_modified: '2017-11-29T12:13:41Z'
+  is_beginner: false
+  id: 5477529756368896
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
+5529288331755520:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "coala is [software](https://www.wikidata.org/wiki/Q25215462).\ncoala\
+    \ is [an organisation](https://www.wikidata.org/wiki/Q45337328).\n\nThis task\
+    \ is to translate an item label on Wikidata, for any item related to either the\
+    \ coala software or the coala organisation.\n\nWikidata facts are being used to\
+    \ automatically [create Wikipedia articles](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder),\
+    \ and there are lots of interesting tools and viewers like [Reasonator](https://tools.wmflabs.org/reasonator/?q=Q25215462)\
+    \ that consume and re-use Wikidata content.\n\nWikidata facts can be represented\
+    \ in any language by translating the labels of items. (A property is special type\
+    \ an item.)\n\nBefore claiming this task, please complete one 'medium' difficulty\
+    \ task in the coala organisation.\n\nIf you have not edited Wikidata before, read\
+    \ the [Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and\
+    \ do the [Tutorials](https://www.wikidata.org/wiki/Wikidata:Tours) before attempting\
+    \ this task.\n\nThis task involves editing a live database, and any mistakes may\
+    \ immediately impact thousands of other users around the globe.  Care and caution\
+    \ are required.  Communicate with your mentors.\n\nNot surprisingly, [MediaWiki](https://www.wikidata.org/wiki/Q83)\
+    \ and [Wikimedia Foundation](https://www.wikidata.org/wiki/Q180) are a good example\
+    \ to follow for the way to describe software components in the Wikidata ontology.\n\
+    \nIf you do not have a Wikimedia account, please ensure your new Wikimedia username\
+    \ is identical to your GitHub username.  As a mentor for help if you can not register\
+    \ the same username.\n\nAfter translating an item label, submit your task with\
+    \ a comment including your contributions URL, such as https://www.wikidata.org/wiki/Special:Contributions/Blazeu"
+  tags:
+  - i18n
+  - open data
+  - wikidata
+  private_metadata: ''
+  max_instances: 1
+  name: Add a translation about coala to Wikidata
+  last_modified: '2017-12-17T02:20:41Z'
+  is_beginner: false
+  id: 5529288331755520
+  categories:
+  - 2
+  - 3
+  - 5
+  external_url:
+5585586972786688:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngitmate-2-frontend\
+    \ repository. Here is the issue:\n\nIssue [#62](https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/62)\
+    \ Implement pagination for pages with huge content\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - Angular
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gitmate-2-frontend: Issue #62 Implement pagination for pages with huge content'
+  last_modified: '2017-11-29T17:42:26Z'
+  is_beginner: false
+  id: 5585586972786688
+  categories:
+  - 2
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/62
+5593149000908800:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#131](https://gitlab.com/coala/package_manager/issues/131)\
+    \ Add MacPorts Requirement Manager\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - macOS
+  - issues
+  - python3
+  - MacPorts
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #131 Add MacPorts Requirement Manager'
+  last_modified: '2017-12-14T15:54:50Z'
+  is_beginner: false
+  id: 5593149000908800
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/131
+5604333859110912:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#23](https://github.com/coala/gci-leaders/issues/23)\
+    \ Randomise order of participants\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - random
+  - JavaScript
+  - math
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #23 Randomise order of participants'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5604333859110912
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/23
+5605231817654272:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#118](https://gitlab.com/coala/package_manager/issues/118)\
+    \ DistributionRequirement: Shorten apt_get -> apt\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - packaging
+  - apt-get
+  - issues
+  - python3
+  - Ubuntu
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #118 DistributionRequirement: Shorten apt_get
+    -> apt'
+  last_modified: '2017-12-14T13:04:49Z'
+  is_beginner: false
+  id: 5605231817654272
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/118
+5618267244724224:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the `tslint`\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing linter tslint:\
+    \ https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork repository\n\
+    \nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a nodejs\
+    \ package manager that can install `tslint`.\n\nCreate a new Dockerfile based\
+    \ on the previous one and install the linter `tslint` (and dependencies if needed).\n\
+    e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the tslint\
+    \ linter on a sample typescript project using tslint installed on your computer\n\
+    \n2. Perform the same analysis using your container\n```bash\ndocker run -v /local_folder:/container_folder\
+    \ -it linterhub/your_favorite_engine engine_command\n```\nMake sure that outputs\
+    \ are equal.\n\n# Automated tests\n\nIntroduce a simple test as described above\
+    \ using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - docker
+  - typescript
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for tslint'
+  last_modified: '2017-11-30T13:32:29Z'
+  is_beginner: false
+  id: 5618267244724224
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
+5626333755342848:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#21](https://github.com/coala/gci-leaders/issues/21)\
+    \ Put html template in it's own file\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - HTML
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: "gci-leaders: Issue #21 Put html template in it's own file"
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 5626333755342848
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/21
+5632800701022208:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#163](https://gitlab.com/coala/package_manager/issues/163)\
+    \ docstrings for install_command should say it returns an array\n\nRemember to\
+    \ format your [Git Commit Message](http://coala.io/commit)\naccording to the rules,\
+    \ otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - reStructuredText
+  - docstring
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency management: Issue #163 docstrings for install_command should say
+    it returns an array'
+  last_modified: '2017-12-14T09:09:25Z'
+  is_beginner: false
+  id: 5632800701022208
+  categories:
+  - 3
+  external_url: https://gitlab.com/coala/package_manager/issues/163
+5637192237973504:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngitmate-2 repository.\
+    \ Here is the issue:\n\nIssue [#207](https://gitlab.com/gitmate/open-source/gitmate-2/issues/207)\
+    \ Remove unused gitmate_logger application\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - python3
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'gitmate-2: Issue #207 Remove unused gitmate_logger application'
+  last_modified: '2017-12-06T15:28:58Z'
+  is_beginner: false
+  id: 5637192237973504
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-2/issues/207
+5648494687682560:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#82](https://gitlab.com/gitmate/open-source/IGitt/issues/82)\
+    \ Prevent KeyError: 'skipped'\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - gitlab
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: "IGitt: Issue #82 Prevent KeyError: 'skipped'"
+  last_modified: '2017-11-29T17:03:02Z'
+  is_beginner: false
+  id: 5648494687682560
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/82
+5657492409286656:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "This is the second part of a task that was half-completed. The issue\
+    \ is: \n\nhttps://github.com/stylelint/stylelint/issues/3007\n\nand the fix should\
+    \ be very similar to:\n\nhttps://github.com/stylelint/stylelint/pull/3015"
+  tags: []
+  private_metadata: ''
+  max_instances: 1
+  name: 'Stylelint: Add ignoreProperties: [] to property-no-vendor-prefix'
+  last_modified: '2017-11-15T03:38:55Z'
+  is_beginner: false
+  id: 5657492409286656
+  categories:
+  - 1
+  external_url:
+5665887182913536:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#2](https://github.com/coala/gci-leaders/issues/2)\
+    \ Create a README.md\n\nRead [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - README
+  - git
+  - javascript
+  - issues
+  - markdown
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #2 Create a README.md'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: true
+  id: 5665887182913536
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/2
+5667134543757312:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: Some stylelint rules accept regex literals (e.g. selector-class-pattern)
+    but others do not (e.g. declaration-property-value-blacklist). We need somebody
+    to update the rules that do not to use regex literals.
+  tags: []
+  private_metadata: ''
+  max_instances: 1
+  name: 'Stylelint: Support regex literals in all options that accept regexes'
+  last_modified: '2017-11-15T03:36:12Z'
+  is_beginner: false
+  id: 5667134543757312
+  categories:
+  - 1
+  external_url: https://github.com/stylelint/stylelint/issues/3008
+5668029776003072:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Update the version of JSHint used by JSHintBear to the latest version.\n\
+    \nJSHintBear currently uses JSHint version 2. The latest version is 2.9.5.\n\n\
+    In order to upgrade the version used, one needs to have a knowledge of coala's\
+    \ [dependency_management](https://gitlab.com/coala/package_manager). What needs\
+    \ to be changed is the `NpmRequirement`. Some things may need to be redesigned\
+    \ to accomodate."
+  tags:
+  - javascript
+  private_metadata: ''
+  max_instances: 1
+  name: 'JSHintBear: Upgrade JSHint'
+  last_modified: '2017-11-14T18:50:52Z'
+  is_beginner: false
+  id: 5668029776003072
+  categories:
+  - 1
+  external_url:
+5676932739891200:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#384](https://github.com/coala/corobo/issues/384)\
+    \ utils/utils.py: do not use os.environ\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #384 utils/utils.py: do not use os.environ'
+  last_modified: '2017-11-28T20:36:59Z'
+  is_beginner: false
+  id: 5676932739891200
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/384
+5689970381553664:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `autoflake`. Helpful links to\
+    \ the documentation for `autoflake` are available in the description of the issue\
+    \ on GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - python
+  - linter
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: autoflake'
+  last_modified: '2017-12-02T10:52:05Z'
+  is_beginner: false
+  id: 5689970381553664
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1662
+5705509170577408:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#5](https://github.com/coala/community/issues/5)\
+    \ Add github cards for each github user\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - javascript
+  - frontend
+  - community
+  - issues
+  - github
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #5 Add github cards for each github user'
+  last_modified: '2017-12-08T20:44:00Z'
+  is_beginner: false
+  id: 5705509170577408
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/5
+5723370043736064:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Make [gh-pages](https://github.com/coala/coala-html/tree/gh-pages)\
+    \ branch in [coala/coala-html](https://github.com/coala/coala-html) repo be rebuilt\
+    \ automatically from master on each push to master using Travis CI.\n\nOn a fork,\
+    \ the build should not push to upstream `gh-pages`, instead it should do a push\
+    \ to `gh-pages` branch on the fork.\n\nA push to a branch other than `master`\
+    \ on a fork can overwrite the `gh-pages`, but that would still be a bit messy.\
+    \ Instead write it into `gh-pages/<branch_name>`. Then, the fork owner can set\
+    \ which branch is published in the repo settings on GitHub. See [this documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#default-source-settings-for-repositories-without-the-username-naming-scheme).\n\
+    \nAdditionally, on each pull request, Travis should build the commit on that pull\
+    \ request without overwriting the `gh-pages`."
+  tags:
+  - yaml
+  - github
+  - continuous integration
+  - bash
+  - travis
+  private_metadata: ''
+  max_instances: 1
+  name: 'coala-html: Setup CI for building Github Pages'
+  last_modified: '2017-12-01T09:09:55Z'
+  is_beginner: false
+  id: 5723370043736064
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala-html/issues/133
+5736616947613696:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#251](https://github.com/coala/corobo/issues/251)\
+    \ Whitespace missing in newcomer welcome message\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - markdown
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #251 Whitespace missing in newcomer welcome message'
+  last_modified: '2017-11-29T04:27:12Z'
+  is_beginner: true
+  id: 5736616947613696
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/251
+5736702041653248:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#296](https://github.com/coala/corobo/issues/296)\
+    \ Mention that users need to be a developer (and point to the requirements) if\
+    \ they try to assign a medium issue\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #296 Mention that users need to be a developer (and point to
+    the requirements) if they try to assign a medium issue'
+  last_modified: '2017-11-29T04:27:15Z'
+  is_beginner: false
+  id: 5736702041653248
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/296
+5744202530947072:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#3](https://github.com/coala/gci-leaders/issues/3)\
+    \ Clickable org name\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #3 Clickable org name'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5744202530947072
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/3
+5745294660599808:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4583](https://github.com/coala/coala/issues/4583)\
+    \ FilterHelper.apply_filter: Add docstring\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - reStructuredText
+  - docstring
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4583 FilterHelper.apply_filter: Add docstring'
+  last_modified: '2017-11-28T20:37:26Z'
+  is_beginner: false
+  id: 5745294660599808
+  categories:
+  - 1
+  - 3
+  external_url: https://github.com/coala/coala/issues/4583
+5749301328216064:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncoala\
+    \ repository. Here is the issue:\n\nIssue [#4017](https://github.com/coala/coala/issues/4017)\
+    \ Development_Setup.html: Tell Unix users that they probably need to install virtualenv\
+    \ with --user\n\nRead [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - git
+  - issues
+  - reStructuredText
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4017 Development_Setup.html: Tell Unix users that they probably
+    need to install virtualenv with --user'
+  last_modified: '2017-11-30T12:24:44Z'
+  is_beginner: true
+  id: 5749301328216064
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4017
+5756203609096192:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#109](https://gitlab.com/coala/package_manager/issues/109)\
+    \ `build/` is not ignored\n\nRead [Git Basics](http://coala.io/git) and [Newcomer\
+    \ Guide](http://coala.io/newcomer)\nto learn how to prepare your patch properly."
+  tags:
+  - packaging
+  - gitlab
+  - python3
+  - issues
+  - .gitignore
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #109 `build/` is not ignored'
+  last_modified: '2017-12-14T13:04:49Z'
+  is_beginner: true
+  id: 5756203609096192
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/109
+5835922228641792:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#115](https://gitlab.com/coala/package_manager/issues/115)\
+    \ Add CPAN package manager\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - packaging
+  - CPAN
+  - python3
+  - issues
+  - Perl
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency management: Issue #115 Add CPAN package manager'
+  last_modified: '2017-11-28T20:36:46Z'
+  is_beginner: false
+  id: 5835922228641792
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/115
+5852028758654976:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#7](https://github.com/coala/gci-leaders/issues/7)\
+    \ Link to GitHub organisation for each Google Code-in organisation \n\nRemember\
+    \ to format your [Git Commit Message](http://coala.io/commit)\naccording to the\
+    \ rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - GitHub
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #7 Link to GitHub organisation for each Google Code-in
+    organisation'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5852028758654976
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/7
+5855976303362048:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncoala\
+    \ repository's docs. Here is the issue:\n\nIssue [#4771](https://github.com/coala/coala/issues/4771)\
+    \ Newcomer's guide should limit one newcomer issue per contributor\n\nTo edit\
+    \ docs so as to make \"you should do only one newcomer issue\" more implied.\n\
+    The current Newcomer's guide doesn't directly imply that everyone should do \"\
+    only one\" newcomer issue. It should be made perfectly clear in guide.\n\nRead\
+    \ [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - github
+  - restructuredtext
+  - newcomer's guide
+  - documentation
+  private_metadata: ''
+  max_instances: 1
+  name: 'coala docs: Each contributor should do single newcomer issue only'
+  last_modified: '2017-11-28T19:58:19Z'
+  is_beginner: true
+  id: 5855976303362048
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4771
+5899537740726272:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncorobo\
+    \ repository. Here is the issue:\n\nIssue [#250](https://github.com/coala/corobo/issues/250)\
+    \ explain: Whitespace missing in explain google message\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - errbot
+  - markdown
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #250 explain: Whitespace missing in explain google message'
+  last_modified: '2017-12-04T10:34:36Z'
+  is_beginner: true
+  id: 5899537740726272
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/250
+5903642613776384:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#25](https://github.com/coala/gci-leaders/issues/25)\
+    \ Add GCI logo\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - logo
+  - JavaScript
+  - issues
+  - rights
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #25 Add GCI logo'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 5903642613776384
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/25
+5907067556593664:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#125](https://gitlab.com/coala/package_manager/issues/125)\
+    \ Deprecate GoRequirement -u flag\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Go
+  - packaging
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #125 Deprecate GoRequirement -u flag'
+  last_modified: '2017-12-14T13:04:50Z'
+  is_beginner: false
+  id: 5907067556593664
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/125
+5915375902392320:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncoala\
+    \ repository. Here is the issue:\n\nIssue [#4879](https://github.com/coala/coala/issues/4879)\
+    \ Change cobot to corobo in Review.rst\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - issues
+  - reStructuredText
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4879 Change cobot to corobo in Review.rst'
+  last_modified: '2017-11-30T12:24:45Z'
+  is_beginner: true
+  id: 5915375902392320
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4879
+5936186788937728:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#1](https://github.com/coala/gci-leaders/issues/1)\
+    \ Add \"last generated\" timestamp\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - node
+  - timezones
+  - javascript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #1 Add last generated timestamp'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 5936186788937728
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/1
+5952910829551616:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "This task involves designing a new logo for the coala bot, corobo.\n\
+    \nBe creative and make it aesthetically associated with corobo! You must be able\
+    \ to explain how your design relates to corobo.  Before doing this task, you should\
+    \ have completed at least one 'newcomer' level task for corobo, and have interacted\
+    \ with corobo on gitter.im and Zulip.  Let the bot inspire you!\n\nYou must submit\
+    \ a completely original design of your own creation that does not use 3rd party\
+    \ images from the web, unless they are licensed under Creative Commons licenses.\
+    \ If you create a design similar to something you found on the web, it is considered\
+    \ a derivative work and you should give proper attribution (i.e., credit) to that\
+    \ author by name with a link to their work. Failure to give credit is plagiarism\
+    \ and can be grounds for dismissal from GCI. When in doubt, design something unique.\
+    \ ;)\n\nLogo design tips are in abundance around the web such as these [65 tips](http://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221)\
+    \ and these [7 tips](http://mashable.com/2014/04/30/logo-design-tips/#9jAYOSkGciqx).\n\
+    \nFamiliarity with a graphics design package like Gimp & Inkscape (open source\
+    \ & free), or Photoshop & Illustrator (not free) are useful for completing this\
+    \ task.\n\nUpload your original artwork files in a vector format (e.g., PSD, XCF,\
+    \ SVG, AI, etc) to either https://www.behance.net/ or https://www.deviantart.com/\
+    \ , with the same username as you have used for GitHub.  Your uploaded files must\
+    \ be licensed under Creative Commons Sharealike.  The winning design will be announced\
+    \ after all design entries have been assessed."
+  tags:
+  - logo
+  - design
+  - chatops
+  private_metadata: ''
+  max_instances: 40
+  name: Design a new logo for corobo
+  last_modified: '2017-11-28T02:32:01Z'
+  is_beginner: false
+  id: 5952910829551616
+  categories:
+  - 2
+  - 5
+  external_url: https://github.com/coala/corobo/
+5956049242685440:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#252](https://github.com/coala/corobo/issues/252)\
+    \ File issue does not work for GitHub Pages repositories\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - regex
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #252 File issue does not work for GitHub Pages repositories'
+  last_modified: '2017-11-28T20:37:13Z'
+  is_beginner: false
+  id: 5956049242685440
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/252
+5962920678653952:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#54](https://github.com/coala/gci-leaders/issues/54)\
+    \ Remove GCI orgs from twitter feed\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - twitter
+  - JavaScript
+  - outreach
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #54 Remove GCI orgs from twitter feed'
+  last_modified: '2017-12-08T20:43:59Z'
+  is_beginner: false
+  id: 5962920678653952
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/54
+6008381808574464:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#329](https://github.com/coala/corobo/issues/329)\
+    \ Fix spelling of \"eligility\" in labhub.py\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 0
+  name: 'corobo: Issue #329 Fix spelling of "eligility" in labhub.py'
+  last_modified: '2017-12-11T16:17:50Z'
+  is_beginner: true
+  id: 6008381808574464
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/329
+6010558149033984:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the `yamllint`\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing linter yamllint:\
+    \ https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork repository\n\
+    \nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a python\
+    \ manager that can install `yamllint`.\n\nCreate a new Dockerfile based on the\
+    \ previous one and install the linter `yamllint` (and dependencies if needed).\n\
+    e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the yamllint\
+    \ linter on a sample yaml file using yamllint installed on your computer\n\n2.\
+    \ Perform the same analysis using your container\n```bash\ndocker run -v /local_folder:/container_folder\
+    \ -it linterhub/your_favorite_engine engine_command\n```\nMake sure that outputs\
+    \ are equal.\n\n# Automated tests\n\nIntroduce a simple test as described above\
+    \ using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker\
+    \ ."
+  tags:
+  - python
+  - yaml
+  - docker
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for yamllint'
+  last_modified: '2017-11-30T13:32:20Z'
+  is_beginner: false
+  id: 6010558149033984
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
+6028602514604032:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#171](https://github.com/coala/corobo/issues/171)\
+    \ List rebased PRs\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #171 List rebased PRs'
+  last_modified: '2017-11-28T20:37:08Z'
+  is_beginner: false
+  id: 6028602514604032
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/171
+6034538964713472:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `grunt`. Helpful links to the\
+    \ documentation for `grunt` are available in the description of the issue on GitHub\
+    \ associated with this task.\n\nIf you decide to create this page, comment on\
+    \ the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - node
+  - javascript
+  - build
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: grunt'
+  last_modified: '2017-12-02T10:51:44Z'
+  is_beginner: false
+  id: 6034538964713472
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1663
+6044329946644480:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#229](https://github.com/coala/corobo/issues/229)\
+    \ coala_lowercase_c.py: Add an emoji to cEP lowercase message\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - errbot
+  - markdown
+  - issues
+  - emoji
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message'
+  last_modified: '2017-11-29T04:27:10Z'
+  is_beginner: true
+  id: 6044329946644480
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/229
+6059221873328128:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndocumentation\
+    \ repository. Here is the issue:\n\nIssue [#492](https://github.com/coala/documentation/issues/492)\
+    \ FAQ.rst: \"ask us!\" link not working\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - issues
+  - reStructuredText
+  private_metadata: issues
+  max_instances: 1
+  name: 'documentation: Issue #492 FAQ.rst: "ask us!" link not working'
+  last_modified: '2017-11-29T04:27:15Z'
+  is_beginner: true
+  id: 6059221873328128
+  categories:
+  - 3
+  external_url: https://github.com/coala/documentation/issues/492
+6094331645526016:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#426](https://github.com/coala/corobo/issues/426)\
+    \ Bug: labhub returns api url instead of html url\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - issues
+  - errbot
+  - api
+  - chatops
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #426 Bug: labhub returns api url instead of html url'
+  last_modified: '2017-12-05T14:26:07Z'
+  is_beginner: false
+  id: 6094331645526016
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/426
+6129325361332224:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#34](https://github.com/coala/gci-leaders/issues/34)\
+    \ ESLint should extend from eslint:recommended and eslint-config-prettier rules\n\
+    \nRemember to format your [Git Commit Message](http://coala.io/commit)\naccording\
+    \ to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - .coafile
+  - linting
+  - eslint
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #34 ESLint should extend from eslint:recommended and eslint-config-prettier
+    rules'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 6129325361332224
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/coala/gci-leaders/issues/34
+6158788904091648:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#90](https://gitlab.com/gitmate/open-source/IGitt/issues/90)\
+    \ Add `state` filter for MR and issue search queries\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - GitHub
+  - python3
+  - GitLab
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'IGitt: Issue #90 Add `state` filter for MR and issue search queries'
+  last_modified: '2017-12-05T15:04:25Z'
+  is_beginner: false
+  id: 6158788904091648
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/90
+6160329186738176:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#51](https://github.com/coala/gci-leaders/issues/51)\
+    \ Add GCI timeline\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - node
+  - javascript
+  - html
+  - issues
+  - css
+  private_metadata: ''
+  max_instances: 1
+  name: 'gci-leaders: Issue #51 Add GCI timeline'
+  last_modified: '2017-12-08T20:44:01Z'
+  is_beginner: false
+  id: 6160329186738176
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/51
+6199294715494400:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "The goal is to add as much tests as possible, since right now the\
+    \ test coverage of autocomplete-python is close to zero.\n\nTo start, you must\
+    \ have Atom installed. Clone the repository using `git clone git@github.com:autocomplete-python/autocomplete-python.git`\
+    \ and use `apm link autocomplete-python` to link the git repository as installed\
+    \ package in Atom. Use `apm test` to run the actual tests (they will fail by default,\
+    \ since the APIs been changed and nobody has fixed them).\n\nTests are located\
+    \ in `spec` directory with one example, which tests the actual completions.\n\n\
+    Things to test, each as a separated task instance:\n* Fix existing test to pass\n\
+    * Go to definition command\n* Complete argument command\n* Override method command\n\
+    * Show usages command\n* Rename command (possibly with separated files as well)\n\
+    * Extra paths for packages config – create a dummy package and make sure that\
+    \ that dummy library is included in completions when setting is set\n* Autocomplete\
+    \ function parameters config (none, all, required) – test each of them and make\
+    \ sure the output is correct\n* Regex to trigger autocompletions config – make\
+    \ sure that completions are NOT triggered if it does not match this config (e.g.\
+    \ in your test set this config to `([a-zA-Z0-9]*)` and make sure that completions\
+    \ are not triggered by `.` (dots))\n* Use fuzzy matcher for completions – make\
+    \ sure that turning this off works as intended"
+  tags:
+  - coffeescript
+  - atom
+  - javascript
+  - testing
+  - nodejs
+  private_metadata: ''
+  max_instances: 10
+  name: 'autocomplete-python: Improve test coverage'
+  last_modified: '2017-11-27T16:02:12Z'
+  is_beginner: false
+  id: 6199294715494400
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/autocomplete-python/autocomplete-python/tree/master/spec
+6211764884602880:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#138](https://gitlab.com/coala/package_manager/issues/138)\
+    \ Package manager gopm\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Go
+  - packaging
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #138 Package manager gopm'
+  last_modified: '2017-12-14T13:04:49Z'
+  is_beginner: false
+  id: 6211764884602880
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/138
+6219033311444992:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4816](https://github.com/coala/coala/issues/4816)\
+    \ Detect and prevent spelling errors in documentation\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - spelling
+  - .coafile
+  - CI
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4816 Detect and prevent spelling errors in documentation'
+  last_modified: '2017-11-30T12:24:46Z'
+  is_beginner: false
+  id: 6219033311444992
+  categories:
+  - 3
+  external_url: https://github.com/coala/coala/issues/4816
+6240661474902016:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "If you are not already familiar with continuous integration and unit\
+    \ testing, please following the steps of our beginner [\"CI1\"](https://codein.withgoogle.com/dashboard/tasks/4705163153506304/)\
+    \ task before attempting this codecov task.  CI1 will help you do the first three\
+    \ steps of this codecov task.\n\nFind an open source project on GitHub.com in\
+    \ any language and add Codecov through a pull request.\n\n1. Find an open source\
+    \ project in GitHub.\n1. Fork the project so that you may make edits to the source\
+    \ code.\n1. Connect the CI tool (typically Travis CI, Circle CI and AppVeyor)\
+    \ to run your project changes.\n1. Based on the software programming language(s)\
+    \ used proceed to add the necessary coverage collection tool(s) in order to collect\
+    \ coverage.\n1. Add Codecov uploader to collect and upload coverage reports.\n\
+    1. Commit changes in GitHub.\n1. Monitor the CI build to ensure coverage was collected\
+    \ and properly uploaded to Codecov.\n1. If properly uploaded: create a pull request\
+    \ to the source repository."
+  tags:
+  - code quality
+  - coverage
+  - static analysis
+  private_metadata: ''
+  max_instances: 500
+  name: Add Codecov to an open source project hosted on GitHub
+  last_modified: '2017-12-14T05:53:59Z'
+  is_beginner: false
+  id: 6240661474902016
+  categories:
+  - 1
+  - 4
+  - 5
+  external_url: ''
+6243208164016128:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\nlanding repository.\
+    \ Here is the issue:\n\nIssue [#44](https://gitlab.com/coala/landing/issues/44)\
+    \ Fetch monthly contributions from GitHub\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - cron
+  - GitHub
+  - issues
+  - python3
+  - devops
+  private_metadata: issues
+  max_instances: 1
+  name: 'landing: Issue #44 Fetch monthly contributions from GitHub'
+  last_modified: '2017-12-14T09:05:39Z'
+  is_beginner: false
+  id: 6243208164016128
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/landing/issues/44
+6252770078228480:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4888](https://github.com/coala/coala/issues/4888)\
+    \ No tests for coala --bear-dirs\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - unittest
+  - pytest
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4888 Create unit tests for coala --bear-dirs'
+  last_modified: '2017-11-29T04:27:15Z'
+  is_beginner: false
+  id: 6252770078228480
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/coala/coala/issues/4888
+6254409883320320:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndocumentation\
+    \ repository. Here is the issue:\n\nIssue [#382](https://github.com/coala/documentation/issues/382)\
+    \ Add info on letting e.g. travis CI autopatch your repo\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - travis
+  - CI
+  - reStructuredText
+  - docker
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'documentation: Issue #382 Add info on letting travis CI autopatch your repo'
+  last_modified: '2017-11-30T12:24:44Z'
+  is_beginner: false
+  id: 6254409883320320
+  categories:
+  - 3
+  external_url: https://github.com/coala/documentation/issues/382
+6260768582402048:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#166](https://github.com/coala/corobo/issues/166)\
+    \ Alias welcome to invite\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - regex
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #166 Alias welcome to invite'
+  last_modified: '2017-11-28T20:37:12Z'
+  is_beginner: false
+  id: 6260768582402048
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/166
+6275446456975360:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#22](https://github.com/manu-chroma/username-availability-checker/issues/22)\
+    \ Support GET\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #22 Support GET'
+  last_modified: '2017-12-12T18:31:57Z'
+  is_beginner: false
+  id: 6275446456975360
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/22
+6287549515431936:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#155](https://gitlab.com/coala/package_manager/issues/155)\
+    \ Change typo `JuliaRequirement` to `RscriptRequirement`\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - packaging
+  - rscript
+  - gitlab
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #155 Change typo `JuliaRequirement` to `RscriptRequirement`'
+  last_modified: '2017-12-14T13:04:50Z'
+  is_beginner: true
+  id: 6287549515431936
+  categories:
+  - 1
+  - 3
+  external_url: https://gitlab.com/coala/package_manager/issues/155
+6291106956312576:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#84](https://gitlab.com/coala/package_manager/issues/84)\
+    \ LuarocksRequirement.py: Change 'Luarocks' -> 'LuarocksRequirement'\n\nRead [Git\
+    \ Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - packaging
+  - lau
+  - gitlab
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: "dependency_management: Issue #84 LuarocksRequirement.py: Change 'Luarocks'\
+    \ -> 'LuarocksRequirement'"
+  last_modified: '2017-12-14T13:04:49Z'
+  is_beginner: true
+  id: 6291106956312576
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/84
+6296547539025920:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
+    \ repository. Here is the issue:\n\nIssue [#29](https://gitlab.com/coala/package_manager/issues/29)\
+    \ NuGet support\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Windows
+  - packaging
+  - issues
+  - NuGet
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'dependency_management: Issue #29 NuGet support'
+  last_modified: '2017-12-14T13:04:49Z'
+  is_beginner: false
+  id: 6296547539025920
+  categories:
+  - 1
+  external_url: https://gitlab.com/coala/package_manager/issues/29
+6300122856030208:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#49](https://gitlab.com/gitmate/open-source/IGitt/issues/49)\
+    \ Add merged action to MergeRequest\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - github
+  - gitlab
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'IGitt: Issue #49 Add merged action to MergeRequest'
+  last_modified: '2017-12-05T15:05:05Z'
+  is_beginner: false
+  id: 6300122856030208
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/49
+6301096983134208:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#345](https://github.com/coala/corobo/issues/345)\
+    \ Mention the coala StackOverflow tag in lmgtfy \n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - errbot
+  - markdown
+  - issues
+  - stackoverflow
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #345 Mention the coala StackOverflow tag in lmgtfy'
+  last_modified: '2017-11-28T20:08:01Z'
+  is_beginner: true
+  id: 6301096983134208
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/345
+6304189116317696:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#8](https://github.com/coala/gci-leaders/issues/8)\
+    \ Guess GitHub username of leading participants\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - Node
+  - GitHub
+  - JavaScript
+  - issues
+  - api
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #8 Guess GitHub username of leading participants'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: false
+  id: 6304189116317696
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/8
+6312251281637376:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndocumentation\
+    \ repository. Here is the issue:\n\nIssue [#478](https://github.com/coala/documentation/issues/478)\
+    \ Detect and prevent spelling errors in documentation\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - spelling
+  - .coafile
+  - CI
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'documentation: Issue #478 Detect and prevent spelling errors in documentation'
+  last_modified: '2017-11-30T12:24:45Z'
+  is_beginner: false
+  id: 6312251281637376
+  categories:
+  - 3
+  external_url: https://github.com/coala/documentation/issues/478
+6314297967771648:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#76](https://gitlab.com/gitmate/open-source/IGitt/issues/76)\
+    \ add ci check that no yamls are created during the tests\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - YAML
+  - unittest
+  - issues
+  - ci
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'IGitt: Issue #76 add ci check that no YAML files are created during the tests'
+  last_modified: '2017-11-29T17:02:18Z'
+  is_beginner: false
+  id: 6314297967771648
+  categories:
+  - 1
+  - 4
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/76
+6315582028775424:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#307](https://github.com/coala/corobo/issues/307)\
+    \ Add “invite me” in corobo help\n\nRead [Git Basics](http://coala.io/git) and\
+    \ [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your patch\
+    \ properly."
+  tags:
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #307 Add “invite me” in corobo help'
+  last_modified: '2017-11-28T20:18:12Z'
+  is_beginner: true
+  id: 6315582028775424
+  categories:
+  - 3
+  external_url: https://github.com/coala/corobo/issues/307
+6317910194651136:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Introduction\nBeen busy coding like hell? Wanna let some heat off\
+    \ with easy points? This task is just for you. To test your level of humor. (Just\
+    \ kidding XD)\n\nWho doesn't love funny loading screens? GitMate team has been\
+    \ busy working out some of them. Check out the repositories tab on https://gitmate.io\
+    \ to watch them live.\n\nHere are some examples..\n\n- Opening pod bay doors...\n\
+    - Waiting for the right moment...\n- Downloading the internet...\n- Testing your\
+    \ patience...\n- Buying some server space...\n- Hang on a second, I know your\
+    \ data is somewhere here...\n- Sending sheep to Mars...\n- Stealing your passwords...\n\
+    - Gathering your credit card info...\n- Shovelling coal into our servers...\n\n\
+    # Objective\n\nYour task is to add more such sentences. Check our list [here](https://gitlab.com/gitmate/open-source/gitmate-2-frontend/blob/master/src/app/spinner/spinner.component.ts#L11).\
+    \ Make sure you don't repeat them and you do not post the ones listed above.\n\
+    \nOnce you've got ideas, road test your sentences on your friends to see which\
+    \ of them are more delightful than others and come up with more ideas together\
+    \ with them. Ideally you have a growing list of sentences that you then reduce\
+    \ to only the best ones because quality is more important than quantity.\n\nWhen\
+    \ you got a short list, **post them on your task instance**. Please **DO NOT**\
+    \ post them on GitLab (yet).\n\n# Assessment\n\nOnce the mentor accepts your work,\
+    \ you can then send in a pull request to gitmate-2-frontend repository stating\
+    \ **only one (best) sentence per student**. Quality is more important than quantity.\n\
+    \nCheck the external URL below for the issue."
+  tags:
+  - gitmate
+  - loading-sentences
+  - fun-task
+  - quip
+  - wit
+  private_metadata: ''
+  max_instances: 3
+  name: Funny loading sentences to keep users amused
+  last_modified: '2017-12-09T17:42:14Z'
+  is_beginner: false
+  id: 6317910194651136
+  categories:
+  - 2
+  external_url: https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/73
+6324306181095424:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\nprojects\
+    \ repository. Here is the issue:\n\nIssue [#221](https://github.com/coala/projects/issues/221)\
+    \ Broken link for 'existing bear proposal'\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - git
+  - markdown
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: "projects: Issue #221 Broken link for 'existing bear proposal'"
+  last_modified: '2017-11-30T12:24:45Z'
+  is_beginner: true
+  id: 6324306181095424
+  categories:
+  - 1
+  external_url: https://github.com/coala/projects/issues/221
+6340696850038784:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a newcomer issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#385](https://github.com/coala/corobo/issues/385)\
+    \ Mention Zulip backend in README.md\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - markdown
+  - errbot
+  - git
+  - chatops
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #385 Mention Zulip backend in README.md'
+  last_modified: '2017-11-28T20:18:11Z'
+  is_beginner: true
+  id: 6340696850038784
+  categories:
+  - 3
+  external_url: https://github.com/coala/corobo/issues/385
+6425638376308736:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ngci-leaders\
+    \ repository.\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: #45'
+  last_modified: '2017-12-08T20:43:58Z'
+  is_beginner: false
+  id: 6425638376308736
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/pull/45
+6458433983217664:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#79](https://gitlab.com/gitmate/open-source/IGitt/issues/79)\
+    \ GitLabIssue.state returns 'opened' instead of 'open'\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - gitlab
+  - issues
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: "IGitt: Issue #79 GitLabIssue.state returns 'opened' instead of 'open'"
+  last_modified: '2017-11-29T15:52:23Z'
+  is_beginner: false
+  id: 6458433983217664
+  categories:
+  - 1
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/79
+6465165027442688:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "The task here is to create feature requests in the [IGitt](https://gitlab.com/gitmate/open-source/IGitt)\
+    \ library, for any functionality in corobo that is currently using [github3.py](https://github.com/github3py)\
+    \ .\n\nThis task **must** only be done by GCI participants that have completed\
+    \ [\"Your first coala issue\"](https://codein.withgoogle.com/dashboard/tasks/4602539020386304/)\
+    \ and a GCI task of an [IGitt `low`+ issue](https://gitlab.com/gitmate/open-source/IGitt/issues/).\n\
+    \nBe sure to read *all* of the other issues and pull requests in IGitt repository,\
+    \ to avoid creating a duplicate.\n\nMore information about this task can be found\
+    \ in the 'medium' difficulty issue in the\ncorobo repository. Here is the issue:\n\
+    \nIssue [#420](https://github.com/coala/corobo/issues/420) Remove github3.py as\
+    \ a dependency"
+  tags:
+  - IGitt
+  - issues
+  - errbot
+  - chatops
+  - analysis
+  private_metadata: issues
+  max_instances: 1
+  name: 'corobo: Issue #420 (part 1) Create IGitt issues to remove github3.py as a
+    corobo dependency'
+  last_modified: '2017-12-06T04:09:00Z'
+  is_beginner: false
+  id: 6465165027442688
+  categories:
+  - 1
+  - 5
+  external_url: https://github.com/coala/corobo/issues/420
+6469592090148864:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Please take a look at the list of existing coala language definitions\
+    \ [here](https://github.com/coala/coala/tree/master/coalib/bearlib/languages/definitions)\n\
+    This task is adding a definition for Typescript."
+  tags:
+  - typescript
+  - coalib
+  private_metadata: ''
+  max_instances: 1
+  name: Add Typescript language definitions for coala
+  last_modified: '2017-12-13T10:09:55Z'
+  is_beginner: false
+  id: 6469592090148864
+  categories:
+  - 1
+  - 3
+  external_url: https://github.com/coala/coala/tree/master/coalib/bearlib/languages/definitions
+6472404597473280:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#6](https://github.com/coala/gci-leaders/issues/6)\
+    \ Add LICENSE\n\nRead [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - issues
+  - git
+  - JavaScript
+  - MIT
+  - license
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #6 Add LICENSE'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: true
+  id: 6472404597473280
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/6
+6500467108478976:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
+    \ Here is the issue:\n\nIssue [#54](https://gitlab.com/gitmate/open-source/IGitt/issues/54)\
+    \ filter_query_parameters=['private_token'] missing in lots of tests\n\nRemember\
+    \ to format your [Git Commit Message](http://coala.io/commit)\naccording to the\
+    \ rules, otherwise the bot will tell you to fix it."
+  tags:
+  - unittest
+  - pytest
+  - python3
+  - vcr
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: "IGitt: Issue #54 filter_query_parameters=['private_token'] missing in lots\
+    \ of tests"
+  last_modified: '2017-12-05T15:04:37Z'
+  is_beginner: false
+  id: 6500467108478976
+  categories:
+  - 1
+  - 4
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/54
+6504681813573632:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#10](https://github.com/coala/community/issues/10)\
+    \ Create a README.md\n\nRead [Git Basics](http://coala.io/git) and [Newcomer Guide](http://coala.io/newcomer)\n\
+    to learn how to prepare your patch properly."
+  tags:
+  - README
+  - git
+  - frontend
+  - issues
+  - markdown
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #10 Create a README.md'
+  last_modified: '2017-12-14T15:54:50Z'
+  is_beginner: true
+  id: 6504681813573632
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/10
+6516122398490624:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#40](https://github.com/coala/community/issues/40)\
+    \ Organisation Twitter feed\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Twitter
+  - frontend
+  - community
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #40 Organisation Twitter feed'
+  last_modified: '2017-12-11T16:54:09Z'
+  is_beginner: false
+  id: 6516122398490624
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/40
+6536913504698368:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#337](https://github.com/coala/corobo/issues/337)\
+    \ Ask people to not use 'sir' when they do\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - errbot
+  - python3
+  - issues
+  - chatops
+  private_metadata: issues
+  max_instances: 0
+  name: "corobo: Issue #337 Ask people to not use 'sir' when they do"
+  last_modified: '2017-12-05T14:03:13Z'
+  is_beginner: false
+  id: 6536913504698368
+  categories:
+  - 1
+  external_url: https://github.com/coala/corobo/issues/337
+6545479372374016:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#11](https://github.com/manu-chroma/username-availability-checker/issues/11)\
+    \ Add regex support for individual websites \n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Flask
+  - Python
+  - heroku
+  - issues
+  - regex
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #11 Add regex support for individual websites'
+  last_modified: '2017-12-12T16:58:40Z'
+  is_beginner: false
+  id: 6545479372374016
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/11
+6567626035691520:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#30](https://github.com/coala/gci-leaders/issues/30)\
+    \ Org heading contains invalid element\n\nRead [Git Basics](http://coala.io/git)\
+    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
+    \ patch properly."
+  tags:
+  - Node
+  - git
+  - JavaScript
+  - HTML
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #30 Org heading contains invalid element'
+  last_modified: '2017-12-08T20:43:18Z'
+  is_beginner: true
+  id: 6567626035691520
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/30
+6583719211040768:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#57](https://github.com/coala/gci-leaders/issues/57)\
+    \ Readable json\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #57 Readable json'
+  last_modified: '2017-12-11T03:33:45Z'
+  is_beginner: false
+  id: 6583719211040768
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/57
+6597229341048832:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Create a new tldr page on the command `rubocop`. Helpful links to\
+    \ the documentation for `rubocop` are available in the description of the issue\
+    \ on GitHub associated with this task.\n\nIf you decide to create this page, comment\
+    \ on the issue to let others know that you're creating it.\n\nOnce you've created\
+    \ it, send a Pull Request to the main tldr-pages repository.\n\nGeneral guidelines\
+    \ on what the page could look like can be found in the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)\
+    \ in the main tldr-pages repository. Great example pages include [`7z`](https://tldr.ostera.io/7z),\
+    \ [`tar`](https://tldr.ostera.io/tar), and [`cd`](https://tldr.ostera.io/cd).\n\
+    \nIf you need additional assistance, you can comment on the issue associated task.\
+    \ You can also send an instant message in the main [tldr-pages gitter channel](https://gitter.im/tldr-pages/tldr).\
+    \ If you've opened a pull request, then you can also comment on there too.\n\n\
+    tldr-pages is a collection of simplified and community-driven man pages. More\
+    \ information about tldr-pages can be found in the [readme](https://github.com/tldr-pages/tldr#tldr)\
+    \ in the main tldr-pages repository.\n\nTo complete this task, it may be helpful\
+    \ to first have investigated and used tldr-pages. A web client is available [here](https://tldr.ostera.io/tar)\
+    \ - other command-line clients are listed in the readme of the main tldr-pages\
+    \ repository."
+  tags:
+  - ruby
+  - markdown
+  - linter
+  private_metadata: ''
+  max_instances: 1
+  name: 'tldr-pages: page request: rubocop'
+  last_modified: '2017-12-02T10:51:19Z'
+  is_beginner: false
+  id: 6597229341048832
+  categories:
+  - 3
+  external_url: https://github.com/tldr-pages/tldr/issues/1660
+6626058260447232:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#17](https://github.com/coala/gci-leaders/issues/17)\
+    \ Place orgs with no listed leaders in separate section \n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #17 Place orgs with no listed leaders in separate section'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: false
+  id: 6626058260447232
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/17
+6661284751736832:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the [phpmd](https://phpmd.org/)\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing linter:\
+    \ https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork repository\n\
+    \nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a php\
+    \ package manager that can install `phpmd`.\n\nCreate a new Dockerfile based on\
+    \ the previous one and install the linter `phpmd` (and dependencies if needed).\n\
+    e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the phpmd\
+    \ linter on a sample php project file using phpmd installed on your computer\n\
+    \n2. Perform the same analysis using your container\n```bash\ndocker run -v /local_folder:/container_folder\
+    \ -it linterhub/your_favorite_engine engine_command\n```\nMake sure that outputs\
+    \ are equal.\n\n# Automated tests\n\nIntroduce a simple test as described above\
+    \ using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker\
+    \ ."
+  tags:
+  - docker
+  - php
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for phpmd'
+  last_modified: '2017-11-30T13:32:37Z'
+  is_beginner: false
+  id: 6661284751736832
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
+6677271987355648:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#53](https://github.com/coala/gci-leaders/issues/53)\
+    \ Add chat link\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - npm
+  - Node
+  - JavaScript
+  - chat
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #53 Add chat link'
+  last_modified: '2017-12-14T15:54:51Z'
+  is_beginner: false
+  id: 6677271987355648
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/53
+6750252004540416:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'newcomer' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#22](https://github.com/coala/gci-leaders/issues/22)\
+    \ Add \"built by coala\"\n\nRead [Git Basics](http://coala.io/git) and [Newcomer\
+    \ Guide](http://coala.io/newcomer)\nto learn how to prepare your patch properly."
+  tags:
+  - Node
+  - git
+  - JavaScript
+  - HTML
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #22 Add built by coala'
+  last_modified: '2017-12-08T20:43:17Z'
+  is_beginner: true
+  id: 6750252004540416
+  categories:
+  - 1
+  - 2
+  - 5
+  external_url: https://github.com/coala/gci-leaders/issues/22

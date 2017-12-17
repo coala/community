@@ -1,0 +1,1289 @@
+4564069535186944:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5468807483097088
+  student_id: 5302037795307520
+  modified: '2017-12-04 21:27:39'
+  task_definition_name: 'community: Issue #7 Add last generated timestamp'
+  organization_name: coala
+  completion_date: '2017-12-04 21:27:38'
+  deadline: '2017-12-06 18:00:07'
+  organization_id: 4884530416582656
+  id: 4564069535186944
+4574091170283520:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5389709268221952
+  student_id: 5302037795307520
+  modified: '2017-11-30 15:06:59'
+  task_definition_name: 'tldr-pages: page request: pycodestyle'
+  organization_name: coala
+  completion_date: '2017-11-30 15:06:57'
+  deadline: '2017-12-03 12:49:54'
+  organization_id: 4884530416582656
+  id: 4574091170283520
+4576518523060224:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5179714090041344
+  student_id: 5178132149567488
+  modified: '2017-12-08 02:03:45'
+  task_definition_name: 'CI2: Use coala Advanced'
+  organization_name: coala
+  completion_date: '2017-12-08 02:03:43'
+  deadline: '2017-12-08 07:32:41'
+  organization_id: 4884530416582656
+  id: 4576518523060224
+4578175172476928:
+  student_display_name: Toby Latino
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6317910194651136
+  student_id: 5934521255985152
+  modified: '2017-12-08 20:23:55'
+  task_definition_name: Funny loading sentences to keep users amused
+  organization_name: coala
+  completion_date: '2017-12-08 20:23:53'
+  deadline: '2017-12-11 00:35:01'
+  organization_id: 4884530416582656
+  id: 4578175172476928
+4588982627205120:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4675973968560128
+  student_id: 5302037795307520
+  modified: '2017-12-03 03:36:09'
+  task_definition_name: 'community: Issue #6 Create a .coafile'
+  organization_name: coala
+  completion_date: '2017-12-03 03:36:07'
+  deadline: '2017-12-06 01:18:22'
+  organization_id: 4884530416582656
+  id: 4588982627205120
+4601128182349824:
+  student_display_name: Coba
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5844645131059200
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4601128182349824
+4614924791709696:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6160329186738176
+  student_id: 5178132149567488
+  modified: '2017-12-11 05:44:17'
+  task_definition_name: 'gci-leaders: Issue #51 Add GCI timeline'
+  organization_name: coala
+  completion_date: '2017-12-11 05:44:15'
+  deadline: '2017-12-13 07:50:35'
+  organization_id: 4884530416582656
+  id: 4614924791709696
+4633085364666368:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5350115776659456
+  student_id: 4552227639263232
+  modified: '2017-12-02 03:37:45'
+  task_definition_name: 'tldr-pages: page request: gofmt'
+  organization_name: coala
+  completion_date: '2017-12-02 03:37:43'
+  deadline: '2017-12-04 17:23:46'
+  organization_id: 4884530416582656
+  id: 4633085364666368
+4641945706037248:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6317910194651136
+  student_id: 6214590973083648
+  modified: '2017-12-08 11:28:18'
+  task_definition_name: Funny loading sentences to keep users amused
+  organization_name: coala
+  completion_date: '2017-12-08 11:28:16'
+  deadline: '2017-12-11 07:10:46'
+  organization_id: 4884530416582656
+  id: 4641945706037248
+4643030051061760:
+  student_display_name: Joshua Chung
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6275446456975360
+  student_id: 6479102439587840
+  modified: '2017-12-14 14:06:43'
+  task_definition_name: 'username-availability: Issue #22 Support GET'
+  organization_name: coala
+  completion_date: '2017-12-14 14:05:28'
+  deadline: '2017-12-16 16:31:00'
+  organization_id: 4884530416582656
+  id: 4643030051061760
+4646964484374528:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4864593698488320
+  student_id: 5302037795307520
+  modified: '2017-11-29 08:06:18'
+  task_definition_name: 'corobo: Issue #333 Ping PR author when marking WIP'
+  organization_name: coala
+  completion_date: '2017-11-29 08:06:16'
+  deadline: '2017-12-03 04:24:44'
+  organization_id: 4884530416582656
+  id: 4646964484374528
+4786680533876736:
+  student_display_name: Shubham Inder
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 4902799001255936
+  modified: '2017-12-13 17:39:51'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-13 17:38:27'
+  deadline: '2017-12-14 07:27:38'
+  organization_id: 4884530416582656
+  id: 4786680533876736
+4799000379129856:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5705509170577408
+  student_id: 5302037795307520
+  modified: '2017-12-08 02:43:41'
+  task_definition_name: 'community: Issue #5 Add github cards for each github user'
+  organization_name: coala
+  completion_date: '2017-12-08 02:43:39'
+  deadline: '2017-12-10 23:16:02'
+  organization_id: 4884530416582656
+  id: 4799000379129856
+4799843643949056:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5956049242685440
+  student_id: 5302037795307520
+  modified: '2017-11-28 20:28:36'
+  task_definition_name: 'corobo: Issue #252 File issue does not work for GitHub Pages
+    repositories'
+  organization_name: coala
+  completion_date: '2017-11-28 20:28:35'
+  deadline: '2017-12-01 19:46:22'
+  organization_id: 4884530416582656
+  id: 4799843643949056
+4832908609060864:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5745294660599808
+  student_id: 5178132149567488
+  modified: '2017-12-08 19:59:10'
+  task_definition_name: 'coala: Issue #4583 FilterHelper.apply_filter: Add docstring'
+  organization_name: coala
+  completion_date: '2017-12-08 19:59:08'
+  deadline: '2017-12-11 06:35:05'
+  organization_id: 4884530416582656
+  id: 4832908609060864
+4863157258420224:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6626058260447232
+  student_id: 6214590973083648
+  modified: '2017-12-07 12:41:05'
+  task_definition_name: 'gci-leaders: Issue #17 Place orgs with no listed leaders
+    in separate section'
+  organization_name: coala
+  completion_date: '2017-12-07 12:41:03'
+  deadline: '2017-12-10 08:06:32'
+  organization_id: 4884530416582656
+  id: 4863157258420224
+4878931867992064:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6425638376308736
+  student_id: 5057457392975872
+  modified: '2017-12-08 09:11:24'
+  task_definition_name: 'gci-leaders: #45'
+  organization_name: coala
+  completion_date: '2017-12-08 09:11:22'
+  deadline: '2017-12-11 17:22:24'
+  organization_id: 4884530416582656
+  id: 4878931867992064
+4901020188540928:
+  student_display_name: Mazur Denis
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6211764884602880
+  student_id: 6587946440327168
+  modified: '2017-12-01 08:41:27'
+  task_definition_name: 'dependency_management: Issue #138 Package manager gopm'
+  organization_name: coala
+  completion_date: '2017-12-01 08:26:07'
+  deadline: '2017-12-03 04:06:20'
+  organization_id: 4884530416582656
+  id: 4901020188540928
+5024531259326464:
+  student_display_name: synicalsyntax
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5201638933397504
+  student_id: 4625321003319296
+  modified: '2017-12-08 02:18:41'
+  task_definition_name: 'gci-leaders: Issue #50 Design overhaul'
+  organization_name: coala
+  completion_date: '2017-12-08 02:18:40'
+  deadline: '2017-12-11 19:51:12'
+  organization_id: 4884530416582656
+  id: 5024531259326464
+5054662443008000:
+  student_display_name: Marcos Gómez
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6469592090148864
+  student_id: 5557452655296512
+  modified: '2017-11-30 14:31:43'
+  task_definition_name: Add Typescript language definitions for coala
+  organization_name: coala
+  completion_date: '2017-11-30 14:31:40'
+  deadline: '2017-12-02 03:44:26'
+  organization_id: 4884530416582656
+  id: 5054662443008000
+5078392296701952:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5903642613776384
+  student_id: 6214590973083648
+  modified: '2017-12-06 15:55:40'
+  task_definition_name: 'gci-leaders: Issue #25 Add GCI logo'
+  organization_name: coala
+  completion_date: '2017-12-06 15:55:39'
+  deadline: '2017-12-09 13:44:05'
+  organization_id: 4884530416582656
+  id: 5078392296701952
+5086786273411072:
+  student_display_name: Joshua Chung
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5080668067332096
+  student_id: 6479102439587840
+  modified: '2017-12-11 17:08:07'
+  task_definition_name: 'quickstart: Issue #158 Change usage of LogPrinter'
+  organization_name: coala
+  completion_date: '2017-12-11 17:08:02'
+  deadline: '2017-12-12 07:43:46'
+  organization_id: 4884530416582656
+  id: 5086786273411072
+5095863686791168:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5092411338391552
+  student_id: 5302037795307520
+  modified: '2017-12-06 03:09:06'
+  task_definition_name: 'gci-leaders: Issue #11 Add .coafile'
+  organization_name: coala
+  completion_date: '2017-12-06 03:09:04'
+  deadline: '2017-12-09 00:00:26'
+  organization_id: 4884530416582656
+  id: 5095863686791168
+5102697852174336:
+  student_display_name: Ravern Koh
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5285165687373824
+  student_id: 6255172332290048
+  modified: '2017-12-14 04:54:43'
+  task_definition_name: 'tldr-pages: page request: dep'
+  organization_name: coala
+  completion_date: '2017-12-14 04:42:05'
+  deadline: '2017-12-16 07:18:11'
+  organization_id: 4884530416582656
+  id: 5102697852174336
+5110746453114880:
+  student_display_name: Marcos Gómez
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5668029776003072
+  student_id: 5557452655296512
+  task_definition_name: 'JSHintBear: Upgrade JSHint'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5110746453114880
+5112447797035008:
+  student_display_name: Joshua Chung
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5080575549374464
+  student_id: 6479102439587840
+  modified: '2017-12-16 07:24:23'
+  task_definition_name: 'username-availability: Issue #21 Add tooltip when cursor
+    hovers over the website icon'
+  organization_name: coala
+  completion_date: '2017-12-16 07:24:19'
+  deadline: '2017-12-19 02:21:53'
+  organization_id: 4884530416582656
+  id: 5112447797035008
+5133109483798528:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4753765758402560
+  student_id: 4552227639263232
+  modified: '2017-12-05 19:01:26'
+  task_definition_name: 'dependency management: Issue #67 Support Haskell stack'
+  organization_name: coala
+  completion_date: '2017-12-05 19:01:25'
+  deadline: '2017-12-09 12:42:21'
+  organization_id: 4884530416582656
+  id: 5133109483798528
+5137735700447232:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5907067556593664
+  student_id: 4552227639263232
+  modified: '2017-11-30 02:55:33'
+  task_definition_name: 'dependency_management: Issue #125 Deprecate GoRequirement
+    -u flag'
+  organization_name: coala
+  completion_date: '2017-11-30 02:46:47'
+  deadline: '2017-12-02 17:40:11'
+  organization_id: 4884530416582656
+  id: 5137735700447232
+5143670363783168:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5417259780538368
+  student_id: 6214590973083648
+  modified: '2017-12-11 10:08:56'
+  task_definition_name: 'gci-leaders: Issue #64 Add twitter and G+ icons with links'
+  organization_name: coala
+  completion_date: '2017-12-11 10:08:54'
+  deadline: '2017-12-14 06:41:12'
+  organization_id: 4884530416582656
+  id: 5143670363783168
+5168293855887360:
+  student_display_name: ItsPugle
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4602539020386304
+  student_id: 5015249541398528
+  modified: '2017-12-05 07:27:32'
+  task_definition_name: Your first coala issue - describe a feature for the community
+    repository
+  organization_name: coala
+  completion_date: '2017-12-05 07:27:31'
+  deadline: '2017-12-07 01:20:23'
+  organization_id: 4884530416582656
+  id: 5168293855887360
+5175148413976576:
+  student_display_name: Advait Kulkarni
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 6078636929056768
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5175148413976576
+5176575626575872:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5723370043736064
+  student_id: 4552227639263232
+  modified: '2017-12-04 09:56:47'
+  task_definition_name: 'coala-html: Setup CI for building Github Pages'
+  organization_name: coala
+  completion_date: '2017-12-04 09:56:46'
+  deadline: '2017-12-06 12:44:11'
+  organization_id: 4884530416582656
+  id: 5176575626575872
+5192142693597184:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5347808783630336
+  student_id: 5302037795307520
+  modified: '2017-12-13 18:54:31'
+  task_definition_name: 'quickstart: Issue #201 Fix pytest warning'
+  organization_name: coala
+  completion_date: '2017-12-13 18:54:26'
+  deadline: '2017-12-16 17:06:15'
+  organization_id: 4884530416582656
+  id: 5192142693597184
+5210011435270144:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5852028758654976
+  student_id: 5302037795307520
+  modified: '2017-12-05 18:23:02'
+  task_definition_name: 'gci-leaders: Issue #7 Link to GitHub organisation for each
+    Google Code-in organisation'
+  organization_name: coala
+  completion_date: '2017-12-05 18:23:01'
+  deadline: '2017-12-09 08:31:11'
+  organization_id: 4884530416582656
+  id: 5210011435270144
+5254475730124800:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5168029564403712
+  student_id: 5302037795307520
+  modified: '2017-12-01 06:26:31'
+  task_definition_name: 'tldr-pages: page request: csslint'
+  organization_name: coala
+  completion_date: '2017-12-01 06:26:29'
+  deadline: '2017-12-03 15:21:51'
+  organization_id: 4884530416582656
+  id: 5254475730124800
+5299954224463872:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5371448786944000
+  student_id: 6214590973083648
+  modified: '2017-12-05 04:06:28'
+  task_definition_name: 'gci-leaders: Issue #4 Order orgs by number of tasks completed'
+  organization_name: coala
+  completion_date: '2017-12-05 04:06:27'
+  deadline: '2017-12-09 02:44:27'
+  organization_id: 4884530416582656
+  id: 5299954224463872
+5310710970056704:
+  student_display_name: Daniel O'Brien
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5218650468384768
+  student_id: 4973831292715008
+  modified: '2017-12-08 17:53:34'
+  task_definition_name: 'community: Issue #1 Add org logo and favicon.ico'
+  organization_name: coala
+  completion_date: '2017-12-08 17:53:32'
+  deadline: '2017-12-09 19:09:14'
+  organization_id: 4884530416582656
+  id: 5310710970056704
+5311708543320064:
+  student_display_name: Wiktor Olejniczak
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5457310619009024
+  student_id: 4832484187439104
+  modified: '2017-12-16 03:48:44'
+  task_definition_name: 'gci-leaders: Issue #55 Getting perfect Lighthouse score'
+  organization_name: coala
+  completion_date: '2017-12-16 03:48:39'
+  deadline: '2017-12-16 18:27:06'
+  organization_id: 4884530416582656
+  id: 5311708543320064
+5317943267164160:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6028602514604032
+  student_id: 5057457392975872
+  modified: '2017-12-01 15:34:26'
+  task_definition_name: 'corobo: Issue #171 List rebased PRs'
+  organization_name: coala
+  completion_date: '2017-12-01 15:34:17'
+  deadline: '2017-12-04 20:56:50'
+  organization_id: 4884530416582656
+  id: 5317943267164160
+5324936413446144:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4792956529672192
+  student_id: 5057457392975872
+  modified: '2017-12-06 03:20:39'
+  task_definition_name: 'coala: Issue #4887 Create unit tests for coala --limit-files'
+  organization_name: coala
+  completion_date: '2017-12-06 03:20:38'
+  deadline: '2017-12-07 22:48:57'
+  organization_id: 4884530416582656
+  id: 5324936413446144
+5357786093322240:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6129325361332224
+  student_id: 5302037795307520
+  modified: '2017-12-06 08:58:20'
+  task_definition_name: 'gci-leaders: Issue #34 ESLint should extend from eslint:recommended
+    and eslint-config-prettier rules'
+  organization_name: coala
+  completion_date: '2017-12-06 08:58:18'
+  deadline: '2017-12-09 07:53:50'
+  organization_id: 4884530416582656
+  id: 5357786093322240
+5514514013356032:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5029348870455296
+  student_id: 6214590973083648
+  modified: '2017-12-05 13:51:18'
+  task_definition_name: 'gci-leaders: Issue #16 Display the number of tasks completed
+    for each org'
+  organization_name: coala
+  completion_date: '2017-12-05 13:51:17'
+  deadline: '2017-12-08 12:38:49'
+  organization_id: 4884530416582656
+  id: 5514514013356032
+5517076498219008:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6677271987355648
+  student_id: 5302037795307520
+  modified: '2017-12-10 22:50:53'
+  task_definition_name: 'gci-leaders: Issue #53 Add chat link'
+  organization_name: coala
+  completion_date: '2017-12-10 22:50:51'
+  deadline: '2017-12-13 19:28:30'
+  organization_id: 4884530416582656
+  id: 5517076498219008
+5540805320114176:
+  student_display_name: Daniel O'Brien
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4602539020386304
+  student_id: 4973831292715008
+  modified: '2017-12-11 16:52:06'
+  task_definition_name: Your first coala issue - describe a feature for the community
+    repository
+  organization_name: coala
+  completion_date: '2017-12-11 16:52:01'
+  deadline: '2017-12-13 02:23:59'
+  organization_id: 4884530416582656
+  id: 5540805320114176
+5545394492669952:
+  student_display_name: Kyle Hu
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5604333859110912
+  student_id: 4900129519697920
+  modified: '2017-12-07 03:55:37'
+  task_definition_name: 'gci-leaders: Issue #23 Randomise order of participants'
+  organization_name: coala
+  completion_date: '2017-12-07 03:55:35'
+  deadline: '2017-12-10 09:10:29'
+  organization_id: 4884530416582656
+  id: 5545394492669952
+5550521609879552:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6317910194651136
+  student_id: 5057457392975872
+  modified: '2017-12-06 17:21:59'
+  task_definition_name: Funny loading sentences to keep users amused
+  organization_name: coala
+  completion_date: '2017-12-06 17:21:58'
+  deadline: '2017-12-09 07:25:20'
+  organization_id: 4884530416582656
+  id: 5550521609879552
+5568869441732608:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6240661474902016
+  student_id: 5178132149567488
+  modified: '2017-12-09 06:48:12'
+  task_definition_name: Add Codecov to an open source project hosted on GitHub
+  organization_name: coala
+  completion_date: '2017-12-09 06:46:22'
+  deadline: '2017-12-12 04:48:14'
+  organization_id: 4884530416582656
+  id: 5568869441732608
+5588283406942208:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4851850463412224
+  student_id: 5057457392975872
+  modified: '2017-12-03 16:26:15'
+  task_definition_name: 'corobo: Issue #391 File issue should not be permitted in
+    private chat with bot'
+  organization_name: coala
+  completion_date: '2017-12-03 16:26:12'
+  deadline: '2017-12-05 15:49:20'
+  organization_id: 4884530416582656
+  id: 5588283406942208
+5652082084282368:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5437975280222208
+  student_id: 4552227639263232
+  modified: '2017-12-09 16:21:34'
+  task_definition_name: 'community: Issue #25 Progress of solving & creating issues'
+  organization_name: coala
+  completion_date: '2017-12-09 16:21:32'
+  deadline: '2017-12-11 11:34:22'
+  organization_id: 4884530416582656
+  id: 5652082084282368
+5669598277926912:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4797688509890560
+  student_id: 5057457392975872
+  modified: '2017-11-29 14:56:45'
+  task_definition_name: "corobo: Issue #335  'mark pending review' should be accepted"
+  organization_name: coala
+  completion_date: '2017-11-29 14:56:44'
+  deadline: '2017-12-02 05:37:36'
+  organization_id: 4884530416582656
+  id: 5669598277926912
+5672009499410432:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6260768582402048
+  student_id: 5057457392975872
+  modified: '2017-11-28 21:16:03'
+  task_definition_name: 'corobo: Issue #166 Alias welcome to invite'
+  organization_name: coala
+  completion_date: '2017-11-28 21:16:01'
+  deadline: '2017-12-01 20:05:48'
+  organization_id: 4884530416582656
+  id: 5672009499410432
+5726292039172096:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4801180586737664
+  student_id: 5302037795307520
+  modified: '2017-12-15 06:06:02'
+  task_definition_name: 'IGitt: Issue #69 Write a setter for description property
+    of GitHubIssue'
+  organization_name: coala
+  completion_date: '2017-12-15 06:05:58'
+  deadline: '2017-12-17 20:52:18'
+  organization_id: 4884530416582656
+  id: 5726292039172096
+5799143542882304:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4892042859642880
+  student_id: 4552227639263232
+  modified: '2017-12-17 02:12:42'
+  task_definition_name: Add a fact about coala to Wikidata
+  organization_name: coala
+  completion_date: '2017-12-17 02:12:37'
+  deadline: '2017-12-20 01:07:39'
+  organization_id: 4884530416582656
+  id: 5799143542882304
+5829710095319040:
+  student_display_name: Damian Heaton
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5165623594188800
+  student_id: 5908437181399040
+  modified: '2017-11-29 19:31:58'
+  task_definition_name: 'projects: Issue #354 reports: Make emails clickable, i.e.
+    use `mailto`'
+  organization_name: coala
+  completion_date: '2017-11-29 19:31:56'
+  deadline: '2017-12-01 23:05:24'
+  organization_id: 4884530416582656
+  id: 5829710095319040
+5845857922449408:
+  student_display_name: Janardhan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5308359408353280
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5845857922449408
+5849617092575232:
+  student_display_name: Daniel O'Brien
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6516122398490624
+  student_id: 4973831292715008
+  modified: '2017-12-14 15:51:28'
+  task_definition_name: 'community: Issue #40 Organisation Twitter feed'
+  organization_name: coala
+  completion_date: '2017-12-14 15:51:23'
+  deadline: '2017-12-16 05:26:41'
+  organization_id: 4884530416582656
+  id: 5849617092575232
+5867144988327936:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6304189116317696
+  student_id: 5302037795307520
+  modified: '2017-12-12 06:59:08'
+  task_definition_name: 'gci-leaders: Issue #8 Guess GitHub username of leading participants'
+  organization_name: coala
+  completion_date: '2017-12-12 06:59:00'
+  deadline: '2017-12-16 08:08:53'
+  organization_id: 4884530416582656
+  id: 5867144988327936
+5870793630154752:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 4552227639263232
+  modified: '2017-12-11 18:01:41'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-11 18:01:36'
+  deadline: '2017-12-12 17:25:05'
+  organization_id: 4884530416582656
+  id: 5870793630154752
+5902330903920640:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4563702248374272
+  student_id: 4552227639263232
+  modified: '2017-12-01 17:11:40'
+  task_definition_name: 'tldr-pages: page request: g++'
+  organization_name: coala
+  completion_date: '2017-12-01 17:11:39'
+  deadline: '2017-12-04 16:58:56'
+  organization_id: 4884530416582656
+  id: 5902330903920640
+5908397788495872:
+  student_display_name: Marcos Gómez
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6219033311444992
+  student_id: 5557452655296512
+  modified: '2017-12-08 12:22:51'
+  task_definition_name: 'coala: Issue #4816 Detect and prevent spelling errors in
+    documentation'
+  organization_name: coala
+  completion_date: '2017-12-08 12:22:02'
+  deadline: '2017-12-09 03:01:56'
+  organization_id: 4884530416582656
+  id: 5908397788495872
+5978805455814656:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4602539020386304
+  student_id: 5178132149567488
+  modified: '2017-12-04 04:12:39'
+  task_definition_name: Your first coala issue - describe a feature for the community
+    repository
+  organization_name: coala
+  completion_date: '2017-12-04 04:12:38'
+  deadline: '2017-12-05 23:44:04'
+  organization_id: 4884530416582656
+  id: 5978805455814656
+6021694688854016:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6583719211040768
+  student_id: 6214590973083648
+  modified: '2017-12-11 05:44:20'
+  task_definition_name: 'gci-leaders: Issue #57 Readable json'
+  organization_name: coala
+  completion_date: '2017-12-11 05:44:19'
+  deadline: '2017-12-14 04:44:16'
+  organization_id: 4884530416582656
+  id: 6021694688854016
+6035071943311360:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4954909814292480
+  student_id: 5302037795307520
+  modified: '2017-11-29 16:04:05'
+  task_definition_name: 'IGitt: Expose MR/PR author'
+  organization_name: coala
+  completion_date: '2017-11-29 16:04:03'
+  deadline: '2017-12-03 08:21:15'
+  organization_id: 4884530416582656
+  id: 6035071943311360
+6063233104347136:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5648494687682560
+  student_id: 4552227639263232
+  modified: '2017-12-02 11:01:26'
+  task_definition_name: "IGitt: Issue #82 Prevent KeyError: 'skipped'"
+  organization_name: coala
+  completion_date: '2017-12-02 11:01:25'
+  deadline: '2017-12-05 08:30:58'
+  organization_id: 4884530416582656
+  id: 6063233104347136
+6071487184240640:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6240661474902016
+  student_id: 5302037795307520
+  modified: '2017-12-07 10:33:00'
+  task_definition_name: Add Codecov to an open source project hosted on GitHub
+  organization_name: coala
+  completion_date: '2017-12-07 10:32:58'
+  deadline: '2017-12-09 09:38:32'
+  organization_id: 4884530416582656
+  id: 6071487184240640
+6091885594542080:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4786340627480576
+  student_id: 6214590973083648
+  modified: '2017-12-06 12:56:33'
+  task_definition_name: 'gci-leaders: Issue #29 Display only 1 column on mobile'
+  organization_name: coala
+  completion_date: '2017-12-06 12:56:32'
+  deadline: '2017-12-09 11:20:05'
+  organization_id: 4884530416582656
+  id: 6091885594542080
+6092427968380928:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4892042859642880
+  student_id: 5302037795307520
+  modified: '2017-12-15 06:58:36'
+  task_definition_name: Add a fact about coala to Wikidata
+  organization_name: coala
+  completion_date: '2017-12-15 06:58:22'
+  deadline: '2017-12-18 06:14:26'
+  organization_id: 4884530416582656
+  id: 6092427968380928
+6108075247271936:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4602539020386304
+  student_id: 5057457392975872
+  modified: '2017-12-05 11:44:37'
+  task_definition_name: Your first coala issue - describe a feature for the community
+    repository
+  organization_name: coala
+  completion_date: '2017-12-04 21:53:54'
+  deadline: '2017-12-07 10:37:20'
+  organization_id: 4884530416582656
+  id: 6108075247271936
+6125146626588672:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5359048209727488
+  student_id: 5302037795307520
+  modified: '2017-12-11 06:47:28'
+  task_definition_name: 'gci-leaders: Issue #32 Detect when display name is a GitHub
+    username'
+  organization_name: coala
+  completion_date: '2017-12-11 06:47:27'
+  deadline: '2017-12-15 01:37:43'
+  organization_id: 4884530416582656
+  id: 6125146626588672
+6161681765892096:
+  student_display_name: Eran Ozsarfati
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 6258375908130816
+  modified: '2017-12-11 16:34:36'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-11 13:13:27'
+  deadline: '2017-12-14 11:00:09'
+  organization_id: 4884530416582656
+  id: 6161681765892096
+6167474779193344:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6314297967771648
+  student_id: 5302037795307520
+  modified: '2017-12-01 17:17:13'
+  task_definition_name: 'IGitt: Issue #76 add ci check that no YAML files are created
+    during the tests'
+  organization_name: coala
+  completion_date: '2017-12-01 17:16:12'
+  deadline: '2017-12-04 14:27:09'
+  organization_id: 4884530416582656
+  id: 6167474779193344
+6187913949741056:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6545479372374016
+  student_id: 5302037795307520
+  modified: '2017-12-17 12:03:41'
+  task_definition_name: 'username-availability: Issue #11 Add regex support for individual
+    websites'
+  organization_name: coala
+  completion_date: '2017-12-17 12:03:37'
+  deadline: '2017-12-19 19:36:51'
+  organization_id: 4884530416582656
+  id: 6187913949741056
+6197546890297344:
+  student_display_name: Subash A
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5078301498408960
+  modified: '2017-12-12 15:01:02'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-12 11:34:34'
+  deadline: '2017-12-14 08:53:03'
+  organization_id: 4884530416582656
+  id: 6197546890297344
+6213775759769600:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5744202530947072
+  student_id: 6214590973083648
+  modified: '2017-12-05 07:27:58'
+  task_definition_name: 'gci-leaders: Issue #3 Clickable org name'
+  organization_name: coala
+  completion_date: '2017-12-05 07:27:57'
+  deadline: '2017-12-08 05:55:45'
+  organization_id: 4884530416582656
+  id: 6213775759769600
+6223376152526848:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5835922228641792
+  student_id: 4552227639263232
+  modified: '2017-12-12 03:40:50'
+  task_definition_name: 'dependency management: Issue #115 Add CPAN package manager'
+  organization_name: coala
+  completion_date: '2017-12-12 03:40:45'
+  deadline: '2017-12-15 19:00:12'
+  organization_id: 4884530416582656
+  id: 6223376152526848
+6234939680882688:
+  student_display_name: Marcos Gómez
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4893041103994880
+  student_id: 5557452655296512
+  modified: '2017-12-16 22:46:51'
+  task_definition_name: 'gci-leaders: Issue #38 Add i18n'
+  organization_name: coala
+  completion_date: '2017-12-16 22:46:46'
+  deadline: '2017-12-18 05:31:43'
+  organization_id: 4884530416582656
+  id: 6234939680882688
+6251444208402432:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5355316998832128
+  student_id: 5302037795307520
+  modified: '2017-12-02 21:07:55'
+  task_definition_name: 'linterhub: Create a Docker image for golint'
+  organization_name: coala
+  completion_date: '2017-12-02 21:07:53'
+  deadline: '2017-12-06 18:03:40'
+  organization_id: 4884530416582656
+  id: 6251444208402432
+6263485778362368:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6243208164016128
+  student_id: 4552227639263232
+  modified: '2017-12-16 22:52:08'
+  task_definition_name: 'landing: Issue #44 Fetch monthly contributions from GitHub'
+  organization_name: coala
+  completion_date: '2017-12-16 22:52:03'
+  deadline: '2017-12-20 10:08:11'
+  organization_id: 4884530416582656
+  id: 6263485778362368
+6265462268624896:
+  student_display_name: Daniel O'Brien
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5962920678653952
+  student_id: 4973831292715008
+  task_definition_name: 'gci-leaders: Issue #54 Remove GCI orgs from twitter feed'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6265462268624896
+6292658311921664:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6458433983217664
+  student_id: 4552227639263232
+  modified: '2017-12-01 16:57:45'
+  task_definition_name: "IGitt: Issue #79 GitLabIssue.state returns 'opened' instead\
+    \ of 'open'"
+  organization_name: coala
+  completion_date: '2017-12-01 16:57:43'
+  deadline: '2017-12-03 22:51:36'
+  organization_id: 4884530416582656
+  id: 6292658311921664
+6346318828011520:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6010558149033984
+  student_id: 5302037795307520
+  modified: '2017-12-03 00:26:02'
+  task_definition_name: 'linterhub: Create a Docker image for yamllint'
+  organization_name: coala
+  completion_date: '2017-12-03 00:26:00'
+  deadline: '2017-12-05 21:10:48'
+  organization_id: 4884530416582656
+  id: 6346318828011520
+6352384932446208:
+  student_display_name: Shukai Ni
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5618267244724224
+  student_id: 5178132149567488
+  modified: '2017-12-02 14:56:44'
+  task_definition_name: 'linterhub: Create a Docker image for tslint'
+  organization_name: coala
+  completion_date: '2017-12-02 14:56:06'
+  deadline: '2017-12-04 15:44:04'
+  organization_id: 4884530416582656
+  id: 6352384932446208
+6357337122013184:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5626333755342848
+  student_id: 5302037795307520
+  modified: '2017-12-06 06:59:11'
+  task_definition_name: "gci-leaders: Issue #21 Put html template in it's own file"
+  organization_name: coala
+  completion_date: '2017-12-06 06:59:09'
+  deadline: '2017-12-09 03:59:26'
+  organization_id: 4884530416582656
+  id: 6357337122013184
+6399963774844928:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5676932739891200
+  student_id: 5057457392975872
+  modified: '2017-11-29 04:52:47'
+  task_definition_name: 'corobo: Issue #384 utils/utils.py: do not use os.environ'
+  organization_name: coala
+  completion_date: '2017-11-29 04:52:45'
+  deadline: '2017-12-02 02:37:05'
+  organization_id: 4884530416582656
+  id: 6399963774844928
+6443907623682048:
+  student_display_name: Tio Irawan
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5936186788937728
+  student_id: 6214590973083648
+  modified: '2017-12-06 09:30:20'
+  task_definition_name: 'gci-leaders: Issue #1 Add last generated timestamp'
+  organization_name: coala
+  completion_date: '2017-12-06 09:30:18'
+  deadline: '2017-12-09 00:09:06'
+  organization_id: 4884530416582656
+  id: 6443907623682048
+6496929062060032:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5189847838883840
+  student_id: 4552227639263232
+  modified: '2017-12-15 07:39:46'
+  task_definition_name: Add shell language definitions for coala
+  organization_name: coala
+  completion_date: '2017-12-15 07:39:40'
+  deadline: '2017-12-16 16:50:06'
+  organization_id: 4884530416582656
+  id: 6496929062060032
+6506479324495872:
+  student_display_name: Azhan Khan-1
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 4856918927474688
+  modified: '2017-12-12 22:59:00'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-12 22:58:56'
+  deadline: '2017-12-13 03:01:56'
+  organization_id: 4884530416582656
+  id: 6506479324495872
+6512174719565824:
+  student_display_name: Mateus bolado
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5086324765753344
+  modified: '2017-12-11 16:37:15'
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date: '2017-12-11 16:31:20'
+  deadline: '2017-12-14 05:54:42'
+  organization_id: 4884530416582656
+  id: 6512174719565824
+6515770009845760:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6094331645526016
+  student_id: 4552227639263232
+  task_definition_name: 'corobo: Issue #426 Bug: labhub returns api url instead of
+    html url'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6515770009845760
+6517999542468608:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5593149000908800
+  student_id: 6502237683580928
+  task_definition_name: 'dependency_management: Issue #131 Add MacPorts Requirement
+    Manager'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6517999542468608
+6530250760519680:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5049249064550400
+  student_id: 4552227639263232
+  modified: '2017-12-13 06:54:48'
+  task_definition_name: 'gci-leaders: Issue #63 Add Wikidata & Wikipedia links'
+  organization_name: coala
+  completion_date: '2017-12-13 06:54:43'
+  deadline: '2017-12-17 11:58:34'
+  organization_id: 4884530416582656
+  id: 6530250760519680
+6537456776118272:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4790773880979456
+  student_id: 5302037795307520
+  modified: '2017-12-08 13:55:56'
+  task_definition_name: 'community: Issue #8 Add Travis build URL to website'
+  organization_name: coala
+  completion_date: '2017-12-08 13:55:54'
+  deadline: '2017-12-11 04:31:33'
+  organization_id: 4884530416582656
+  id: 6537456776118272
+6541735503069184:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5353273424871424
+  student_id: 5302037795307520
+  modified: '2017-12-13 07:39:47'
+  task_definition_name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
+  organization_name: coala
+  completion_date: '2017-12-13 07:39:42'
+  deadline: '2017-12-15 08:56:12'
+  organization_id: 4884530416582656
+  id: 6541735503069184
+6579015617871872:
+  student_display_name: Alexander Voronkov
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6158788904091648
+  student_id: 5057457392975872
+  modified: '2017-12-09 00:26:53'
+  task_definition_name: 'IGitt: Issue #90 Add `state` filter for MR and issue search
+    queries'
+  organization_name: coala
+  completion_date: '2017-12-09 00:26:52'
+  deadline: '2017-12-12 09:16:34'
+  organization_id: 4884530416582656
+  id: 6579015617871872
+6598996678148096:
+  student_display_name: Shukai Ni
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4567857922834432
+  student_id: 5178132149567488
+  task_definition_name: 'gci-leaders: Issue #65 Create blog planet from blog_url'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6598996678148096
+6704021211447296:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5405942046785536
+  student_id: 6479102439587840
+  task_definition_name: 'community: Issue #9 Use logging'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6704021211447296
+6727442548916224:
+  student_display_name: Daniel O'Brien
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5465395400015872
+  student_id: 4973831292715008
+  modified: '2017-11-30 19:30:17'
+  task_definition_name: 'dependency_management: Issue #73 RscriptRequirement: deprecate
+    `flag` argument'
+  organization_name: coala
+  completion_date: '2017-11-30 19:30:16'
+  deadline: '2017-12-02 22:20:55'
+  organization_id: 4884530416582656
+  id: 6727442548916224
+6749519553232896:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5015039515820032
+  student_id: 5302037795307520
+  modified: '2017-12-05 06:22:04'
+  task_definition_name: 'corobo: Issue #257 explain: Move hard coded explanations
+    out of code'
+  organization_name: coala
+  completion_date: '2017-12-05 06:22:03'
+  deadline: '2017-12-08 23:21:53'
+  organization_id: 4884530416582656
+  id: 6749519553232896
