@@ -31,7 +31,7 @@ class GitOrg():
                                            self.name),
                                 self.IGL.write_repositories)}
         self.REPOS.update(self.gl_repos)
-        print('loaded org %s' % name)
+        print('loaded org %s with %d repositories' % (name, len(self.REPOS)))
 
     def get_repo(self, repo_name):
         if repo_name not in self.REPOS:
@@ -39,16 +39,24 @@ class GitOrg():
             print('loading non-writable repo %s' % full_name)
             try:
                 repo = self.IGH.get_repo(full_name)
-                repo.identifier
+                # Use `clone_url` to ensure the repository is usable
+                repo.clone_url
                 self.REPOS[repo_name] = repo
-            except Exception:
-                print('Unable to load GitHub repo %s' % full_name)
+                print('loaded non-writable GitHub repo %s' % full_name)
+
+                return repo
+            except Exception as e:
+                print('Unable to load GitHub repo %s: %s' %
+                      (full_name, e))
             try:
                 repo = self.IGL.get_repo(full_name)
-                repo.identifier
+                # Use `clone_url` to ensure the repository is usable
+                repo.clone_url
+                print('loaded non-writable GitLab repo %s' % full_name)
                 self.REPOS[repo_name] = repo
-            except Exception:
-                print('Unable to load GitLab repo %s' % full_name)
+            except Exception as e:
+                print('Unable to load GitLab repo %s: %s' %
+                      (full_name, e))
 
         return self.REPOS[repo_name]
 

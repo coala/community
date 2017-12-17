@@ -139,7 +139,14 @@ def get_linked_students():
             elif '/wiki/' in url:
                 pass
             else:
-                issue = get_issue(url)
+                try:
+                    issue = get_issue(url)
+                    # Ensure assignees works before continuing
+                    issue.assignees
+                except Exception as e:
+                    print('Failed to load task %d url %s: %s' %
+                          (task_id, url, e))
+                    continue
                 if not issue:
                     print('task %d url not recognised: %s' % (task_id, url))
                 else:
