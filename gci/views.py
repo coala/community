@@ -27,6 +27,8 @@ def index(request):
 
 def gci_overview():
     linked_students = list(get_linked_students())
+    if not linked_students:
+        return ['No GCI students are linked']
 
     org_id = linked_students[0]['organization_id']
     org_name = linked_students[0]['organization_name']
