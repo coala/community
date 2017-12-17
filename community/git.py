@@ -66,3 +66,19 @@ def get_owner():
     """
     url = get_remote_url()
     return url.owner
+
+
+def get_deploy_url():
+    """Obtain the http where deploys appear.
+    """
+    # Use environment variable URL when Netlify detected
+    if os.environ.get('REPOSITORY_URL'):
+        return os.environ.get('URL')
+
+    url = get_remote_url()
+    if url.resource != 'github.com':
+        raise Exception('remotes %s is not supported' % url)
+
+    deploy_url = 'https://{url.owner}.github.io/{url.name}'.format(url=url)
+
+    return deploy_url

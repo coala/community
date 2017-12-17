@@ -3,9 +3,9 @@ from datetime import datetime
 from calendar import timegm
 import requests
 
-from gci.config import get_api_key
-from .students import get_students, get_linked_students
+from .students import get_linked_students
 from .gitorg import get_logo
+from .task import get_tasks
 
 STUDENT_URL = (
     'https://codein.withgoogle.com/dashboard/task-instances/?'
@@ -16,20 +16,18 @@ STUDENT_URL = (
 
 def index(request):
     try:
-        client = get_api_key('GCI')
-    except BaseException:
-        client = None
-
-    if client:
-        s = gci_overview()
-    else:
+        tasks = get_tasks()
+    except FileNotFoundError:
         s = ['GCI data not available']
+    else:
+        s = gci_overview()
 
     return HttpResponse('\n'.join(s))
 
 
 def gci_overview():
-    linked_students = list(get_linked_students(get_students()))
+    linked_students = list(get_linked_students())
+
     org_id = linked_students[0]['organization_id']
     org_name = linked_students[0]['organization_name']
     s = []

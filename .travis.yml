@@ -12,6 +12,7 @@ before_install:
 
 script:
   - ./.ci/build.sh
+  - rm -rf private/
   - coala --non-interactive -V
 
 after_success:

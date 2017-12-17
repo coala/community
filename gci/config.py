@@ -1,6 +1,17 @@
+import ruamel.yaml
 import os
 
 API_KEY_FILE = '.%s_API_KEY'
+
+GCI_DATA_DIR = os.path.join(
+    os.path.dirname(__file__), '..',
+    '_site',
+)
+
+
+class TokenMissing(KeyError):
+    """The requested token is not available.
+    """
 
 
 def get_api_key(name):
@@ -16,5 +27,10 @@ def get_api_key(name):
             api_key = api_key_file.readline().strip()
             return api_key
     except IOError:
-        print('Please put your %s API key at %s.' % (name, filename))
-        exit(1)
+        raise TokenMissing('Please put your %s API key at %s.' %
+                           (name, filename))
+
+
+def load_cache(filename):
+    with open(os.path.join(GCI_DATA_DIR, filename), 'r') as f:
+        return ruamel.yaml.load(f, Loader=ruamel.yaml.Loader)

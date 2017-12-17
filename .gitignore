@@ -100,5 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
+/private/
 _site/
 /public/
