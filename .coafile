@@ -1,6 +1,6 @@
 [all]
 files = *.py, community/**/*.py, gci/**/*.py, activity/*.py
-ignore = gci/client.py, gci/migrations/**
+ignore = gci/client.py, gci/migrations/**, private/**
 max_line_length = 80
 use_spaces = True
 
@@ -40,7 +40,7 @@ shell = bash
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.
 files = **
-ignore = .git/**, org_name.txt, .coafile, requirements.txt, .travis.yml, LICENSE, public/**
+ignore = .git/**, org_name.txt, .coafile, requirements.txt, .travis.yml, LICENSE, public/**, _site/**
 bears = KeywordBear
 language = python 3
 keywords = coala
