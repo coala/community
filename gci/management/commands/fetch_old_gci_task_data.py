@@ -1,3 +1,5 @@
+import os.path
+
 import requests
 
 from django.core.management.base import BaseCommand
@@ -19,11 +21,11 @@ class Command(BaseCommand):
         r = requests.get(deploy_url + '/static/tasks.yaml')
         r.raise_for_status()
 
-        with open(os.path.join(output_dir, 'tasks.yaml'), 'w') as f:
-            yaml.dump(r.content, f)
+        with open(os.path.join(output_dir, 'tasks.yaml'), 'wb') as f:
+            f.write(r.content)
 
         r = requests.get(deploy_url + '/static/instances.yaml')
         r.raise_for_status()
 
-        with open(os.path.join(output_dir, 'instances.yaml'), 'w') as f:
-            yaml.dump(r.content, f)
+        with open(os.path.join(output_dir, 'instances.yaml'), 'wb') as f:
+            f.write(r.content)
