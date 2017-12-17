@@ -8,6 +8,7 @@ from django.conf import settings
 from django.views.generic import TemplateView
 
 from gci.views import index as gci_index
+from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 
 
@@ -23,6 +24,12 @@ urlpatterns = [
         name='index',
         distill_func=get_index,
         distill_file='index.html',
+    ),
+    distill_url(
+        r'static/activity-data.json', activity_json,
+        name='activity_json',
+        distill_func=get_index,
+        distill_file='static/activity-data.json',
     ),
     distill_url(
         r'activity/', TemplateView.as_view(template_name='activity.html'),

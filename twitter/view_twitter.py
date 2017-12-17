@@ -2,11 +2,14 @@ from django.http import HttpResponse
 import requests
 import json
 
+from community.git import get_owner
+
 
 def index(request):
     s = []
 
-    org_name = open('org_name.txt', 'r').read().strip()
+    org_twitter_handle = org_name = get_owner()
+
     s.append('<link rel="shortcut icon" type="image/png" '
              'href="../static/favicon.png"/>')
 

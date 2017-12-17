@@ -3,7 +3,11 @@ import json
 import datetime
 import os
 import calendar
+
 from dateutil import parser, relativedelta
+from django.http import HttpResponse
+
+from community.git import get_owner
 
 
 class Scraper():
@@ -129,20 +133,20 @@ class Scraper():
         return self.data
 
 
-if __name__ == '__main__':
+def activity_json(request):
 
-    org_name = open('org_name.txt').readline()
+    org_name = get_owner()
 
     # URL to grab all issues from
     issues_url = 'http://' + org_name + '.github.io/gh-board/issues.json'
 
     content = requests.get(issues_url)
-    content.raise_for_status()
-    parsed_json = content.json()
+    try:
+        parsed_json = content.json()
+    except json.JSONDecodeError:
+        return HttpResponse('{}')
 
     real_data = Scraper(parsed_json['issues'], datetime.datetime.today())
     real_data = real_data.get_data()
 
-    print(real_data)
-    with open('static' + os.sep + 'activity-data.json', 'w') as fp:
-        json.dump(real_data, fp)
+    return HttpResponse(json.dumps(real_data))
