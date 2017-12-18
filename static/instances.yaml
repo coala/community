@@ -63,18 +63,6 @@
   deadline: '2017-12-06 01:18:22'
   organization_id: 4884530416582656
   id: 4588982627205120
-4601128182349824:
-  student_display_name: Coba
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 5844645131059200
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4601128182349824
 4614924791709696:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -221,6 +209,18 @@
   deadline: '2017-12-11 17:22:24'
   organization_id: 4884530416582656
   id: 4878931867992064
+4882829617922048:
+  student_display_name: Sajeev_Rohan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5350798785511424
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4882829617922048
 4901020188540928:
   student_display_name: Mazur Denis
   status: COMPLETED
@@ -391,18 +391,6 @@
   deadline: '2017-12-07 01:20:23'
   organization_id: 4884530416582656
   id: 5168293855887360
-5175148413976576:
-  student_display_name: Advait Kulkarni
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 6078636929056768
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5175148413976576
 5176575626575872:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -535,6 +523,18 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
+5376596775010304:
+  student_display_name: Sambhav Jain
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 4545034240131072
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5376596775010304
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -668,6 +668,18 @@
   deadline: '2017-12-01 20:05:48'
   organization_id: 4884530416582656
   id: 5672009499410432
+5693592305664000:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5700590954872832
+  student_id: 5302037795307520
+  task_definition_name: 'username-availability: Issue #31 Add Travis testing using
+    pytest'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5693592305664000
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1162,14 +1174,16 @@
   id: 6512174719565824
 6515770009845760:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6094331645526016
   student_id: 4552227639263232
+  modified: '2017-12-17 13:13:18'
   task_definition_name: 'corobo: Issue #426 Bug: labhub returns api url instead of
     html url'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-17 13:13:13'
+  deadline: '2017-12-20 04:14:15'
   organization_id: 4884530416582656
   id: 6515770009845760
 6517999542468608:
@@ -1184,6 +1198,17 @@
   completion_date:
   organization_id: 4884530416582656
   id: 6517999542468608
+6529749323087872:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4810952174206976
+  student_id: 4552227639263232
+  task_definition_name: 'dependency management: Issue #122 Php pear package manager'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6529749323087872
 6530250760519680:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -1248,6 +1273,18 @@
   completion_date:
   organization_id: 4884530416582656
   id: 6598996678148096
+6621842649382912:
+  student_display_name: Krithish Ayyappan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 6704548586455040
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6621842649382912
 6704021211447296:
   student_display_name: Joshua Chung
   status: CLAIMED

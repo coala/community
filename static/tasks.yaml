@@ -188,6 +188,28 @@
   - 2
   - 5
   external_url: https://github.com/coala/community/issues
+4608169781231616:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#80](https://github.com/coala/gci-leaders/issues/80)\
+    \ Remove unnecessary RegEx check\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - Redundant code
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #80 Remove unnecessary RegEx check'
+  last_modified: '2017-12-17T14:34:52Z'
+  is_beginner: false
+  id: 4608169781231616
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/80
 4662707275956224:
   status: 2
   time_to_complete_in_days: 3
@@ -1306,6 +1328,30 @@
   - 1
   - 3
   external_url: https://github.com/coala/coala/tree/master/coalib/bearlib/languages/definitions
+5198834521079808:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#88](https://github.com/coala/gci-leaders/issues/88)\
+    \ og:image is broken\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - Facebook
+  - OpenGraph
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #88 og:image is broken'
+  last_modified: '2017-12-17T14:34:49Z'
+  is_beginner: false
+  id: 5198834521079808
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/88
 5201638933397504:
   status: 2
   time_to_complete_in_days: 4
@@ -2079,6 +2125,31 @@
   - 3
   - 5
   external_url:
+5572222871666688:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#89](https://github.com/coala/gci-leaders/issues/89)\
+    \ Clearly identify Netlify Deploy Previews\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Node
+  - Netlify
+  - JavaScript
+  - issues
+  - github
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #89 Clearly identify Netlify Deploy Previews'
+  last_modified: '2017-12-17T14:35:13Z'
+  is_beginner: false
+  id: 5572222871666688
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/89
 5585586972786688:
   status: 2
   time_to_complete_in_days: 3
@@ -2358,6 +2429,30 @@
   categories:
   - 1
   external_url: https://github.com/stylelint/stylelint/issues/3008
+5667393978236928:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#77](https://github.com/coala/gci-leaders/issues/77)\
+    \ Import pre-2017 Finalists and winners\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Node
+  - scrapping
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #77 Import pre-2017 Finalists and winners'
+  last_modified: '2017-12-17T14:34:48Z'
+  is_beginner: false
+  id: 5667393978236928
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/77
 5668029776003072:
   status: 2
   time_to_complete_in_days: 3
@@ -2435,6 +2530,30 @@
   categories:
   - 3
   external_url: https://github.com/tldr-pages/tldr/issues/1662
+5700590954872832:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#31](https://github.com/manu-chroma/username-availability-checker/issues/31)\
+    \ Add Travis testing using pytest\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Flask
+  - Travis
+  - pytest
+  - issues
+  - async
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #31 Add Travis testing using pytest'
+  last_modified: '2017-12-17T16:49:05Z'
+  is_beginner: false
+  id: 5700590954872832
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/31
 5705509170577408:
   status: 2
   time_to_complete_in_days: 3
@@ -2674,6 +2793,28 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/7
+5855587902423040:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#70](https://github.com/coala/gci-leaders/issues/70)\
+    \ Link to Google Groups\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - Google Groups
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #70 Link to Google Groups'
+  last_modified: '2017-12-17T14:34:48Z'
+  is_beginner: false
+  id: 5855587902423040
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/70
 5855976303362048:
   status: 2
   time_to_complete_in_days: 3
@@ -3691,6 +3832,29 @@
   categories:
   - 3
   external_url: https://github.com/coala/corobo/issues/385
+6380651144019968:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#73](https://github.com/coala/gci-leaders/issues/73)\
+    \ Broken social link\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - Catrobat
+  - JavaScript
+  - template
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #73 Broken social link'
+  last_modified: '2017-12-17T14:34:51Z'
+  is_beginner: false
+  id: 6380651144019968
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/73
 6425638376308736:
   status: 2
   time_to_complete_in_days: 5
