@@ -210,6 +210,30 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/80
+4624956392472576:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#56](https://github.com/coala/community/issues/56)\
+    \ GCI: detect pull request authors for issues\n\nRemember to format your [Git\
+    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
+    \ bot will tell you to fix it."
+  tags:
+  - IGitt
+  - frontend
+  - issues
+  - community
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #56 GCI: detect pull request authors for issues'
+  last_modified: '2017-12-18T05:10:20Z'
+  is_beginner: false
+  id: 4624956392472576
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/56
 4662707275956224:
   status: 2
   time_to_complete_in_days: 3
@@ -2245,6 +2269,29 @@
   categories:
   - 1
   external_url: https://gitlab.com/coala/package_manager/issues/118
+5610139212054528:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncommunity repository.\
+    \ Here is the issue:\n\nIssue [#57](https://github.com/coala/community/issues/57)\
+    \ GCI: Create RSS feed of new tasks\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - GCI
+  - RSS
+  - frontend
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #57 GCI: Create RSS feed of new tasks'
+  last_modified: '2017-12-18T05:10:08Z'
+  is_beginner: false
+  id: 5610139212054528
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/57
 5618267244724224:
   status: 2
   time_to_complete_in_days: 3
