@@ -1,11 +1,14 @@
 from django.http import HttpResponse
 import requests
 import json
+import logging
 
 from community.git import get_owner
 
 
 def index(request):
+    logger = logging.getLogger(__name__)
+    logger.info('this package is alive')
     s = []
 
     org_twitter_handle = org_name = get_owner()

@@ -1,5 +1,6 @@
 import os
 import re
+import logging
 
 from .client import GCIAPIClient
 
@@ -32,6 +33,7 @@ def get_client():
 
 
 def _get_tasks():
+    logger = logging.getLogger(__name__ + '._get_tasks')
     client = get_client()
     page = 1
 
@@ -39,7 +41,7 @@ def _get_tasks():
         try:
             tasks = client.ListTasks(page=page)
         except Exception as e:
-            print(e.response.content)
+            logger.error(e.response.content)
             raise
 
         for t in tasks['results']:
@@ -128,6 +130,7 @@ def get_issue_related_students():
 
 
 def get_linked_students():
+    logger = logging.getLogger(__name__ + '.get_linked_students')
     for student in list(get_issue_related_students()):
         instances = student['instances']
         for instance in instances:
@@ -135,7 +138,7 @@ def get_linked_students():
             task_id = task['id']
             url = task['external_url']
             if not url:
-                print('task %d has no url' % task_id)
+                logger.info('task %d has no url' % task_id)
             elif '/wiki/' in url:
                 pass
             else:
@@ -148,13 +151,15 @@ def get_linked_students():
                           (task_id, url, e))
                     continue
                 if not issue:
-                    print('task %d url not recognised: %s' % (task_id, url))
+                    logger.info('task %d url not recognised: %s' %
+                                (task_id, url))
                 else:
                     if len(issue.assignees) == 0:
-                        print('task %d: No assignees for %s' % (task_id, url))
+                        logger.info('task %d: No assignees for %s' %
+                                    (task_id, url))
                     elif len(issue.assignees) > 1:
-                        print('task %d: Many assignees for %s: %s' %
-                              (task_id, url, ', '.join(issue.assignees)))
+                        logger.info('task %d: Many assignees for %s: %s' %
+                                    (task_id, url, ', '.join(issue.assignees)))
                     else:
                         student['username'] = issue.assignees[0]
                         print('student %s is %s because of %s' %

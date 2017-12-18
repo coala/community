@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from datetime import datetime
 from calendar import timegm
+import logging
 import requests
 
 from .students import get_linked_students
@@ -15,9 +16,11 @@ STUDENT_URL = (
 
 
 def index(request):
+    logger = logging.getLogger(__name__ + '.index')
     try:
         tasks = get_tasks()
     except FileNotFoundError:
+        logger.info('GCI data not available')
         s = ['GCI data not available']
     else:
         s = gci_overview()
@@ -26,8 +29,10 @@ def index(request):
 
 
 def gci_overview():
+    logger = logging.getLogger(__name__ + '.gci_overview')
     linked_students = list(get_linked_students())
     if not linked_students:
+        logger.info('No GCI students are linked')
         return ['No GCI students are linked']
 
     org_id = linked_students[0]['organization_id']

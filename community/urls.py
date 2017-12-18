@@ -11,6 +11,7 @@ from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
+from log.view_log import index as log_index
 
 
 def get_index():
@@ -55,5 +56,11 @@ urlpatterns = [
         name='twitter',
         distill_func=get_index,
         distill_file='twitter/index.html',
+    ),
+    distill_url(
+        r'log/', log_index,
+        name='log',
+        distill_func=get_index,
+        distill_file='log/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

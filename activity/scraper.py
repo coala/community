@@ -3,6 +3,7 @@ import json
 import datetime
 import os
 import calendar
+import logging
 
 from dateutil import parser, relativedelta
 from django.http import HttpResponse
@@ -32,6 +33,9 @@ class Scraper():
         :param content: Github API Parsed JSON issues
         :param date: The date to scrape data till.
         """
+        logger = logging.getLogger(__name__)
+        logger.info('this package is alive')
+
         self.date = date
         self.content = content
 
