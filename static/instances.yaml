@@ -169,6 +169,19 @@
   deadline: '2017-12-01 19:46:22'
   organization_id: 4884530416582656
   id: 4799843643949056
+4827761526964224:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5331099918008320
+  student_id: 5302037795307520
+  modified: '2017-12-19 02:27:13'
+  task_definition_name: 'gci-leaders: Issue #93 Handle username change / deletion'
+  organization_name: coala
+  completion_date: '2017-12-19 02:27:08'
+  deadline: '2017-12-23 00:35:20'
+  organization_id: 4884530416582656
+  id: 4827761526964224
 4832908609060864:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -299,6 +312,17 @@
   deadline: '2017-12-09 00:00:26'
   organization_id: 4884530416582656
   id: 5095863686791168
+5096951689248768:
+  student_display_name: Sai Nandhan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5131546711293952
+  student_id: 5147326421139456
+  task_definition_name: 'username-availability: Issue #37 Add Gravatar support'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5096951689248768
 5102697852174336:
   student_display_name: Ravern Koh
   status: COMPLETED
@@ -629,6 +653,30 @@
   deadline: '2017-12-05 15:49:20'
   organization_id: 4884530416582656
   id: 5588283406942208
+5602122823368704:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 4608169781231616
+  student_id: 5302037795307520
+  modified: '2017-12-18 10:31:30'
+  task_definition_name: 'gci-leaders: Issue #80 Remove unnecessary RegEx check'
+  organization_name: coala
+  completion_date: '2017-12-18 10:31:25'
+  deadline: '2017-12-21 10:14:20'
+  organization_id: 4884530416582656
+  id: 5602122823368704
+5637491040190464:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6293336707039232
+  student_id: 5302037795307520
+  task_definition_name: 'gci-leaders: Issue #91 Create RSS feed of data changes'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5637491040190464
 5652082084282368:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -670,14 +718,16 @@
   id: 5672009499410432
 5693592305664000:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5700590954872832
   student_id: 5302037795307520
+  modified: '2017-12-18 09:44:35'
   task_definition_name: 'username-availability: Issue #31 Add Travis testing using
     pytest'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-18 09:44:30'
+  deadline: '2017-12-21 18:44:32'
   organization_id: 4884530416582656
   id: 5693592305664000
 5726292039172096:
@@ -814,6 +864,17 @@
   deadline: '2017-12-05 23:44:04'
   organization_id: 4884530416582656
   id: 5978805455814656
+5993698749841408:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5269975285628928
+  student_id: 6502237683580928
+  task_definition_name: 'coala: Issue #4982 Create Indentation aspects under Formatting.Spacing'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5993698749841408
 6021694688854016:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1188,25 +1249,29 @@
   id: 6515770009845760
 6517999542468608:
   student_display_name: biscuitsnake
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5593149000908800
   student_id: 6502237683580928
+  modified: '2017-12-18 17:07:16'
   task_definition_name: 'dependency_management: Issue #131 Add MacPorts Requirement
     Manager'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-18 08:09:57'
+  deadline: '2017-12-18 20:03:13'
   organization_id: 4884530416582656
   id: 6517999542468608
 6529749323087872:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4810952174206976
   student_id: 4552227639263232
+  modified: '2017-12-18 10:31:58'
   task_definition_name: 'dependency management: Issue #122 Php pear package manager'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-18 10:31:54'
+  deadline: '2017-12-21 14:20:11'
   organization_id: 4884530416582656
   id: 6529749323087872
 6530250760519680:
@@ -1264,13 +1329,15 @@
   id: 6579015617871872
 6598996678148096:
   student_display_name: Shukai Ni
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4567857922834432
   student_id: 5178132149567488
+  modified: '2017-12-19 01:30:25'
   task_definition_name: 'gci-leaders: Issue #65 Create blog planet from blog_url'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-19 01:30:19'
+  deadline: '2017-12-19 09:55:33'
   organization_id: 4884530416582656
   id: 6598996678148096
 6621842649382912:

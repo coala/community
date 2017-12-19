@@ -35,21 +35,22 @@
   description: "During Google Code-in, the mentors and other participants will be\
     \ chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram\
     \ and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and\
-    \ other collaborative services too!\n\nTo make this easier for everyone, it is\
-    \ important that all participants have one username which is consistent on each\
-    \ of these systems.\n\n# Steps\n\n## Join Zulip\n\nFirst join our Zulip chat server\
-    \ at https://coala.zulipchat.com/ , using the same email address that you used\
-    \ when registering for Google Code-in.\n\n## Choosing your global username\n\n\
-    Think of a username that you would like to use, and check if it is available globally.\
-    \  e.g. if you want to use username `foo`\n\nSome basic checks can be at https://username-check.herokuapp.com/,\
-    \ and more checks can be done at  https://knowem.com/checkusernames.php?u=`<username>`.\n\
-    \nIf the username is already taken on any service, by someone other than you,\
-    \ try a different username.  Keep trying until you have found a username that\
-    \ is yours!\n\nIf you want to keep your existing username, contact any of the\
-    \ mentors.\n\n## Create your accounts with your globally available username\n\n\
-    1. GitHub.com\n2. GitLab.com\n3. OpenHub.net\n4. openSUSE (https://connect.opensuse.org/)\n\
+    \ other collaborative services too!\n\nTo make it easier, it's essential for you\
+    \ to have a globally available username.\n\n# Steps\n\n## Join Zulip\n\nFirst\
+    \ join our Zulip chat server at https://coala.zulipchat.com/ , using the same\
+    \ email address that you used when registering for Google Code-in.\n\n## Choosing\
+    \ your global username\n\nThink of a username that you would like to use, and\
+    \ check if it is available globally.  e.g. if you want to use username `foo`\n\
+    \nSome basic checks can be at https://username-check.herokuapp.com/, and more\
+    \ checks can be done at  https://knowem.com/checkusernames.php?u=`<username>`.\n\
+    \nKeep trying different usernames until you have found a username that is not\
+    \ used by anyone else!\n\nIf you want to keep your existing username, contact\
+    \ any of the mentors.\n\n## Create your accounts with your globally available\
+    \ username\n\n1. GitHub.com\n2. GitLab.com\n3. OpenHub.net\n4. openSUSE (https://connect.opensuse.org/)\n\
     5. Behance (see [help](https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-)\
-    \ ) or Deviantart (https://www.deviantart.com/)\n\n## Submit your user profiles\n\
+    \ ) or Deviantart (https://www.deviantart.com/)\n\nSelect your email as \"Public\
+    \ email\" at https://github.com/settings/profile.\nGo to https://github.com/settings/emails\
+    \ and uncheck \"Keep my email address private\".\n\n## Submit your user profiles\n\
     \nIn your Google Code-in task instance, add links to your profiles on those services.\n\
     \nFor more information, see [the zulip stream](https://tinyurl.com/ybdg58f3)"
   tags:
@@ -61,7 +62,7 @@
   private_metadata: ''
   max_instances: 500
   name: Join coala chat and set up your accounts
-  last_modified: '2017-12-13T11:13:25Z'
+  last_modified: '2017-12-18T19:03:39Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -210,6 +211,33 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/80
+4616364578832384:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#30](https://github.com/manu-chroma/username-availability-checker/issues/30)\
+    \ setup .env file to differentiate between dev and prod env \n\nComment on the\
+    \ GitHub issue, once you've claimed the task here. It is not possible to assign\
+    \ issues to non-collaborators on user repositories due to GitHub restrictions.\
+    \   \n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - issues
+  - env
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #30 setup .env file to differentiate between
+    dev and prod env'
+  last_modified: '2017-12-18T19:01:56Z'
+  is_beginner: false
+  id: 4616364578832384
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/30
 4624956392472576:
   status: 2
   time_to_complete_in_days: 4
@@ -354,7 +382,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency management: Issue #67 Support Haskell stack'
-  last_modified: '2017-11-28T20:37:02Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 4753765758402560
   categories:
@@ -434,7 +462,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #127 Change :param return: to :return: in docstring'
-  last_modified: '2017-12-14T15:54:52Z'
+  last_modified: '2017-12-18T10:33:12Z'
   is_beginner: true
   id: 4777057097613312
   categories:
@@ -572,7 +600,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency management: Issue #122 Php pear package manager'
-  last_modified: '2017-11-29T15:37:23Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 4810952174206976
   categories:
@@ -760,6 +788,29 @@
   - 1
   - 4
   external_url: https://github.com/coala/coala/issues/4886
+4943232796459008:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#25](https://github.com/manu-chroma/username-availability-checker/issues/25)\
+    \ Import WhatsMyName data\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - OSINT
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #25 Import WhatsMyName data'
+  last_modified: '2017-12-19T02:17:57Z'
+  is_beginner: false
+  id: 4943232796459008
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/25
 4943472744202240:
   status: 2
   time_to_complete_in_days: 3
@@ -1034,6 +1085,54 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/362
+5103473731305472:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#35](https://github.com/manu-chroma/username-availability-checker/issues/35)\
+    \ Show avatars from each website\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - OSINT
+  - avatar
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #35 Show avatars from each website'
+  last_modified: '2017-12-19T02:17:59Z'
+  is_beginner: false
+  id: 5103473731305472
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/35
+5106013667590144:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#33](https://github.com/manu-chroma/username-availability-checker/issues/33)\
+    \ Add username rule: GitHub can not start or end with a hyphen\n\nRemember to\
+    \ format your [Git Commit Message](http://coala.io/commit)\naccording to the rules,\
+    \ otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - GitHub
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #33 Add username rule: GitHub can not start
+    or end with a hyphen'
+  last_modified: '2017-12-19T02:17:52Z'
+  is_beginner: false
+  id: 5106013667590144
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/33
 5106644616740864:
   status: 2
   time_to_complete_in_days: 3
@@ -1092,6 +1191,29 @@
   categories:
   - 3
   external_url: https://github.com/jendrikseipp/vulture/issues/101
+5131546711293952:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#37](https://github.com/manu-chroma/username-availability-checker/issues/37)\
+    \ Add Gravatar support\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - Gravatar
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #37 Add Gravatar support'
+  last_modified: '2017-12-19T02:26:44Z'
+  is_beginner: false
+  id: 5131546711293952
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/37
 5137762208448512:
   status: 2
   time_to_complete_in_days: 3
@@ -1302,7 +1424,7 @@
   max_instances: 1
   name: 'dependency management: Issue #167 PackageRequirement.install_package should
     return the exit code of the command'
-  last_modified: '2017-12-14T06:07:05Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 5186591716802560
   categories:
@@ -1448,6 +1570,30 @@
   - 1
   - 2
   external_url: https://github.com/coala/devops/issues/55
+5269975285628928:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#4982](https://github.com/coala/coala/issues/4982)\
+    \ Create Indentation aspects under Formatting.Spacing\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - style
+  - aspects
+  - issues
+  - indentation
+  - python3
+  private_metadata: issues
+  max_instances: 1
+  name: 'coala: Issue #4982 Create Indentation aspects under Formatting.Spacing'
+  last_modified: '2017-12-18T08:16:18Z'
+  is_beginner: false
+  id: 5269975285628928
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala/issues/4982
 5285165687373824:
   status: 2
   time_to_complete_in_days: 3
@@ -1478,7 +1624,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'tldr-pages: page request: dep'
-  last_modified: '2017-12-02T11:05:25Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 5285165687373824
   categories:
@@ -1531,6 +1677,28 @@
   categories:
   - 2
   external_url: https://github.com/coala/gci-leaders/issues/47
+5331099918008320:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#93](https://github.com/coala/gci-leaders/issues/93)\
+    \ Handle username change / deletion\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - GitHub
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #93 Handle username change / deletion'
+  last_modified: '2017-12-18T14:06:24Z'
+  is_beginner: false
+  id: 5331099918008320
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/93
 5343117974700032:
   status: 2
   time_to_complete_in_days: 3
@@ -2007,7 +2175,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #73 RscriptRequirement: deprecate `flag` argument'
-  last_modified: '2017-12-14T13:04:51Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 5465395400015872
   categories:
@@ -2214,7 +2382,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #131 Add MacPorts Requirement Manager'
-  last_modified: '2017-12-14T15:54:50Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 5593149000908800
   categories:
@@ -2263,7 +2431,7 @@
   max_instances: 1
   name: 'dependency_management: Issue #118 DistributionRequirement: Shorten apt_get
     -> apt'
-  last_modified: '2017-12-14T13:04:49Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 5605231817654272
   categories:
@@ -2370,7 +2538,7 @@
   max_instances: 1
   name: 'dependency management: Issue #163 docstrings for install_command should say
     it returns an array'
-  last_modified: '2017-12-14T09:09:25Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 5632800701022208
   categories:
@@ -2398,6 +2566,30 @@
   categories:
   - 1
   external_url: https://gitlab.com/gitmate/open-source/gitmate-2/issues/207
+5643315049398272:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#24](https://github.com/manu-chroma/username-availability-checker/issues/24)\
+    \ Add support for OpenHub and DeviantArt\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - DeviantArt
+  - OpenHub
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #24 Add support for OpenHub and DeviantArt'
+  last_modified: '2017-12-19T02:19:18Z'
+  is_beginner: false
+  id: 5643315049398272
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/24
 5648494687682560:
   status: 2
   time_to_complete_in_days: 3
@@ -2770,6 +2962,29 @@
   categories:
   - 3
   external_url: https://github.com/coala/coala/issues/4017
+5754678685990912:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncommunity\
+    \ repository. Here is the issue:\n\nIssue [#42](https://github.com/coala/community/issues/42)\
+    \ Move logo on the front page\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - logo
+  - frontend
+  - community
+  - issues
+  - django
+  private_metadata: issues
+  max_instances: 1
+  name: 'community: Issue #42 Move logo on the front page'
+  last_modified: '2017-12-19T03:11:52Z'
+  is_beginner: false
+  id: 5754678685990912
+  categories:
+  - 1
+  external_url: https://github.com/coala/community/issues/42
 5756203609096192:
   status: 2
   time_to_complete_in_days: 3
@@ -2787,7 +3002,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #109 `build/` is not ignored'
-  last_modified: '2017-12-14T13:04:49Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: true
   id: 5756203609096192
   categories:
@@ -2810,7 +3025,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency management: Issue #115 Add CPAN package manager'
-  last_modified: '2017-11-28T20:36:46Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 5835922228641792
   categories:
@@ -2952,7 +3167,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #125 Deprecate GoRequirement -u flag'
-  last_modified: '2017-12-14T13:04:50Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 5907067556593664
   categories:
@@ -3171,6 +3386,29 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/171
+6033562321027072:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#36](https://github.com/manu-chroma/username-availability-checker/issues/36)\
+    \ Add more test parameterisation\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - pytest
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #36 Add more test parameterisation'
+  last_modified: '2017-12-19T02:18:02Z'
+  is_beginner: false
+  id: 6033562321027072
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/36
 6034538964713472:
   status: 2
   time_to_complete_in_days: 3
@@ -3402,7 +3640,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #138 Package manager gopm'
-  last_modified: '2017-12-14T13:04:49Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 6211764884602880
   categories:
@@ -3597,7 +3835,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #155 Change typo `JuliaRequirement` to `RscriptRequirement`'
-  last_modified: '2017-12-14T13:04:50Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: true
   id: 6287549515431936
   categories:
@@ -3623,12 +3861,34 @@
   max_instances: 1
   name: "dependency_management: Issue #84 LuarocksRequirement.py: Change 'Luarocks'\
     \ -> 'LuarocksRequirement'"
-  last_modified: '2017-12-14T13:04:49Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: true
   id: 6291106956312576
   categories:
   - 1
   external_url: https://gitlab.com/coala/package_manager/issues/84
+6293336707039232:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "Your task is to solve a 'high' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#91](https://github.com/coala/gci-leaders/issues/91)\
+    \ Create RSS feed of data changes\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - issues
+  - RSS
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #91 Create RSS feed of data changes'
+  last_modified: '2017-12-19T02:26:46Z'
+  is_beginner: false
+  id: 6293336707039232
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/91
 6296547539025920:
   status: 2
   time_to_complete_in_days: 4
@@ -3646,7 +3906,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #29 NuGet support'
-  last_modified: '2017-12-14T13:04:49Z'
+  last_modified: '2017-12-18T10:33:13Z'
   is_beginner: false
   id: 6296547539025920
   categories:
@@ -3968,13 +4228,37 @@
   max_instances: 1
   name: 'corobo: Issue #420 (part 1) Create IGitt issues to remove github3.py as a
     corobo dependency'
-  last_modified: '2017-12-06T04:09:00Z'
+  last_modified: '2017-12-18T10:33:14Z'
   is_beginner: false
   id: 6465165027442688
   categories:
   - 1
   - 5
   external_url: https://github.com/coala/corobo/issues/420
+6466904925405184:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#38](https://github.com/manu-chroma/username-availability-checker/issues/38)\
+    \ Mention Python 2 vs 3 support on README.md\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Python
+  - Travis
+  - CI
+  - markdown
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #38 Mention Python 2 vs 3 support on README.md'
+  last_modified: '2017-12-19T03:11:49Z'
+  is_beginner: false
+  id: 6466904925405184
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/38
 6469592090148864:
   status: 2
   time_to_complete_in_days: 3
