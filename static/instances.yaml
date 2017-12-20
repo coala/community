@@ -195,6 +195,17 @@
   deadline: '2017-12-11 06:35:05'
   organization_id: 4884530416582656
   id: 4832908609060864
+4841168670031872:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5103473731305472
+  student_id: 4552227639263232
+  task_definition_name: 'username-availability: Issue #35 Show avatars from each website'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4841168670031872
 4863157258420224:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -457,13 +468,15 @@
   id: 5210011435270144
 5219730845597696:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5610139212054528
   student_id: 4552227639263232
+  modified: '2017-12-20 11:04:17'
   task_definition_name: 'community: Issue #57 GCI: Create RSS feed of new tasks'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-20 11:04:12'
+  deadline: '2017-12-22 12:23:45'
   organization_id: 4884530416582656
   id: 5219730845597696
 5254475730124800:
@@ -1140,6 +1153,17 @@
   deadline: '2017-12-03 22:51:36'
   organization_id: 4884530416582656
   id: 6292658311921664
+6332405675720704:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5179714090041344
+  student_id: 6502237683580928
+  task_definition_name: 'CI2: Use coala Advanced'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6332405675720704
 6346318828011520:
   student_display_name: Andrew Dassonville
   status: COMPLETED
