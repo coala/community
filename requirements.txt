@@ -6,3 +6,5 @@ requests
 python-dateutil
 pillow
 ruamel.yaml
+markdown2
+python_dateutil

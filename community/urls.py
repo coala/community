@@ -8,6 +8,7 @@ from django.conf import settings
 from django.views.generic import TemplateView
 
 from gci.views import index as gci_index
+from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 
@@ -36,6 +37,12 @@ urlpatterns = [
         name='activity',
         distill_func=get_index,
         distill_file='activity/index.html',
+    ),
+    distill_url(
+        r'gci/tasks/rss.xml', gci_tasks_rss(),
+        name='gci-tasks-rss',
+        distill_func=get_index,
+        distill_file='gci/tasks/rss.xml',
     ),
     distill_url(
         r'gci/', gci_index,
