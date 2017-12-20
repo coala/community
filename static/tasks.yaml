@@ -48,9 +48,9 @@
     \ any of the mentors.\n\n## Create your accounts with your globally available\
     \ username\n\n1. GitHub.com\n2. GitLab.com\n3. OpenHub.net\n4. openSUSE (https://connect.opensuse.org/)\n\
     5. Behance (see [help](https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-)\
-    \ ) or Deviantart (https://www.deviantart.com/)\n\nSelect your email as \"Public\
-    \ email\" at https://github.com/settings/profile.\nGo to https://github.com/settings/emails\
-    \ and uncheck \"Keep my email address private\".\n\n## Submit your user profiles\n\
+    \ ) or Deviantart (https://www.deviantart.com/)\n\n## Note\nSelect your email\
+    \ as \"Public email\" at https://github.com/settings/profile.\nGo to https://github.com/settings/emails\
+    \ & uncheck \"Keep my email address private\".\n\n## Submit your user profiles\n\
     \nIn your Google Code-in task instance, add links to your profiles on those services.\n\
     \nFor more information, see [the zulip stream](https://tinyurl.com/ybdg58f3)"
   tags:
@@ -62,7 +62,7 @@
   private_metadata: ''
   max_instances: 500
   name: Join coala chat and set up your accounts
-  last_modified: '2017-12-18T19:03:39Z'
+  last_modified: '2017-12-19T10:34:41Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -4139,6 +4139,29 @@
   categories:
   - 3
   external_url: https://github.com/coala/corobo/issues/385
+6350994629722112:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncoala repository.\
+    \ Here is the issue:\n\nIssue [#2181](https://github.com/coala/coala-bears/issues/21812)\
+    \ Aspectize SpaceConsistencyBear\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - aspects
+  - style
+  - linter
+  - issues
+  - python3
+  private_metadata: ''
+  max_instances: 1
+  name: Aspectize SpaceConsistencyBear
+  last_modified: '2017-12-19T16:20:43Z'
+  is_beginner: false
+  id: 6350994629722112
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala-bears/issues/2181
 6380651144019968:
   status: 2
   time_to_complete_in_days: 3

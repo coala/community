@@ -455,6 +455,17 @@
   deadline: '2017-12-09 08:31:11'
   organization_id: 4884530416582656
   id: 5210011435270144
+5219730845597696:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5610139212054528
+  student_id: 4552227639263232
+  task_definition_name: 'community: Issue #57 GCI: Create RSS feed of new tasks'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5219730845597696
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -547,18 +558,6 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
-5376596775010304:
-  student_display_name: Sambhav Jain
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 4545034240131072
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5376596775010304
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -836,6 +835,18 @@
   deadline: '2017-12-04 16:58:56'
   organization_id: 4884530416582656
   id: 5902330903920640
+5906521349160960:
+  student_display_name: Bhuvan Hawargi
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 6038233366396928
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5906521349160960
 5908397788495872:
   student_display_name: Marcos Gómez
   status: COMPLETED
@@ -866,13 +877,15 @@
   id: 5978805455814656
 5993698749841408:
   student_display_name: biscuitsnake
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5269975285628928
   student_id: 6502237683580928
+  modified: '2017-12-19 15:52:35'
   task_definition_name: 'coala: Issue #4982 Create Indentation aspects under Formatting.Spacing'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-19 15:51:57'
+  deadline: '2017-12-22 20:19:25'
   organization_id: 4884530416582656
   id: 5993698749841408
 6021694688854016:
