@@ -934,9 +934,9 @@
   - quip
   - spinner
   private_metadata: ''
-  max_instances: 10
+  max_instances: 9
   name: Create funny "loading" sentences to amuse users while they wait
-  last_modified: '2017-12-11T13:00:35Z'
+  last_modified: '2017-12-21T02:20:04Z'
   is_beginner: false
   id: 5040466661736448
   categories:
@@ -1820,9 +1820,9 @@
   - GitHub
   - performance
   private_metadata: issues
-  max_instances: 4
+  max_instances: 1
   name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
-  last_modified: '2017-12-08T20:43:18Z'
+  last_modified: '2017-12-21T05:16:04Z'
   is_beginner: false
   id: 5353273424871424
   categories:
@@ -1887,6 +1887,29 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/32
+5363762775195648:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#100](https://github.com/coala/gci-leaders/issues/100)\
+    \ Find users in repository information\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Node
+  - GitHub
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #100 Find users in repository information'
+  last_modified: '2017-12-21T05:18:52Z'
+  is_beginner: false
+  id: 5363762775195648
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/100
 5367890230378496:
   status: 2
   time_to_complete_in_days: 3
@@ -2638,10 +2661,10 @@
     to learn how to prepare your patch properly."
   tags:
   - README
-  - git
-  - javascript
-  - issues
   - markdown
+  - git
+  - issues
+  - javascript
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -3127,6 +3150,42 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/250
+5903063900487680:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Blog Post\n\n**Note :- This task is only allowed for those students\
+    \ who have solved at least one medium difficulty issue in any coala repo and your\
+    \ PR for that has been merged.**\n\nPlease write a blog post with at least 300\
+    \ words describing your GCI experience till now. \n\nThe blog post can involve\
+    \ but not limited to following things :\n* Prior experience (newcomer/already\
+    \ a contributor to some OSS projects/ex-GCI)\n* What were the general things you\
+    \ kept in mind when solving tasks (eg. communication with mentors, researching\
+    \ before claiming tasks etc.)\n* Some particular learnings during GCI until now\
+    \ (eg. particular technologies, git guidelines etc.)\n* What general perception\
+    \ did GCI provide you about Open Source\n* Any difficulty you faced during tasks\
+    \ and most importantly how you overcome them.\n\nYou can also include things which\
+    \ can help in outreach for coala like :\n* How did you find your way to coala?\n\
+    * What do you think about mentor support?\n* How should a newcomer go about exploring\
+    \ things after they join coala?\n\nAlso, feel free to write this at any time during\
+    \ GCI. You are encouraged to write such blog posts at different time during GCI\
+    \ period to give future participants a perspective about different times during\
+    \ GCI period.\n\nThis must be original work and must be in your own words. Any\
+    \ assets you use must be Creative Commons and attributed accordingly, or be your\
+    \ own original work.\n\nFinally add your blog to http://blog.coala.io/ with a\
+    \ PR to\nhttps://github.com/coala/devops/tree/master/venus"
+  tags:
+  - blog
+  - gci journey
+  private_metadata: ''
+  max_instances: 10
+  name: Create a blog post about your GCI journey so far
+  last_modified: '2017-12-21T05:38:52Z'
+  is_beginner: false
+  id: 5903063900487680
+  categories:
+  - 5
+  external_url:
 5903642613776384:
   status: 2
   time_to_complete_in_days: 3

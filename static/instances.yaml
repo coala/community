@@ -233,18 +233,6 @@
   deadline: '2017-12-11 17:22:24'
   organization_id: 4884530416582656
   id: 4878931867992064
-4882829617922048:
-  student_display_name: Sajeev_Rohan
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 5350798785511424
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4882829617922048
 4901020188540928:
   student_display_name: Mazur Denis
   status: COMPLETED
@@ -479,6 +467,18 @@
   deadline: '2017-12-22 12:23:45'
   organization_id: 4884530416582656
   id: 5219730845597696
+5242472965865472:
+  student_display_name: Jacob Egleberry
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 4785270207545344
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5242472965865472
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -680,13 +680,15 @@
   id: 5602122823368704
 5637491040190464:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6293336707039232
   student_id: 5302037795307520
+  modified: '2017-12-21 05:56:13'
   task_definition_name: 'gci-leaders: Issue #91 Create RSS feed of data changes'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-21 05:56:09'
+  deadline: '2017-12-24 05:43:34'
   organization_id: 4884530416582656
   id: 5637491040190464
 5652082084282368:
@@ -783,18 +785,6 @@
   deadline: '2017-12-01 23:05:24'
   organization_id: 4884530416582656
   id: 5829710095319040
-5845857922449408:
-  student_display_name: Janardhan
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 5308359408353280
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5845857922449408
 5849617092575232:
   student_display_name: Daniel O'Brien
   status: COMPLETED
@@ -850,14 +840,16 @@
   id: 5902330903920640
 5906521349160960:
   student_display_name: Bhuvan Hawargi
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5040466661736448
   student_id: 6038233366396928
+  modified: '2017-12-21 00:21:52'
   task_definition_name: Create funny "loading" sentences to amuse users while they
     wait
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-21 00:21:47'
+  deadline: '2017-12-23 02:24:27'
   organization_id: 4884530416582656
   id: 5906521349160960
 5908397788495872:
@@ -1379,25 +1371,29 @@
   id: 6598996678148096
 6621842649382912:
   student_display_name: Krithish Ayyappan
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5040466661736448
   student_id: 6704548586455040
+  modified: '2017-12-21 02:19:39'
   task_definition_name: Create funny "loading" sentences to amuse users while they
     wait
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-21 02:19:34'
+  deadline: '2017-12-21 00:00:35'
   organization_id: 4884530416582656
   id: 6621842649382912
 6704021211447296:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5405942046785536
   student_id: 6479102439587840
+  modified: '2017-12-20 14:55:44'
   task_definition_name: 'community: Issue #9 Use logging'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-20 14:55:39'
+  deadline: '2017-12-21 05:02:44'
   organization_id: 4884530416582656
   id: 6704021211447296
 6727442548916224:

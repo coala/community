@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Tue, 19 Dec 2017 16:20:43 +0000</lastBuildDate><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 21 Dec 2017 05:38:52 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
+
+&lt;p&gt;The blog post can involve but not limited to following things :
+* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
+* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
+* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
+* What general perception did GCI provide you about Open Source
+* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
+
+&lt;p&gt;You can also include things which can help in outreach for coala like :
+* How did you find your way to coala?
+* What do you think about mentor support?
+* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
+
+&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
+
+&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
+
+&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
+https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:38:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #100 Find users in repository information</title><link>https://codein.withgoogle.com/tasks/5363762775195648</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;#100&lt;/a&gt; Find users in repository information&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;https://github.com/coala/gci-leaders/issues/100&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:18:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5363762775195648</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
+
+&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
+
+&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
+
+&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
+
+&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:16:04 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Wanna test your level of humour? How witty are you against the competition?&lt;/p&gt;
+
+&lt;p&gt;Everyone loves funny loading screens, right? GitMate team has been busy concocting some of them. Check out the repositories tab on https://gitmate.io to watch them in action.&lt;/p&gt;
+
+&lt;p&gt;Here are some examples..&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Opening pod bay doors...&lt;/li&gt;
+&lt;li&gt;Waiting for the right moment...&lt;/li&gt;
+&lt;li&gt;Downloading the internet...&lt;/li&gt;
+&lt;li&gt;Testing your patience...&lt;/li&gt;
+&lt;li&gt;Buying some server space...&lt;/li&gt;
+&lt;li&gt;Hang on a second, I know your data is somewhere here...&lt;/li&gt;
+&lt;li&gt;Sending sheep to Mars...&lt;/li&gt;
+&lt;li&gt;Stealing your passwords...&lt;/li&gt;
+&lt;li&gt;Gathering your credit card info...&lt;/li&gt;
+&lt;li&gt;Shovelling coal into our servers...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;Your task is to add more such sentences. Check our the list in issues &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues"&gt;here&lt;/a&gt;. Make sure you don't repeat them.&lt;/p&gt;
+
+&lt;p&gt;Once you've got ideas, road test your sentences on your friends to see which of them are more delightful than others and come up with more ideas together with them.&lt;/p&gt;
+
+&lt;p&gt;When you've gotten a short list of sentences, create issues on GitLab &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues"&gt;here&lt;/a&gt; following the template for each sentence. Ask your friends to vote the issue and comment on what they like.&lt;/p&gt;
+
+&lt;h1&gt;Assessment&lt;/h1&gt;
+
+&lt;p&gt;Your task is considered complete when the following conditions apply:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You have opened between 5 and 10 issues with ideas.&lt;/li&gt;
+&lt;li&gt;One of your ideas has at least 5 votes.&lt;/li&gt;
+&lt;li&gt;You have voted for at least as many issues as you created. (don't vote for your own)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;EDIT:&lt;/h1&gt;
+
+&lt;p&gt;The requirement of one of your ideas has at least 5 votes has been put down to at least 3 votes.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas"&gt;https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 02:20:04 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-bears/issues/21812"&gt;#2181&lt;/a&gt; Aspectize SpaceConsistencyBear&lt;/p&gt;
@@ -591,51 +685,7 @@ corobo repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/329"&gt;https://github.com/coala/corobo/issues/329&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 16:17:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6008381808574464</guid><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
-
-&lt;p&gt;Wanna test your level of humour? How witty are you against the competition?&lt;/p&gt;
-
-&lt;p&gt;Everyone loves funny loading screens, right? GitMate team has been busy concocting some of them. Check out the repositories tab on https://gitmate.io to watch them in action.&lt;/p&gt;
-
-&lt;p&gt;Here are some examples..&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Opening pod bay doors...&lt;/li&gt;
-&lt;li&gt;Waiting for the right moment...&lt;/li&gt;
-&lt;li&gt;Downloading the internet...&lt;/li&gt;
-&lt;li&gt;Testing your patience...&lt;/li&gt;
-&lt;li&gt;Buying some server space...&lt;/li&gt;
-&lt;li&gt;Hang on a second, I know your data is somewhere here...&lt;/li&gt;
-&lt;li&gt;Sending sheep to Mars...&lt;/li&gt;
-&lt;li&gt;Stealing your passwords...&lt;/li&gt;
-&lt;li&gt;Gathering your credit card info...&lt;/li&gt;
-&lt;li&gt;Shovelling coal into our servers...&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Objective&lt;/h1&gt;
-
-&lt;p&gt;Your task is to add more such sentences. Check our the list in issues &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues"&gt;here&lt;/a&gt;. Make sure you don't repeat them.&lt;/p&gt;
-
-&lt;p&gt;Once you've got ideas, road test your sentences on your friends to see which of them are more delightful than others and come up with more ideas together with them.&lt;/p&gt;
-
-&lt;p&gt;When you've gotten a short list of sentences, create issues on GitLab &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas/issues"&gt;here&lt;/a&gt; following the template for each sentence. Ask your friends to vote the issue and comment on what they like.&lt;/p&gt;
-
-&lt;h1&gt;Assessment&lt;/h1&gt;
-
-&lt;p&gt;Your task is considered complete when the following conditions apply:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You have opened between 5 and 10 issues with ideas.&lt;/li&gt;
-&lt;li&gt;One of your ideas has at least 5 votes.&lt;/li&gt;
-&lt;li&gt;You have voted for at least as many issues as you created. (don't vote for your own)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;EDIT:&lt;/h1&gt;
-
-&lt;p&gt;The requirement of one of your ideas has at least 5 votes has been put down to at least 3 votes.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas"&gt;https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 13:00:35 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>gci-leaders: Issue #64 Add twitter and G+ icons with links</title><link>https://codein.withgoogle.com/tasks/5417259780538368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 16:17:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6008381808574464</guid><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>gci-leaders: Issue #64 Add twitter and G+ icons with links</title><link>https://codein.withgoogle.com/tasks/5417259780538368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/64"&gt;#64&lt;/a&gt; Add twitter and G+ icons with links&lt;/p&gt;
@@ -922,24 +972,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/47"&gt;https://github.com/coala/gci-leaders/issues/47&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5326161645142016</guid><category>html</category><category>bug</category><category>issues</category><category>css</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
-
-&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
-
-&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
-
-&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
-
-&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>gci-leaders: Issue #32 Detect when display name is a GitHub username</title><link>https://codein.withgoogle.com/tasks/5359048209727488</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5326161645142016</guid><category>html</category><category>bug</category><category>issues</category><category>css</category></item><item><title>gci-leaders: Issue #32 Detect when display name is a GitHub username</title><link>https://codein.withgoogle.com/tasks/5359048209727488</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/32"&gt;#32&lt;/a&gt; Detect when display name is a GitHub username&lt;/p&gt;
@@ -1047,7 +1080,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/2"&gt;https://github.com/coala/gci-leaders/issues/2&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>javascript</category><category>issues</category><category>markdown</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>markdown</category><category>git</category><category>issues</category><category>javascript</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/3"&gt;#3&lt;/a&gt; Clickable org name&lt;/p&gt;
