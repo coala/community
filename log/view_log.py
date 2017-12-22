@@ -1,8 +1,12 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+
 
 def index(request):
-    logs = get_logs()
-    return HttpResponse('<br>'.join(logs))
+    logs = '<br>'.join(get_logs()).split('<br>')
+    return render(request, 'logs.html', context={
+        'logs': logs
+    })
+
 
 def get_logs():
     with open('./_site/community.log') as log_file:

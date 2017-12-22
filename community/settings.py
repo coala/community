@@ -121,3 +121,5 @@ STATIC_ROOT = '_site/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = ['static/']
+TEMPLATES[0]['OPTIONS']['context_processors'].append(
+    'community.context_processors.get_org_name')
