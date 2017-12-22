@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 21 Dec 2017 05:38:52 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 22 Dec 2017 05:44:29 +0000</lastBuildDate><item><title>gh-board: Issue #6 Add configuration support</title><link>https://codein.withgoogle.com/tasks/5771832516935680</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gh-board repository. Here is the issue:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
-
-&lt;p&gt;The blog post can involve but not limited to following things :
-* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
-* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
-* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
-* What general perception did GCI provide you about Open Source
-* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
-
-&lt;p&gt;You can also include things which can help in outreach for coala like :
-* How did you find your way to coala?
-* What do you think about mentor support?
-* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
-
-&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
-
-&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
-
-&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
-https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:38:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #100 Find users in repository information</title><link>https://codein.withgoogle.com/tasks/5363762775195648</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;#100&lt;/a&gt; Find users in repository information&lt;/p&gt;
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gh-board/issues/6"&gt;#6&lt;/a&gt; Add configuration support&lt;/p&gt;
 
 &lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;https://github.com/coala/gci-leaders/issues/100&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:18:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5363762775195648</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gh-board/issues/6"&gt;https://github.com/coala/gh-board/issues/6&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 22 Dec 2017 05:44:29 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5771832516935680</guid><category>Node</category><category>React</category><category>JavaScript</category><category>issues</category></item><item><title>gh-board: Issue #3 front page should default to coala repos</title><link>https://codein.withgoogle.com/tasks/4548695087382528</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gh-board repository. Here is the issue:&lt;/p&gt;
 
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
-
-&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
-
-&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
-
-&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
-
-&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gh-board/issues/3"&gt;#3&lt;/a&gt; front page should default to coala repos&lt;/p&gt;
 
 &lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 05:16:04 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gh-board/issues/3"&gt;https://github.com/coala/gh-board/issues/3&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 22 Dec 2017 05:44:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4548695087382528</guid><category>Node</category><category>React</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #102 Add Stackoverflow links</title><link>https://codein.withgoogle.com/tasks/5691242824335360</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/102"&gt;#102&lt;/a&gt; Add Stackoverflow links&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/102"&gt;https://github.com/coala/gci-leaders/issues/102&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 22 Dec 2017 00:38:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5691242824335360</guid><category>Node</category><category>JavaScript</category><category>Wikidata</category><category>issues</category><category>StackOverflow</category></item><item><title>username-availability: Issue #36 Add more test parameterisation</title><link>https://codein.withgoogle.com/tasks/6033562321027072</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/36"&gt;#36&lt;/a&gt; Add more test parameterisation&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/36"&gt;https://github.com/manu-chroma/username-availability-checker/issues/36&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 17:44:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6033562321027072</guid><category>Python</category><category>Flask</category><category>pytest</category><category>python3</category><category>issues</category></item><item><title>brackets: Issue #7 Create tests that run in CI</title><link>https://codein.withgoogle.com/tasks/5097539294461952</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+coala-brackets repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-brackets/issues/7"&gt;#7&lt;/a&gt; Create tests that run in CI&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-brackets/issues/7"&gt;https://github.com/coala/coala-brackets/issues/7&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 13:32:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5097539294461952</guid><category>Node</category><category>CI</category><category>unit tests</category><category>JavaScript</category><category>issues</category></item><item><title>username-availability: Issue #40 Add support for Wikimedia</title><link>https://codein.withgoogle.com/tasks/4886478628847616</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;#40&lt;/a&gt; Add support for Wikimedia&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;https://github.com/manu-chroma/username-availability-checker/issues/40&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:47:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4886478628847616</guid><category>Python</category><category>Wikimedia</category><category>heroku</category><category>Flask</category><category>issues</category></item><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:47:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;Wanna test your level of humour? How witty are you against the competition?&lt;/p&gt;
 
@@ -93,7 +106,82 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;The requirement of one of your ideas has at least 5 votes has been put down to at least 3 votes.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas"&gt;https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 02:20:04 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
+
+&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
+
+&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
+
+&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
+
+&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
+
+&lt;p&gt;The blog post can involve but not limited to following things :
+* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
+* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
+* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
+* What general perception did GCI provide you about Open Source
+* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
+
+&lt;p&gt;You can also include things which can help in outreach for coala like :
+* How did you find your way to coala?
+* What do you think about mentor support?
+* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
+
+&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
+
+&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
+
+&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
+https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #100 Find users in repository information</title><link>https://codein.withgoogle.com/tasks/5363762775195648</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;#100&lt;/a&gt; Find users in repository information&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;https://github.com/coala/gci-leaders/issues/100&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5363762775195648</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category></item><item><title>CI2: Use coala CI to tidy a popular GitHub project</title><link>https://codein.withgoogle.com/tasks/5179714090041344</link><description>&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt; Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each GitHub Pull Request or Push.&lt;/p&gt;
+
+&lt;p&gt;See our coala &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;GCI task wiki page&lt;/a&gt; for step by step instructions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt; coala unifies code analysis. It provides a single simple user and a developer interface, wrapping many popular code analysis tools, and provides a native code analysis framework for new tools. &lt;a href="https://asciinema.org/a/42945"&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More documentation on coala can be found at http://docs.coala.io.&lt;/p&gt;
+
+&lt;h1&gt;Requirements&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This activity is done entirely in your own repositories, and does not involve interacting with other OSS projects.&lt;/li&gt;
+&lt;li&gt;The task steps use patch and git commands that can be run in a bash terminal. Windows users can install &lt;a href="https://git-for-windows.github.io/"&gt;Git-for-Windows&lt;/a&gt; or &lt;a href="https://msys2.github.io/"&gt;msys2&lt;/a&gt; for an equivalent environment. Good Windows GUI tools may also be used for this task, such as &lt;a href="https://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; and &lt;a href="http://meldmerge.org/"&gt;Meld&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Expected Outcome&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You are NOT expected to submit any changes to another OSS project in this task.&lt;/li&gt;
+&lt;li&gt;Accepted work by mentor following steps &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is a separate GCI task for submitting your changes to other OSS projects, which you can commence after a coala developer has reviewed and accepted your work for this task.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 11:04:42 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5179714090041344</guid><category>static analysis</category><category>git</category><category>testing</category><category>usability</category></item><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-bears/issues/21812"&gt;#2181&lt;/a&gt; Aspectize SpaceConsistencyBear&lt;/p&gt;
@@ -189,16 +277,7 @@ manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&g
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/24"&gt;https://github.com/manu-chroma/username-availability-checker/issues/24&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:19:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5643315049398272</guid><category>Python</category><category>Flask</category><category>DeviantArt</category><category>OpenHub</category><category>issues</category></item><item><title>username-availability: Issue #36 Add more test parameterisation</title><link>https://codein.withgoogle.com/tasks/6033562321027072</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/36"&gt;#36&lt;/a&gt; Add more test parameterisation&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/36"&gt;https://github.com/manu-chroma/username-availability-checker/issues/36&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:18:02 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6033562321027072</guid><category>Python</category><category>Flask</category><category>pytest</category><category>python3</category><category>issues</category></item><item><title>username-availability: Issue #35 Show avatars from each website</title><link>https://codein.withgoogle.com/tasks/5103473731305472</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:19:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5643315049398272</guid><category>Python</category><category>Flask</category><category>DeviantArt</category><category>OpenHub</category><category>issues</category></item><item><title>username-availability: Issue #35 Show avatars from each website</title><link>https://codein.withgoogle.com/tasks/5103473731305472</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/35"&gt;#35&lt;/a&gt; Show avatars from each website&lt;/p&gt;
@@ -1714,10 +1793,7 @@ documentation repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/documentation/issues/382"&gt;https://github.com/coala/documentation/issues/382&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 12:24:44 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6254409883320320</guid><category>travis</category><category>CI</category><category>reStructuredText</category><category>docker</category><category>issues</category></item><item><title>CI2: Use coala Advanced</title><link>https://codein.withgoogle.com/tasks/5179714090041344</link><description>&lt;p&gt;Fix a popular GitHub repository code to conform to coala CI settings&lt;/p&gt;
-
-&lt;p&gt;You should submit the passing Travis build log and Wiki page explaining results.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 06:12:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5179714090041344</guid><category>static analysis</category><category>git</category><category>testing</category><category>usability</category></item><item><title>gitmate-2-frontend: Issue #62 Implement pagination for pages with huge content</title><link>https://codein.withgoogle.com/tasks/5585586972786688</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 12:24:44 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6254409883320320</guid><category>travis</category><category>CI</category><category>reStructuredText</category><category>docker</category><category>issues</category></item><item><title>gitmate-2-frontend: Issue #62 Implement pagination for pages with huge content</title><link>https://codein.withgoogle.com/tasks/5585586972786688</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gitmate-2-frontend repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/62"&gt;#62&lt;/a&gt; Implement pagination for pages with huge content&lt;/p&gt;

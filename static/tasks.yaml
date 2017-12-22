@@ -28,6 +28,29 @@
   - 1
   - 5
   external_url: https://github.com/coala/corobo/issues/462
+4548695087382528:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngh-board repository.\
+    \ Here is the issue:\n\nIssue [#3](https://github.com/coala/gh-board/issues/3)\
+    \ front page should default to coala repos\n\nRemember to format your [Git Commit\
+    \ Message](http://coala.io/commit)\naccording to the rules, otherwise the bot\
+    \ will tell you to fix it."
+  tags:
+  - Node
+  - React
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gh-board: Issue #3 front page should default to coala repos'
+  last_modified: '2017-12-22T05:44:26Z'
+  is_beginner: false
+  id: 4548695087382528
+  categories:
+  - 1
+  external_url: https://github.com/coala/gh-board/issues/3
 4557720684331008:
   status: 2
   time_to_complete_in_days: 3
@@ -706,6 +729,29 @@
   categories:
   - 1
   external_url: https://github.com/coala/coala/issues/4952
+4886478628847616:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#40](https://github.com/manu-chroma/username-availability-checker/issues/40)\
+    \ Add support for Wikimedia\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Wikimedia
+  - heroku
+  - Flask
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #40 Add support for Wikimedia'
+  last_modified: '2017-12-21T12:47:53Z'
+  is_beginner: false
+  id: 4886478628847616
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/40
 4892042859642880:
   status: 2
   time_to_complete_in_days: 3
@@ -936,7 +982,7 @@
   private_metadata: ''
   max_instances: 9
   name: Create funny "loading" sentences to amuse users while they wait
-  last_modified: '2017-12-21T02:20:04Z'
+  last_modified: '2017-12-21T12:10:15Z'
   is_beginner: false
   id: 5040466661736448
   categories:
@@ -1085,6 +1131,29 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/362
+5097539294461952:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncoala-brackets\
+    \ repository. Here is the issue:\n\nIssue [#7](https://github.com/coala/coala-brackets/issues/7)\
+    \ Create tests that run in CI\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - CI
+  - unit tests
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'brackets: Issue #7 Create tests that run in CI'
+  last_modified: '2017-12-21T13:32:05Z'
+  is_beginner: false
+  id: 5097539294461952
+  categories:
+  - 1
+  external_url: https://github.com/coala/coala-brackets/issues/7
 5103473731305472:
   status: 2
   time_to_complete_in_days: 5
@@ -1364,8 +1433,25 @@
   status: 2
   time_to_complete_in_days: 4
   program_year: 2017
-  description: "Fix a popular GitHub repository code to conform to coala CI settings\n\
-    \nYou should submit the passing Travis build log and Wiki page explaining results."
+  description: "**Objective** Fix a popular GitHub project so that the repository\
+    \ contents conform to linter rules that are verified by coala CI on each GitHub\
+    \ Pull Request or Push.\n\nSee our coala [GCI task wiki page](https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced)\
+    \ for step by step instructions.\n\n**Background** coala unifies code analysis.\
+    \ It provides a single simple user and a developer interface, wrapping many popular\
+    \ code analysis tools, and provides a native code analysis framework for new tools.\
+    \ [Demo](https://asciinema.org/a/42945)\n\nMore documentation on coala can be\
+    \ found at http://docs.coala.io.\n\n# Requirements\n\n* This activity is done\
+    \ entirely in your own repositories, and does not involve interacting with other\
+    \ OSS projects.\n* The task steps use patch and git commands that can be run in\
+    \ a bash terminal. Windows users can install [Git-for-Windows](https://git-for-windows.github.io/)\
+    \ or [msys2](https://msys2.github.io/) for an equivalent environment. Good Windows\
+    \ GUI tools may also be used for this task, such as [SourceTree](https://www.sourcetreeapp.com/)\
+    \ and [Meld](http://meldmerge.org/).\n\n# Expected Outcome\n\n* You are NOT expected\
+    \ to submit any changes to another OSS project in this task.\n* Accepted work\
+    \ by mentor following steps [here](\nhttps://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced)\n\
+    \n**Note:** There is a separate GCI task for submitting your changes to other\
+    \ OSS projects, which you can commence after a coala developer has reviewed and\
+    \ accepted your work for this task."
   tags:
   - static analysis
   - git
@@ -1373,15 +1459,15 @@
   - usability
   private_metadata: ''
   max_instances: 99
-  name: 'CI2: Use coala Advanced'
-  last_modified: '2017-11-30T06:12:20Z'
+  name: 'CI2: Use coala CI to tidy a popular GitHub project'
+  last_modified: '2017-12-21T11:04:42Z'
   is_beginner: false
   id: 5179714090041344
   categories:
   - 1
   - 3
   - 4
-  external_url:
+  external_url: https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced
 5185467416838144:
   status: 2
   time_to_complete_in_days: 4
@@ -1822,7 +1908,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
-  last_modified: '2017-12-21T05:16:04Z'
+  last_modified: '2017-12-21T12:10:14Z'
   is_beginner: false
   id: 5353273424871424
   categories:
@@ -1904,7 +1990,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #100 Find users in repository information'
-  last_modified: '2017-12-21T05:18:52Z'
+  last_modified: '2017-12-21T12:10:08Z'
   is_beginner: false
   id: 5363762775195648
   categories:
@@ -2792,6 +2878,53 @@
   categories:
   - 3
   external_url: https://github.com/tldr-pages/tldr/issues/1662
+5691242824335360:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#102](https://github.com/coala/gci-leaders/issues/102)\
+    \ Add Stackoverflow links\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - JavaScript
+  - Wikidata
+  - issues
+  - StackOverflow
+  private_metadata: issues
+  max_instances: 1
+  name: 'gci-leaders: Issue #102 Add Stackoverflow links'
+  last_modified: '2017-12-22T00:38:59Z'
+  is_beginner: false
+  id: 5691242824335360
+  categories:
+  - 1
+  - 2
+  external_url: https://github.com/coala/gci-leaders/issues/102
+5692569096814592:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#39](https://github.com/manu-chroma/username-availability-checker/issues/39)\
+    \ Add support for openSUSE\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - openSUSE
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #39 Add support for openSUSE'
+  last_modified: '2017-12-21T12:47:51Z'
+  is_beginner: false
+  id: 5692569096814592
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/39
 5700590954872832:
   status: 2
   time_to_complete_in_days: 4
@@ -3031,6 +3164,28 @@
   categories:
   - 1
   external_url: https://gitlab.com/coala/package_manager/issues/109
+5771832516935680:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ngh-board\
+    \ repository. Here is the issue:\n\nIssue [#6](https://github.com/coala/gh-board/issues/6)\
+    \ Add configuration support\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Node
+  - React
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'gh-board: Issue #6 Add configuration support'
+  last_modified: '2017-12-22T05:44:29Z'
+  is_beginner: false
+  id: 5771832516935680
+  categories:
+  - 1
+  external_url: https://github.com/coala/gh-board/issues/6
 5835922228641792:
   status: 2
   time_to_complete_in_days: 4
@@ -3180,7 +3335,7 @@
   private_metadata: ''
   max_instances: 10
   name: Create a blog post about your GCI journey so far
-  last_modified: '2017-12-21T05:38:52Z'
+  last_modified: '2017-12-21T12:10:09Z'
   is_beginner: false
   id: 5903063900487680
   categories:
@@ -3449,7 +3604,7 @@
   status: 2
   time_to_complete_in_days: 5
   program_year: 2017
-  description: "Your task is to solve a 'high' difficulty issue in the\nmanu-chroma/username-availability-checker\
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
     \ repository. Here is the issue:\n\nIssue [#36](https://github.com/manu-chroma/username-availability-checker/issues/36)\
     \ Add more test parameterisation\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
     according to the rules, otherwise the bot will tell you to fix it."
@@ -3462,7 +3617,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'username-availability: Issue #36 Add more test parameterisation'
-  last_modified: '2017-12-19T02:18:02Z'
+  last_modified: '2017-12-21T17:44:18Z'
   is_beginner: false
   id: 6033562321027072
   categories:

@@ -31,7 +31,7 @@
   task_definition_id: 5179714090041344
   student_id: 5178132149567488
   modified: '2017-12-08 02:03:45'
-  task_definition_name: 'CI2: Use coala Advanced'
+  task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
   organization_name: coala
   completion_date: '2017-12-08 02:03:43'
   deadline: '2017-12-08 07:32:41'
@@ -197,13 +197,15 @@
   id: 4832908609060864
 4841168670031872:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5103473731305472
   student_id: 4552227639263232
+  modified: '2017-12-21 18:56:09'
   task_definition_name: 'username-availability: Issue #35 Show avatars from each website'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-21 18:56:04'
+  deadline: '2017-12-25 19:32:16'
   organization_id: 4884530416582656
   id: 4841168670031872
 4863157258420224:
@@ -311,17 +313,6 @@
   deadline: '2017-12-09 00:00:26'
   organization_id: 4884530416582656
   id: 5095863686791168
-5096951689248768:
-  student_display_name: Sai Nandhan
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5131546711293952
-  student_id: 5147326421139456
-  task_definition_name: 'username-availability: Issue #37 Add Gravatar support'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5096951689248768
 5102697852174336:
   student_display_name: Ravern Koh
   status: COMPLETED
@@ -467,18 +458,6 @@
   deadline: '2017-12-22 12:23:45'
   organization_id: 4884530416582656
   id: 5219730845597696
-5242472965865472:
-  student_display_name: Jacob Egleberry
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5040466661736448
-  student_id: 4785270207545344
-  task_definition_name: Create funny "loading" sentences to amuse users while they
-    wait
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5242472965865472
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -571,6 +550,18 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
+5411515899314176:
+  student_display_name: Madhurima C
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6312251281637376
+  student_id: 5786813228646400
+  task_definition_name: 'documentation: Issue #478 Detect and prevent spelling errors
+    in documentation'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5411515899314176
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -744,6 +735,17 @@
   deadline: '2017-12-21 18:44:32'
   organization_id: 4884530416582656
   id: 5693592305664000
+5710322344132608:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5692569096814592
+  student_id: 6502237683580928
+  task_definition_name: 'username-availability: Issue #39 Add support for openSUSE'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5710322344132608
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -945,6 +947,18 @@
   deadline: '2017-12-09 09:38:32'
   organization_id: 4884530416582656
   id: 6071487184240640
+6077566542675968:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5643315049398272
+  student_id: 6479102439587840
+  task_definition_name: 'username-availability: Issue #24 Add support for OpenHub
+    and DeviantArt'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6077566542675968
 6091885594542080:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1147,13 +1161,15 @@
   id: 6292658311921664
 6332405675720704:
   student_display_name: biscuitsnake
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5179714090041344
   student_id: 6502237683580928
-  task_definition_name: 'CI2: Use coala Advanced'
+  modified: '2017-12-21 10:58:16'
+  task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-21 10:58:10'
+  deadline: '2017-12-24 20:44:09'
   organization_id: 4884530416582656
   id: 6332405675720704
 6346318828011520:
@@ -1234,6 +1250,18 @@
   deadline: '2017-12-16 16:50:06'
   organization_id: 4884530416582656
   id: 6496929062060032
+6501923807035392:
+  student_display_name: Sahit Dodda
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5040466661736448
+  student_id: 5063869904977920
+  task_definition_name: Create funny "loading" sentences to amuse users while they
+    wait
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6501923807035392
 6506479324495872:
   student_display_name: Azhan Khan-1
   status: COMPLETED
@@ -1342,6 +1370,17 @@
   deadline: '2017-12-15 08:56:12'
   organization_id: 4884530416582656
   id: 6541735503069184
+6558664016003072:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5691242824335360
+  student_id: 4552227639263232
+  task_definition_name: 'gci-leaders: Issue #102 Add Stackoverflow links'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6558664016003072
 6579015617871872:
   student_display_name: Alexander Voronkov
   status: COMPLETED
