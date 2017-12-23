@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 22 Dec 2017 05:44:29 +0000</lastBuildDate><item><title>gh-board: Issue #6 Add configuration support</title><link>https://codein.withgoogle.com/tasks/5771832516935680</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sat, 23 Dec 2017 04:15:09 +0000</lastBuildDate><item><title>cEPs: Issue #73 Add cEP index in README.md</title><link>https://codein.withgoogle.com/tasks/6360069023203328</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+cEPs repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/cEPs/issues/73"&gt;#73&lt;/a&gt; Add cEP index in README.md&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/cEPs/issues/73"&gt;https://github.com/coala/cEPs/issues/73&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 04:15:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6360069023203328</guid><category>markdown</category><category>issues</category></item><item><title>gh-board: Issue #6 Add configuration support</title><link>https://codein.withgoogle.com/tasks/5771832516935680</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gh-board repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gh-board/issues/6"&gt;#6&lt;/a&gt; Add configuration support&lt;/p&gt;

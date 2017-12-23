@@ -4376,6 +4376,26 @@
   categories:
   - 1
   external_url: https://github.com/coala/coala-bears/issues/2181
+6360069023203328:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ncEPs repository.\
+    \ Here is the issue:\n\nIssue [#73](https://github.com/coala/cEPs/issues/73) Add\
+    \ cEP index in README.md\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - markdown
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'cEPs: Issue #73 Add cEP index in README.md'
+  last_modified: '2017-12-23T04:15:09Z'
+  is_beginner: false
+  id: 6360069023203328
+  categories:
+  - 3
+  external_url: https://github.com/coala/cEPs/issues/73
 6380651144019968:
   status: 2
   time_to_complete_in_days: 3
