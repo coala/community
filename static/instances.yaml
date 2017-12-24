@@ -1004,14 +1004,16 @@
   id: 6071487184240640
 6077566542675968:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5643315049398272
   student_id: 6479102439587840
+  modified: '2017-12-23 07:38:29'
   task_definition_name: 'username-availability: Issue #24 Add support for OpenHub
     and DeviantArt'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-23 07:38:25'
+  deadline: '2017-12-25 09:04:47'
   organization_id: 4884530416582656
   id: 6077566542675968
 6091885594542080:
@@ -1503,6 +1505,17 @@
   deadline: '2017-12-21 00:00:35'
   organization_id: 4884530416582656
   id: 6621842649382912
+6645565163044864:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6033562321027072
+  student_id: 6479102439587840
+  task_definition_name: 'username-availability: Issue #36 Add more test parameterisation'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6645565163044864
 6704021211447296:
   student_display_name: Joshua Chung
   status: COMPLETED

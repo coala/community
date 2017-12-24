@@ -252,10 +252,10 @@
   - issues
   - env
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #30 setup .env file to differentiate between
     dev and prod env'
-  last_modified: '2017-12-18T19:01:56Z'
+  last_modified: '2017-12-23T12:29:30Z'
   is_beginner: false
   id: 4616364578832384
   categories:
@@ -744,9 +744,9 @@
   - Flask
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #40 Add support for Wikimedia'
-  last_modified: '2017-12-21T12:47:53Z'
+  last_modified: '2017-12-23T12:28:27Z'
   is_beginner: false
   id: 4886478628847616
   categories:
@@ -849,9 +849,9 @@
   - OSINT
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #25 Import WhatsMyName data'
-  last_modified: '2017-12-19T02:17:57Z'
+  last_modified: '2017-12-23T12:28:59Z'
   is_beginner: false
   id: 4943232796459008
   categories:
@@ -1193,10 +1193,10 @@
   - GitHub
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #33 Add username rule: GitHub can not start
     or end with a hyphen'
-  last_modified: '2017-12-19T02:17:52Z'
+  last_modified: '2017-12-23T12:29:19Z'
   is_beginner: false
   id: 5106013667590144
   categories:
@@ -1275,9 +1275,9 @@
   - Gravatar
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #37 Add Gravatar support'
-  last_modified: '2017-12-19T02:26:44Z'
+  last_modified: '2017-12-23T12:28:48Z'
   is_beginner: false
   id: 5131546711293952
   categories:
@@ -4188,9 +4188,9 @@
   - issues
   - api
   private_metadata: issues
-  max_instances: 1
+  max_instances: 4
   name: 'gci-leaders: Issue #8 Guess GitHub username of leading participants'
-  last_modified: '2017-12-08T20:43:18Z'
+  last_modified: '2017-12-24T07:13:12Z'
   is_beginner: false
   id: 6304189116317696
   categories:
@@ -4508,9 +4508,9 @@
   - markdown
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #38 Mention Python 2 vs 3 support on README.md'
-  last_modified: '2017-12-19T03:11:49Z'
+  last_modified: '2017-12-23T12:28:36Z'
   is_beginner: false
   id: 6466904925405184
   categories:

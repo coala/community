@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sat, 23 Dec 2017 04:15:09 +0000</lastBuildDate><item><title>cEPs: Issue #73 Add cEP index in README.md</title><link>https://codein.withgoogle.com/tasks/6360069023203328</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sun, 24 Dec 2017 07:13:12 +0000</lastBuildDate><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;https://github.com/coala/gci-leaders/issues/8&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 07:13:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>username-availability: Issue #30 setup .env file to differentiate between dev and prod env</title><link>https://codein.withgoogle.com/tasks/4616364578832384</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/30"&gt;#30&lt;/a&gt; setup .env file to differentiate between dev and prod env &lt;/p&gt;
+
+&lt;p&gt;Comment on the GitHub issue, once you've claimed the task here. It is not possible to assign issues to non-collaborators on user repositories due to GitHub restrictions.   &lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/30"&gt;https://github.com/manu-chroma/username-availability-checker/issues/30&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:29:30 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4616364578832384</guid><category>Python</category><category>Flask</category><category>heroku</category><category>issues</category><category>env</category></item><item><title>username-availability: Issue #33 Add username rule: GitHub can not start or end with a hyphen</title><link>https://codein.withgoogle.com/tasks/5106013667590144</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/33"&gt;#33&lt;/a&gt; Add username rule: GitHub can not start or end with a hyphen&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/33"&gt;https://github.com/manu-chroma/username-availability-checker/issues/33&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:29:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5106013667590144</guid><category>Python</category><category>Flask</category><category>heroku</category><category>GitHub</category><category>issues</category></item><item><title>username-availability: Issue #25 Import WhatsMyName data</title><link>https://codein.withgoogle.com/tasks/4943232796459008</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/25"&gt;#25&lt;/a&gt; Import WhatsMyName data&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/25"&gt;https://github.com/manu-chroma/username-availability-checker/issues/25&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:28:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4943232796459008</guid><category>Python</category><category>Flask</category><category>heroku</category><category>OSINT</category><category>issues</category></item><item><title>username-availability: Issue #37 Add Gravatar support</title><link>https://codein.withgoogle.com/tasks/5131546711293952</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/37"&gt;#37&lt;/a&gt; Add Gravatar support&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/37"&gt;https://github.com/manu-chroma/username-availability-checker/issues/37&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:28:48 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5131546711293952</guid><category>Python</category><category>Flask</category><category>heroku</category><category>Gravatar</category><category>issues</category></item><item><title>username-availability: Issue #38 Mention Python 2 vs 3 support on README.md</title><link>https://codein.withgoogle.com/tasks/6466904925405184</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/38"&gt;#38&lt;/a&gt; Mention Python 2 vs 3 support on README.md&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/38"&gt;https://github.com/manu-chroma/username-availability-checker/issues/38&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:28:36 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6466904925405184</guid><category>Python</category><category>Travis</category><category>CI</category><category>markdown</category><category>issues</category></item><item><title>username-availability: Issue #40 Add support for Wikimedia</title><link>https://codein.withgoogle.com/tasks/4886478628847616</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;#40&lt;/a&gt; Add support for Wikimedia&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;https://github.com/manu-chroma/username-availability-checker/issues/40&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 23 Dec 2017 12:28:27 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4886478628847616</guid><category>Python</category><category>Wikimedia</category><category>heroku</category><category>Flask</category><category>issues</category></item><item><title>cEPs: Issue #73 Add cEP index in README.md</title><link>https://codein.withgoogle.com/tasks/6360069023203328</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 cEPs repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/cEPs/issues/73"&gt;#73&lt;/a&gt; Add cEP index in README.md&lt;/p&gt;
@@ -53,16 +118,7 @@ coala-brackets repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-brackets/issues/7"&gt;https://github.com/coala/coala-brackets/issues/7&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 13:32:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5097539294461952</guid><category>Node</category><category>CI</category><category>unit tests</category><category>JavaScript</category><category>issues</category></item><item><title>username-availability: Issue #40 Add support for Wikimedia</title><link>https://codein.withgoogle.com/tasks/4886478628847616</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;#40&lt;/a&gt; Add support for Wikimedia&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/40"&gt;https://github.com/manu-chroma/username-availability-checker/issues/40&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:47:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4886478628847616</guid><category>Python</category><category>Wikimedia</category><category>heroku</category><category>Flask</category><category>issues</category></item><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 13:32:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5097539294461952</guid><category>Node</category><category>CI</category><category>unit tests</category><category>JavaScript</category><category>issues</category></item><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
@@ -250,16 +306,7 @@ community repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/42"&gt;https://github.com/coala/community/issues/42&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 03:11:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5754678685990912</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>username-availability: Issue #38 Mention Python 2 vs 3 support on README.md</title><link>https://codein.withgoogle.com/tasks/6466904925405184</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/38"&gt;#38&lt;/a&gt; Mention Python 2 vs 3 support on README.md&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/38"&gt;https://github.com/manu-chroma/username-availability-checker/issues/38&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 03:11:49 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6466904925405184</guid><category>Python</category><category>Travis</category><category>CI</category><category>markdown</category><category>issues</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 03:11:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5754678685990912</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/91"&gt;#91&lt;/a&gt; Create RSS feed of data changes&lt;/p&gt;
@@ -268,16 +315,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/91"&gt;https://github.com/coala/gci-leaders/issues/91&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:26:46 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6293336707039232</guid><category>Node</category><category>JavaScript</category><category>issues</category><category>RSS</category></item><item><title>username-availability: Issue #37 Add Gravatar support</title><link>https://codein.withgoogle.com/tasks/5131546711293952</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/37"&gt;#37&lt;/a&gt; Add Gravatar support&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/37"&gt;https://github.com/manu-chroma/username-availability-checker/issues/37&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:26:44 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5131546711293952</guid><category>Python</category><category>Flask</category><category>heroku</category><category>Gravatar</category><category>issues</category></item><item><title>username-availability: Issue #24 Add support for OpenHub and DeviantArt</title><link>https://codein.withgoogle.com/tasks/5643315049398272</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:26:46 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6293336707039232</guid><category>Node</category><category>JavaScript</category><category>issues</category><category>RSS</category></item><item><title>username-availability: Issue #24 Add support for OpenHub and DeviantArt</title><link>https://codein.withgoogle.com/tasks/5643315049398272</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/24"&gt;#24&lt;/a&gt; Add support for OpenHub and DeviantArt&lt;/p&gt;
@@ -295,36 +333,7 @@ manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&g
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/35"&gt;https://github.com/manu-chroma/username-availability-checker/issues/35&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:17:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5103473731305472</guid><category>Python</category><category>Flask</category><category>OSINT</category><category>avatar</category><category>issues</category></item><item><title>username-availability: Issue #25 Import WhatsMyName data</title><link>https://codein.withgoogle.com/tasks/4943232796459008</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/25"&gt;#25&lt;/a&gt; Import WhatsMyName data&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/25"&gt;https://github.com/manu-chroma/username-availability-checker/issues/25&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:17:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4943232796459008</guid><category>Python</category><category>Flask</category><category>heroku</category><category>OSINT</category><category>issues</category></item><item><title>username-availability: Issue #33 Add username rule: GitHub can not start or end with a hyphen</title><link>https://codein.withgoogle.com/tasks/5106013667590144</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/33"&gt;#33&lt;/a&gt; Add username rule: GitHub can not start or end with a hyphen&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/33"&gt;https://github.com/manu-chroma/username-availability-checker/issues/33&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:17:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5106013667590144</guid><category>Python</category><category>Flask</category><category>heroku</category><category>GitHub</category><category>issues</category></item><item><title>username-availability: Issue #30 setup .env file to differentiate between dev and prod env</title><link>https://codein.withgoogle.com/tasks/4616364578832384</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/30"&gt;#30&lt;/a&gt; setup .env file to differentiate between dev and prod env &lt;/p&gt;
-
-&lt;p&gt;Comment on the GitHub issue, once you've claimed the task here. It is not possible to assign issues to non-collaborators on user repositories due to GitHub restrictions.   &lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/30"&gt;https://github.com/manu-chroma/username-availability-checker/issues/30&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 19:01:56 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4616364578832384</guid><category>Python</category><category>Flask</category><category>heroku</category><category>issues</category><category>env</category></item><item><title>gci-leaders: Issue #93 Handle username change / deletion</title><link>https://codein.withgoogle.com/tasks/5331099918008320</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 02:17:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5103473731305472</guid><category>Python</category><category>Flask</category><category>OSINT</category><category>avatar</category><category>issues</category></item><item><title>gci-leaders: Issue #93 Handle username change / deletion</title><link>https://codein.withgoogle.com/tasks/5331099918008320</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/93"&gt;#93&lt;/a&gt; Handle username change / deletion&lt;/p&gt;
@@ -1105,16 +1114,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/34"&gt;https://github.com/coala/gci-leaders/issues/34&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6129325361332224</guid><category>Node</category><category>JavaScript</category><category>.coafile</category><category>linting</category><category>eslint</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;https://github.com/coala/gci-leaders/issues/8&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6129325361332224</guid><category>Node</category><category>JavaScript</category><category>.coafile</category><category>linting</category><category>eslint</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;#30&lt;/a&gt; Org heading contains invalid element&lt;/p&gt;
