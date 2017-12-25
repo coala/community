@@ -583,17 +583,6 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
-5396614845825024:
-  student_display_name: Tia Sajeev
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 5178738671091712
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5396614845825024
 5406950281969664:
   student_display_name: Robin Abishek
   status: CLAIMED
