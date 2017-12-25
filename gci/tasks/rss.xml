@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sun, 24 Dec 2017 07:13:12 +0000</lastBuildDate><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sun, 24 Dec 2017 16:38:12 +0000</lastBuildDate><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 16:38:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
+
+&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
+
+&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
+
+&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
+
+&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 08:31:28 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
@@ -118,16 +144,7 @@ coala-brackets repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-brackets/issues/7"&gt;https://github.com/coala/coala-brackets/issues/7&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 13:32:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5097539294461952</guid><category>Node</category><category>CI</category><category>unit tests</category><category>JavaScript</category><category>issues</category></item><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:47:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 13:32:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5097539294461952</guid><category>Node</category><category>CI</category><category>unit tests</category><category>JavaScript</category><category>issues</category></item><item><title>Create funny "loading" sentences to amuse users while they wait</title><link>https://codein.withgoogle.com/tasks/5040466661736448</link><description>&lt;h1&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;Wanna test your level of humour? How witty are you against the competition?&lt;/p&gt;
 
@@ -171,24 +188,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;The requirement of one of your ideas has at least 5 votes has been put down to at least 3 votes.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas"&gt;https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
-
-&lt;p&gt;Builds must have been rebased when submitted to GCI.&lt;/p&gt;
-
-&lt;p&gt;Lowest build number wins if two participants make the same improvement.&lt;/p&gt;
-
-&lt;p&gt;Use "Related to https://github.com/coala/gci-leaders/issues/27" for the last line of your commit message, as your solution will not be the only one.&lt;/p&gt;
-
-&lt;p&gt;Do you testing offline, so other participants can not steal your performance idea.&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
 

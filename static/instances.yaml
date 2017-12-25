@@ -128,6 +128,17 @@
   deadline: '2017-12-03 04:24:44'
   organization_id: 4884530416582656
   id: 4646964484374528
+4724632097652736:
+  student_display_name: dodo
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 6297751564320768
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4724632097652736
 4733999840755712:
   student_display_name: HUSSAIN MOHMMAD
   status: CLAIMED
@@ -572,6 +583,17 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
+5396614845825024:
+  student_display_name: Tia Sajeev
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 5178738671091712
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5396614845825024
 5406950281969664:
   student_display_name: Robin Abishek
   status: CLAIMED
@@ -583,18 +605,6 @@
   completion_date:
   organization_id: 4884530416582656
   id: 5406950281969664
-5411515899314176:
-  student_display_name: Madhurima C
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6312251281637376
-  student_id: 5786813228646400
-  task_definition_name: 'documentation: Issue #478 Detect and prevent spelling errors
-    in documentation'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5411515899314176
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -790,17 +800,6 @@
   deadline: '2017-12-21 18:44:32'
   organization_id: 4884530416582656
   id: 5693592305664000
-5710322344132608:
-  student_display_name: biscuitsnake
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5692569096814592
-  student_id: 6502237683580928
-  task_definition_name: 'username-availability: Issue #39 Add support for openSUSE'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5710322344132608
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1111,6 +1110,19 @@
   deadline: '2017-12-04 14:27:09'
   organization_id: 4884530416582656
   id: 6167474779193344
+6179301231689728:
+  student_display_name: Frumentius Daneswara N
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5754678685990912
+  student_id: 4957841733451776
+  modified: '2017-12-25 03:06:14'
+  task_definition_name: 'community: Issue #42 Move logo on the front page'
+  organization_name: coala
+  completion_date: '2017-12-25 03:06:10'
+  deadline: '2017-12-28 09:10:54'
+  organization_id: 4884530416582656
+  id: 6179301231689728
 6187913949741056:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1281,6 +1293,17 @@
   deadline: '2017-12-09 03:59:26'
   organization_id: 4884530416582656
   id: 6357337122013184
+6374821967429632:
+  student_display_name: Kimberley Worrall
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5179714090041344
+  student_id: 4598068362084352
+  task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6374821967429632
 6399963774844928:
   student_display_name: Alexander Voronkov
   status: COMPLETED
@@ -1322,14 +1345,16 @@
   id: 6496929062060032
 6501923807035392:
   student_display_name: Sahit Dodda
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5040466661736448
   student_id: 5063869904977920
+  modified: '2017-12-24 11:08:52'
   task_definition_name: Create funny "loading" sentences to amuse users while they
     wait
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-24 11:08:48'
+  deadline: '2017-12-25 18:57:43'
   organization_id: 4884530416582656
   id: 6501923807035392
 6506479324495872:

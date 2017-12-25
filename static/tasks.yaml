@@ -1906,9 +1906,9 @@
   - GitHub
   - performance
   private_metadata: issues
-  max_instances: 1
+  max_instances: 2
   name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
-  last_modified: '2017-12-21T12:10:14Z'
+  last_modified: '2017-12-24T08:31:28Z'
   is_beginner: false
   id: 5353273424871424
   categories:
@@ -2917,9 +2917,9 @@
   - openSUSE
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'username-availability: Issue #39 Add support for openSUSE'
-  last_modified: '2017-12-21T12:47:51Z'
+  last_modified: '2017-12-24T16:38:12Z'
   is_beginner: false
   id: 5692569096814592
   categories:
