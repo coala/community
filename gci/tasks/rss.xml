@@ -1,14 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sun, 24 Dec 2017 16:38:12 +0000</lastBuildDate><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Tue, 26 Dec 2017 02:25:32 +0000</lastBuildDate><item><title>dependency_management: Issue #84 LuarocksRequirement.py: Change 'Luarocks' -&gt; 'LuarocksRequirement'</title><link>https://codein.withgoogle.com/tasks/6291106956312576</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/84"&gt;#84&lt;/a&gt; LuarocksRequirement.py: Change 'Luarocks' -&gt; 'LuarocksRequirement'&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/84"&gt;https://gitlab.com/coala/package_manager/issues/84&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 26 Dec 2017 02:25:32 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6291106956312576</guid><category>packaging</category><category>lau</category><category>gitlab</category><category>python3</category><category>issues</category></item><item><title>dependency_management: Issue #127 Change :param return: to :return: in docstring</title><link>https://codein.withgoogle.com/tasks/4777057097613312</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/127"&gt;#127&lt;/a&gt; Change :param return: to :return:&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/127"&gt;https://gitlab.com/coala/package_manager/issues/127&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 26 Dec 2017 02:23:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4777057097613312</guid><category>packaging</category><category>gitlab</category><category>docstring</category><category>python3</category><category>issues</category></item><item><title>username-availability: Issue #47 Improve random username generator to obey the website rules</title><link>https://codein.withgoogle.com/tasks/5589863409647616</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
-&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/47"&gt;#47&lt;/a&gt; Improve random username generator to obey the website rules&lt;/p&gt;
 
 &lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
-&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 16:38:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/47"&gt;https://github.com/manu-chroma/username-availability-checker/issues/47&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 14:19:58 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5589863409647616</guid><category>Python</category><category>Flask</category><category>random</category><category>pytest</category><category>issues</category></item><item><title>community: Issue #8 Add Travis build URL to website</title><link>https://codein.withgoogle.com/tasks/4790773880979456</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/8"&gt;#8&lt;/a&gt; Add Travis build URL to website&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/8"&gt;https://github.com/coala/community/issues/8&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:36 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4790773880979456</guid><category>Travis</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #3 Build on forks with a static data file</title><link>https://codein.withgoogle.com/tasks/5314362094911488</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/3"&gt;#3&lt;/a&gt; Build on forks with a static data file&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/3"&gt;https://github.com/coala/community/issues/3&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:36 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5314362094911488</guid><category>data</category><category>JSON</category><category>frontend</category><category>issues</category><category>mock</category></item><item><title>community: Issue #5 Add github cards for each github user</title><link>https://codein.withgoogle.com/tasks/5705509170577408</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/5"&gt;#5&lt;/a&gt; Add github cards for each github user&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/5"&gt;https://github.com/coala/community/issues/5&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:36 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5705509170577408</guid><category>javascript</category><category>frontend</category><category>community</category><category>issues</category><category>github</category></item><item><title>community: Issue #25 Progress of solving &amp; creating issues</title><link>https://codein.withgoogle.com/tasks/5437975280222208</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/25"&gt;#25&lt;/a&gt; Progress of solving &amp;amp; creating issues&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/25"&gt;https://github.com/coala/community/issues/25&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:35 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5437975280222208</guid><category>analytics</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #40 Organisation Twitter feed</title><link>https://codein.withgoogle.com/tasks/6516122398490624</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/40"&gt;#40&lt;/a&gt; Organisation Twitter feed&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/40"&gt;https://github.com/coala/community/issues/40&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:23 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6516122398490624</guid><category>Twitter</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>Your first coala issue - describe a feature for the community repository</title><link>https://codein.withgoogle.com/tasks/4602539020386304</link><description>&lt;p&gt;We have launched http://community.coala.io/ for our GCI website , and it needs features.&lt;/p&gt;
+
+&lt;p&gt;This task is to privately discuss a missing feature with a mentor, and then &lt;strong&gt;after review by a mentor&lt;/strong&gt; create a public issue with your description.&lt;/p&gt;
+
+&lt;p&gt;Do not create an issue before a mentor has approved your text.&lt;/p&gt;
+
+&lt;p&gt;Other GCI organisations also have GCI websites, so you may find inspiration by looking at them. e.g. http://gci17.fossasia.org/ .&lt;/p&gt;
+
+&lt;p&gt;However, this website must be re-usable, which means no coala data in the repository, and no mention of coala.  All data must be loaded dynamically from webservices, IGitt, or some other 'open data'.&lt;/p&gt;
+
+&lt;p&gt;Mentors will help you ensure your idea is feasible.&lt;/p&gt;
+
+&lt;p&gt;The process for your first issue is very important.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Write a comment &lt;em&gt;privately&lt;/em&gt; in your task instance describing the feature.  Your description must be a minimum of 500 characters.  Include as much information as you can, including suggestions on how to implement the feature.&lt;/li&gt;
+&lt;li&gt;Submit your task instance for review.&lt;/li&gt;
+&lt;li&gt;A mentor will review your description, and they will reply with a private comment, either telling you to improve your description, or their comment will say "PUBLISH!".&lt;/li&gt;
+&lt;li&gt;If you have been told to PUBLISH, do a quick check of &lt;a href="https://github.com/coala/community/issues"&gt;existing issues&lt;/a&gt; to prevent duplicates, and then create a new issue in the repository if nobody has beaten you to it .&lt;/li&gt;
+&lt;li&gt;Submit your GCI task for review.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After you have completed this task, you will be allowed to claim other GCI tasks to create an issue without mentor pre-approval.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues"&gt;https://github.com/coala/community/issues&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:22 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4602539020386304</guid><category>create-issue</category><category>technical-writing</category><category>open-data</category></item><item><title>community: Issue #6 Create a .coafile</title><link>https://codein.withgoogle.com/tasks/4675973968560128</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/6"&gt;#6&lt;/a&gt; Create a .coafile&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/6"&gt;https://github.com/coala/community/issues/6&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:22 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4675973968560128</guid><category>.coafile</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>community: Issue #56 GCI: detect pull request authors for issues</title><link>https://codein.withgoogle.com/tasks/4624956392472576</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/56"&gt;#56&lt;/a&gt; GCI: detect pull request authors for issues&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/56"&gt;https://github.com/coala/community/issues/56&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4624956392472576</guid><category>IGitt</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #1 Add org logo and favicon.ico</title><link>https://codein.withgoogle.com/tasks/5218650468384768</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/1"&gt;#1&lt;/a&gt; Add org logo and favicon.ico&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/1"&gt;https://github.com/coala/community/issues/1&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5218650468384768</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>community: Issue #9 Use logging</title><link>https://codein.withgoogle.com/tasks/5405942046785536</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/9"&gt;#9&lt;/a&gt; Use logging&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/9"&gt;https://github.com/coala/community/issues/9&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5405942046785536</guid><category>frontend</category><category>logging</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #7 Add last generated timestamp</title><link>https://codein.withgoogle.com/tasks/5468807483097088</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/7"&gt;#7&lt;/a&gt; Add "last generated" timestamp&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/7"&gt;https://github.com/coala/community/issues/7&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5468807483097088</guid><category>time</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #10 Create a README.md</title><link>https://codein.withgoogle.com/tasks/6504681813573632</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/10"&gt;#10&lt;/a&gt; Create a README.md&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/10"&gt;https://github.com/coala/community/issues/10&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6504681813573632</guid><category>README</category><category>git</category><category>frontend</category><category>issues</category><category>markdown</category></item><item><title>community: Issue #57 GCI: Create RSS feed of new tasks</title><link>https://codein.withgoogle.com/tasks/5610139212054528</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/57"&gt;#57&lt;/a&gt; GCI: Create RSS feed of new tasks&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/57"&gt;https://github.com/coala/community/issues/57&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5610139212054528</guid><category>GCI</category><category>RSS</category><category>frontend</category><category>issues</category><category>django</category></item><item><title>community: Issue #42 Move logo on the front page</title><link>https://codein.withgoogle.com/tasks/5754678685990912</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+community repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/42"&gt;#42&lt;/a&gt; Move logo on the front page&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/42"&gt;https://github.com/coala/community/issues/42&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5754678685990912</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>dependency_management: Issue #73 RscriptRequirement: deprecate `flag` argument</title><link>https://codein.withgoogle.com/tasks/5465395400015872</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/73"&gt;#73&lt;/a&gt; RscriptRequirement: deprecate &lt;code&gt;flag&lt;/code&gt; argument&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/73"&gt;https://gitlab.com/coala/package_manager/issues/73&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:43:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5465395400015872</guid><category>Rscript</category><category>packaging</category><category>docstring</category><category>doctest</category><category>issues</category></item><item><title>dependency_management: Issue #125 Deprecate GoRequirement -u flag</title><link>https://codein.withgoogle.com/tasks/5907067556593664</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/125"&gt;#125&lt;/a&gt; Deprecate GoRequirement -u flag&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/125"&gt;https://gitlab.com/coala/package_manager/issues/125&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:43:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5907067556593664</guid><category>Go</category><category>packaging</category><category>python3</category><category>issues</category></item><item><title>dependency_management: Issue #138 Package manager gopm</title><link>https://codein.withgoogle.com/tasks/6211764884602880</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/138"&gt;#138&lt;/a&gt; Package manager gopm&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/138"&gt;https://gitlab.com/coala/package_manager/issues/138&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:43:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6211764884602880</guid><category>Go</category><category>packaging</category><category>python3</category><category>issues</category></item><item><title>dependency_management: Issue #155 Change typo `JuliaRequirement` to `RscriptRequirement`</title><link>https://codein.withgoogle.com/tasks/6287549515431936</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/155"&gt;#155&lt;/a&gt; Change typo &lt;code&gt;JuliaRequirement&lt;/code&gt; to &lt;code&gt;RscriptRequirement&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/155"&gt;https://gitlab.com/coala/package_manager/issues/155&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:43:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6287549515431936</guid><category>packaging</category><category>rscript</category><category>gitlab</category><category>issues</category><category>python3</category></item><item><title>dependency_management: Issue #131 Add MacPorts Requirement Manager</title><link>https://codein.withgoogle.com/tasks/5593149000908800</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+dependency_management repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/131"&gt;#131&lt;/a&gt; Add MacPorts Requirement Manager&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/131"&gt;https://gitlab.com/coala/package_manager/issues/131&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:43:25 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5593149000908800</guid><category>packaging</category><category>macOS</category><category>issues</category><category>python3</category><category>MacPorts</category></item><item><title>gci-leaders: Issue #21 Put html template in it's own file</title><link>https://codein.withgoogle.com/tasks/5626333755342848</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/21"&gt;#21&lt;/a&gt; Put html template in it's own file&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/21"&gt;https://github.com/coala/gci-leaders/issues/21&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5626333755342848</guid><category>Node</category><category>HTML</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #27 Reduce number of GitHub API hits</title><link>https://codein.withgoogle.com/tasks/5353273424871424</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;#27&lt;/a&gt; Reduce number of GitHub API hits&lt;/p&gt;
@@ -25,7 +239,61 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/27"&gt;https://github.com/coala/gci-leaders/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 08:31:28 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5353273424871424</guid><category>open data</category><category>API</category><category>JavaScript</category><category>GitHub</category><category>performance</category></item><item><title>gci-leaders: Issue #53 Add chat link</title><link>https://codein.withgoogle.com/tasks/6677271987355648</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/53"&gt;#53&lt;/a&gt; Add chat link&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/53"&gt;https://github.com/coala/gci-leaders/issues/53&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6677271987355648</guid><category>npm</category><category>Node</category><category>JavaScript</category><category>chat</category><category>issues</category></item><item><title>gci-leaders: Issue #57 Readable json</title><link>https://codein.withgoogle.com/tasks/6583719211040768</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/57"&gt;#57&lt;/a&gt; Readable json&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/57"&gt;https://github.com/coala/gci-leaders/issues/57&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583719211040768</guid><category>Node</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #26 Add fork me ribbon</title><link>https://codein.withgoogle.com/tasks/5422018000322560</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;#26&lt;/a&gt; Add fork me ribbon&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;https://github.com/coala/gci-leaders/issues/26&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5422018000322560</guid><category>Node</category><category>git</category><category>HTML</category><category>issues</category><category>github</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;#30&lt;/a&gt; Org heading contains invalid element&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;https://github.com/coala/gci-leaders/issues/30&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6567626035691520</guid><category>Node</category><category>git</category><category>JavaScript</category><category>HTML</category><category>issues</category></item><item><title>gci-leaders: Issue #65 Create blog planet from blog_url</title><link>https://codein.withgoogle.com/tasks/4567857922834432</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/65"&gt;#65&lt;/a&gt; Create blog planet from blog_url&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/65"&gt;https://github.com/coala/gci-leaders/issues/65&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4567857922834432</guid><category>Node</category><category>JavaScript</category><category>ATOM</category><category>issues</category><category>RSS</category></item><item><title>gci-leaders: Issue #54 Remove GCI orgs from twitter feed</title><link>https://codein.withgoogle.com/tasks/5962920678653952</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/54"&gt;#54&lt;/a&gt; Remove GCI orgs from twitter feed&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/54"&gt;https://github.com/coala/gci-leaders/issues/54&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5962920678653952</guid><category>Node</category><category>twitter</category><category>JavaScript</category><category>outreach</category><category>issues</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
@@ -34,7 +302,25 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;https://github.com/coala/gci-leaders/issues/8&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 07:13:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>username-availability: Issue #30 setup .env file to differentiate between dev and prod env</title><link>https://codein.withgoogle.com/tasks/4616364578832384</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>gci-leaders: Issue #51 Add GCI timeline</title><link>https://codein.withgoogle.com/tasks/6160329186738176</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/51"&gt;#51&lt;/a&gt; Add GCI timeline&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/51"&gt;https://github.com/coala/gci-leaders/issues/51&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6160329186738176</guid><category>node</category><category>javascript</category><category>html</category><category>issues</category><category>css</category></item><item><title>username-availability: Issue #39 Add support for openSUSE</title><link>https://codein.withgoogle.com/tasks/5692569096814592</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;#39&lt;/a&gt; Add support for openSUSE&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 24 Dec 2017 16:38:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>username-availability: Issue #30 setup .env file to differentiate between dev and prod env</title><link>https://codein.withgoogle.com/tasks/4616364578832384</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/30"&gt;#30&lt;/a&gt; setup .env file to differentiate between dev and prod env &lt;/p&gt;
@@ -297,16 +583,7 @@ Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email addres
 &lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 10:34:41 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>community: Issue #42 Move logo on the front page</title><link>https://codein.withgoogle.com/tasks/5754678685990912</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/42"&gt;#42&lt;/a&gt; Move logo on the front page&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/42"&gt;https://github.com/coala/community/issues/42&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 03:11:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5754678685990912</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 10:34:41 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/91"&gt;#91&lt;/a&gt; Create RSS feed of data changes&lt;/p&gt;
@@ -351,52 +628,7 @@ dependency_management repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/67"&gt;https://gitlab.com/coala/package_manager/issues/67&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4753765758402560</guid><category>packaging</category><category>Haskell</category><category>issues</category><category>python3</category></item><item><title>dependency management: Issue #167 PackageRequirement.install_package should return the exit code of the command</title><link>https://codein.withgoogle.com/tasks/5186591716802560</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/167"&gt;#167&lt;/a&gt; PackageRequirement.install_package should return the exit code of the command&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/167"&gt;https://gitlab.com/coala/package_manager/issues/167&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5186591716802560</guid><category>packaging</category><category>shell</category><category>issues</category><category>sarge</category><category>exit-codes</category></item><item><title>dependency_management: Issue #131 Add MacPorts Requirement Manager</title><link>https://codein.withgoogle.com/tasks/5593149000908800</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/131"&gt;#131&lt;/a&gt; Add MacPorts Requirement Manager&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/131"&gt;https://gitlab.com/coala/package_manager/issues/131&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5593149000908800</guid><category>packaging</category><category>macOS</category><category>issues</category><category>python3</category><category>MacPorts</category></item><item><title>dependency_management: Issue #118 DistributionRequirement: Shorten apt_get -&gt; apt</title><link>https://codein.withgoogle.com/tasks/5605231817654272</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/118"&gt;#118&lt;/a&gt; DistributionRequirement: Shorten apt_get -&gt; apt&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/118"&gt;https://gitlab.com/coala/package_manager/issues/118&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5605231817654272</guid><category>packaging</category><category>apt-get</category><category>issues</category><category>python3</category><category>Ubuntu</category></item><item><title>dependency management: Issue #163 docstrings for install_command should say it returns an array</title><link>https://codein.withgoogle.com/tasks/5632800701022208</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/163"&gt;#163&lt;/a&gt; docstrings for install_command should say it returns an array&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/163"&gt;https://gitlab.com/coala/package_manager/issues/163&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5632800701022208</guid><category>packaging</category><category>reStructuredText</category><category>docstring</category><category>issues</category><category>python3</category></item><item><title>dependency_management: Issue #84 LuarocksRequirement.py: Change 'Luarocks' -&gt; 'LuarocksRequirement'</title><link>https://codein.withgoogle.com/tasks/6291106956312576</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/84"&gt;#84&lt;/a&gt; LuarocksRequirement.py: Change 'Luarocks' -&gt; 'LuarocksRequirement'&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/84"&gt;https://gitlab.com/coala/package_manager/issues/84&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6291106956312576</guid><category>packaging</category><category>lau</category><category>gitlab</category><category>python3</category><category>issues</category></item><item><title>corobo: Issue #420 (part 1) Create IGitt issues to remove github3.py as a corobo dependency</title><link>https://codein.withgoogle.com/tasks/6465165027442688</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality in corobo that is currently using &lt;a href="https://github.com/github3py"&gt;github3.py&lt;/a&gt; .&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4753765758402560</guid><category>packaging</category><category>Haskell</category><category>issues</category><category>python3</category></item><item><title>corobo: Issue #420 (part 1) Create IGitt issues to remove github3.py as a corobo dependency</title><link>https://codein.withgoogle.com/tasks/6465165027442688</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality in corobo that is currently using &lt;a href="https://github.com/github3py"&gt;github3.py&lt;/a&gt; .&lt;/p&gt;
 
 &lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;&amp;quot;Your first coala issue&amp;quot;&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &amp;lt;code&amp;gt;low&amp;lt;/code&amp;gt;+ issue&lt;/a&gt;.&lt;/p&gt;
 
@@ -432,25 +664,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;To complete this task, it may be helpful to first have investigated and used tldr-pages. A web client is available &lt;a href="https://tldr.ostera.io/tar"&gt;here&lt;/a&gt; - other command-line clients are listed in the readme of the main tldr-pages repository.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/tldr-pages/tldr/issues/1659"&gt;https://github.com/tldr-pages/tldr/issues/1659&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5285165687373824</guid><category>go</category><category>markdown</category><category>linter</category><category>dependency management</category><category>command line</category></item><item><title>dependency_management: Issue #73 RscriptRequirement: deprecate `flag` argument</title><link>https://codein.withgoogle.com/tasks/5465395400015872</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/73"&gt;#73&lt;/a&gt; RscriptRequirement: deprecate &lt;code&gt;flag&lt;/code&gt; argument&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/73"&gt;https://gitlab.com/coala/package_manager/issues/73&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5465395400015872</guid><category>Rscript</category><category>packaging</category><category>docstring</category><category>doctest</category><category>issues</category></item><item><title>dependency_management: Issue #109 `build/` is not ignored</title><link>https://codein.withgoogle.com/tasks/5756203609096192</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/109"&gt;#109&lt;/a&gt; &lt;code&gt;build/&lt;/code&gt; is not ignored&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/109"&gt;https://gitlab.com/coala/package_manager/issues/109&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5756203609096192</guid><category>packaging</category><category>gitlab</category><category>python3</category><category>issues</category><category>.gitignore</category></item><item><title>dependency management: Issue #115 Add CPAN package manager</title><link>https://codein.withgoogle.com/tasks/5835922228641792</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5285165687373824</guid><category>go</category><category>markdown</category><category>linter</category><category>dependency management</category><category>command line</category></item><item><title>dependency management: Issue #115 Add CPAN package manager</title><link>https://codein.withgoogle.com/tasks/5835922228641792</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 dependency_management repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/115"&gt;#115&lt;/a&gt; Add CPAN package manager&lt;/p&gt;
@@ -459,52 +673,7 @@ dependency_management repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/115"&gt;https://gitlab.com/coala/package_manager/issues/115&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5835922228641792</guid><category>packaging</category><category>CPAN</category><category>python3</category><category>issues</category><category>Perl</category></item><item><title>dependency_management: Issue #125 Deprecate GoRequirement -u flag</title><link>https://codein.withgoogle.com/tasks/5907067556593664</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/125"&gt;#125&lt;/a&gt; Deprecate GoRequirement -u flag&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/125"&gt;https://gitlab.com/coala/package_manager/issues/125&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5907067556593664</guid><category>Go</category><category>packaging</category><category>python3</category><category>issues</category></item><item><title>dependency_management: Issue #138 Package manager gopm</title><link>https://codein.withgoogle.com/tasks/6211764884602880</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/138"&gt;#138&lt;/a&gt; Package manager gopm&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/138"&gt;https://gitlab.com/coala/package_manager/issues/138&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6211764884602880</guid><category>Go</category><category>packaging</category><category>python3</category><category>issues</category></item><item><title>dependency_management: Issue #155 Change typo `JuliaRequirement` to `RscriptRequirement`</title><link>https://codein.withgoogle.com/tasks/6287549515431936</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/155"&gt;#155&lt;/a&gt; Change typo &lt;code&gt;JuliaRequirement&lt;/code&gt; to &lt;code&gt;RscriptRequirement&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/155"&gt;https://gitlab.com/coala/package_manager/issues/155&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6287549515431936</guid><category>packaging</category><category>rscript</category><category>gitlab</category><category>issues</category><category>python3</category></item><item><title>dependency_management: Issue #29 NuGet support</title><link>https://codein.withgoogle.com/tasks/6296547539025920</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/29"&gt;#29&lt;/a&gt; NuGet support&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/29"&gt;https://gitlab.com/coala/package_manager/issues/29&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6296547539025920</guid><category>Windows</category><category>packaging</category><category>issues</category><category>NuGet</category><category>python3</category></item><item><title>dependency_management: Issue #127 Change :param return: to :return: in docstring</title><link>https://codein.withgoogle.com/tasks/4777057097613312</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-dependency_management repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/coala/package_manager/issues/127"&gt;#127&lt;/a&gt; Change :param return: to :return:&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/127"&gt;https://gitlab.com/coala/package_manager/issues/127&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4777057097613312</guid><category>packaging</category><category>gitlab</category><category>docstring</category><category>python3</category><category>issues</category></item><item><title>coala: Issue #4982 Create Indentation aspects under Formatting.Spacing</title><link>https://codein.withgoogle.com/tasks/5269975285628928</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5835922228641792</guid><category>packaging</category><category>CPAN</category><category>python3</category><category>issues</category><category>Perl</category></item><item><title>coala: Issue #4982 Create Indentation aspects under Formatting.Spacing</title><link>https://codein.withgoogle.com/tasks/5269975285628928</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala/issues/4982"&gt;#4982&lt;/a&gt; Create Indentation aspects under Formatting.Spacing&lt;/p&gt;
@@ -513,25 +682,7 @@ coala repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/issues/4982"&gt;https://github.com/coala/coala/issues/4982&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 08:16:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5269975285628928</guid><category>style</category><category>aspects</category><category>issues</category><category>indentation</category><category>python3</category></item><item><title>community: Issue #56 GCI: detect pull request authors for issues</title><link>https://codein.withgoogle.com/tasks/4624956392472576</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/56"&gt;#56&lt;/a&gt; GCI: detect pull request authors for issues&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/56"&gt;https://github.com/coala/community/issues/56&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 05:10:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4624956392472576</guid><category>IGitt</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #57 GCI: Create RSS feed of new tasks</title><link>https://codein.withgoogle.com/tasks/5610139212054528</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/57"&gt;#57&lt;/a&gt; GCI: Create RSS feed of new tasks&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/57"&gt;https://github.com/coala/community/issues/57&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 05:10:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5610139212054528</guid><category>GCI</category><category>RSS</category><category>frontend</category><category>issues</category><category>django</category></item><item><title>username-availability: Issue #31 Add Travis testing using pytest</title><link>https://codein.withgoogle.com/tasks/5700590954872832</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 08:16:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5269975285628928</guid><category>style</category><category>aspects</category><category>issues</category><category>indentation</category><category>python3</category></item><item><title>username-availability: Issue #31 Add Travis testing using pytest</title><link>https://codein.withgoogle.com/tasks/5700590954872832</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/31"&gt;#31&lt;/a&gt; Add Travis testing using pytest&lt;/p&gt;
@@ -643,25 +794,7 @@ landing repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/landing/issues/47"&gt;https://gitlab.com/coala/landing/issues/47&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 16 Dec 2017 14:28:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4662707275956224</guid><category>Django</category><category>issues</category><category>python3</category><category>CORS</category></item><item><title>gci-leaders: Issue #65 Create blog planet from blog_url</title><link>https://codein.withgoogle.com/tasks/4567857922834432</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/65"&gt;#65&lt;/a&gt; Create blog planet from blog_url&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/65"&gt;https://github.com/coala/gci-leaders/issues/65&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 15 Dec 2017 03:17:03 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4567857922834432</guid><category>Node</category><category>JavaScript</category><category>ATOM</category><category>issues</category><category>RSS</category></item><item><title>community: Issue #6 Create a .coafile</title><link>https://codein.withgoogle.com/tasks/4675973968560128</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/6"&gt;#6&lt;/a&gt; Create a .coafile&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/6"&gt;https://github.com/coala/community/issues/6&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4675973968560128</guid><category>.coafile</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>quickstart: Issue #201 Fix pytest warning</title><link>https://codein.withgoogle.com/tasks/5347808783630336</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 16 Dec 2017 14:28:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4662707275956224</guid><category>Django</category><category>issues</category><category>python3</category><category>CORS</category></item><item><title>quickstart: Issue #201 Fix pytest warning</title><link>https://codein.withgoogle.com/tasks/5347808783630336</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala-quickstart repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-quickstart/issues/201"&gt;#201&lt;/a&gt; Fix pytest warning&lt;/p&gt;
@@ -670,16 +803,7 @@ coala-quickstart repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-quickstart/issues/201"&gt;https://github.com/coala/coala-quickstart/issues/201&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5347808783630336</guid><category>Python3</category><category>pytest</category><category>setup.cfg</category><category>issues</category><category>AppVeyor CI</category></item><item><title>gci-leaders: Issue #53 Add chat link</title><link>https://codein.withgoogle.com/tasks/6677271987355648</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/53"&gt;#53&lt;/a&gt; Add chat link&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/53"&gt;https://github.com/coala/gci-leaders/issues/53&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6677271987355648</guid><category>npm</category><category>Node</category><category>JavaScript</category><category>chat</category><category>issues</category></item><item><title>coala: Issue #4952 Add ShellCheckBear to .coafile</title><link>https://codein.withgoogle.com/tasks/4875111964344320</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5347808783630336</guid><category>Python3</category><category>pytest</category><category>setup.cfg</category><category>issues</category><category>AppVeyor CI</category></item><item><title>coala: Issue #4952 Add ShellCheckBear to .coafile</title><link>https://codein.withgoogle.com/tasks/4875111964344320</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala/issues/4952"&gt;#4952&lt;/a&gt; Add ShellCheckBear to .coafile&lt;/p&gt;
@@ -688,16 +812,7 @@ coala repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/issues/4952"&gt;https://github.com/coala/coala/issues/4952&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4875111964344320</guid><category>apt-get</category><category>TravisCI</category><category>shellcheck</category><category>.coafile</category><category>issues</category></item><item><title>community: Issue #10 Create a README.md</title><link>https://codein.withgoogle.com/tasks/6504681813573632</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/10"&gt;#10&lt;/a&gt; Create a README.md&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/10"&gt;https://github.com/coala/community/issues/10&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6504681813573632</guid><category>README</category><category>git</category><category>frontend</category><category>issues</category><category>markdown</category></item><item><title>username-availability: Issue #21 Add tooltip when cursor hovers over the website icon</title><link>https://codein.withgoogle.com/tasks/5080575549374464</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 15:54:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4875111964344320</guid><category>apt-get</category><category>TravisCI</category><category>shellcheck</category><category>.coafile</category><category>issues</category></item><item><title>username-availability: Issue #21 Add tooltip when cursor hovers over the website icon</title><link>https://codein.withgoogle.com/tasks/5080575549374464</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/21"&gt;#21&lt;/a&gt; Add tooltip when cursor hovers over the website icon&lt;/p&gt;
@@ -764,16 +879,7 @@ manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&g
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/11"&gt;https://github.com/manu-chroma/username-availability-checker/issues/11&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 12 Dec 2017 16:58:40 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6545479372374016</guid><category>Flask</category><category>Python</category><category>heroku</category><category>issues</category><category>regex</category></item><item><title>community: Issue #40 Organisation Twitter feed</title><link>https://codein.withgoogle.com/tasks/6516122398490624</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/40"&gt;#40&lt;/a&gt; Organisation Twitter feed&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/40"&gt;https://github.com/coala/community/issues/40&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 16:54:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6516122398490624</guid><category>Twitter</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>corobo: Issue #329 Fix spelling of "eligility" in labhub.py</title><link>https://codein.withgoogle.com/tasks/6008381808574464</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 12 Dec 2017 16:58:40 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6545479372374016</guid><category>Flask</category><category>Python</category><category>heroku</category><category>issues</category><category>regex</category></item><item><title>corobo: Issue #329 Fix spelling of "eligility" in labhub.py</title><link>https://codein.withgoogle.com/tasks/6008381808574464</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/329"&gt;#329&lt;/a&gt; Fix spelling of "eligility" in labhub.py&lt;/p&gt;
@@ -800,16 +906,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/63"&gt;https://github.com/coala/gci-leaders/issues/63&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 03:37:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5049249064550400</guid><category>Wikidata</category><category>JavaScript</category><category>Wikipedia</category><category>sparql</category><category>issues</category></item><item><title>gci-leaders: Issue #57 Readable json</title><link>https://codein.withgoogle.com/tasks/6583719211040768</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/57"&gt;#57&lt;/a&gt; Readable json&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/57"&gt;https://github.com/coala/gci-leaders/issues/57&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 03:33:45 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583719211040768</guid><category>Node</category><category>JavaScript</category><category>issues</category></item><item><title>gh-board: Issue #4 Add currently active repos</title><link>https://codein.withgoogle.com/tasks/5162667809439744</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 03:37:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5049249064550400</guid><category>Wikidata</category><category>JavaScript</category><category>Wikipedia</category><category>sparql</category><category>issues</category></item><item><title>gh-board: Issue #4 Add currently active repos</title><link>https://codein.withgoogle.com/tasks/5162667809439744</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 community repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gh-board/issues/4"&gt;#4&lt;/a&gt; Add currently active repos&lt;/p&gt;
@@ -911,86 +1008,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://docs.weblate.org/en/latest/admin/continuous.html"&gt;https://docs.weblate.org/en/latest/admin/continuous.html&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 09 Dec 2017 06:43:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5343117974700032</guid><category>i18n</category><category>translation</category><category>linting</category><category>l10n</category></item><item><title>Your first coala issue - describe a feature for the community repository</title><link>https://codein.withgoogle.com/tasks/4602539020386304</link><description>&lt;p&gt;We have launched http://community.coala.io/ for our GCI website , and it needs features.&lt;/p&gt;
-
-&lt;p&gt;This task is to privately discuss a missing feature with a mentor, and then &lt;strong&gt;after review by a mentor&lt;/strong&gt; create a public issue with your description.&lt;/p&gt;
-
-&lt;p&gt;Do not create an issue before a mentor has approved your text.&lt;/p&gt;
-
-&lt;p&gt;Other GCI organisations also have GCI websites, so you may find inspiration by looking at them. e.g. http://gci17.fossasia.org/ .&lt;/p&gt;
-
-&lt;p&gt;However, this website must be re-usable, which means no coala data in the repository, and no mention of coala.  All data must be loaded dynamically from webservices, IGitt, or some other 'open data'.&lt;/p&gt;
-
-&lt;p&gt;Mentors will help you ensure your idea is feasible.&lt;/p&gt;
-
-&lt;p&gt;The process for your first issue is very important.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Write a comment &lt;em&gt;privately&lt;/em&gt; in your task instance describing the feature.  Your description must be a minimum of 500 characters.  Include as much information as you can, including suggestions on how to implement the feature.&lt;/li&gt;
-&lt;li&gt;Submit your task instance for review.&lt;/li&gt;
-&lt;li&gt;A mentor will review your description, and they will reply with a private comment, either telling you to improve your description, or their comment will say "PUBLISH!".&lt;/li&gt;
-&lt;li&gt;If you have been told to PUBLISH, do a quick check of &lt;a href="https://github.com/coala/community/issues"&gt;existing issues&lt;/a&gt; to prevent duplicates, and then create a new issue in the repository if nobody has beaten you to it .&lt;/li&gt;
-&lt;li&gt;Submit your GCI task for review.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;After you have completed this task, you will be allowed to claim other GCI tasks to create an issue without mentor pre-approval.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues"&gt;https://github.com/coala/community/issues&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:03 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4602539020386304</guid><category>create-issue</category><category>technical-writing</category><category>open-data</category></item><item><title>community: Issue #3 Build on forks with a static data file</title><link>https://codein.withgoogle.com/tasks/5314362094911488</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/3"&gt;#3&lt;/a&gt; Build on forks with a static data file&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/3"&gt;https://github.com/coala/community/issues/3&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5314362094911488</guid><category>data</category><category>JSON</category><category>frontend</category><category>issues</category><category>mock</category></item><item><title>gci-leaders: Issue #51 Add GCI timeline</title><link>https://codein.withgoogle.com/tasks/6160329186738176</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/51"&gt;#51&lt;/a&gt; Add GCI timeline&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/51"&gt;https://github.com/coala/gci-leaders/issues/51&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6160329186738176</guid><category>node</category><category>javascript</category><category>html</category><category>issues</category><category>css</category></item><item><title>community: Issue #9 Use logging</title><link>https://codein.withgoogle.com/tasks/5405942046785536</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/9"&gt;#9&lt;/a&gt; Use logging&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/9"&gt;https://github.com/coala/community/issues/9&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:00 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5405942046785536</guid><category>frontend</category><category>logging</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #25 Progress of solving &amp; creating issues</title><link>https://codein.withgoogle.com/tasks/5437975280222208</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/25"&gt;#25&lt;/a&gt; Progress of solving &amp;amp; creating issues&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/25"&gt;https://github.com/coala/community/issues/25&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:00 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5437975280222208</guid><category>analytics</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>community: Issue #5 Add github cards for each github user</title><link>https://codein.withgoogle.com/tasks/5705509170577408</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/5"&gt;#5&lt;/a&gt; Add github cards for each github user&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/5"&gt;https://github.com/coala/community/issues/5&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:44:00 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5705509170577408</guid><category>javascript</category><category>frontend</category><category>community</category><category>issues</category><category>github</category></item><item><title>community: Issue #8 Add Travis build URL to website</title><link>https://codein.withgoogle.com/tasks/4790773880979456</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/8"&gt;#8&lt;/a&gt; Add Travis build URL to website&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/8"&gt;https://github.com/coala/community/issues/8&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4790773880979456</guid><category>Travis</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>gci-leaders: Issue #50 Design overhaul</title><link>https://codein.withgoogle.com/tasks/5201638933397504</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 09 Dec 2017 06:43:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5343117974700032</guid><category>i18n</category><category>translation</category><category>linting</category><category>l10n</category></item><item><title>gci-leaders: Issue #50 Design overhaul</title><link>https://codein.withgoogle.com/tasks/5201638933397504</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/50"&gt;#50&lt;/a&gt; Design overhaul&lt;/p&gt;
@@ -999,34 +1017,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/50"&gt;https://github.com/coala/gci-leaders/issues/50&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5201638933397504</guid><category>Node</category><category>JavaScript</category><category>html</category><category>issues</category><category>css</category></item><item><title>community: Issue #1 Add org logo and favicon.ico</title><link>https://codein.withgoogle.com/tasks/5218650468384768</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/1"&gt;#1&lt;/a&gt; Add org logo and favicon.ico&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/1"&gt;https://github.com/coala/community/issues/1&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5218650468384768</guid><category>logo</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>community: Issue #7 Add last generated timestamp</title><link>https://codein.withgoogle.com/tasks/5468807483097088</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-community repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/7"&gt;#7&lt;/a&gt; Add "last generated" timestamp&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/7"&gt;https://github.com/coala/community/issues/7&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5468807483097088</guid><category>time</category><category>frontend</category><category>issues</category><category>community</category><category>django</category></item><item><title>gci-leaders: Issue #54 Remove GCI orgs from twitter feed</title><link>https://codein.withgoogle.com/tasks/5962920678653952</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/54"&gt;#54&lt;/a&gt; Remove GCI orgs from twitter feed&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/54"&gt;https://github.com/coala/gci-leaders/issues/54&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5962920678653952</guid><category>Node</category><category>twitter</category><category>JavaScript</category><category>outreach</category><category>issues</category></item><item><title>gci-leaders: #45</title><link>https://codein.withgoogle.com/tasks/6425638376308736</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5201638933397504</guid><category>Node</category><category>JavaScript</category><category>html</category><category>issues</category><category>css</category></item><item><title>gci-leaders: #45</title><link>https://codein.withgoogle.com/tasks/6425638376308736</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository.&lt;/p&gt;
 
 &lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
@@ -1078,25 +1069,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/32"&gt;https://github.com/coala/gci-leaders/issues/32&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5359048209727488</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>API</category></item><item><title>gci-leaders: Issue #26 Add fork me ribbon</title><link>https://codein.withgoogle.com/tasks/5422018000322560</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;#26&lt;/a&gt; Add fork me ribbon&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;https://github.com/coala/gci-leaders/issues/26&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5422018000322560</guid><category>Node</category><category>git</category><category>HTML</category><category>issues</category><category>github</category></item><item><title>gci-leaders: Issue #21 Put html template in it's own file</title><link>https://codein.withgoogle.com/tasks/5626333755342848</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/21"&gt;#21&lt;/a&gt; Put html template in it's own file&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/21"&gt;https://github.com/coala/gci-leaders/issues/21&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5626333755342848</guid><category>Node</category><category>HTML</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #1 Add last generated timestamp</title><link>https://codein.withgoogle.com/tasks/5936186788937728</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5359048209727488</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>API</category></item><item><title>gci-leaders: Issue #1 Add last generated timestamp</title><link>https://codein.withgoogle.com/tasks/5936186788937728</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/1"&gt;#1&lt;/a&gt; Add "last generated" timestamp&lt;/p&gt;
@@ -1114,16 +1087,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/34"&gt;https://github.com/coala/gci-leaders/issues/34&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6129325361332224</guid><category>Node</category><category>JavaScript</category><category>.coafile</category><category>linting</category><category>eslint</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;#30&lt;/a&gt; Org heading contains invalid element&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;https://github.com/coala/gci-leaders/issues/30&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6567626035691520</guid><category>Node</category><category>git</category><category>JavaScript</category><category>HTML</category><category>issues</category></item><item><title>gci-leaders: Issue #11 Add .coafile</title><link>https://codein.withgoogle.com/tasks/5092411338391552</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:18 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6129325361332224</guid><category>Node</category><category>JavaScript</category><category>.coafile</category><category>linting</category><category>eslint</category></item><item><title>gci-leaders: Issue #11 Add .coafile</title><link>https://codein.withgoogle.com/tasks/5092411338391552</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/11"&gt;#11&lt;/a&gt; Add .coafile&lt;/p&gt;

@@ -168,7 +168,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #65 Create blog planet from blog_url'
-  last_modified: '2017-12-15T03:17:03Z'
+  last_modified: '2017-12-25T10:34:11Z'
   is_beginner: false
   id: 4567857922834432
   categories:
@@ -205,7 +205,7 @@
   private_metadata: ''
   max_instances: 100
   name: Your first coala issue - describe a feature for the community repository
-  last_modified: '2017-12-08T20:44:03Z'
+  last_modified: '2017-12-25T10:44:22Z'
   is_beginner: false
   id: 4602539020386304
   categories:
@@ -279,7 +279,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #56 GCI: detect pull request authors for issues'
-  last_modified: '2017-12-18T05:10:20Z'
+  last_modified: '2017-12-25T10:44:21Z'
   is_beginner: false
   id: 4624956392472576
   categories:
@@ -325,7 +325,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #6 Create a .coafile'
-  last_modified: '2017-12-14T15:54:51Z'
+  last_modified: '2017-12-25T10:44:22Z'
   is_beginner: false
   id: 4675973968560128
   categories:
@@ -483,9 +483,9 @@
   - python3
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'dependency_management: Issue #127 Change :param return: to :return: in docstring'
-  last_modified: '2017-12-18T10:33:12Z'
+  last_modified: '2017-12-26T02:23:51Z'
   is_beginner: true
   id: 4777057097613312
   categories:
@@ -532,7 +532,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #8 Add Travis build URL to website'
-  last_modified: '2017-12-08T20:43:59Z'
+  last_modified: '2017-12-25T10:44:36Z'
   is_beginner: false
   id: 4790773880979456
   categories:
@@ -1491,31 +1491,6 @@
   categories:
   - 1
   external_url: https://github.com/coala/coala/issues/4514
-5186591716802560:
-  status: 2
-  time_to_complete_in_days: 3
-  program_year: 2017
-  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
-    \ repository. Here is the issue:\n\nIssue [#167](https://gitlab.com/coala/package_manager/issues/167)\
-    \ PackageRequirement.install_package should return the exit code of the command\n\
-    \nRemember to format your [Git Commit Message](http://coala.io/commit)\naccording\
-    \ to the rules, otherwise the bot will tell you to fix it."
-  tags:
-  - packaging
-  - shell
-  - issues
-  - sarge
-  - exit-codes
-  private_metadata: issues
-  max_instances: 1
-  name: 'dependency management: Issue #167 PackageRequirement.install_package should
-    return the exit code of the command'
-  last_modified: '2017-12-18T10:33:14Z'
-  is_beginner: false
-  id: 5186591716802560
-  categories:
-  - 1
-  external_url: https://gitlab.com/coala/package_manager/issues/167
 5187890919243776:
   status: 2
   time_to_complete_in_days: 3
@@ -1625,7 +1600,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #1 Add org logo and favicon.ico'
-  last_modified: '2017-12-08T20:43:59Z'
+  last_modified: '2017-12-25T10:44:21Z'
   is_beginner: false
   id: 5218650468384768
   categories:
@@ -1734,7 +1709,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #3 Build on forks with a static data file'
-  last_modified: '2017-12-08T20:44:01Z'
+  last_modified: '2017-12-25T10:44:36Z'
   is_beginner: false
   id: 5314362094911488
   categories:
@@ -1908,7 +1883,7 @@
   private_metadata: issues
   max_instances: 2
   name: 'gci-leaders: Issue #27 Reduce number of GitHub API hits'
-  last_modified: '2017-12-24T08:31:28Z'
+  last_modified: '2017-12-25T10:34:14Z'
   is_beginner: false
   id: 5353273424871424
   categories:
@@ -2160,7 +2135,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #9 Use logging'
-  last_modified: '2017-12-08T20:44:00Z'
+  last_modified: '2017-12-25T10:44:21Z'
   is_beginner: false
   id: 5405942046785536
   categories:
@@ -2208,7 +2183,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #26 Add fork me ribbon'
-  last_modified: '2017-12-08T20:43:18Z'
+  last_modified: '2017-12-25T10:34:12Z'
   is_beginner: true
   id: 5422018000322560
   categories:
@@ -2233,7 +2208,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #25 Progress of solving & creating issues'
-  last_modified: '2017-12-08T20:44:00Z'
+  last_modified: '2017-12-25T10:44:35Z'
   is_beginner: false
   id: 5437975280222208
   categories:
@@ -2284,7 +2259,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #73 RscriptRequirement: deprecate `flag` argument'
-  last_modified: '2017-12-18T10:33:13Z'
+  last_modified: '2017-12-25T10:43:26Z'
   is_beginner: false
   id: 5465395400015872
   categories:
@@ -2307,7 +2282,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #7 Add last generated timestamp'
-  last_modified: '2017-12-08T20:43:59Z'
+  last_modified: '2017-12-25T10:44:21Z'
   is_beginner: false
   id: 5468807483097088
   categories:
@@ -2474,6 +2449,31 @@
   categories:
   - 2
   external_url: https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/62
+5589863409647616:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#47](https://github.com/manu-chroma/username-availability-checker/issues/47)\
+    \ Improve random username generator to obey the website rules\n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - random
+  - pytest
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #47 Improve random username generator to obey
+    the website rules'
+  last_modified: '2017-12-25T14:19:58Z'
+  is_beginner: false
+  id: 5589863409647616
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/47
 5593149000908800:
   status: 2
   time_to_complete_in_days: 4
@@ -2491,7 +2491,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #131 Add MacPorts Requirement Manager'
-  last_modified: '2017-12-18T10:33:14Z'
+  last_modified: '2017-12-25T10:43:25Z'
   is_beginner: false
   id: 5593149000908800
   categories:
@@ -2521,31 +2521,6 @@
   - 1
   - 2
   external_url: https://github.com/coala/gci-leaders/issues/23
-5605231817654272:
-  status: 2
-  time_to_complete_in_days: 3
-  program_year: 2017
-  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
-    \ repository. Here is the issue:\n\nIssue [#118](https://gitlab.com/coala/package_manager/issues/118)\
-    \ DistributionRequirement: Shorten apt_get -> apt\n\nRemember to format your [Git\
-    \ Commit Message](http://coala.io/commit)\naccording to the rules, otherwise the\
-    \ bot will tell you to fix it."
-  tags:
-  - packaging
-  - apt-get
-  - issues
-  - python3
-  - Ubuntu
-  private_metadata: issues
-  max_instances: 1
-  name: 'dependency_management: Issue #118 DistributionRequirement: Shorten apt_get
-    -> apt'
-  last_modified: '2017-12-18T10:33:14Z'
-  is_beginner: false
-  id: 5605231817654272
-  categories:
-  - 1
-  external_url: https://gitlab.com/coala/package_manager/issues/118
 5610139212054528:
   status: 2
   time_to_complete_in_days: 3
@@ -2563,7 +2538,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #57 GCI: Create RSS feed of new tasks'
-  last_modified: '2017-12-18T05:10:08Z'
+  last_modified: '2017-12-25T10:44:19Z'
   is_beginner: false
   id: 5610139212054528
   categories:
@@ -2621,38 +2596,13 @@
   private_metadata: issues
   max_instances: 1
   name: "gci-leaders: Issue #21 Put html template in it's own file"
-  last_modified: '2017-12-08T20:43:18Z'
+  last_modified: '2017-12-25T10:34:15Z'
   is_beginner: false
   id: 5626333755342848
   categories:
   - 1
   - 2
   external_url: https://github.com/coala/gci-leaders/issues/21
-5632800701022208:
-  status: 2
-  time_to_complete_in_days: 3
-  program_year: 2017
-  description: "Your task is to solve a 'low' difficulty issue in the\ndependency_management\
-    \ repository. Here is the issue:\n\nIssue [#163](https://gitlab.com/coala/package_manager/issues/163)\
-    \ docstrings for install_command should say it returns an array\n\nRemember to\
-    \ format your [Git Commit Message](http://coala.io/commit)\naccording to the rules,\
-    \ otherwise the bot will tell you to fix it."
-  tags:
-  - packaging
-  - reStructuredText
-  - docstring
-  - issues
-  - python3
-  private_metadata: issues
-  max_instances: 1
-  name: 'dependency management: Issue #163 docstrings for install_command should say
-    it returns an array'
-  last_modified: '2017-12-18T10:33:14Z'
-  is_beginner: false
-  id: 5632800701022208
-  categories:
-  - 3
-  external_url: https://gitlab.com/coala/package_manager/issues/163
 5637192237973504:
   status: 2
   time_to_complete_in_days: 3
@@ -2967,7 +2917,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #5 Add github cards for each github user'
-  last_modified: '2017-12-08T20:44:00Z'
+  last_modified: '2017-12-25T10:44:36Z'
   is_beginner: false
   id: 5705509170577408
   categories:
@@ -3135,35 +3085,12 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #42 Move logo on the front page'
-  last_modified: '2017-12-19T03:11:52Z'
+  last_modified: '2017-12-25T10:44:19Z'
   is_beginner: false
   id: 5754678685990912
   categories:
   - 1
   external_url: https://github.com/coala/community/issues/42
-5756203609096192:
-  status: 2
-  time_to_complete_in_days: 3
-  program_year: 2017
-  description: "Your task is to solve a 'newcomer' difficulty issue in the\ndependency_management\
-    \ repository. Here is the issue:\n\nIssue [#109](https://gitlab.com/coala/package_manager/issues/109)\
-    \ `build/` is not ignored\n\nRead [Git Basics](http://coala.io/git) and [Newcomer\
-    \ Guide](http://coala.io/newcomer)\nto learn how to prepare your patch properly."
-  tags:
-  - packaging
-  - gitlab
-  - python3
-  - issues
-  - .gitignore
-  private_metadata: issues
-  max_instances: 1
-  name: 'dependency_management: Issue #109 `build/` is not ignored'
-  last_modified: '2017-12-18T10:33:13Z'
-  is_beginner: true
-  id: 5756203609096192
-  categories:
-  - 1
-  external_url: https://gitlab.com/coala/package_manager/issues/109
 5771832516935680:
   status: 2
   time_to_complete_in_days: 4
@@ -3381,7 +3308,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #125 Deprecate GoRequirement -u flag'
-  last_modified: '2017-12-18T10:33:13Z'
+  last_modified: '2017-12-25T10:43:26Z'
   is_beginner: false
   id: 5907067556593664
   categories:
@@ -3511,7 +3438,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #54 Remove GCI orgs from twitter feed'
-  last_modified: '2017-12-08T20:43:59Z'
+  last_modified: '2017-12-25T10:34:11Z'
   is_beginner: false
   id: 5962920678653952
   categories:
@@ -3793,7 +3720,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'gci-leaders: Issue #51 Add GCI timeline'
-  last_modified: '2017-12-08T20:44:01Z'
+  last_modified: '2017-12-25T10:34:10Z'
   is_beginner: false
   id: 6160329186738176
   categories:
@@ -3854,7 +3781,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #138 Package manager gopm'
-  last_modified: '2017-12-18T10:33:13Z'
+  last_modified: '2017-12-25T10:43:26Z'
   is_beginner: false
   id: 6211764884602880
   categories:
@@ -4049,7 +3976,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'dependency_management: Issue #155 Change typo `JuliaRequirement` to `RscriptRequirement`'
-  last_modified: '2017-12-18T10:33:13Z'
+  last_modified: '2017-12-25T10:43:26Z'
   is_beginner: true
   id: 6287549515431936
   categories:
@@ -4072,10 +3999,10 @@
   - python3
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: "dependency_management: Issue #84 LuarocksRequirement.py: Change 'Luarocks'\
     \ -> 'LuarocksRequirement'"
-  last_modified: '2017-12-18T10:33:14Z'
+  last_modified: '2017-12-26T02:25:32Z'
   is_beginner: true
   id: 6291106956312576
   categories:
@@ -4103,29 +4030,6 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/91
-6296547539025920:
-  status: 2
-  time_to_complete_in_days: 4
-  program_year: 2017
-  description: "Your task is to solve a 'medium' difficulty issue in the\ndependency_management\
-    \ repository. Here is the issue:\n\nIssue [#29](https://gitlab.com/coala/package_manager/issues/29)\
-    \ NuGet support\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
-    according to the rules, otherwise the bot will tell you to fix it."
-  tags:
-  - Windows
-  - packaging
-  - issues
-  - NuGet
-  - python3
-  private_metadata: issues
-  max_instances: 1
-  name: 'dependency_management: Issue #29 NuGet support'
-  last_modified: '2017-12-18T10:33:13Z'
-  is_beginner: false
-  id: 6296547539025920
-  categories:
-  - 1
-  external_url: https://gitlab.com/coala/package_manager/issues/29
 6300122856030208:
   status: 2
   time_to_complete_in_days: 3
@@ -4190,7 +4094,7 @@
   private_metadata: issues
   max_instances: 4
   name: 'gci-leaders: Issue #8 Guess GitHub username of leading participants'
-  last_modified: '2017-12-24T07:13:12Z'
+  last_modified: '2017-12-25T10:34:11Z'
   is_beginner: false
   id: 6304189116317696
   categories:
@@ -4602,7 +4506,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #10 Create a README.md'
-  last_modified: '2017-12-14T15:54:50Z'
+  last_modified: '2017-12-25T10:44:20Z'
   is_beginner: true
   id: 6504681813573632
   categories:
@@ -4625,7 +4529,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'community: Issue #40 Organisation Twitter feed'
-  last_modified: '2017-12-11T16:54:09Z'
+  last_modified: '2017-12-25T10:44:23Z'
   is_beginner: false
   id: 6516122398490624
   categories:
@@ -4696,7 +4600,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #30 Org heading contains invalid element'
-  last_modified: '2017-12-08T20:43:18Z'
+  last_modified: '2017-12-25T10:34:12Z'
   is_beginner: true
   id: 6567626035691520
   categories:
@@ -4717,7 +4621,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #57 Readable json'
-  last_modified: '2017-12-11T03:33:45Z'
+  last_modified: '2017-12-25T10:34:13Z'
   is_beginner: false
   id: 6583719211040768
   categories:
@@ -4834,7 +4738,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #53 Add chat link'
-  last_modified: '2017-12-14T15:54:51Z'
+  last_modified: '2017-12-25T10:34:14Z'
   is_beginner: false
   id: 6677271987355648
   categories:

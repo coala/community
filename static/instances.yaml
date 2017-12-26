@@ -89,6 +89,17 @@
   deadline: '2017-12-04 17:23:46'
   organization_id: 4884530416582656
   id: 4633085364666368
+4639967504498688:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5130855347388416
+  student_id: 4552227639263232
+  task_definition_name: Add CONTRIBUTING.md on vulture
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4639967504498688
 4641945706037248:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -128,6 +139,18 @@
   deadline: '2017-12-03 04:24:44'
   organization_id: 4884530416582656
   id: 4646964484374528
+4708539073298432:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5138762466066432
+  student_id: 5302037795307520
+  task_definition_name: 'gci-leaders: Issue #9 Link to GitLab organisation for each
+    Google Code-in organisation'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4708539073298432
 4724632097652736:
   student_display_name: dodo
   status: CLAIMED
@@ -150,6 +173,19 @@
   completion_date:
   organization_id: 4884530416582656
   id: 4733999840755712
+4761262212775936:
+  student_display_name: Nalin Bhardwaj
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6661284751736832
+  student_id: 4552227639263232
+  modified: '2017-12-26 04:11:35'
+  task_definition_name: 'linterhub: Create a Docker image for phpmd'
+  organization_name: coala
+  completion_date: '2017-12-26 04:11:29'
+  deadline: '2017-12-29 13:33:49'
+  organization_id: 4884530416582656
+  id: 4761262212775936
 4786680533876736:
   student_display_name: Shubham Inder
   status: COMPLETED
@@ -480,6 +516,18 @@
   deadline: '2017-12-22 12:23:45'
   organization_id: 4884530416582656
   id: 5219730845597696
+5247586057322496:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5589863409647616
+  student_id: 6479102439587840
+  task_definition_name: 'username-availability: Issue #47 Improve random username
+    generator to obey the website rules'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5247586057322496
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -558,17 +606,6 @@
   deadline: '2017-12-07 22:48:57'
   organization_id: 4884530416582656
   id: 5324936413446144
-5354319484289024:
-  student_display_name: Akhilesh Ravikumar
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 5254619871576064
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5354319484289024
 5357786093322240:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -583,17 +620,6 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
-5406950281969664:
-  student_display_name: Robin Abishek
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 5106185264955392
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5406950281969664
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -716,13 +742,15 @@
   id: 5637491040190464
 5642380172591104:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5363762775195648
   student_id: 5302037795307520
+  modified: '2017-12-25 09:54:55'
   task_definition_name: 'gci-leaders: Issue #100 Find users in repository information'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-25 09:54:49'
+  deadline: '2017-12-27 16:14:02'
   organization_id: 4884530416582656
   id: 5642380172591104
 5652082084282368:
@@ -764,17 +792,6 @@
   deadline: '2017-12-01 20:05:48'
   organization_id: 4884530416582656
   id: 5672009499410432
-5693122879160320:
-  student_display_name: Sahil Chagani
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 6317329132552192
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5693122879160320
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1319,6 +1336,17 @@
   deadline: '2017-12-09 00:09:06'
   organization_id: 4884530416582656
   id: 6443907623682048
+6480703514476544:
+  student_display_name: Frumentius Daneswara N
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6360069023203328
+  student_id: 4957841733451776
+  task_definition_name: 'cEPs: Issue #73 Add cEP index in README.md'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6480703514476544
 6496929062060032:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -1469,13 +1497,15 @@
   id: 6558664016003072
 6573184495124480:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5477529756368896
   student_id: 4552227639263232
+  modified: '2017-12-25 12:33:27'
   task_definition_name: 'linterhub: Create a Docker image for csvlint'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-25 12:15:35'
+  deadline: '2017-12-26 17:14:44'
   organization_id: 4884530416582656
   id: 6573184495124480
 6579015617871872:
@@ -1521,13 +1551,15 @@
   id: 6621842649382912
 6645565163044864:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6033562321027072
   student_id: 6479102439587840
+  modified: '2017-12-25 14:06:36'
   task_definition_name: 'username-availability: Issue #36 Add more test parameterisation'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-25 14:06:31'
+  deadline: '2017-12-28 08:30:48'
   organization_id: 4884530416582656
   id: 6645565163044864
 6704021211447296:
