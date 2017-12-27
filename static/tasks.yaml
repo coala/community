@@ -2697,10 +2697,10 @@
     to learn how to prepare your patch properly."
   tags:
   - README
-  - markdown
   - git
-  - issues
+  - markdown
   - javascript
+  - issues
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -2762,16 +2762,21 @@
     \ to be changed is the `NpmRequirement`. Some things may need to be redesigned\
     \ to accomodate."
   tags:
+  - style
   - javascript
+  - jshint
+  - linting
+  - python3
   private_metadata: ''
   max_instances: 1
   name: 'JSHintBear: Upgrade JSHint'
-  last_modified: '2017-11-14T18:50:52Z'
+  last_modified: '2017-12-27T04:37:24Z'
   is_beginner: false
   id: 5668029776003072
   categories:
   - 1
-  external_url:
+  - 4
+  external_url: https://github.com/coala/coala-bears/issues/2201
 5676932739891200:
   status: 2
   time_to_complete_in_days: 3
@@ -2867,9 +2872,9 @@
   - openSUSE
   - issues
   private_metadata: issues
-  max_instances: 0
+  max_instances: 1
   name: 'username-availability: Issue #39 Add support for openSUSE'
-  last_modified: '2017-12-24T16:38:12Z'
+  last_modified: '2017-12-26T12:44:30Z'
   is_beginner: false
   id: 5692569096814592
   categories:

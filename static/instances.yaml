@@ -63,6 +63,17 @@
   deadline: '2017-12-06 01:18:22'
   organization_id: 4884530416582656
   id: 4588982627205120
+4590946677161984:
+  student_display_name: PATEL PARTH
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 5506726734331904
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4590946677161984
 4614924791709696:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -141,14 +152,16 @@
   id: 4646964484374528
 4708539073298432:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5138762466066432
   student_id: 5302037795307520
+  modified: '2017-12-27 04:38:26'
   task_definition_name: 'gci-leaders: Issue #9 Link to GitLab organisation for each
     Google Code-in organisation'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-27 04:38:22'
+  deadline: '2017-12-29 20:21:11'
   organization_id: 4884530416582656
   id: 4708539073298432
 4724632097652736:
@@ -162,17 +175,6 @@
   completion_date:
   organization_id: 4884530416582656
   id: 4724632097652736
-4733999840755712:
-  student_display_name: HUSSAIN MOHMMAD
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 4759456648790016
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4733999840755712
 4761262212775936:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -266,6 +268,17 @@
   deadline: '2017-12-25 19:32:16'
   organization_id: 4884530416582656
   id: 4841168670031872
+4848293685231616:
+  student_display_name: Tio Irawan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5667393978236928
+  student_id: 6214590973083648
+  task_definition_name: 'gci-leaders: Issue #77 Import pre-2017 Finalists and winners'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4848293685231616
 4863157258420224:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -384,17 +397,6 @@
   deadline: '2017-12-16 07:18:11'
   organization_id: 4884530416582656
   id: 5102697852174336
-5110746453114880:
-  student_display_name: Marcos Gómez
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5668029776003072
-  student_id: 5557452655296512
-  task_definition_name: 'JSHintBear: Upgrade JSHint'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5110746453114880
 5112447797035008:
   student_display_name: Joshua Chung
   status: COMPLETED
@@ -806,6 +808,17 @@
   deadline: '2017-12-21 18:44:32'
   organization_id: 4884530416582656
   id: 5693592305664000
+5710322344132608:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5692569096814592
+  student_id: 6502237683580928
+  task_definition_name: 'username-availability: Issue #39 Add support for openSUSE'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5710322344132608
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
