@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Wed, 27 Dec 2017 04:37:24 +0000</lastBuildDate><item><title>JSHintBear: Upgrade JSHint</title><link>https://codein.withgoogle.com/tasks/5668029776003072</link><description>&lt;p&gt;Update the version of JSHint used by JSHintBear to the latest version.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Wed, 27 Dec 2017 17:07:43 +0000</lastBuildDate><item><title>corobo: Issue #251 Whitespace missing in newcomer welcome message</title><link>https://codein.withgoogle.com/tasks/5736616947613696</link><description>&lt;p&gt;Your task is to solve a 'newcomer' issue in the
+corobo repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/251"&gt;#251&lt;/a&gt; Whitespace missing in newcomer welcome message&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/251"&gt;https://github.com/coala/corobo/issues/251&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 27 Dec 2017 17:07:43 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5736616947613696</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>JSHintBear: Upgrade JSHint</title><link>https://codein.withgoogle.com/tasks/5668029776003072</link><description>&lt;p&gt;Update the version of JSHint used by JSHintBear to the latest version.&lt;/p&gt;
 
 &lt;p&gt;JSHintBear currently uses JSHint version 2. The latest version is 2.9.5.&lt;/p&gt;
 
@@ -1139,7 +1148,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/2"&gt;https://github.com/coala/gci-leaders/issues/2&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>markdown</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>javascript</category><category>issues</category><category>markdown</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/3"&gt;#3&lt;/a&gt; Clickable org name&lt;/p&gt;
@@ -1329,16 +1338,7 @@ projects repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/projects/issues/354"&gt;https://github.com/coala/projects/issues/354&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 13:21:06 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5165623594188800</guid><category>python3</category><category>AngularJS</category><category>issues</category></item><item><title>corobo: Issue #250 explain: Whitespace missing in explain google message</title><link>https://codein.withgoogle.com/tasks/5899537740726272</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/250"&gt;#250&lt;/a&gt; explain: Whitespace missing in explain google message&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/250"&gt;https://github.com/coala/corobo/issues/250&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 04 Dec 2017 10:34:36 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5899537740726272</guid><category>git</category><category>errbot</category><category>markdown</category><category>chatops</category><category>issues</category></item><item><title>corobo: Issue #257 explain: Move hard coded explanations out of code</title><link>https://codein.withgoogle.com/tasks/5015039515820032</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 13:21:06 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5165623594188800</guid><category>python3</category><category>AngularJS</category><category>issues</category></item><item><title>corobo: Issue #257 explain: Move hard coded explanations out of code</title><link>https://codein.withgoogle.com/tasks/5015039515820032</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/257"&gt;#257&lt;/a&gt; explain: Move hard coded explanations out of code&lt;/p&gt;
@@ -1900,16 +1900,7 @@ coala repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/issues/4887"&gt;https://github.com/coala/coala/issues/4887&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4792956529672192</guid><category>unittest</category><category>pytest</category><category>issues</category></item><item><title>corobo: Issue #251 Whitespace missing in newcomer welcome message</title><link>https://codein.withgoogle.com/tasks/5736616947613696</link><description>&lt;p&gt;Your task is to solve a 'newcomer' issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/251"&gt;#251&lt;/a&gt; Whitespace missing in newcomer welcome message&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/251"&gt;https://github.com/coala/corobo/issues/251&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5736616947613696</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>coala: Issue #4886 Create unit tests for coala --ignore</title><link>https://codein.withgoogle.com/tasks/4921905138106368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4792956529672192</guid><category>unittest</category><category>pytest</category><category>issues</category></item><item><title>coala: Issue #4886 Create unit tests for coala --ignore</title><link>https://codein.withgoogle.com/tasks/4921905138106368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala/issues/4886"&gt;#4886&lt;/a&gt; No tests for coala --ignore&lt;/p&gt;

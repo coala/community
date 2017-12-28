@@ -102,13 +102,15 @@
   id: 4633085364666368
 4639967504498688:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5130855347388416
   student_id: 4552227639263232
+  modified: '2017-12-28 04:10:28'
   task_definition_name: Add CONTRIBUTING.md on vulture
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-28 04:10:23'
+  deadline: '2017-12-31 09:42:42'
   organization_id: 4884530416582656
   id: 4639967504498688
 4641945706037248:
@@ -164,17 +166,6 @@
   deadline: '2017-12-29 20:21:11'
   organization_id: 4884530416582656
   id: 4708539073298432
-4724632097652736:
-  student_display_name: dodo
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 6297751564320768
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4724632097652736
 4761262212775936:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -397,6 +388,17 @@
   deadline: '2017-12-16 07:18:11'
   organization_id: 4884530416582656
   id: 5102697852174336
+5110746453114880:
+  student_display_name: Marcos Gómez
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5668029776003072
+  student_id: 5557452655296512
+  task_definition_name: 'JSHintBear: Upgrade JSHint'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5110746453114880
 5112447797035008:
   student_display_name: Joshua Chung
   status: COMPLETED
@@ -729,6 +731,17 @@
   deadline: '2017-12-21 10:14:20'
   organization_id: 4884530416582656
   id: 5602122823368704
+5636472126308352:
+  student_display_name: MOHIT GUPTA
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 4743907457892352
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5636472126308352
 5637491040190464:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -794,6 +807,17 @@
   deadline: '2017-12-01 20:05:48'
   organization_id: 4884530416582656
   id: 5672009499410432
+5687506806767616:
+  student_display_name: Zhao Wei Liew
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5198834521079808
+  student_id: 6020884257046528
+  task_definition_name: 'gci-leaders: Issue #88 og:image is broken'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5687506806767616
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -810,13 +834,15 @@
   id: 5693592305664000
 5710322344132608:
   student_display_name: biscuitsnake
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5692569096814592
   student_id: 6502237683580928
+  modified: '2017-12-27 13:13:24'
   task_definition_name: 'username-availability: Issue #39 Add support for openSUSE'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-27 13:13:19'
+  deadline: '2017-12-29 12:51:39'
   organization_id: 4884530416582656
   id: 5710322344132608
 5726292039172096:
@@ -833,6 +859,19 @@
   deadline: '2017-12-17 20:52:18'
   organization_id: 4884530416582656
   id: 5726292039172096
+5749719408050176:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5903063900487680
+  student_id: 5302037795307520
+  modified: '2017-12-27 12:02:09'
+  task_definition_name: Create a blog post about your GCI journey so far
+  organization_name: coala
+  completion_date: '2017-12-27 12:02:02'
+  deadline: '2017-12-31 10:21:55'
+  organization_id: 4884530416582656
+  id: 5749719408050176
 5799143542882304:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -1336,6 +1375,17 @@
   deadline: '2017-12-02 02:37:05'
   organization_id: 4884530416582656
   id: 6399963774844928
+6415132114550784:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4662707275956224
+  student_id: 4552227639263232
+  task_definition_name: 'landing: Issue #47 Add Netlify to CORS_ORIGIN_WHITELIST'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6415132114550784
 6443907623682048:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1575,6 +1625,17 @@
   deadline: '2017-12-28 08:30:48'
   organization_id: 4884530416582656
   id: 6645565163044864
+6654705038000128:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5572222871666688
+  student_id: 5302037795307520
+  task_definition_name: 'gci-leaders: Issue #89 Clearly identify Netlify Deploy Previews'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6654705038000128
 6704021211447296:
   student_display_name: Joshua Chung
   status: COMPLETED

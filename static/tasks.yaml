@@ -2698,9 +2698,9 @@
   tags:
   - README
   - git
-  - markdown
   - javascript
   - issues
+  - markdown
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -2973,9 +2973,9 @@
   - chatops
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'corobo: Issue #251 Whitespace missing in newcomer welcome message'
-  last_modified: '2017-11-29T04:27:12Z'
+  last_modified: '2017-12-27T17:07:43Z'
   is_beginner: true
   id: 5736616947613696
   categories:
@@ -3213,30 +3213,6 @@
   categories:
   - 3
   external_url: https://github.com/coala/coala/issues/4771
-5899537740726272:
-  status: 2
-  time_to_complete_in_days: 3
-  program_year: 2017
-  description: "Your task is to solve a 'newcomer' difficulty issue in the\ncorobo\
-    \ repository. Here is the issue:\n\nIssue [#250](https://github.com/coala/corobo/issues/250)\
-    \ explain: Whitespace missing in explain google message\n\nRead [Git Basics](http://coala.io/git)\
-    \ and [Newcomer Guide](http://coala.io/newcomer)\nto learn how to prepare your\
-    \ patch properly."
-  tags:
-  - git
-  - errbot
-  - markdown
-  - chatops
-  - issues
-  private_metadata: issues
-  max_instances: 1
-  name: 'corobo: Issue #250 explain: Whitespace missing in explain google message'
-  last_modified: '2017-12-04T10:34:36Z'
-  is_beginner: true
-  id: 5899537740726272
-  categories:
-  - 1
-  external_url: https://github.com/coala/corobo/issues/250
 5903063900487680:
   status: 2
   time_to_complete_in_days: 4
