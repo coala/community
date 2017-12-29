@@ -818,6 +818,17 @@
   completion_date:
   organization_id: 4884530416582656
   id: 5687506806767616
+5693231998173184:
+  student_display_name: Arun kumar Bidila
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5903063900487680
+  student_id: 5259954422284288
+  task_definition_name: Create a blog post about your GCI journey so far
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5693231998173184
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -980,6 +991,18 @@
   deadline: '2017-12-09 03:01:56'
   organization_id: 4884530416582656
   id: 5908397788495872
+5961074530582528:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5264435046252544
+  student_id: 4552227639263232
+  task_definition_name: 'devops: Issue #55 Add proper emoji support with twemoji to
+    Venus'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5961074530582528
 5978805455814656:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -1351,17 +1374,6 @@
   deadline: '2017-12-09 03:59:26'
   organization_id: 4884530416582656
   id: 6357337122013184
-6374821967429632:
-  student_display_name: Kimberley Worrall
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5179714090041344
-  student_id: 4598068362084352
-  task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6374821967429632
 6399963774844928:
   student_display_name: Alexander Voronkov
   status: COMPLETED
@@ -1377,13 +1389,15 @@
   id: 6399963774844928
 6415132114550784:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4662707275956224
   student_id: 4552227639263232
+  modified: '2017-12-28 23:48:51'
   task_definition_name: 'landing: Issue #47 Add Netlify to CORS_ORIGIN_WHITELIST'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-28 23:48:45'
+  deadline: '2017-12-31 12:38:43'
   organization_id: 4884530416582656
   id: 6415132114550784
 6443907623682048:
@@ -1401,13 +1415,15 @@
   id: 6443907623682048
 6480703514476544:
   student_display_name: Frumentius Daneswara N
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6360069023203328
   student_id: 4957841733451776
+  modified: '2017-12-28 12:26:46'
   task_definition_name: 'cEPs: Issue #73 Add cEP index in README.md'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-28 12:26:40'
+  deadline: '2017-12-28 12:59:23'
   organization_id: 4884530416582656
   id: 6480703514476544
 6496929062060032:
@@ -1627,13 +1643,15 @@
   id: 6645565163044864
 6654705038000128:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5572222871666688
   student_id: 5302037795307520
+  modified: '2017-12-29 00:37:28'
   task_definition_name: 'gci-leaders: Issue #89 Clearly identify Netlify Deploy Previews'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-29 00:37:23'
+  deadline: '2017-12-31 19:59:21'
   organization_id: 4884530416582656
   id: 6654705038000128
 6704021211447296:
@@ -1649,6 +1667,17 @@
   deadline: '2017-12-21 05:02:44'
   organization_id: 4884530416582656
   id: 6704021211447296
+6714365304635392:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6350994629722112
+  student_id: 6502237683580928
+  task_definition_name: Aspectize SpaceConsistencyBear
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6714365304635392
 6727442548916224:
   student_display_name: Daniel O'Brien
   status: COMPLETED

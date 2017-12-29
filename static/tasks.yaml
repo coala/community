@@ -252,10 +252,10 @@
   - issues
   - env
   private_metadata: issues
-  max_instances: 0
+  max_instances: 1
   name: 'username-availability: Issue #30 setup .env file to differentiate between
     dev and prod env'
-  last_modified: '2017-12-23T12:29:30Z'
+  last_modified: '2017-12-28T15:52:42Z'
   is_beginner: false
   id: 4616364578832384
   categories:
@@ -684,6 +684,30 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/391
+4853393698848768:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\ncorobo repository.\
+    \ Here is the issue:\n\nIssue [#15](https://github.com/manu-chroma/username-availability-checker/issues/15)\
+    \ Add raml support\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - flask
+  - raml
+  - heroku
+  - python3
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #15 Add raml support'
+  last_modified: '2017-12-28T15:58:42Z'
+  is_beginner: false
+  id: 4853393698848768
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/coala/corobo/issues/369
 4864593698488320:
   status: 2
   time_to_complete_in_days: 4
@@ -902,6 +926,29 @@
   categories:
   - 1
   external_url:
+4961497933414400:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#51](https://github.com/manu-chroma/username-availability-checker/issues/51)\
+    \ Add support for asciinema\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - issues
+  - asciinema
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #51 Add support for asciinema'
+  last_modified: '2017-12-28T15:51:54Z'
+  is_beginner: false
+  id: 4961497933414400
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/51
 5015039515820032:
   status: 2
   time_to_complete_in_days: 4
@@ -1275,9 +1322,9 @@
   - Gravatar
   - issues
   private_metadata: issues
-  max_instances: 0
+  max_instances: 1
   name: 'username-availability: Issue #37 Add Gravatar support'
-  last_modified: '2017-12-23T12:28:48Z'
+  last_modified: '2017-12-28T15:59:58Z'
   is_beginner: false
   id: 5131546711293952
   categories:
@@ -3611,6 +3658,31 @@
   categories:
   - 3
   external_url: https://github.com/coala/documentation/issues/492
+6087397840257024:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "Your task is to solve a 'medium' difficulty issue in the\nmanu-chroma/username-availability-checker\
+    \ repository. Here is the issue:\n\nIssue [#52](https://github.com/manu-chroma/username-availability-checker/issues/52)\
+    \ Use websites.yml to determine supported websites list \n\nRemember to format\
+    \ your [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - Python
+  - Flask
+  - heroku
+  - JavaScript
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'username-availability: Issue #52 Use websites.yml to determine supported
+    websites list'
+  last_modified: '2017-12-28T15:52:04Z'
+  is_beginner: false
+  id: 6087397840257024
+  categories:
+  - 1
+  external_url: https://github.com/manu-chroma/username-availability-checker/issues/52
 6094331645526016:
   status: 2
   time_to_complete_in_days: 3
@@ -4304,6 +4376,28 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/73
+6411393882390528:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ndocumentation\
+    \ repository. Here is the issue:\n\nIssue [#259](https://github.com/coala/documentation/issues/259)\
+    \ Add info for installation after you installing java\n\nRemember to format your\
+    \ [Git Commit Message](http://coala.io/commit)\naccording to the rules, otherwise\
+    \ the bot will tell you to fix it."
+  tags:
+  - reStructuredText
+  - Java
+  - issues
+  private_metadata: issues
+  max_instances: 1
+  name: 'documentation: Issue #259 Add info for installation about installing java'
+  last_modified: '2017-12-28T15:41:19Z'
+  is_beginner: false
+  id: 6411393882390528
+  categories:
+  - 3
+  external_url: https://github.com/coala/documentation/issues/259
 6425638376308736:
   status: 2
   time_to_complete_in_days: 5
@@ -4393,9 +4487,9 @@
   - markdown
   - issues
   private_metadata: issues
-  max_instances: 0
+  max_instances: 1
   name: 'username-availability: Issue #38 Mention Python 2 vs 3 support on README.md'
-  last_modified: '2017-12-23T12:28:36Z'
+  last_modified: '2017-12-28T15:53:17Z'
   is_beginner: false
   id: 6466904925405184
   categories:
