@@ -83,9 +83,9 @@
   - gitlab
   - zulip
   private_metadata: ''
-  max_instances: 500
+  max_instances: 251
   name: Join coala chat and set up your accounts
-  last_modified: '2017-12-19T10:34:41Z'
+  last_modified: '2017-12-29T23:20:08Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -3288,9 +3288,9 @@
   - blog
   - gci journey
   private_metadata: ''
-  max_instances: 10
+  max_instances: 1
   name: Create a blog post about your GCI journey so far
-  last_modified: '2017-12-21T12:10:09Z'
+  last_modified: '2017-12-29T15:12:38Z'
   is_beginner: false
   id: 5903063900487680
   categories:

@@ -152,6 +152,17 @@
   deadline: '2017-12-03 04:24:44'
   organization_id: 4884530416582656
   id: 4646964484374528
+4707918366638080:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5657492409286656
+  student_id: 4552227639263232
+  task_definition_name: 'Stylelint: Add ignoreProperties: [] to property-no-vendor-prefix'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4707918366638080
 4708539073298432:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -390,13 +401,15 @@
   id: 5102697852174336
 5110746453114880:
   student_display_name: Marcos Gómez
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5668029776003072
   student_id: 5557452655296512
+  modified: '2017-12-29 21:12:45'
   task_definition_name: 'JSHintBear: Upgrade JSHint'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-29 21:12:39'
+  deadline: '2017-12-31 07:01:44'
   organization_id: 4884530416582656
   id: 5110746453114880
 5112447797035008:
@@ -818,17 +831,6 @@
   completion_date:
   organization_id: 4884530416582656
   id: 5687506806767616
-5693231998173184:
-  student_display_name: Arun kumar Bidila
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5903063900487680
-  student_id: 5259954422284288
-  task_definition_name: Create a blog post about your GCI journey so far
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5693231998173184
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -993,14 +995,16 @@
   id: 5908397788495872
 5961074530582528:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5264435046252544
   student_id: 4552227639263232
+  modified: '2017-12-30 00:44:25'
   task_definition_name: 'devops: Issue #55 Add proper emoji support with twemoji to
     Venus'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-30 00:44:19'
+  deadline: '2018-01-02 06:45:27'
   organization_id: 4884530416582656
   id: 5961074530582528
 5978805455814656:
@@ -1601,6 +1605,17 @@
   deadline: '2017-12-12 09:16:34'
   organization_id: 4884530416582656
   id: 6579015617871872
+6595171154132992:
+  student_display_name: Marcos Gómez
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4961497933414400
+  student_id: 5557452655296512
+  task_definition_name: 'username-availability: Issue #51 Add support for asciinema'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6595171154132992
 6598996678148096:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -1628,6 +1643,18 @@
   deadline: '2017-12-21 00:00:35'
   organization_id: 4884530416582656
   id: 6621842649382912
+6632986596343808:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6087397840257024
+  student_id: 5302037795307520
+  task_definition_name: 'username-availability: Issue #52 Use websites.yml to determine
+    supported websites list'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6632986596343808
 6645565163044864:
   student_display_name: Joshua Chung
   status: COMPLETED

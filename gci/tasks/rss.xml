@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 28 Dec 2017 15:59:58 +0000</lastBuildDate><item><title>username-availability: Issue #37 Add Gravatar support</title><link>https://codein.withgoogle.com/tasks/5131546711293952</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 29 Dec 2017 23:20:08 +0000</lastBuildDate><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
+
+&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
+
+&lt;h1&gt;Steps&lt;/h1&gt;
+
+&lt;h2&gt;Join Zulip&lt;/h2&gt;
+
+&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
+
+&lt;h2&gt;Choosing your global username&lt;/h2&gt;
+
+&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
+
+&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
+
+&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GitHub.com&lt;/li&gt;
+&lt;li&gt;GitLab.com&lt;/li&gt;
+&lt;li&gt;OpenHub.net&lt;/li&gt;
+&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
+&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
+Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
+
+&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
+
+&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
+
+&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 29 Dec 2017 23:20:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
+
+&lt;p&gt;The blog post can involve but not limited to following things :
+* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
+* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
+* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
+* What general perception did GCI provide you about Open Source
+* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
+
+&lt;p&gt;You can also include things which can help in outreach for coala like :
+* How did you find your way to coala?
+* What do you think about mentor support?
+* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
+
+&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
+
+&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
+
+&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
+https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 29 Dec 2017 15:12:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>username-availability: Issue #37 Add Gravatar support</title><link>https://codein.withgoogle.com/tasks/5131546711293952</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/37"&gt;#37&lt;/a&gt; Add Gravatar support&lt;/p&gt;
@@ -526,31 +592,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;The requirement of one of your ideas has at least 5 votes has been put down to at least 3 votes.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas"&gt;https://gitlab.com/gitmate/open-source/gitmate-spinner-ideas&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
-
-&lt;p&gt;The blog post can involve but not limited to following things :
-* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
-* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
-* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
-* What general perception did GCI provide you about Open Source
-* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
-
-&lt;p&gt;You can also include things which can help in outreach for coala like :
-* How did you find your way to coala?
-* What do you think about mentor support?
-* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
-
-&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
-
-&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
-
-&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
-https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #100 Find users in repository information</title><link>https://codein.withgoogle.com/tasks/5363762775195648</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5040466661736448</guid><category>gitmate</category><category>loading-sentences</category><category>fun-task</category><category>quip</category><category>spinner</category></item><item><title>gci-leaders: Issue #100 Find users in repository information</title><link>https://codein.withgoogle.com/tasks/5363762775195648</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;#100&lt;/a&gt; Find users in repository information&lt;/p&gt;
@@ -593,49 +635,7 @@ coala repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-bears/issues/2181"&gt;https://github.com/coala/coala-bears/issues/2181&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 16:20:43 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6350994629722112</guid><category>aspects</category><category>style</category><category>linter</category><category>issues</category><category>python3</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
-
-&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
-
-&lt;h1&gt;Steps&lt;/h1&gt;
-
-&lt;h2&gt;Join Zulip&lt;/h2&gt;
-
-&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
-
-&lt;h2&gt;Choosing your global username&lt;/h2&gt;
-
-&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
-
-&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
-
-&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;GitHub.com&lt;/li&gt;
-&lt;li&gt;GitLab.com&lt;/li&gt;
-&lt;li&gt;OpenHub.net&lt;/li&gt;
-&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
-&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Note&lt;/h2&gt;
-
-&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
-Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
-
-&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
-
-&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
-
-&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 10:34:41 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 19 Dec 2017 16:20:43 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6350994629722112</guid><category>aspects</category><category>style</category><category>linter</category><category>issues</category><category>python3</category></item><item><title>gci-leaders: Issue #91 Create RSS feed of data changes</title><link>https://codein.withgoogle.com/tasks/6293336707039232</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/91"&gt;#91&lt;/a&gt; Create RSS feed of data changes&lt;/p&gt;
