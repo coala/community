@@ -83,9 +83,9 @@
   - gitlab
   - zulip
   private_metadata: ''
-  max_instances: 251
+  max_instances: 245
   name: Join coala chat and set up your accounts
-  last_modified: '2017-12-29T23:20:08Z'
+  last_modified: '2017-12-31T06:56:49Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -3416,9 +3416,9 @@
   - design
   - chatops
   private_metadata: ''
-  max_instances: 40
+  max_instances: 0
   name: Design a new logo for corobo
-  last_modified: '2017-11-28T02:32:01Z'
+  last_modified: '2017-12-30T19:28:33Z'
   is_beginner: false
   id: 5952910829551616
   categories:

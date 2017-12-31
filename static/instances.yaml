@@ -63,17 +63,6 @@
   deadline: '2017-12-06 01:18:22'
   organization_id: 4884530416582656
   id: 4588982627205120
-4590946677161984:
-  student_display_name: PATEL PARTH
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 5506726734331904
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4590946677161984
 4614924791709696:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -623,6 +612,17 @@
   deadline: '2017-12-07 22:48:57'
   organization_id: 4884530416582656
   id: 5324936413446144
+5346503365230592:
+  student_display_name: shiva sai
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5131546711293952
+  student_id: 5329727625625600
+  task_definition_name: 'username-availability: Issue #37 Add Gravatar support'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5346503365230592
 5357786093322240:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -744,17 +744,6 @@
   deadline: '2017-12-21 10:14:20'
   organization_id: 4884530416582656
   id: 5602122823368704
-5636472126308352:
-  student_display_name: MOHIT GUPTA
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 4743907457892352
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5636472126308352
 5637491040190464:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -820,17 +809,6 @@
   deadline: '2017-12-01 20:05:48'
   organization_id: 4884530416582656
   id: 5672009499410432
-5687506806767616:
-  student_display_name: Zhao Wei Liew
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5198834521079808
-  student_id: 6020884257046528
-  task_definition_name: 'gci-leaders: Issue #88 og:image is broken'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5687506806767616
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1303,13 +1281,15 @@
   id: 6263485778362368
 6265462268624896:
   student_display_name: Daniel O'Brien
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5962920678653952
   student_id: 4973831292715008
+  modified: '2017-12-30 07:39:10'
   task_definition_name: 'gci-leaders: Issue #54 Remove GCI orgs from twitter feed'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-30 07:39:05'
+  deadline: '2017-12-30 11:00:43'
   organization_id: 4884530416582656
   id: 6265462268624896
 6292658311921664:
@@ -1326,6 +1306,18 @@
   deadline: '2017-12-03 22:51:36'
   organization_id: 4884530416582656
   id: 6292658311921664
+6304766269325312:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4624956392472576
+  student_id: 5302037795307520
+  task_definition_name: 'community: Issue #56 GCI: detect pull request authors for
+    issues'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6304766269325312
 6332405675720704:
   student_display_name: biscuitsnake
   status: COMPLETED
@@ -1645,14 +1637,16 @@
   id: 6621842649382912
 6632986596343808:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6087397840257024
   student_id: 5302037795307520
+  modified: '2017-12-30 20:28:21'
   task_definition_name: 'username-availability: Issue #52 Use websites.yml to determine
     supported websites list'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-30 20:28:16'
+  deadline: '2018-01-02 09:08:15'
   organization_id: 4884530416582656
   id: 6632986596343808
 6645565163044864:
