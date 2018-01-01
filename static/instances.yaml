@@ -310,6 +310,17 @@
   deadline: '2017-12-03 04:06:20'
   organization_id: 4884530416582656
   id: 4901020188540928
+5001983771541504:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5689970381553664
+  student_id: 5302037795307520
+  task_definition_name: 'tldr-pages: page request: autoflake'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5001983771541504
 5024531259326464:
   student_display_name: synicalsyntax
   status: COMPLETED
@@ -1308,14 +1319,16 @@
   id: 6292658311921664
 6304766269325312:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4624956392472576
   student_id: 5302037795307520
+  modified: '2017-12-31 15:13:56'
   task_definition_name: 'community: Issue #56 GCI: detect pull request authors for
     issues'
   organization_name: coala
-  completion_date:
+  completion_date: '2017-12-31 15:13:51'
+  deadline: '2018-01-03 20:44:50'
   organization_id: 4884530416582656
   id: 6304766269325312
 6332405675720704:
