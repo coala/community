@@ -222,6 +222,20 @@
   deadline: '2017-12-01 19:46:22'
   organization_id: 4884530416582656
   id: 4799843643949056
+4811514588430336:
+  student_display_name: Andrew Dassonville
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5139733237727232
+  student_id: 5302037795307520
+  modified: '2018-01-03 04:16:15'
+  task_definition_name: Automatically remove duplicate dictonary keys from Python
+    code
+  organization_name: coala
+  completion_date: '2018-01-03 04:16:10'
+  deadline: '2018-01-05 15:08:42'
+  organization_id: 4884530416582656
+  id: 4811514588430336
 4827761526964224:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -263,13 +277,15 @@
   id: 4841168670031872
 4848293685231616:
   student_display_name: Tio Irawan
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5667393978236928
   student_id: 6214590973083648
+  modified: '2018-01-02 12:39:28'
   task_definition_name: 'gci-leaders: Issue #77 Import pre-2017 Finalists and winners'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-02 12:39:23'
+  deadline: '2018-01-04 10:42:05'
   organization_id: 4884530416582656
   id: 4848293685231616
 4863157258420224:
@@ -338,6 +354,17 @@
   deadline: '2017-12-11 19:51:12'
   organization_id: 4884530416582656
   id: 5024531259326464
+5044023448305664:
+  student_display_name: gamedude
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4546400484327424
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5044023448305664
 5054662443008000:
   student_display_name: Marcos Gómez
   status: COMPLETED
@@ -470,6 +497,17 @@
   deadline: '2017-12-14 06:41:12'
   organization_id: 4884530416582656
   id: 5143670363783168
+5151585267089408:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6479102439587840
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5151585267089408
 5168293855887360:
   student_display_name: ItsPugle
   status: COMPLETED
@@ -629,17 +667,6 @@
   deadline: '2017-12-07 22:48:57'
   organization_id: 4884530416582656
   id: 5324936413446144
-5346503365230592:
-  student_display_name: shiva sai
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5131546711293952
-  student_id: 5329727625625600
-  task_definition_name: 'username-availability: Issue #37 Add Gravatar support'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5346503365230592
 5357786093322240:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1060,7 +1087,7 @@
   task_definition_id: 4954909814292480
   student_id: 5302037795307520
   modified: '2017-11-29 16:04:05'
-  task_definition_name: 'IGitt: Expose MR/PR author'
+  task_definition_name: 'IGitt: Issue #101 Expose MR/PR author'
   organization_name: coala
   completion_date: '2017-11-29 16:04:03'
   deadline: '2017-12-03 08:21:15'

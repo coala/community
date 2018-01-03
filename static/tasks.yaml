@@ -919,13 +919,13 @@
   - github
   private_metadata: ''
   max_instances: 1
-  name: 'IGitt: Expose MR/PR author'
-  last_modified: '2017-11-29T08:06:32Z'
+  name: 'IGitt: Issue #101 Expose MR/PR author'
+  last_modified: '2018-01-02T10:13:53Z'
   is_beginner: false
   id: 4954909814292480
   categories:
   - 1
-  external_url:
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/issues/101
 4961497933414400:
   status: 2
   time_to_complete_in_days: 3
@@ -1330,6 +1330,42 @@
   categories:
   - 1
   external_url: https://github.com/manu-chroma/username-availability-checker/issues/37
+5137417914810368:
+  status: 2
+  time_to_complete_in_days: 7
+  program_year: 2017
+  description: "When type-checking a method call, the Checker Framework uses the method\
+    \ declaration's annotations. This means that in order to type-check code that\
+    \ uses a library, the Checker Framework needs an annotated version of the library.\n\
+    \nJava libraries that have already been annotated are at https://github.com/typetools/checker-framework/tree/master/checker/lib\n\
+    \n# Select a library\nFor this task, you need to select a popular Java library\
+    \ from [this spreadsheet](https://docs.google.com/spreadsheets/d/17x_jKkGquEFq7LBQhS9HGXiG7iIl2AlXoPGfB6N5_bw)\
+    \ which you will add annotations to.\n\nCheck the library you are interested in\
+    \ has its repository hosted on GitHub, and has tests run by Travis CI.\n\nLook\
+    \ for libraries that are small, otherwise this task could take a very long time\
+    \ to complete.\n\nOnce you have found a library you think is suitable, add a comment\
+    \ to your task mentioning the library and its GitHub repository, so mentors can\
+    \ check that your choice is suitable.\n\n# Annotate the library\n\n1. Fork the\
+    \ library's GitHub repository,\n2. Enable Travis CI on your fork\n3. Adjust its\
+    \ [build system](https://checkerframework.org/manual/#external-tools) to run the\
+    \ Checker Framework, and \n4. Add annotations to the library source until the\
+    \ type-checker issues no more warnings.\n\nSee the [manual](https://checkerframework.org/manual/),\
+    \ especially section [Get started with legacy code](https://checkerframework.org/manual/#get-started-with-legacy-code)."
+  tags:
+  - checker framework
+  - java
+  - type annotations
+  private_metadata: ''
+  max_instances: 1
+  name: 'Checker Framework: Annotate a Java library'
+  last_modified: '2018-01-03T04:51:11Z'
+  is_beginner: false
+  id: 5137417914810368
+  categories:
+  - 1
+  - 4
+  - 5
+  external_url: https://checkerframework.org/gsoc-2018-ideas.html#library-annotations
 5137762208448512:
   status: 2
   time_to_complete_in_days: 3
@@ -1678,6 +1714,34 @@
   categories:
   - 1
   external_url: https://github.com/coala/community/issues/1
+5253203052462080:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a low issue in the gci-leaders repository. Here\
+    \ is the issue:\n\nIssue [#126](https://github.com/coala/gci-leaders/issues/126)\
+    \ Add translation\n\nThis task is to add a translation using weblate.\n\nhttps://hosted.weblate.org/projects/coala/gci-leaders\n\
+    \nThe entire set of messages for the language must be translated before the task\
+    \ is submitted for review.\n\nOnly one translation should be added at a time,\
+    \ and all messages for that language should be translated by a single person *after*\
+    \ they have claimed this task.\n\nAll translations in weblate must be done while\
+    \ signed in using the same username as used on GitHub.\n\nThe next languages to\
+    \ be translated is: Indonesian"
+  tags:
+  - i18n
+  - weblate
+  - translation
+  private_metadata: ''
+  max_instances: 1
+  name: 'gci-leaders: Issue #126 Add translation'
+  last_modified: '2018-01-02T17:21:38Z'
+  is_beginner: false
+  id: 5253203052462080
+  categories:
+  - 2
+  - 3
+  - 5
+  external_url: https://github.com/coala/gci-leaders/issues/126
 5264435046252544:
   status: 2
   time_to_complete_in_days: 4
@@ -1985,17 +2049,18 @@
   - go
   - docker
   - alpine
+  - linter
   - linux
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for golint'
-  last_modified: '2017-11-30T13:32:47Z'
+  last_modified: '2018-01-03T04:18:57Z'
   is_beginner: false
   id: 5355316998832128
   categories:
   - 1
   - 4
-  external_url: https://github.com/repometric/linterhub-docker
+  external_url: https://github.com/repometric/linterhub-docker/issues/6
 5359048209727488:
   status: 2
   time_to_complete_in_days: 4
@@ -2286,6 +2351,42 @@
   categories:
   - 1
   external_url: https://github.com/coala/community/issues/25
+5444441907134464:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the [Checker\
+    \ Framework](https://checkerframework.org/) linter.\n\n# Register an issue\n\n\
+    - Register an issue about missing Checker Framework linter: https://github.com/repometric/linterhub-docker/issues/new\n\
+    \n# Fork repository\n\nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a Java\
+    \ preinstalled.\n\nCreate a new Dockerfile based on the previous one and install\
+    \ the linter `checker framework` (and dependencies if needed).\ne.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the checker\
+    \ framework linter on a sample java project using checker framework installed\
+    \ on your computer\n\n2. Perform the same analysis using your container\n```bash\n\
+    docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine\
+    \ engine_command\n```\nMake sure that outputs are equal.\n\n# Automated tests\n\
+    \nIntroduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - java
+  - docker
+  - alpine
+  - linter
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for Checker Framework'
+  last_modified: '2018-01-03T04:24:26Z'
+  is_beginner: false
+  id: 5444441907134464
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
 5457310619009024:
   status: 2
   time_to_complete_in_days: 3
@@ -2426,13 +2527,13 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for csvlint'
-  last_modified: '2017-11-29T12:13:41Z'
+  last_modified: '2018-01-03T04:27:31Z'
   is_beginner: false
   id: 5477529756368896
   categories:
   - 1
   - 4
-  external_url: https://github.com/repometric/linterhub-docker
+  external_url: https://github.com/repometric/linterhub-docker/issues/10
 5529288331755520:
   status: 2
   time_to_complete_in_days: 3
@@ -2645,13 +2746,13 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for tslint'
-  last_modified: '2017-11-30T13:32:29Z'
+  last_modified: '2018-01-03T04:27:54Z'
   is_beginner: false
   id: 5618267244724224
   categories:
   - 1
   - 4
-  external_url: https://github.com/repometric/linterhub-docker
+  external_url: https://github.com/repometric/linterhub-docker/issues/2
 5626333755342848:
   status: 2
   time_to_complete_in_days: 3
@@ -2769,10 +2870,10 @@
     to learn how to prepare your patch properly."
   tags:
   - README
-  - markdown
   - git
-  - issues
+  - markdown
   - javascript
+  - issues
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -3046,8 +3147,9 @@
   - issues
   private_metadata: issues
   max_instances: 0
-  name: 'corobo: Issue #251 Whitespace missing in newcomer welcome message'
-  last_modified: '2017-12-27T17:07:43Z'
+  name: 'DNP; already fixed; corobo: Issue #251 Whitespace missing in newcomer welcome
+    message'
+  last_modified: '2018-01-02T14:42:53Z'
   is_beginner: true
   id: 5736616947613696
   categories:
@@ -3513,8 +3615,8 @@
   - issues
   private_metadata: issues
   max_instances: 0
-  name: 'corobo: Issue #329 Fix spelling of "eligility" in labhub.py'
-  last_modified: '2017-12-11T16:17:50Z'
+  name: 'DNP; already fixed; corobo: Issue #329 Fix spelling of "eligility" in labhub.py'
+  last_modified: '2018-01-02T14:43:38Z'
   is_beginner: true
   id: 6008381808574464
   categories:
@@ -3551,13 +3653,13 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for yamllint'
-  last_modified: '2017-11-30T13:32:20Z'
+  last_modified: '2018-01-03T04:27:41Z'
   is_beginner: false
   id: 6010558149033984
   categories:
   - 1
   - 4
-  external_url: https://github.com/repometric/linterhub-docker
+  external_url: https://github.com/repometric/linterhub-docker/issues/8
 6028602514604032:
   status: 2
   time_to_complete_in_days: 5
@@ -3653,9 +3755,10 @@
   - issues
   - emoji
   private_metadata: issues
-  max_instances: 1
-  name: 'corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message'
-  last_modified: '2017-11-29T04:27:10Z'
+  max_instances: 0
+  name: 'DNP; shai; corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase
+    message'
+  last_modified: '2018-01-02T14:50:51Z'
   is_beginner: true
   id: 6044329946644480
   categories:
@@ -4114,17 +4217,18 @@
   program_year: 2017
   description: "Your task is to solve a 'low' difficulty issue in the\nIGitt repository.\
     \ Here is the issue:\n\nIssue [#49](https://gitlab.com/gitmate/open-source/IGitt/issues/49)\
-    \ Add merged action to MergeRequest\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    \ Add `merge` action to MergeRequest\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
     according to the rules, otherwise the bot will tell you to fix it."
   tags:
+  - merge request
   - github
   - gitlab
   - python3
   - issues
   private_metadata: issues
   max_instances: 1
-  name: 'IGitt: Issue #49 Add merged action to MergeRequest'
-  last_modified: '2017-12-05T15:05:05Z'
+  name: 'IGitt: Issue #49 Add `merge` action to MergeRequest'
+  last_modified: '2018-01-02T10:15:12Z'
   is_beginner: false
   id: 6300122856030208
   categories:
@@ -4651,8 +4755,9 @@
   - chatops
   private_metadata: issues
   max_instances: 0
-  name: "corobo: Issue #337 Ask people to not use 'sir' when they do"
-  last_modified: '2017-12-05T14:03:13Z'
+  name: "DNP; shaipranesh11; corobo: Issue #337 Ask people to not use 'sir' when they\
+    \ do"
+  last_modified: '2018-01-02T14:45:01Z'
   is_beginner: false
   id: 6536913504698368
   categories:
@@ -4727,6 +4832,47 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/57
+6583830645309440:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "# Objective\n\nIn this task, you will upload your design to Behance\
+    \ or DeviantArt, and to Gravatar.\nThe design will become your personal *G*lobally\
+    \ *R*ecognized *Avatar*.\n\n# Create digital artwork\n\nCreate a simple logo that\
+    \ will become your avatar.\n\nMake sure your work is not a infringing copyright.\n\
+    \nTo see if your work does not infringe any copyright, you can use\n*reverse image\
+    \ search* using [TinEye](https://www.tineye.com/).\n\n## Upload to Behance\n\n\
+    Once your digital artwork is done, upload and publish your work in [Behance](https://behance.net/)\
+    \ (Adobe).\n\nAny components of your design that are not your own should be mentioned\
+    \ on the same Behance page where your design is shown.\n\nExample: https://www.behance.net/gallery/55900041/Maelzels-Chess-Player\n\
+    \n## Upload to Gravatar\n\nGravatar hosts *__G__lobally __R__ecognized __Avatar__*s.\n\
+    \nThe logo that you upload on Gravatar will be your avatar on various sites\n\
+    connected with Gravatar, such as GitHub and GitLab.\n\nTo upload your logo creation\
+    \ to Gravatar, you must first have a\n[WordPress account](https://wordpress.com/start/account/user).\n\
+    \nRegister with the same email you used when creating an account on \nGitHub,\
+    \ GitLab, or other services.\n\nOnce your account has been successfully created,\
+    \ go to the [Gravatar](https://en.gravatar.com/) website and upload your logo.\n\
+    \nAfter the logo is uploaded, it should appear on your GitLab profile automatically.\n\
+    \n## Assessment\n\nThe following tool is used to verify that your new avatar is\
+    \ used globally\n\nhttps://username-check.herokuapp.com/\n\nAdd a comment with\
+    \ your username before submitting your task.\n\n## References\n\n1. https://en.gravatar.com/support/\n\
+    2. https://www.tineye.com/"
+  tags:
+  - logo
+  - deviantart
+  - behance
+  - gravatar
+  - avatar
+  private_metadata: ''
+  max_instances: 10
+  name: Create your own avatar
+  last_modified: '2018-01-03T07:31:07Z'
+  is_beginner: false
+  id: 6583830645309440
+  categories:
+  - 2
+  - 5
+  external_url: https://en.gravatar.com/support/
 6597229341048832:
   status: 2
   time_to_complete_in_days: 3
@@ -4814,13 +4960,13 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for phpmd'
-  last_modified: '2017-11-30T13:32:37Z'
+  last_modified: '2018-01-03T04:27:15Z'
   is_beginner: false
   id: 6661284751736832
   categories:
   - 1
   - 4
-  external_url: https://github.com/repometric/linterhub-docker
+  external_url: https://github.com/repometric/linterhub-docker/issues/12
 6677271987355648:
   status: 2
   time_to_complete_in_days: 5

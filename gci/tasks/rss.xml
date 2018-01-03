@@ -1,5 +1,421 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Tue, 02 Jan 2018 07:01:57 +0000</lastBuildDate><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Wed, 03 Jan 2018 07:31:07 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
+The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Create digital artwork&lt;/h1&gt;
+
+&lt;p&gt;Create a simple logo that will become your avatar.&lt;/p&gt;
+
+&lt;p&gt;Make sure your work is not a infringing copyright.&lt;/p&gt;
+
+&lt;p&gt;To see if your work does not infringe any copyright, you can use
+&lt;em&gt;reverse image search&lt;/em&gt; using &lt;a href="https://www.tineye.com/"&gt;TinEye&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Upload to Behance&lt;/h2&gt;
+
+&lt;p&gt;Once your digital artwork is done, upload and publish your work in &lt;a href="https://behance.net/"&gt;Behance&lt;/a&gt; (Adobe).&lt;/p&gt;
+
+&lt;p&gt;Any components of your design that are not your own should be mentioned on the same Behance page where your design is shown.&lt;/p&gt;
+
+&lt;p&gt;Example: https://www.behance.net/gallery/55900041/Maelzels-Chess-Player&lt;/p&gt;
+
+&lt;h2&gt;Upload to Gravatar&lt;/h2&gt;
+
+&lt;p&gt;Gravatar hosts &lt;em&gt;&lt;strong&gt;G&lt;/strong&gt;lobally &lt;strong&gt;R&lt;/strong&gt;ecognized &lt;strong&gt;Avatar&lt;/strong&gt;&lt;/em&gt;s.&lt;/p&gt;
+
+&lt;p&gt;The logo that you upload on Gravatar will be your avatar on various sites
+connected with Gravatar, such as GitHub and GitLab.&lt;/p&gt;
+
+&lt;p&gt;To upload your logo creation to Gravatar, you must first have a
+&lt;a href="https://wordpress.com/start/account/user"&gt;WordPress account&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Register with the same email you used when creating an account on 
+GitHub, GitLab, or other services.&lt;/p&gt;
+
+&lt;p&gt;Once your account has been successfully created, go to the &lt;a href="https://en.gravatar.com/"&gt;Gravatar&lt;/a&gt; website and upload your logo.&lt;/p&gt;
+
+&lt;p&gt;After the logo is uploaded, it should appear on your GitLab profile automatically.&lt;/p&gt;
+
+&lt;h2&gt;Assessment&lt;/h2&gt;
+
+&lt;p&gt;The following tool is used to verify that your new avatar is used globally&lt;/p&gt;
+
+&lt;p&gt;https://username-check.herokuapp.com/&lt;/p&gt;
+
+&lt;p&gt;Add a comment with your username before submitting your task.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;https://en.gravatar.com/support/&lt;/li&gt;
+&lt;li&gt;https://www.tineye.com/&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://en.gravatar.com/support/"&gt;https://en.gravatar.com/support/&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 07:31:07 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>Checker Framework: Annotate a Java library</title><link>https://codein.withgoogle.com/tasks/5137417914810368</link><description>&lt;p&gt;When type-checking a method call, the Checker Framework uses the method declaration's annotations. This means that in order to type-check code that uses a library, the Checker Framework needs an annotated version of the library.&lt;/p&gt;
+
+&lt;p&gt;Java libraries that have already been annotated are at https://github.com/typetools/checker-framework/tree/master/checker/lib&lt;/p&gt;
+
+&lt;h1&gt;Select a library&lt;/h1&gt;
+
+&lt;p&gt;For this task, you need to select a popular Java library from &lt;a href="https://docs.google.com/spreadsheets/d/17x_jKkGquEFq7LBQhS9HGXiG7iIl2AlXoPGfB6N5_bw"&gt;this spreadsheet&lt;/a&gt; which you will add annotations to.&lt;/p&gt;
+
+&lt;p&gt;Check the library you are interested in has its repository hosted on GitHub, and has tests run by Travis CI.&lt;/p&gt;
+
+&lt;p&gt;Look for libraries that are small, otherwise this task could take a very long time to complete.&lt;/p&gt;
+
+&lt;p&gt;Once you have found a library you think is suitable, add a comment to your task mentioning the library and its GitHub repository, so mentors can check that your choice is suitable.&lt;/p&gt;
+
+&lt;h1&gt;Annotate the library&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork the library's GitHub repository,&lt;/li&gt;
+&lt;li&gt;Enable Travis CI on your fork&lt;/li&gt;
+&lt;li&gt;Adjust its &lt;a href="https://checkerframework.org/manual/#external-tools"&gt;build system&lt;/a&gt; to run the Checker Framework, and &lt;/li&gt;
+&lt;li&gt;Add annotations to the library source until the type-checker issues no more warnings.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;See the &lt;a href="https://checkerframework.org/manual/"&gt;manual&lt;/a&gt;, especially section &lt;a href="https://checkerframework.org/manual/#get-started-with-legacy-code"&gt;Get started with legacy code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://checkerframework.org/gsoc-2018-ideas.html#library-annotations"&gt;https://checkerframework.org/gsoc-2018-ideas.html#library-annotations&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:51:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5137417914810368</guid><category>checker framework</category><category>java</category><category>type annotations</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;tslint&lt;/code&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing linter tslint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a nodejs package manager that can install &lt;code&gt;tslint&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;tslint&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the tslint linter on a sample typescript project using tslint installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/2"&gt;https://github.com/repometric/linterhub-docker/issues/2&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:54 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5618267244724224</guid><category>docker</category><category>typescript</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for yamllint</title><link>https://codein.withgoogle.com/tasks/6010558149033984</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;yamllint&lt;/code&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing linter yamllint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a python manager that can install &lt;code&gt;yamllint&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;yamllint&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the yamllint linter on a sample yaml file using yamllint installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/8"&gt;https://github.com/repometric/linterhub-docker/issues/8&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:41 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6010558149033984</guid><category>python</category><category>yaml</category><category>docker</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for csvlint</title><link>https://codein.withgoogle.com/tasks/5477529756368896</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;csvlint&lt;/code&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing linter csvlint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a ruby package manager that can install &lt;code&gt;csvlint&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;csvlint&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the csvlint linter on a sample CSV file using csvlint installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/10"&gt;https://github.com/repometric/linterhub-docker/issues/10&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:31 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5477529756368896</guid><category>docker</category><category>csv</category><category>ruby</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for phpmd</title><link>https://codein.withgoogle.com/tasks/6661284751736832</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://phpmd.org/"&gt;phpmd&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a php package manager that can install &lt;code&gt;phpmd&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;phpmd&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the phpmd linter on a sample php project file using phpmd installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/12"&gt;https://github.com/repometric/linterhub-docker/issues/12&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6661284751736832</guid><category>docker</category><category>php</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for Checker Framework</title><link>https://codein.withgoogle.com/tasks/5444441907134464</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://checkerframework.org/"&gt;Checker Framework&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing Checker Framework linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:24:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5444441907134464</guid><category>java</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>linterhub: Create a Docker image for golint</title><link>https://codein.withgoogle.com/tasks/5355316998832128</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;golint&lt;/code&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing linter golint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a go preinstalled (golint requires Go 1.6 or later).&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;golint&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the golint linter on a sample go project using golint installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/6"&gt;https://github.com/repometric/linterhub-docker/issues/6&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:18:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5355316998832128</guid><category>go</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
+
+&lt;p&gt;This task is to add a translation using weblate.&lt;/p&gt;
+
+&lt;p&gt;https://hosted.weblate.org/projects/coala/gci-leaders&lt;/p&gt;
+
+&lt;p&gt;The entire set of messages for the language must be translated before the task is submitted for review.&lt;/p&gt;
+
+&lt;p&gt;Only one translation should be added at a time, and all messages for that language should be translated by a single person &lt;em&gt;after&lt;/em&gt; they have claimed this task.&lt;/p&gt;
+
+&lt;p&gt;All translations in weblate must be done while signed in using the same username as used on GitHub.&lt;/p&gt;
+
+&lt;p&gt;The next languages to be translated is: Indonesian&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;https://github.com/coala/gci-leaders/issues/126&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 17:21:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5253203052462080</guid><category>i18n</category><category>weblate</category><category>translation</category></item><item><title>DNP; shai; corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message</title><link>https://codein.withgoogle.com/tasks/6044329946644480</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
+corobo repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/229"&gt;#229&lt;/a&gt; coala&lt;em&gt;lowercase&lt;/em&gt;c.py: Add an emoji to cEP lowercase message&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/229"&gt;https://github.com/coala/corobo/issues/229&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 14:50:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6044329946644480</guid><category>git</category><category>errbot</category><category>markdown</category><category>issues</category><category>emoji</category></item><item><title>DNP; shaipranesh11; corobo: Issue #337 Ask people to not use 'sir' when they do</title><link>https://codein.withgoogle.com/tasks/6536913504698368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+corobo repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/337"&gt;#337&lt;/a&gt; Ask people to not use 'sir' when they do&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/337"&gt;https://github.com/coala/corobo/issues/337&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 14:45:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6536913504698368</guid><category>errbot</category><category>python3</category><category>issues</category><category>chatops</category></item><item><title>DNP; already fixed; corobo: Issue #329 Fix spelling of "eligility" in labhub.py</title><link>https://codein.withgoogle.com/tasks/6008381808574464</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
+corobo repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/329"&gt;#329&lt;/a&gt; Fix spelling of "eligility" in labhub.py&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/329"&gt;https://github.com/coala/corobo/issues/329&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 14:43:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6008381808574464</guid><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>DNP; already fixed; corobo: Issue #251 Whitespace missing in newcomer welcome message</title><link>https://codein.withgoogle.com/tasks/5736616947613696</link><description>&lt;p&gt;Your task is to solve a 'newcomer' issue in the
+corobo repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/251"&gt;#251&lt;/a&gt; Whitespace missing in newcomer welcome message&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/251"&gt;https://github.com/coala/corobo/issues/251&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 14:42:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5736616947613696</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>IGitt: Issue #49 Add `merge` action to MergeRequest</title><link>https://codein.withgoogle.com/tasks/6300122856030208</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+IGitt repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/49"&gt;#49&lt;/a&gt; Add &lt;code&gt;merge&lt;/code&gt; action to MergeRequest&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/49"&gt;https://gitlab.com/gitmate/open-source/IGitt/issues/49&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 10:15:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6300122856030208</guid><category>merge request</category><category>github</category><category>gitlab</category><category>python3</category><category>issues</category></item><item><title>IGitt: Issue #101 Expose MR/PR author</title><link>https://codein.withgoogle.com/tasks/4954909814292480</link><description>&lt;p&gt;The MergeRequest author needs to be available for some of the corobo enhancements planned.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/101"&gt;https://gitlab.com/gitmate/open-source/IGitt/issues/101&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 10:13:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4954909814292480</guid><category>api</category><category>gitlab</category><category>identity</category><category>python3</category><category>github</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
 
 &lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
 
@@ -150,16 +566,7 @@ documentation repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/documentation/issues/259"&gt;https://github.com/coala/documentation/issues/259&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 28 Dec 2017 15:41:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6411393882390528</guid><category>reStructuredText</category><category>Java</category><category>issues</category></item><item><title>corobo: Issue #251 Whitespace missing in newcomer welcome message</title><link>https://codein.withgoogle.com/tasks/5736616947613696</link><description>&lt;p&gt;Your task is to solve a 'newcomer' issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/251"&gt;#251&lt;/a&gt; Whitespace missing in newcomer welcome message&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/251"&gt;https://github.com/coala/corobo/issues/251&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 27 Dec 2017 17:07:43 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5736616947613696</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>JSHintBear: Upgrade JSHint</title><link>https://codein.withgoogle.com/tasks/5668029776003072</link><description>&lt;p&gt;Update the version of JSHint used by JSHintBear to the latest version.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 28 Dec 2017 15:41:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6411393882390528</guid><category>reStructuredText</category><category>Java</category><category>issues</category></item><item><title>JSHintBear: Upgrade JSHint</title><link>https://codein.withgoogle.com/tasks/5668029776003072</link><description>&lt;p&gt;Update the version of JSHint used by JSHintBear to the latest version.&lt;/p&gt;
 
 &lt;p&gt;JSHintBear currently uses JSHint version 2. The latest version is 2.9.5.&lt;/p&gt;
 
@@ -951,16 +1358,7 @@ manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&g
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/11"&gt;https://github.com/manu-chroma/username-availability-checker/issues/11&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 12 Dec 2017 16:58:40 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6545479372374016</guid><category>Flask</category><category>Python</category><category>heroku</category><category>issues</category><category>regex</category></item><item><title>corobo: Issue #329 Fix spelling of "eligility" in labhub.py</title><link>https://codein.withgoogle.com/tasks/6008381808574464</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/329"&gt;#329&lt;/a&gt; Fix spelling of "eligility" in labhub.py&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/329"&gt;https://github.com/coala/corobo/issues/329&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 11 Dec 2017 16:17:50 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6008381808574464</guid><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>gci-leaders: Issue #64 Add twitter and G+ icons with links</title><link>https://codein.withgoogle.com/tasks/5417259780538368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 12 Dec 2017 16:58:40 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6545479372374016</guid><category>Flask</category><category>Python</category><category>heroku</category><category>issues</category><category>regex</category></item><item><title>gci-leaders: Issue #64 Add twitter and G+ icons with links</title><link>https://codein.withgoogle.com/tasks/5417259780538368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/64"&gt;#64&lt;/a&gt; Add twitter and G+ icons with links&lt;/p&gt;
@@ -1204,7 +1602,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/2"&gt;https://github.com/coala/gci-leaders/issues/2&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>markdown</category><category>git</category><category>issues</category><category>javascript</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>markdown</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/3"&gt;#3&lt;/a&gt; Clickable org name&lt;/p&gt;
@@ -1322,16 +1720,7 @@ gitmate-2-frontend repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/63"&gt;https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/63&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 15:26:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4566570439278592</guid><category>Node</category><category>JavaScript</category><category>Angular</category><category>issues</category></item><item><title>IGitt: Issue #49 Add merged action to MergeRequest</title><link>https://codein.withgoogle.com/tasks/6300122856030208</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-IGitt repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/49"&gt;#49&lt;/a&gt; Add merged action to MergeRequest&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/49"&gt;https://gitlab.com/gitmate/open-source/IGitt/issues/49&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 15:05:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6300122856030208</guid><category>github</category><category>gitlab</category><category>python3</category><category>issues</category></item><item><title>IGitt: Issue #81 backoff shouldn't log an error if it backs off</title><link>https://codein.withgoogle.com/tasks/4943472744202240</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 15:26:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4566570439278592</guid><category>Node</category><category>JavaScript</category><category>Angular</category><category>issues</category></item><item><title>IGitt: Issue #81 backoff shouldn't log an error if it backs off</title><link>https://codein.withgoogle.com/tasks/4943472744202240</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 IGitt repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/81"&gt;#81&lt;/a&gt; backoff shouldn't log an error if it backs off&lt;/p&gt;
@@ -1367,16 +1756,7 @@ corobo repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/426"&gt;https://github.com/coala/corobo/issues/426&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 14:26:07 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6094331645526016</guid><category>issues</category><category>errbot</category><category>api</category><category>chatops</category><category>python3</category></item><item><title>corobo: Issue #337 Ask people to not use 'sir' when they do</title><link>https://codein.withgoogle.com/tasks/6536913504698368</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/337"&gt;#337&lt;/a&gt; Ask people to not use 'sir' when they do&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/337"&gt;https://github.com/coala/corobo/issues/337&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 14:03:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6536913504698368</guid><category>errbot</category><category>python3</category><category>issues</category><category>chatops</category></item><item><title>quickstart: Issue #158 Change usage of LogPrinter</title><link>https://codein.withgoogle.com/tasks/5080668067332096</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 05 Dec 2017 14:26:07 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6094331645526016</guid><category>issues</category><category>errbot</category><category>api</category><category>chatops</category><category>python3</category></item><item><title>quickstart: Issue #158 Change usage of LogPrinter</title><link>https://codein.withgoogle.com/tasks/5080668067332096</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala-quickstart repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-quickstart/issues/158"&gt;#158&lt;/a&gt; Change usage of LogPrinter&lt;/p&gt;
@@ -1535,187 +1915,7 @@ to learn how to prepare your patch properly.&lt;/p&gt;
 &lt;p&gt;Additionally, on each pull request, Travis should build the commit on that pull request without overwriting the &lt;code&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala-html/issues/133"&gt;https://github.com/coala/coala-html/issues/133&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 01 Dec 2017 09:09:55 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5723370043736064</guid><category>yaml</category><category>github</category><category>continuous integration</category><category>bash</category><category>travis</category></item><item><title>linterhub: Create a Docker image for golint</title><link>https://codein.withgoogle.com/tasks/5355316998832128</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;golint&lt;/code&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing linter golint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a go preinstalled (golint requires Go 1.6 or later).&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;golint&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the golint linter on a sample go project using golint installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 13:32:47 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5355316998832128</guid><category>go</category><category>docker</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for phpmd</title><link>https://codein.withgoogle.com/tasks/6661284751736832</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://phpmd.org/"&gt;phpmd&lt;/a&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a php package manager that can install &lt;code&gt;phpmd&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;phpmd&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the phpmd linter on a sample php project file using phpmd installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 13:32:37 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6661284751736832</guid><category>docker</category><category>php</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;tslint&lt;/code&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing linter tslint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a nodejs package manager that can install &lt;code&gt;tslint&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;tslint&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the tslint linter on a sample typescript project using tslint installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 13:32:29 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5618267244724224</guid><category>docker</category><category>typescript</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for yamllint</title><link>https://codein.withgoogle.com/tasks/6010558149033984</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;yamllint&lt;/code&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing linter yamllint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a python manager that can install &lt;code&gt;yamllint&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;yamllint&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the yamllint linter on a sample yaml file using yamllint installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 30 Nov 2017 13:32:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6010558149033984</guid><category>python</category><category>yaml</category><category>docker</category><category>alpine</category><category>linux</category></item><item><title>tldr-pages: page request: pycodestyle</title><link>https://codein.withgoogle.com/tasks/5389709268221952</link><description>&lt;p&gt;Create a new tldr page on the command &lt;code&gt;pycodestyle&lt;/code&gt;. Helpful links to the documentation for &lt;code&gt;pycodestyle&lt;/code&gt; are available in the description of the issue on GitHub associated with this task.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 01 Dec 2017 09:09:55 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5723370043736064</guid><category>yaml</category><category>github</category><category>continuous integration</category><category>bash</category><category>travis</category></item><item><title>tldr-pages: page request: pycodestyle</title><link>https://codein.withgoogle.com/tasks/5389709268221952</link><description>&lt;p&gt;Create a new tldr page on the command &lt;code&gt;pycodestyle&lt;/code&gt;. Helpful links to the documentation for &lt;code&gt;pycodestyle&lt;/code&gt; are available in the description of the issue on GitHub associated with this task.&lt;/p&gt;
 
 &lt;p&gt;If you decide to create this page, comment on the issue to let others know that you're creating it.&lt;/p&gt;
 
@@ -1874,53 +2074,7 @@ IGitt repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/79"&gt;https://gitlab.com/gitmate/open-source/IGitt/issues/79&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 15:52:23 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6458433983217664</guid><category>gitlab</category><category>issues</category><category>python3</category></item><item><title>linterhub: Create a Docker image for csvlint</title><link>https://codein.withgoogle.com/tasks/5477529756368896</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;csvlint&lt;/code&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing linter csvlint: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a ruby package manager that can install &lt;code&gt;csvlint&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;csvlint&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the csvlint linter on a sample CSV file using csvlint installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 12:13:41 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5477529756368896</guid><category>docker</category><category>csv</category><category>ruby</category><category>alpine</category><category>linux</category></item><item><title>IGitt: Expose MR/PR author</title><link>https://codein.withgoogle.com/tasks/4954909814292480</link><description>&lt;p&gt;The MergeRequest author needs to be available for some of the corobo enhancements planned.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 08:06:32 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4954909814292480</guid><category>api</category><category>gitlab</category><category>identity</category><category>python3</category><category>github</category></item><item><title>corobo: Issue #296 Mention that users need to be a developer (and point to the requirements) if they try to assign a medium issue</title><link>https://codein.withgoogle.com/tasks/5736702041653248</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 15:52:23 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6458433983217664</guid><category>gitlab</category><category>issues</category><category>python3</category></item><item><title>corobo: Issue #296 Mention that users need to be a developer (and point to the requirements) if they try to assign a medium issue</title><link>https://codein.withgoogle.com/tasks/5736702041653248</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/296"&gt;#296&lt;/a&gt; Mention that users need to be a developer (and point to the requirements) if they try to assign a medium issue&lt;/p&gt;
@@ -1974,16 +2128,7 @@ corobo repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/367"&gt;https://github.com/coala/corobo/issues/367&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5386122651762688</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message</title><link>https://codein.withgoogle.com/tasks/6044329946644480</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
-corobo repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/229"&gt;#229&lt;/a&gt; coala&lt;em&gt;lowercase&lt;/em&gt;c.py: Add an emoji to cEP lowercase message&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/issues/229"&gt;https://github.com/coala/corobo/issues/229&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6044329946644480</guid><category>git</category><category>errbot</category><category>markdown</category><category>issues</category><category>emoji</category></item><item><title>corobo: Issue #362 Fix spelling mistake create_issut_cmd</title><link>https://codein.withgoogle.com/tasks/5096219137277952</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 29 Nov 2017 04:27:10 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5386122651762688</guid><category>markdown</category><category>errbot</category><category>git</category><category>chatops</category><category>issues</category></item><item><title>corobo: Issue #362 Fix spelling mistake create_issut_cmd</title><link>https://codein.withgoogle.com/tasks/5096219137277952</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/362"&gt;#362&lt;/a&gt; Fix spelling mistake create&lt;em&gt;issut&lt;/em&gt;cmd&lt;/p&gt;
