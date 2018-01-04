@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Wed, 03 Jan 2018 07:31:07 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 04 Jan 2018 07:02:52 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
 
 &lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
 The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
@@ -44,17 +44,292 @@ GitHub, GitLab, or other services.&lt;/p&gt;
 
 &lt;p&gt;https://username-check.herokuapp.com/&lt;/p&gt;
 
-&lt;p&gt;Add a comment with your username before submitting your task.&lt;/p&gt;
-
-&lt;h2&gt;References&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;https://en.gravatar.com/support/&lt;/li&gt;
-&lt;li&gt;https://www.tineye.com/&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Add a comment with your gravatar username before submitting your task.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://en.gravatar.com/support/"&gt;https://en.gravatar.com/support/&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 07:31:07 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>Checker Framework: Annotate a Java library</title><link>https://codein.withgoogle.com/tasks/5137417914810368</link><description>&lt;p&gt;When type-checking a method call, the Checker Framework uses the method declaration's annotations. This means that in order to type-check code that uses a library, the Checker Framework needs an annotated version of the library.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 07:02:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://checkerframework.org/"&gt;stylint&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing Checker Framework linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Node preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 02:11:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5914805787426816</guid><category>stylus</category><category>node</category><category>docker</category><category>javascript</category><category>css</category></item><item><title>linterhub: Create a Docker image for scancode</title><link>https://codein.withgoogle.com/tasks/5782007009247232</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://github.com/nexB/scancode-toolkit"&gt;scancode&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing scancode linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 01:17:32 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5782007009247232</guid><category>python</category><category>dependencies</category><category>license</category><category>copyright</category><category>manifest</category></item><item><title>linterhub: Create a Docker image for Scalastyle</title><link>https://codein.withgoogle.com/tasks/5101604732665856</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="http://www.scalastyle.org/"&gt;Scalastyle&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing Scalastyle linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;scalastyle&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:55:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5101604732665856</guid><category>docker</category><category>scala</category><category>java</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for Checker Framework</title><link>https://codein.withgoogle.com/tasks/5444441907134464</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://checkerframework.org/"&gt;Checker Framework&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing Checker Framework linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:53:29 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5444441907134464</guid><category>java</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>gci-leaders: Issue #73 Broken social link</title><link>https://codein.withgoogle.com/tasks/6380651144019968</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;#73&lt;/a&gt; Broken social link&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;https://github.com/coala/gci-leaders/issues/73&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:44:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6380651144019968</guid><category>Node</category><category>Catrobat</category><category>JavaScript</category><category>template</category><category>issues</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;https://github.com/coala/gci-leaders/issues/8&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:44:05 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;#30&lt;/a&gt; Org heading contains invalid element&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;https://github.com/coala/gci-leaders/issues/30&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:43:58 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6567626035691520</guid><category>Node</category><category>git</category><category>JavaScript</category><category>HTML</category><category>issues</category></item><item><title>gci-leaders: Issue #26 Add fork me ribbon</title><link>https://codein.withgoogle.com/tasks/5422018000322560</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;#26&lt;/a&gt; Add fork me ribbon&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
+to learn how to prepare your patch properly.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;https://github.com/coala/gci-leaders/issues/26&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:43:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5422018000322560</guid><category>Node</category><category>git</category><category>HTML</category><category>issues</category><category>github</category></item><item><title>gci-leaders: Issue #125 Generate language list dynamically</title><link>https://codein.withgoogle.com/tasks/4864591391621120</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/125"&gt;#125&lt;/a&gt; Generate language list dynamically&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/125"&gt;https://github.com/coala/gci-leaders/issues/125&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:42:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4864591391621120</guid><category>node</category><category>i18n</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
+
+&lt;p&gt;This task is to add a translation using weblate.&lt;/p&gt;
+
+&lt;p&gt;https://hosted.weblate.org/projects/coala/gci-leaders&lt;/p&gt;
+
+&lt;p&gt;The entire set of messages for the language must be translated before the task is submitted for review.&lt;/p&gt;
+
+&lt;p&gt;Only one translation should be added at a time, and all messages for that language should be translated by a single person &lt;em&gt;after&lt;/em&gt; they have claimed this task.&lt;/p&gt;
+
+&lt;p&gt;All translations in weblate must be done while signed in using the same username as used on GitHub.&lt;/p&gt;
+
+&lt;p&gt;The next languages to be translated is: Indonesian&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;https://github.com/coala/gci-leaders/issues/126&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:41:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5253203052462080</guid><category>i18n</category><category>weblate</category><category>translation</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
+
+&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
+
+&lt;h1&gt;Steps&lt;/h1&gt;
+
+&lt;h2&gt;Join Zulip&lt;/h2&gt;
+
+&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
+
+&lt;h2&gt;Choosing your global username&lt;/h2&gt;
+
+&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
+
+&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
+
+&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GitHub.com&lt;/li&gt;
+&lt;li&gt;GitLab.com&lt;/li&gt;
+&lt;li&gt;OpenHub.net&lt;/li&gt;
+&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
+&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
+Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
+
+&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
+
+&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
+
+&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 11:45:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>Checker Framework: Annotate a Java library</title><link>https://codein.withgoogle.com/tasks/5137417914810368</link><description>&lt;p&gt;When type-checking a method call, the Checker Framework uses the method declaration's annotations. This means that in order to type-check code that uses a library, the Checker Framework needs an annotated version of the library.&lt;/p&gt;
 
 &lt;p&gt;Java libraries that have already been annotated are at https://github.com/typetools/checker-framework/tree/master/checker/lib&lt;/p&gt;
 
@@ -260,52 +535,7 @@ Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Once you've finished, please submit a PR to linterhub-docker .&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/12"&gt;https://github.com/repometric/linterhub-docker/issues/12&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6661284751736832</guid><category>docker</category><category>php</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for Checker Framework</title><link>https://codein.withgoogle.com/tasks/5444441907134464</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://checkerframework.org/"&gt;Checker Framework&lt;/a&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing Checker Framework linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:24:26 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5444441907134464</guid><category>java</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>linterhub: Create a Docker image for golint</title><link>https://codein.withgoogle.com/tasks/5355316998832128</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:27:15 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6661284751736832</guid><category>docker</category><category>php</category><category>alpine</category><category>linux</category></item><item><title>linterhub: Create a Docker image for golint</title><link>https://codein.withgoogle.com/tasks/5355316998832128</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;golint&lt;/code&gt; linter.&lt;/p&gt;
 
@@ -350,24 +580,7 @@ Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker/issues/6"&gt;https://github.com/repometric/linterhub-docker/issues/6&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:18:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5355316998832128</guid><category>go</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
-
-&lt;p&gt;This task is to add a translation using weblate.&lt;/p&gt;
-
-&lt;p&gt;https://hosted.weblate.org/projects/coala/gci-leaders&lt;/p&gt;
-
-&lt;p&gt;The entire set of messages for the language must be translated before the task is submitted for review.&lt;/p&gt;
-
-&lt;p&gt;Only one translation should be added at a time, and all messages for that language should be translated by a single person &lt;em&gt;after&lt;/em&gt; they have claimed this task.&lt;/p&gt;
-
-&lt;p&gt;All translations in weblate must be done while signed in using the same username as used on GitHub.&lt;/p&gt;
-
-&lt;p&gt;The next languages to be translated is: Indonesian&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;https://github.com/coala/gci-leaders/issues/126&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 17:21:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5253203052462080</guid><category>i18n</category><category>weblate</category><category>translation</category></item><item><title>DNP; shai; corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message</title><link>https://codein.withgoogle.com/tasks/6044329946644480</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:18:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5355316998832128</guid><category>go</category><category>docker</category><category>alpine</category><category>linter</category><category>linux</category></item><item><title>DNP; shai; corobo: Issue #229 coala_lowercase_c.py: Add an emoji to cEP lowercase message</title><link>https://codein.withgoogle.com/tasks/6044329946644480</link><description>&lt;p&gt;Your task is to solve a newcomer issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/corobo/issues/229"&gt;#229&lt;/a&gt; coala&lt;em&gt;lowercase&lt;/em&gt;c.py: Add an emoji to cEP lowercase message&lt;/p&gt;
@@ -415,49 +628,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 10:15:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6300122856030208</guid><category>merge request</category><category>github</category><category>gitlab</category><category>python3</category><category>issues</category></item><item><title>IGitt: Issue #101 Expose MR/PR author</title><link>https://codein.withgoogle.com/tasks/4954909814292480</link><description>&lt;p&gt;The MergeRequest author needs to be available for some of the corobo enhancements planned.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/101"&gt;https://gitlab.com/gitmate/open-source/IGitt/issues/101&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 10:13:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4954909814292480</guid><category>api</category><category>gitlab</category><category>identity</category><category>python3</category><category>github</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
-
-&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
-
-&lt;h1&gt;Steps&lt;/h1&gt;
-
-&lt;h2&gt;Join Zulip&lt;/h2&gt;
-
-&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
-
-&lt;h2&gt;Choosing your global username&lt;/h2&gt;
-
-&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
-
-&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
-
-&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;GitHub.com&lt;/li&gt;
-&lt;li&gt;GitLab.com&lt;/li&gt;
-&lt;li&gt;OpenHub.net&lt;/li&gt;
-&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
-&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Note&lt;/h2&gt;
-
-&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
-Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
-
-&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
-
-&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
-
-&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 07:01:57 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>Automatically remove duplicate dictonary keys from Python code</title><link>https://codein.withgoogle.com/tasks/5139733237727232</link><description>&lt;p&gt;&lt;a href="https://github.com/myint/autoflake"&gt;autoflake&lt;/a&gt; is a tool that automatically cleans up Python code by removing things like unused import and unused variables. It makes use of &lt;a href="https://github.com/PyCQA/pyflakes"&gt;pyflakes&lt;/a&gt; to do this. &lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 02 Jan 2018 10:13:53 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4954909814292480</guid><category>api</category><category>gitlab</category><category>identity</category><category>python3</category><category>github</category></item><item><title>Automatically remove duplicate dictonary keys from Python code</title><link>https://codein.withgoogle.com/tasks/5139733237727232</link><description>&lt;p&gt;&lt;a href="https://github.com/myint/autoflake"&gt;autoflake&lt;/a&gt; is a tool that automatically cleans up Python code by removing things like unused import and unused variables. It makes use of &lt;a href="https://github.com/PyCQA/pyflakes"&gt;pyflakes&lt;/a&gt; to do this. &lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://github.com/PyCQA/pyflakes/releases/tag/1.3.0"&gt;pyflakes 1.3.0&lt;/a&gt; included support for detecting duplicate dictionary keys, strictly only reporting when the values differ, as there is no confusion in having the same key,value combination appear multiple times.&lt;/p&gt;
 
@@ -840,25 +1011,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/57"&gt;https://github.com/coala/gci-leaders/issues/57&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583719211040768</guid><category>Node</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #26 Add fork me ribbon</title><link>https://codein.withgoogle.com/tasks/5422018000322560</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;#26&lt;/a&gt; Add fork me ribbon&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/26"&gt;https://github.com/coala/gci-leaders/issues/26&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5422018000322560</guid><category>Node</category><category>git</category><category>HTML</category><category>issues</category><category>github</category></item><item><title>gci-leaders: Issue #30 Org heading contains invalid element</title><link>https://codein.withgoogle.com/tasks/6567626035691520</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;#30&lt;/a&gt; Org heading contains invalid element&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href="http://coala.io/git"&gt;Git Basics&lt;/a&gt; and &lt;a href="http://coala.io/newcomer"&gt;Newcomer Guide&lt;/a&gt;
-to learn how to prepare your patch properly.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/30"&gt;https://github.com/coala/gci-leaders/issues/30&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:12 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6567626035691520</guid><category>Node</category><category>git</category><category>JavaScript</category><category>HTML</category><category>issues</category></item><item><title>gci-leaders: Issue #65 Create blog planet from blog_url</title><link>https://codein.withgoogle.com/tasks/4567857922834432</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583719211040768</guid><category>Node</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #65 Create blog planet from blog_url</title><link>https://codein.withgoogle.com/tasks/4567857922834432</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/65"&gt;#65&lt;/a&gt; Create blog planet from blog_url&lt;/p&gt;
@@ -876,16 +1029,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/54"&gt;https://github.com/coala/gci-leaders/issues/54&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5962920678653952</guid><category>Node</category><category>twitter</category><category>JavaScript</category><category>outreach</category><category>issues</category></item><item><title>gci-leaders: Issue #8 Guess GitHub username of leading participants</title><link>https://codein.withgoogle.com/tasks/6304189116317696</link><description>&lt;p&gt;Your task is to solve a 'high' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;#8&lt;/a&gt; Guess GitHub username of leading participants&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/8"&gt;https://github.com/coala/gci-leaders/issues/8&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6304189116317696</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category><category>api</category></item><item><title>gci-leaders: Issue #51 Add GCI timeline</title><link>https://codein.withgoogle.com/tasks/6160329186738176</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:34:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5962920678653952</guid><category>Node</category><category>twitter</category><category>JavaScript</category><category>outreach</category><category>issues</category></item><item><title>gci-leaders: Issue #51 Add GCI timeline</title><link>https://codein.withgoogle.com/tasks/6160329186738176</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/51"&gt;#51&lt;/a&gt; Add GCI timeline&lt;/p&gt;
@@ -1188,16 +1332,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/80"&gt;https://github.com/coala/gci-leaders/issues/80&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4608169781231616</guid><category>Node</category><category>JavaScript</category><category>Redundant code</category><category>issues</category></item><item><title>gci-leaders: Issue #73 Broken social link</title><link>https://codein.withgoogle.com/tasks/6380651144019968</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;#73&lt;/a&gt; Broken social link&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;https://github.com/coala/gci-leaders/issues/73&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6380651144019968</guid><category>Node</category><category>Catrobat</category><category>JavaScript</category><category>template</category><category>issues</category></item><item><title>gci-leaders: Issue #88 og:image is broken</title><link>https://codein.withgoogle.com/tasks/5198834521079808</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4608169781231616</guid><category>Node</category><category>JavaScript</category><category>Redundant code</category><category>issues</category></item><item><title>gci-leaders: Issue #88 og:image is broken</title><link>https://codein.withgoogle.com/tasks/5198834521079808</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;#88&lt;/a&gt; og:image is broken&lt;/p&gt;

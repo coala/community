@@ -83,9 +83,9 @@
   - gitlab
   - zulip
   private_metadata: ''
-  max_instances: 240
+  max_instances: 238
   name: Join coala chat and set up your accounts
-  last_modified: '2018-01-02T07:01:57Z'
+  last_modified: '2018-01-03T11:45:21Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -708,6 +708,28 @@
   - 1
   - 4
   external_url: https://github.com/coala/corobo/issues/369
+4864591391621120:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Your task is to solve a 'low' difficulty issue in the\ngci-leaders\
+    \ repository. Here is the issue:\n\nIssue [#125](https://github.com/coala/gci-leaders/issues/125)\
+    \ Generate language list dynamically\n\nRemember to format your [Git Commit Message](http://coala.io/commit)\n\
+    according to the rules, otherwise the bot will tell you to fix it."
+  tags:
+  - node
+  - i18n
+  - javascript
+  - issues
+  private_metadata: ''
+  max_instances: 1
+  name: 'gci-leaders: Issue #125 Generate language list dynamically'
+  last_modified: '2018-01-04T00:42:09Z'
+  is_beginner: false
+  id: 4864591391621120
+  categories:
+  - 1
+  external_url: https://github.com/coala/gci-leaders/issues/125
 4864593698488320:
   status: 2
   time_to_complete_in_days: 4
@@ -1201,6 +1223,42 @@
   categories:
   - 1
   external_url: https://github.com/coala/coala-brackets/issues/7
+5101604732665856:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the [Scalastyle](http://www.scalastyle.org/)\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing Scalastyle\
+    \ linter: https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork\
+    \ repository\n\nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a Java\
+    \ preinstalled.\n\nCreate a new Dockerfile based on the previous one and install\
+    \ the linter `scalastyle` (and dependencies if needed).\ne.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the checker\
+    \ framework linter on a sample java project using checker framework installed\
+    \ on your computer\n\n2. Perform the same analysis using your container\n```bash\n\
+    docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine\
+    \ engine_command\n```\nMake sure that outputs are equal.\n\n# Automated tests\n\
+    \nIntroduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - docker
+  - scala
+  - java
+  - alpine
+  - linux
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for Scalastyle'
+  last_modified: '2018-01-04T00:55:38Z'
+  is_beginner: false
+  id: 5101604732665856
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
 5103473731305472:
   status: 2
   time_to_complete_in_days: 5
@@ -1734,7 +1792,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'gci-leaders: Issue #126 Add translation'
-  last_modified: '2018-01-02T17:21:38Z'
+  last_modified: '2018-01-04T00:41:51Z'
   is_beginner: false
   id: 5253203052462080
   categories:
@@ -2320,7 +2378,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #26 Add fork me ribbon'
-  last_modified: '2017-12-25T10:34:12Z'
+  last_modified: '2018-01-04T00:43:52Z'
   is_beginner: true
   id: 5422018000322560
   categories:
@@ -2353,7 +2411,7 @@
   external_url: https://github.com/coala/community/issues/25
 5444441907134464:
   status: 2
-  time_to_complete_in_days: 3
+  time_to_complete_in_days: 4
   program_year: 2017
   description: "# Task\n\nCreate a Docker image with Alpine Linux for the [Checker\
     \ Framework](https://checkerframework.org/) linter.\n\n# Register an issue\n\n\
@@ -2380,7 +2438,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for Checker Framework'
-  last_modified: '2018-01-03T04:24:26Z'
+  last_modified: '2018-01-04T00:53:29Z'
   is_beginner: false
   id: 5444441907134464
   categories:
@@ -3292,6 +3350,42 @@
   categories:
   - 1
   external_url: https://github.com/coala/gh-board/issues/6
+5782007009247232:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the [scancode](https://github.com/nexB/scancode-toolkit)\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing scancode\
+    \ linter: https://github.com/repometric/linterhub-docker/issues/new\n\n# Fork\
+    \ repository\n\nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a Java\
+    \ preinstalled.\n\nCreate a new Dockerfile based on the previous one and install\
+    \ the linter `checker framework` (and dependencies if needed).\ne.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the checker\
+    \ framework linter on a sample java project using checker framework installed\
+    \ on your computer\n\n2. Perform the same analysis using your container\n```bash\n\
+    docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine\
+    \ engine_command\n```\nMake sure that outputs are equal.\n\n# Automated tests\n\
+    \nIntroduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - python
+  - dependencies
+  - license
+  - copyright
+  - manifest
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for scancode'
+  last_modified: '2018-01-04T01:17:32Z'
+  is_beginner: false
+  id: 5782007009247232
+  categories:
+  - 1
+  - 4
+  external_url:
 5835922228641792:
   status: 2
   time_to_complete_in_days: 4
@@ -3469,6 +3563,42 @@
   categories:
   - 1
   external_url: https://gitlab.com/coala/package_manager/issues/125
+5914805787426816:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "# Task\n\nCreate a Docker image with Alpine Linux for the [stylint](https://checkerframework.org/)\
+    \ linter.\n\n# Register an issue\n\n- Register an issue about missing Checker\
+    \ Framework linter: https://github.com/repometric/linterhub-docker/issues/new\n\
+    \n# Fork repository\n\nFork the [linterhub-docker](https://github.com/repometric/linterhub-docker)\
+    \ repository.\n\n# Build\n\nFind an Alpine-base image on Dockerhub with a Node\
+    \ preinstalled.\n\nCreate a new Dockerfile based on the previous one and install\
+    \ the linter `checker framework` (and dependencies if needed).\ne.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile\
+    \ \n\nPlease do not install unnecessary dependencies!\n\nBuild container, make\
+    \ sure there are no errors during build.\n\n# Manual tests\n\n1. Run the checker\
+    \ framework linter on a sample java project using checker framework installed\
+    \ on your computer\n\n2. Perform the same analysis using your container\n```bash\n\
+    docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine\
+    \ engine_command\n```\nMake sure that outputs are equal.\n\n# Automated tests\n\
+    \nIntroduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files\
+    \ (ensure that expected analysis results are equal to the actual results).\n\n\
+    # Submit a PR\n\nOnce you've finished, please submit a PR to linterhub-docker."
+  tags:
+  - stylus
+  - node
+  - docker
+  - javascript
+  - css
+  private_metadata: ''
+  max_instances: 1
+  name: 'linterhub: Create a Docker image for stylint'
+  last_modified: '2018-01-04T02:11:11Z'
+  is_beginner: false
+  id: 5914805787426816
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/repometric/linterhub-docker
 5915375902392320:
   status: 2
   time_to_complete_in_days: 3
@@ -4276,7 +4406,7 @@
   private_metadata: issues
   max_instances: 4
   name: 'gci-leaders: Issue #8 Guess GitHub username of leading participants'
-  last_modified: '2017-12-25T10:34:11Z'
+  last_modified: '2018-01-04T00:44:05Z'
   is_beginner: false
   id: 6304189116317696
   categories:
@@ -4499,7 +4629,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #73 Broken social link'
-  last_modified: '2017-12-17T14:34:51Z'
+  last_modified: '2018-01-04T00:44:26Z'
   is_beginner: false
   id: 6380651144019968
   categories:
@@ -4805,7 +4935,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #30 Org heading contains invalid element'
-  last_modified: '2017-12-25T10:34:12Z'
+  last_modified: '2018-01-04T00:43:58Z'
   is_beginner: true
   id: 6567626035691520
   categories:
@@ -4855,8 +4985,7 @@
     \nAfter the logo is uploaded, it should appear on your GitLab profile automatically.\n\
     \n## Assessment\n\nThe following tool is used to verify that your new avatar is\
     \ used globally\n\nhttps://username-check.herokuapp.com/\n\nAdd a comment with\
-    \ your username before submitting your task.\n\n## References\n\n1. https://en.gravatar.com/support/\n\
-    2. https://www.tineye.com/"
+    \ your gravatar username before submitting your task."
   tags:
   - logo
   - deviantart
@@ -4866,7 +4995,7 @@
   private_metadata: ''
   max_instances: 10
   name: Create your own avatar
-  last_modified: '2018-01-03T07:31:07Z'
+  last_modified: '2018-01-04T07:02:52Z'
   is_beginner: false
   id: 6583830645309440
   categories:

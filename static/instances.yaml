@@ -1,3 +1,27 @@
+4546181105451008:
+  student_display_name: Jayanth Nair
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6174748096593920
+  modified: '2018-01-03 12:39:09'
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date: '2018-01-03 12:35:31'
+  deadline: '2018-01-06 10:40:05'
+  organization_id: 4884530416582656
+  id: 4546181105451008
+4553579253727232:
+  student_display_name: Rithesh Kannan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5404377529450496
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4553579253727232
 4564069535186944:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -281,7 +305,7 @@
   program_year: 2017
   task_definition_id: 5667393978236928
   student_id: 6214590973083648
-  modified: '2018-01-02 12:39:28'
+  modified: '2018-01-04 06:02:47'
   task_definition_name: 'gci-leaders: Issue #77 Import pre-2017 Finalists and winners'
   organization_name: coala
   completion_date: '2018-01-02 12:39:23'
@@ -328,6 +352,17 @@
   deadline: '2017-12-03 04:06:20'
   organization_id: 4884530416582656
   id: 4901020188540928
+4930577255890944:
+  student_display_name: Tanuj Vemuri
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5900049672306688
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4930577255890944
 5001983771541504:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -497,15 +532,28 @@
   deadline: '2017-12-14 06:41:12'
   organization_id: 4884530416582656
   id: 5143670363783168
+5145768002322432:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5444441907134464
+  student_id: 5302037795307520
+  task_definition_name: 'linterhub: Create a Docker image for Checker Framework'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5145768002322432
 5151585267089408:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 6479102439587840
+  modified: '2018-01-03 12:33:18'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-03 12:33:13'
+  deadline: '2018-01-06 09:30:28'
   organization_id: 4884530416582656
   id: 5151585267089408
 5168293855887360:
@@ -548,6 +596,18 @@
   deadline: '2017-12-16 17:06:15'
   organization_id: 4884530416582656
   id: 5192142693597184
+5207028731478016:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4616364578832384
+  student_id: 6479102439587840
+  task_definition_name: 'username-availability: Issue #30 setup .env file to differentiate
+    between dev and prod env'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5207028731478016
 5210011435270144:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -864,6 +924,17 @@
   deadline: '2017-12-01 20:05:48'
   organization_id: 4884530416582656
   id: 5672009499410432
+5677162696802304:
+  student_display_name: Mohak Varma
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6591584856440832
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5677162696802304
 5693592305664000:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -945,6 +1016,17 @@
   deadline: '2017-12-01 23:05:24'
   organization_id: 4884530416582656
   id: 5829710095319040
+5840188716613632:
+  student_display_name: Samanth N
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6008658758467584
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5840188716613632
 5849617092575232:
   student_display_name: Daniel O'Brien
   status: COMPLETED
@@ -1453,6 +1535,19 @@
   deadline: '2017-12-31 12:38:43'
   organization_id: 4884530416582656
   id: 6415132114550784
+6438481754587136:
+  student_display_name: Aditya Kharote
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4762735839543296
+  modified: '2018-01-03 12:32:42'
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date: '2018-01-03 12:31:00'
+  deadline: '2018-01-06 11:24:15'
+  organization_id: 4884530416582656
+  id: 6438481754587136
 6443907623682048:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1732,6 +1827,17 @@
   deadline: '2017-12-31 19:59:21'
   organization_id: 4884530416582656
   id: 6654705038000128
+6680846893318144:
+  student_display_name: Abhay kumar
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5578824680996864
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6680846893318144
 6704021211447296:
   student_display_name: Joshua Chung
   status: COMPLETED
@@ -1770,6 +1876,17 @@
   deadline: '2017-12-02 22:20:55'
   organization_id: 4884530416582656
   id: 6727442548916224
+6728669609328640:
+  student_display_name: Adithi M
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5976291549380608
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6728669609328640
 6749519553232896:
   student_display_name: Andrew Dassonville
   status: COMPLETED
