@@ -363,6 +363,39 @@
   completion_date:
   organization_id: 4884530416582656
   id: 4930577255890944
+4934419305463808:
+  student_display_name: Arun Vignesh
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4617456909811712
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4934419305463808
+4939571588497408:
+  student_display_name: sagar gala
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5076541987880960
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4939571588497408
+4999650798993408:
+  student_display_name: Abhay kumar
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 5578824680996864
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4999650798993408
 5001983771541504:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -649,6 +682,17 @@
   deadline: '2018-01-03 06:35:17'
   organization_id: 4884530416582656
   id: 5247586057322496
+5248878087503872:
+  student_display_name: Shailendra Babu
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6314289033904128
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5248878087503872
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -727,6 +771,17 @@
   deadline: '2017-12-07 22:48:57'
   organization_id: 4884530416582656
   id: 5324936413446144
+5326512439951360:
+  student_display_name: NT4400
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5755741094805504
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5326512439951360
 5357786093322240:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -848,6 +903,17 @@
   deadline: '2017-12-21 10:14:20'
   organization_id: 4884530416582656
   id: 5602122823368704
+5630478885322752:
+  student_display_name: kunal sai
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6670252148523008
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5630478885322752
 5631592892465152:
   student_display_name: Frumentius Daneswara N
   status: CLAIMED
@@ -1016,15 +1082,28 @@
   deadline: '2017-12-01 23:05:24'
   organization_id: 4884530416582656
   id: 5829710095319040
-5840188716613632:
-  student_display_name: Samanth N
+5830941987569664:
+  student_display_name: Daniel O'Brien
   status: CLAIMED
   program_year: 2017
   task_definition_id: 6583830645309440
-  student_id: 6008658758467584
+  student_id: 4973831292715008
   task_definition_name: Create your own avatar
   organization_name: coala
   completion_date:
+  organization_id: 4884530416582656
+  id: 5830941987569664
+5840188716613632:
+  student_display_name: Samanth N
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6008658758467584
+  modified: '2018-01-04 10:45:55'
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date: '2018-01-04 10:45:51'
+  deadline: '2018-01-07 05:52:11'
   organization_id: 4884530416582656
   id: 5840188716613632
 5849617092575232:
@@ -1829,13 +1908,15 @@
   id: 6654705038000128
 6680846893318144:
   student_display_name: Abhay kumar
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 5578824680996864
+  modified: '2018-01-04 16:02:54'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-04 16:01:35'
+  deadline: '2018-01-06 21:13:16'
   organization_id: 4884530416582656
   id: 6680846893318144
 6704021211447296:

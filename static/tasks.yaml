@@ -1497,6 +1497,32 @@
   categories:
   - 1
   external_url: https://github.com/myint/autoflake/issues/27
+5144141820329984:
+  status: 2
+  time_to_complete_in_days: 5
+  program_year: 2017
+  description: "[Pyflakes](https://github.com/PyCQA/pyflakes) is a static analysis\
+    \ tool that detects errors in Python code.\n\nCurrently, Pyflakes does not detect\
+    \ some invalid uses of the `global` keyword:\n\nFor example, given this code:\n\
+    \n```python\ndef main():\n    global x\n    print(x)\n\nmain()\n```\n\nPython\
+    \ will give an error:\n\n```\nNameError: name 'x' is not defined\n```\n\nCurrently,\
+    \ Pyflakes does not complain. We want to add a feature to make it report a message\
+    \ like:\n\n```\nfoo.py:2: undefined name 'x'\n```"
+  tags:
+  - python
+  - pyflakes
+  - linter
+  - analysis
+  - ast
+  private_metadata: ''
+  max_instances: 1
+  name: Detect undefined variable referenced by `global` keyword in Python code
+  last_modified: '2018-01-04T15:58:33Z'
+  is_beginner: false
+  id: 5144141820329984
+  categories:
+  - 1
+  external_url: https://github.com/PyCQA/pyflakes/issues/249
 5156235600986112:
   status: 2
   time_to_complete_in_days: 3
@@ -1718,7 +1744,7 @@
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #88 og:image is broken'
-  last_modified: '2017-12-17T14:34:49Z'
+  last_modified: '2018-01-04T16:00:20Z'
   is_beginner: false
   id: 5198834521079808
   categories:
@@ -3648,18 +3674,19 @@
   status: 2
   time_to_complete_in_days: 3
   program_year: 2017
-  description: "This task involves designing a new logo for the coala bot, corobo.\n\
-    \nBe creative and make it aesthetically associated with corobo! You must be able\
-    \ to explain how your design relates to corobo.  Before doing this task, you should\
-    \ have completed at least one 'newcomer' level task for corobo, and have interacted\
-    \ with corobo on gitter.im and Zulip.  Let the bot inspire you!\n\nYou must submit\
-    \ a completely original design of your own creation that does not use 3rd party\
-    \ images from the web, unless they are licensed under Creative Commons licenses.\
-    \ If you create a design similar to something you found on the web, it is considered\
-    \ a derivative work and you should give proper attribution (i.e., credit) to that\
-    \ author by name with a link to their work. Failure to give credit is plagiarism\
-    \ and can be grounds for dismissal from GCI. When in doubt, design something unique.\
-    \ ;)\n\nLogo design tips are in abundance around the web such as these [65 tips](http://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221)\
+  description: "Before doing this task, you should have completed the [\"avatar\"\
+    \ task](https://codein.withgoogle.com/tasks/6583830645309440/),\n\nThis task involves\
+    \ designing a new logo for the coala bot, corobo.\n\nBe creative and make your\
+    \ art aesthetically associated with corobo! You must be able to explain how your\
+    \ design relates to corobo.  Interacte with corobo on gitter.im and Zulip.  Let\
+    \ the bot inspire you!\n\nYou must submit a completely original design of your\
+    \ own creation that does not use 3rd party images from the web, unless they are\
+    \ licensed under Creative Commons licenses. If you create a design similar to\
+    \ something you found on the web, it is considered a derivative work and you should\
+    \ give proper attribution (i.e., credit) to that author by name with a link to\
+    \ their work. Failure to give credit is plagiarism and can be grounds for dismissal\
+    \ from GCI. When in doubt, design something unique. ;)\n\nLogo design tips are\
+    \ in abundance around the web such as these [65 tips](http://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221)\
     \ and these [7 tips](http://mashable.com/2014/04/30/logo-design-tips/#9jAYOSkGciqx).\n\
     \nFamiliarity with a graphics design package like Gimp & Inkscape (open source\
     \ & free), or Photoshop & Illustrator (not free) are useful for completing this\
@@ -3673,9 +3700,9 @@
   - design
   - chatops
   private_metadata: ''
-  max_instances: 0
+  max_instances: 3
   name: Design a new logo for corobo
-  last_modified: '2017-12-30T19:28:33Z'
+  last_modified: '2018-01-04T11:08:19Z'
   is_beginner: false
   id: 5952910829551616
   categories:
@@ -4635,6 +4662,31 @@
   categories:
   - 1
   external_url: https://github.com/coala/gci-leaders/issues/73
+6387222930522112:
+  status: 2
+  time_to_complete_in_days: 4
+  program_year: 2017
+  description: "[`rstcheck`](https://github.com/myint/rstcheck) is a linter for [reStucturedText](https://en.wikipedia.org/wiki/ReStructuredText)\
+    \ files. It checks syntax of reStructuredText and code blocks nested within it.\n\
+    \nSometimes people accidentally add Markdown-style links into their reStructuredText\
+    \ documents:\n\n```\n[Label](https://example.com)\n```\n\nWe want to detect this\
+    \ and output a linter warning in `rstcheck`."
+  tags:
+  - python
+  - sphinx
+  - restructuredtext
+  - linter
+  - markdown
+  private_metadata: ''
+  max_instances: 1
+  name: Detect and reject Markdown-style links in reStructuredText
+  last_modified: '2018-01-04T15:58:44Z'
+  is_beginner: false
+  id: 6387222930522112
+  categories:
+  - 1
+  - 4
+  external_url: https://github.com/myint/rstcheck/issues/32
 6411393882390528:
   status: 2
   time_to_complete_in_days: 3
@@ -4968,11 +5020,12 @@
   program_year: 2017
   description: "# Objective\n\nIn this task, you will upload your design to Behance\
     \ or DeviantArt, and to Gravatar.\nThe design will become your personal *G*lobally\
-    \ *R*ecognized *Avatar*.\n\n# Create digital artwork\n\nCreate a simple logo that\
-    \ will become your avatar.\n\nMake sure your work is not a infringing copyright.\n\
-    \nTo see if your work does not infringe any copyright, you can use\n*reverse image\
-    \ search* using [TinEye](https://www.tineye.com/).\n\n## Upload to Behance\n\n\
-    Once your digital artwork is done, upload and publish your work in [Behance](https://behance.net/)\
+    \ *R*ecognized *Avatar*.\n\n# Create digital artwork\n\nCreate a simple *vector\
+    \ art* that will become your avatar.\n\nMake sure your work is not a infringing\
+    \ copyright.\n\nTo see if your work does not infringe any copyright, you can use\n\
+    *reverse image search* using [TinEye](https://www.tineye.com/).\n\n## Upload to\
+    \ Behance\n\nOnce your digital artwork is done, upload and publish your work in\
+    \ a vector format (e.g., PSD, XCF, SVG, AI, etc) to [Behance](https://behance.net/)\
     \ (Adobe).\n\nAny components of your design that are not your own should be mentioned\
     \ on the same Behance page where your design is shown.\n\nExample: https://www.behance.net/gallery/55900041/Maelzels-Chess-Player\n\
     \n## Upload to Gravatar\n\nGravatar hosts *__G__lobally __R__ecognized __Avatar__*s.\n\
@@ -4993,9 +5046,9 @@
   - gravatar
   - avatar
   private_metadata: ''
-  max_instances: 10
+  max_instances: 50
   name: Create your own avatar
-  last_modified: '2018-01-04T07:02:52Z'
+  last_modified: '2018-01-05T06:03:01Z'
   is_beginner: false
   id: 6583830645309440
   categories:

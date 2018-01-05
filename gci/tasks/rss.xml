@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 04 Jan 2018 07:02:52 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 06:03:01 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
 
 &lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
 The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Create digital artwork&lt;/h1&gt;
 
-&lt;p&gt;Create a simple logo that will become your avatar.&lt;/p&gt;
+&lt;p&gt;Create a simple &lt;em&gt;vector art&lt;/em&gt; that will become your avatar.&lt;/p&gt;
 
 &lt;p&gt;Make sure your work is not a infringing copyright.&lt;/p&gt;
 
@@ -15,7 +15,7 @@ The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&l
 
 &lt;h2&gt;Upload to Behance&lt;/h2&gt;
 
-&lt;p&gt;Once your digital artwork is done, upload and publish your work in &lt;a href="https://behance.net/"&gt;Behance&lt;/a&gt; (Adobe).&lt;/p&gt;
+&lt;p&gt;Once your digital artwork is done, upload and publish your work in a vector format (e.g., PSD, XCF, SVG, AI, etc) to &lt;a href="https://behance.net/"&gt;Behance&lt;/a&gt; (Adobe).&lt;/p&gt;
 
 &lt;p&gt;Any components of your design that are not your own should be mentioned on the same Behance page where your design is shown.&lt;/p&gt;
 
@@ -47,7 +47,69 @@ GitHub, GitLab, or other services.&lt;/p&gt;
 &lt;p&gt;Add a comment with your gravatar username before submitting your task.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://en.gravatar.com/support/"&gt;https://en.gravatar.com/support/&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 07:02:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 05 Jan 2018 06:03:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>gci-leaders: Issue #88 og:image is broken</title><link>https://codein.withgoogle.com/tasks/5198834521079808</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;#88&lt;/a&gt; og:image is broken&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;https://github.com/coala/gci-leaders/issues/88&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 16:00:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5198834521079808</guid><category>Node</category><category>JavaScript</category><category>Facebook</category><category>OpenGraph</category><category>issues</category></item><item><title>Detect and reject Markdown-style links in reStructuredText</title><link>https://codein.withgoogle.com/tasks/6387222930522112</link><description>&lt;p&gt;&lt;a href="https://github.com/myint/rstcheck"&gt;&amp;lt;code&amp;gt;rstcheck&amp;lt;/code&amp;gt;&lt;/a&gt; is a linter for &lt;a href="https://en.wikipedia.org/wiki/ReStructuredText"&gt;reStucturedText&lt;/a&gt; files. It checks syntax of reStructuredText and code blocks nested within it.&lt;/p&gt;
+
+&lt;p&gt;Sometimes people accidentally add Markdown-style links into their reStructuredText documents:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+[Label](https://example.com)
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We want to detect this and output a linter warning in &lt;code&gt;rstcheck&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/myint/rstcheck/issues/32"&gt;https://github.com/myint/rstcheck/issues/32&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 15:58:44 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6387222930522112</guid><category>python</category><category>sphinx</category><category>restructuredtext</category><category>linter</category><category>markdown</category></item><item><title>Detect undefined variable referenced by `global` keyword in Python code</title><link>https://codein.withgoogle.com/tasks/5144141820329984</link><description>&lt;p&gt;&lt;a href="https://github.com/PyCQA/pyflakes"&gt;Pyflakes&lt;/a&gt; is a static analysis tool that detects errors in Python code.&lt;/p&gt;
+
+&lt;p&gt;Currently, Pyflakes does not detect some invalid uses of the &lt;code&gt;global&lt;/code&gt; keyword:&lt;/p&gt;
+
+&lt;p&gt;For example, given this code:&lt;/p&gt;
+
+&lt;p&gt;```python
+def main():
+    global x
+    print(x)&lt;/p&gt;
+
+&lt;p&gt;main()
+```&lt;/p&gt;
+
+&lt;p&gt;Python will give an error:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+NameError: name 'x' is not defined
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently, Pyflakes does not complain. We want to add a feature to make it report a message like:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+foo.py:2: undefined name 'x'
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/PyCQA/pyflakes/issues/249"&gt;https://github.com/PyCQA/pyflakes/issues/249&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 15:58:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5144141820329984</guid><category>python</category><category>pyflakes</category><category>linter</category><category>analysis</category><category>ast</category></item><item><title>Design a new logo for corobo</title><link>https://codein.withgoogle.com/tasks/5952910829551616</link><description>&lt;p&gt;Before doing this task, you should have completed the &lt;a href="https://codein.withgoogle.com/tasks/6583830645309440/"&gt;&amp;quot;avatar&amp;quot; task&lt;/a&gt;,&lt;/p&gt;
+
+&lt;p&gt;This task involves designing a new logo for the coala bot, corobo.&lt;/p&gt;
+
+&lt;p&gt;Be creative and make your art aesthetically associated with corobo! You must be able to explain how your design relates to corobo.  Interacte with corobo on gitter.im and Zulip.  Let the bot inspire you!&lt;/p&gt;
+
+&lt;p&gt;You must submit a completely original design of your own creation that does not use 3rd party images from the web, unless they are licensed under Creative Commons licenses. If you create a design similar to something you found on the web, it is considered a derivative work and you should give proper attribution (i.e., credit) to that author by name with a link to their work. Failure to give credit is plagiarism and can be grounds for dismissal from GCI. When in doubt, design something unique. ;)&lt;/p&gt;
+
+&lt;p&gt;Logo design tips are in abundance around the web such as these &lt;a href="http://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221"&gt;65 tips&lt;/a&gt; and these &lt;a href="http://mashable.com/2014/04/30/logo-design-tips/#9jAYOSkGciqx"&gt;7 tips&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Familiarity with a graphics design package like Gimp &amp;amp; Inkscape (open source &amp;amp; free), or Photoshop &amp;amp; Illustrator (not free) are useful for completing this task.&lt;/p&gt;
+
+&lt;p&gt;Upload your original artwork files in a vector format (e.g., PSD, XCF, SVG, AI, etc) to either https://www.behance.net/ or https://www.deviantart.com/ , with the same username as you have used for GitHub.  Your uploaded files must be licensed under Creative Commons Sharealike.  The winning design will be announced after all design entries have been assessed.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/"&gt;https://github.com/coala/corobo/&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 11:08:19 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5952910829551616</guid><category>logo</category><category>design</category><category>chatops</category></item><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://checkerframework.org/"&gt;stylint&lt;/a&gt; linter.&lt;/p&gt;
 
@@ -635,20 +697,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;It would be nice for autoflake to implement an automatic fixer for this, removing all but the last value for a key in a dictionary.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/myint/autoflake/issues/27"&gt;https://github.com/myint/autoflake/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 01 Jan 2018 12:49:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5139733237727232</guid><category>python</category><category>autoflake</category><category>pyflakes</category></item><item><title>Design a new logo for corobo</title><link>https://codein.withgoogle.com/tasks/5952910829551616</link><description>&lt;p&gt;This task involves designing a new logo for the coala bot, corobo.&lt;/p&gt;
-
-&lt;p&gt;Be creative and make it aesthetically associated with corobo! You must be able to explain how your design relates to corobo.  Before doing this task, you should have completed at least one 'newcomer' level task for corobo, and have interacted with corobo on gitter.im and Zulip.  Let the bot inspire you!&lt;/p&gt;
-
-&lt;p&gt;You must submit a completely original design of your own creation that does not use 3rd party images from the web, unless they are licensed under Creative Commons licenses. If you create a design similar to something you found on the web, it is considered a derivative work and you should give proper attribution (i.e., credit) to that author by name with a link to their work. Failure to give credit is plagiarism and can be grounds for dismissal from GCI. When in doubt, design something unique. ;)&lt;/p&gt;
-
-&lt;p&gt;Logo design tips are in abundance around the web such as these &lt;a href="http://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221"&gt;65 tips&lt;/a&gt; and these &lt;a href="http://mashable.com/2014/04/30/logo-design-tips/#9jAYOSkGciqx"&gt;7 tips&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Familiarity with a graphics design package like Gimp &amp;amp; Inkscape (open source &amp;amp; free), or Photoshop &amp;amp; Illustrator (not free) are useful for completing this task.&lt;/p&gt;
-
-&lt;p&gt;Upload your original artwork files in a vector format (e.g., PSD, XCF, SVG, AI, etc) to either https://www.behance.net/ or https://www.deviantart.com/ , with the same username as you have used for GitHub.  Your uploaded files must be licensed under Creative Commons Sharealike.  The winning design will be announced after all design entries have been assessed.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/corobo/"&gt;https://github.com/coala/corobo/&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 30 Dec 2017 19:28:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5952910829551616</guid><category>logo</category><category>design</category><category>chatops</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 01 Jan 2018 12:49:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5139733237727232</guid><category>python</category><category>autoflake</category><category>pyflakes</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1332,16 +1381,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/80"&gt;https://github.com/coala/gci-leaders/issues/80&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4608169781231616</guid><category>Node</category><category>JavaScript</category><category>Redundant code</category><category>issues</category></item><item><title>gci-leaders: Issue #88 og:image is broken</title><link>https://codein.withgoogle.com/tasks/5198834521079808</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;#88&lt;/a&gt; og:image is broken&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;https://github.com/coala/gci-leaders/issues/88&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:49 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5198834521079808</guid><category>Node</category><category>JavaScript</category><category>Facebook</category><category>OpenGraph</category><category>issues</category></item><item><title>gci-leaders: Issue #77 Import pre-2017 Finalists and winners</title><link>https://codein.withgoogle.com/tasks/5667393978236928</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4608169781231616</guid><category>Node</category><category>JavaScript</category><category>Redundant code</category><category>issues</category></item><item><title>gci-leaders: Issue #77 Import pre-2017 Finalists and winners</title><link>https://codein.withgoogle.com/tasks/5667393978236928</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/77"&gt;#77&lt;/a&gt; Import pre-2017 Finalists and winners&lt;/p&gt;
