@@ -1401,13 +1401,14 @@
     \ which you will add annotations to.\n\nCheck the library you are interested in\
     \ has its repository hosted on GitHub, and has tests run by Travis CI.\n\nLook\
     \ for libraries that are small, otherwise this task could take a very long time\
-    \ to complete.\n\nOnce you have found a library you think is suitable, add a comment\
-    \ to your task mentioning the library and its GitHub repository, so mentors can\
-    \ check that your choice is suitable.\n\n# Annotate the library\n\n1. Fork the\
-    \ library's GitHub repository,\n2. Enable Travis CI on your fork\n3. Adjust its\
-    \ [build system](https://checkerframework.org/manual/#external-tools) to run the\
-    \ Checker Framework, and \n4. Add annotations to the library source until the\
-    \ type-checker issues no more warnings.\n\nSee the [manual](https://checkerframework.org/manual/),\
+    \ to complete.  Good choices are:\n * commons-lang\n * log4j\n * slf4j\n * some\
+    \ part of the JDK that is not already annotated\n\nOnce you have found a library\
+    \ you think is suitable, add a comment to your task mentioning the library and\
+    \ its GitHub repository, so mentors can check that your choice is suitable.\n\n\
+    # Annotate the library\n\n1. Fork the library's GitHub repository,\n2. Enable\
+    \ Travis CI on your fork\n3. Adjust its [build system](https://checkerframework.org/manual/#external-tools)\
+    \ to run the Checker Framework, and \n4. Add annotations to the library source\
+    \ until the type-checker issues no more warnings.\n\nSee the [manual](https://checkerframework.org/manual/),\
     \ especially section [Get started with legacy code](https://checkerframework.org/manual/#get-started-with-legacy-code)."
   tags:
   - checker framework
@@ -1416,7 +1417,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'Checker Framework: Annotate a Java library'
-  last_modified: '2018-01-03T04:51:11Z'
+  last_modified: '2018-01-05T15:31:09Z'
   is_beginner: false
   id: 5137417914810368
   categories:
@@ -2955,9 +2956,9 @@
   tags:
   - README
   - git
-  - markdown
   - javascript
   - issues
+  - markdown
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -3473,9 +3474,9 @@
   - JavaScript
   - issues
   private_metadata: issues
-  max_instances: 1
+  max_instances: 0
   name: 'gci-leaders: Issue #70 Link to Google Groups'
-  last_modified: '2017-12-17T14:34:48Z'
+  last_modified: '2018-01-06T00:56:45Z'
   is_beginner: false
   id: 5855587902423040
   categories:

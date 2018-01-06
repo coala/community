@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 06:03:01 +0000</lastBuildDate><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Sat, 06 Jan 2018 00:56:45 +0000</lastBuildDate><item><title>gci-leaders: Issue #70 Link to Google Groups</title><link>https://codein.withgoogle.com/tasks/5855587902423040</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/70"&gt;#70&lt;/a&gt; Link to Google Groups&lt;/p&gt;
+
+&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
+according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/70"&gt;https://github.com/coala/gci-leaders/issues/70&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sat, 06 Jan 2018 00:56:45 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5855587902423040</guid><category>Node</category><category>Google Groups</category><category>JavaScript</category><category>issues</category></item><item><title>Checker Framework: Annotate a Java library</title><link>https://codein.withgoogle.com/tasks/5137417914810368</link><description>&lt;p&gt;When type-checking a method call, the Checker Framework uses the method declaration's annotations. This means that in order to type-check code that uses a library, the Checker Framework needs an annotated version of the library.&lt;/p&gt;
+
+&lt;p&gt;Java libraries that have already been annotated are at https://github.com/typetools/checker-framework/tree/master/checker/lib&lt;/p&gt;
+
+&lt;h1&gt;Select a library&lt;/h1&gt;
+
+&lt;p&gt;For this task, you need to select a popular Java library from &lt;a href="https://docs.google.com/spreadsheets/d/17x_jKkGquEFq7LBQhS9HGXiG7iIl2AlXoPGfB6N5_bw"&gt;this spreadsheet&lt;/a&gt; which you will add annotations to.&lt;/p&gt;
+
+&lt;p&gt;Check the library you are interested in has its repository hosted on GitHub, and has tests run by Travis CI.&lt;/p&gt;
+
+&lt;p&gt;Look for libraries that are small, otherwise this task could take a very long time to complete.  Good choices are:
+ * commons-lang
+ * log4j
+ * slf4j
+ * some part of the JDK that is not already annotated&lt;/p&gt;
+
+&lt;p&gt;Once you have found a library you think is suitable, add a comment to your task mentioning the library and its GitHub repository, so mentors can check that your choice is suitable.&lt;/p&gt;
+
+&lt;h1&gt;Annotate the library&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork the library's GitHub repository,&lt;/li&gt;
+&lt;li&gt;Enable Travis CI on your fork&lt;/li&gt;
+&lt;li&gt;Adjust its &lt;a href="https://checkerframework.org/manual/#external-tools"&gt;build system&lt;/a&gt; to run the Checker Framework, and &lt;/li&gt;
+&lt;li&gt;Add annotations to the library source until the type-checker issues no more warnings.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;See the &lt;a href="https://checkerframework.org/manual/"&gt;manual&lt;/a&gt;, especially section &lt;a href="https://checkerframework.org/manual/#get-started-with-legacy-code"&gt;Get started with legacy code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://checkerframework.org/gsoc-2018-ideas.html#library-annotations"&gt;https://checkerframework.org/gsoc-2018-ideas.html#library-annotations&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 05 Jan 2018 15:31:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5137417914810368</guid><category>checker framework</category><category>java</category><category>type annotations</category></item><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
 
 &lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
 The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
@@ -391,33 +430,7 @@ Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email addres
 &lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 11:45:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>Checker Framework: Annotate a Java library</title><link>https://codein.withgoogle.com/tasks/5137417914810368</link><description>&lt;p&gt;When type-checking a method call, the Checker Framework uses the method declaration's annotations. This means that in order to type-check code that uses a library, the Checker Framework needs an annotated version of the library.&lt;/p&gt;
-
-&lt;p&gt;Java libraries that have already been annotated are at https://github.com/typetools/checker-framework/tree/master/checker/lib&lt;/p&gt;
-
-&lt;h1&gt;Select a library&lt;/h1&gt;
-
-&lt;p&gt;For this task, you need to select a popular Java library from &lt;a href="https://docs.google.com/spreadsheets/d/17x_jKkGquEFq7LBQhS9HGXiG7iIl2AlXoPGfB6N5_bw"&gt;this spreadsheet&lt;/a&gt; which you will add annotations to.&lt;/p&gt;
-
-&lt;p&gt;Check the library you are interested in has its repository hosted on GitHub, and has tests run by Travis CI.&lt;/p&gt;
-
-&lt;p&gt;Look for libraries that are small, otherwise this task could take a very long time to complete.&lt;/p&gt;
-
-&lt;p&gt;Once you have found a library you think is suitable, add a comment to your task mentioning the library and its GitHub repository, so mentors can check that your choice is suitable.&lt;/p&gt;
-
-&lt;h1&gt;Annotate the library&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fork the library's GitHub repository,&lt;/li&gt;
-&lt;li&gt;Enable Travis CI on your fork&lt;/li&gt;
-&lt;li&gt;Adjust its &lt;a href="https://checkerframework.org/manual/#external-tools"&gt;build system&lt;/a&gt; to run the Checker Framework, and &lt;/li&gt;
-&lt;li&gt;Add annotations to the library source until the type-checker issues no more warnings.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;See the &lt;a href="https://checkerframework.org/manual/"&gt;manual&lt;/a&gt;, especially section &lt;a href="https://checkerframework.org/manual/#get-started-with-legacy-code"&gt;Get started with legacy code&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://checkerframework.org/gsoc-2018-ideas.html#library-annotations"&gt;https://checkerframework.org/gsoc-2018-ideas.html#library-annotations&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 04:51:11 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5137417914810368</guid><category>checker framework</category><category>java</category><category>type annotations</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 11:45:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;tslint&lt;/code&gt; linter.&lt;/p&gt;
 
@@ -1390,16 +1403,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/77"&gt;https://github.com/coala/gci-leaders/issues/77&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:48 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5667393978236928</guid><category>Node</category><category>scrapping</category><category>JavaScript</category><category>issues</category></item><item><title>gci-leaders: Issue #70 Link to Google Groups</title><link>https://codein.withgoogle.com/tasks/5855587902423040</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
-gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/70"&gt;#70&lt;/a&gt; Link to Google Groups&lt;/p&gt;
-
-&lt;p&gt;Remember to format your &lt;a href="http://coala.io/commit"&gt;Git Commit Message&lt;/a&gt;
-according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/70"&gt;https://github.com/coala/gci-leaders/issues/70&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:48 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5855587902423040</guid><category>Node</category><category>Google Groups</category><category>JavaScript</category><category>issues</category></item><item><title>Add a fact about coala to Wikidata</title><link>https://codein.withgoogle.com/tasks/4892042859642880</link><description>&lt;p&gt;coala is &lt;a href="https://www.wikidata.org/wiki/Q25215462"&gt;software&lt;/a&gt;.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 17 Dec 2017 14:34:48 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5667393978236928</guid><category>Node</category><category>scrapping</category><category>JavaScript</category><category>issues</category></item><item><title>Add a fact about coala to Wikidata</title><link>https://codein.withgoogle.com/tasks/4892042859642880</link><description>&lt;p&gt;coala is &lt;a href="https://www.wikidata.org/wiki/Q25215462"&gt;software&lt;/a&gt;.
 coala is &lt;a href="https://www.wikidata.org/wiki/Q45337328"&gt;an organisation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This task is to add one fact to Wikidata about either the software or the organisation.&lt;/p&gt;
@@ -1777,7 +1781,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/2"&gt;https://github.com/coala/gci-leaders/issues/2&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>markdown</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>javascript</category><category>issues</category><category>markdown</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/3"&gt;#3&lt;/a&gt; Clickable org name&lt;/p&gt;
