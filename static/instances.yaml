@@ -11,17 +11,6 @@
   deadline: '2018-01-06 10:40:05'
   organization_id: 4884530416582656
   id: 4546181105451008
-4553579253727232:
-  student_display_name: Rithesh Kannan
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 5404377529450496
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4553579253727232
 4564069535186944:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -100,6 +89,17 @@
   deadline: '2017-12-06 01:18:22'
   organization_id: 4884530416582656
   id: 4588982627205120
+4604873779707904:
+  student_display_name: Aryaman Singh
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 5248693152251904
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4604873779707904
 4614924791709696:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -216,6 +216,18 @@
   deadline: '2017-12-29 20:21:11'
   organization_id: 4884530416582656
   id: 4708539073298432
+4747028473053184:
+  student_display_name: Joshua Chung
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4891699413254144
+  student_id: 6479102439587840
+  task_definition_name: 'username-availability: Issue #66 OpenHub site error is detected
+    as taken'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4747028473053184
 4761262212775936:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -389,13 +401,15 @@
   id: 4901020188540928
 4930577255890944:
   student_display_name: Tanuj Vemuri
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 5900049672306688
+  modified: '2018-01-08 07:47:24'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-08 07:47:19'
+  deadline: '2018-01-09 08:16:25'
   organization_id: 4884530416582656
   id: 4930577255890944
 4939571588497408:
@@ -411,6 +425,17 @@
   deadline: '2018-01-08 09:20:28'
   organization_id: 4884530416582656
   id: 4939571588497408
+4976599910842368:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6300122856030208
+  student_id: 5302037795307520
+  task_definition_name: 'IGitt: Issue #49 Add `merge` action to MergeRequest'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4976599910842368
 4999650798993408:
   student_display_name: Abhay kumar
   status: COMPLETED
@@ -437,6 +462,17 @@
   deadline: '2018-01-03 18:17:19'
   organization_id: 4884530416582656
   id: 5001983771541504
+5010626587918336:
+  student_display_name: Rajat Harne
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4726550253535232
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5010626587918336
 5024531259326464:
   student_display_name: synicalsyntax
   status: COMPLETED
@@ -450,17 +486,6 @@
   deadline: '2017-12-11 19:51:12'
   organization_id: 4884530416582656
   id: 5024531259326464
-5036226740486144:
-  student_display_name: Naman Chitkara
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 5836622216036352
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5036226740486144
 5054662443008000:
   student_display_name: Marcos Gómez
   status: COMPLETED
@@ -553,6 +578,17 @@
   deadline: '2017-12-19 02:21:53'
   organization_id: 4884530416582656
   id: 5112447797035008
+5117696834273280:
+  student_display_name: Bhumika Goel
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5870828426100736
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5117696834273280
 5133109483798528:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -646,6 +682,28 @@
   deadline: '2017-12-06 12:44:11'
   organization_id: 4884530416582656
   id: 5176575626575872
+5182322938740736:
+  student_display_name: Divyanshu Vaibhav
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4873267695321088
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5182322938740736
+5184890523877376:
+  student_display_name: Xinyi Chen
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4779823031386112
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5184890523877376
 5192142693597184:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -661,14 +719,16 @@
   id: 5192142693597184
 5207028731478016:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4616364578832384
   student_id: 6479102439587840
+  modified: '2018-01-07 08:00:26'
   task_definition_name: 'username-availability: Issue #30 setup .env file to differentiate
     between dev and prod env'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-07 08:00:20'
+  deadline: '2018-01-09 02:49:45'
   organization_id: 4884530416582656
   id: 5207028731478016
 5210011435270144:
@@ -712,17 +772,6 @@
   deadline: '2018-01-03 06:35:17'
   organization_id: 4884530416582656
   id: 5247586057322496
-5248878087503872:
-  student_display_name: Shailendra Babu
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6314289033904128
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5248878087503872
 5254475730124800:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -826,6 +875,17 @@
   completion_date:
   organization_id: 4884530416582656
   id: 5453919222235136
+5468460639322112:
+  student_display_name: Nayan ansh
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5455337484189696
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5468460639322112
 5473085446684672:
   student_display_name: Parth Dedhia-1
   status: CLAIMED
@@ -837,6 +897,17 @@
   completion_date:
   organization_id: 4884530416582656
   id: 5473085446684672
+5503459656728576:
+  student_display_name: Kushal Jaykumar strange
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5588093614686208
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5503459656728576
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -878,6 +949,17 @@
   deadline: '2017-12-13 02:23:59'
   organization_id: 4884530416582656
   id: 5540805320114176
+5543153140498432:
+  student_display_name: Rohan@d
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5177472595263488
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5543153140498432
 5545394492669952:
   student_display_name: Kyle Hu
   status: COMPLETED
@@ -933,13 +1015,15 @@
   id: 5588283406942208
 5595493088362496:
   student_display_name: Rahul Castelino
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 6259428477108224
+  modified: '2018-01-08 19:45:59'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-08 07:43:27'
+  deadline: '2018-01-09 10:52:04'
   organization_id: 4884530416582656
   id: 5595493088362496
 5602122823368704:
@@ -955,37 +1039,17 @@
   deadline: '2017-12-21 10:14:20'
   organization_id: 4884530416582656
   id: 5602122823368704
-5603281608900608:
-  student_display_name: Alejandro Raudales
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6573772351995904
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5603281608900608
-5630478885322752:
-  student_display_name: kunal sai
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6670252148523008
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5630478885322752
 5631592892465152:
   student_display_name: Frumentius Daneswara N
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5198834521079808
   student_id: 4957841733451776
+  modified: '2018-01-07 15:03:23'
   task_definition_name: 'gci-leaders: Issue #88 og:image is broken'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-07 15:03:18'
+  deadline: '2018-01-09 05:29:01'
   organization_id: 4884530416582656
   id: 5631592892465152
 5637491040190464:
@@ -1080,17 +1144,6 @@
   deadline: '2017-12-29 12:51:39'
   organization_id: 4884530416582656
   id: 5710322344132608
-5725274383581184:
-  student_display_name: Vyshnavi .L.S
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 5020653054853120
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5725274383581184
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1158,13 +1211,15 @@
   id: 5829710095319040
 5830941987569664:
   student_display_name: Daniel O'Brien
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 4973831292715008
+  modified: '2018-01-07 10:00:27'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-07 10:00:22'
+  deadline: '2018-01-08 16:13:37'
   organization_id: 4884530416582656
   id: 5830941987569664
 5840188716613632:
@@ -1193,17 +1248,6 @@
   deadline: '2017-12-16 05:26:41'
   organization_id: 4884530416582656
   id: 5849617092575232
-5850698501586944:
-  student_display_name: Abhay kumar
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 4892042859642880
-  student_id: 5578824680996864
-  task_definition_name: Add a fact about coala to Wikidata
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5850698501586944
 5867144988327936:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1283,6 +1327,19 @@
   deadline: '2017-12-09 03:01:56'
   organization_id: 4884530416582656
   id: 5908397788495872
+5920232948367360:
+  student_display_name: sagar gala
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 5952910829551616
+  student_id: 5076541987880960
+  modified: '2018-01-08 10:19:23'
+  task_definition_name: Design a new logo for corobo
+  organization_name: coala
+  completion_date: '2018-01-08 10:19:18'
+  deadline: '2018-01-10 17:46:00'
+  organization_id: 4884530416582656
+  id: 5920232948367360
 5934763628036096:
   student_display_name: Ashwin Saxena
   status: CLAIMED
@@ -1308,6 +1365,17 @@
   deadline: '2018-01-02 06:45:27'
   organization_id: 4884530416582656
   id: 5961074530582528
+5964821352677376:
+  student_display_name: Hritik Singh
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5059399917764608
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5964821352677376
 5978805455814656:
   student_display_name: Shukai Ni
   status: COMPLETED
@@ -1337,13 +1405,15 @@
   id: 5993698749841408
 6010933866397696:
   student_display_name: Gabriel CH Lee
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 5522206266228736
+  modified: '2018-01-07 10:22:43'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-07 10:22:38'
+  deadline: '2018-01-09 18:55:50'
   organization_id: 4884530416582656
   id: 6010933866397696
 6021694688854016:
@@ -1543,6 +1613,17 @@
   deadline: '2017-12-28 09:10:54'
   organization_id: 4884530416582656
   id: 6179301231689728
+6187126846652416:
+  student_display_name: Srivatsan
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4984152409505792
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6187126846652416
 6187913949741056:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1649,6 +1730,17 @@
   deadline: '2017-12-30 11:00:43'
   organization_id: 4884530416582656
   id: 6265462268624896
+6267911356284928:
+  student_display_name: Nalin Bhardwaj
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5782007009247232
+  student_id: 4552227639263232
+  task_definition_name: 'linterhub: Create a Docker image for scancode'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6267911356284928
 6292658311921664:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -1690,6 +1782,17 @@
   deadline: '2017-12-24 20:44:09'
   organization_id: 4884530416582656
   id: 6332405675720704
+6344141925515264:
+  student_display_name: Marcos Gómez
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5557452655296512
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6344141925515264
 6346318828011520:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1729,6 +1832,17 @@
   deadline: '2017-12-09 03:59:26'
   organization_id: 4884530416582656
   id: 6357337122013184
+6369426397986816:
+  student_display_name: Palash Mandle
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 4718411105959936
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 6369426397986816
 6399963774844928:
   student_display_name: Alexander Voronkov
   status: COMPLETED
@@ -1783,26 +1897,17 @@
   id: 6443907623682048
 6472198522929152:
   student_display_name: Adrian Orłów
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 5448579663527936
+  modified: '2018-01-08 07:44:39'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-08 07:44:34'
+  deadline: '2018-01-10 01:18:41'
   organization_id: 4884530416582656
   id: 6472198522929152
-6473146301415424:
-  student_display_name: Shalyce Black
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 5169633013268480
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6473146301415424
 6480703514476544:
   student_display_name: Frumentius Daneswara N
   status: COMPLETED
@@ -2132,17 +2237,6 @@
   deadline: '2017-12-21 05:02:44'
   organization_id: 4884530416582656
   id: 6704021211447296
-6704750332477440:
-  student_display_name: Arvind S N
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6704734696112128
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6704750332477440
 6714365304635392:
   student_display_name: biscuitsnake
   status: COMPLETED
