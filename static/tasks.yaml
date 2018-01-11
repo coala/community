@@ -51,6 +51,31 @@
   categories:
   - 1
   external_url: https://github.com/coala/gh-board/issues/3
+4557542770343936:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "IGitt is a simple library that allows you to access various git hosting\n\
+    services like GitHub and GitLab via one unified python interface.\n\nEach function\
+    \ of the IGitt library should have the description of the function, including\
+    \ its parameters.  When the description is written as a ['docstring'](https://en.wikipedia.org/wiki/Docstring),\
+    \ it can be used to generate documentation using a tool like [Sphinx](http://www.sphinx-doc.org/en/stable/).\n\
+    \nThis task is to add one docstring to IGitt, using the style described in [PEP\
+    \ 257](https://www.python.org/dev/peps/pep-0257/).\n\nYou are expected to provide\
+    \ a patch in the GitLab repository, adding one docstring, with a commit message\
+    \ that abides by http://coala.io/commit ."
+  tags:
+  - docstring
+  - python3
+  private_metadata: ''
+  max_instances: 5
+  name: 'IGitt: Add a docstring'
+  last_modified: '2018-01-10T09:08:01Z'
+  is_beginner: false
+  id: 4557542770343936
+  categories:
+  - 3
+  external_url: https://gitlab.com/gitmate/open-source/IGitt/
 4557720684331008:
   status: 2
   time_to_complete_in_days: 3
@@ -3641,7 +3666,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for stylint'
-  last_modified: '2018-01-09T02:12:08Z'
+  last_modified: '2018-01-11T09:15:17Z'
   is_beginner: false
   id: 5914805787426816
   categories:

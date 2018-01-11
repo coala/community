@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Tue, 09 Jan 2018 02:12:08 +0000</lastBuildDate><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 11 Jan 2018 09:15:17 +0000</lastBuildDate><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://github.com/SimenB/stylint"&gt;stylint&lt;/a&gt; linter.&lt;/p&gt;
 
@@ -44,7 +44,17 @@ Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/repometric/linterhub-docker"&gt;https://github.com/repometric/linterhub-docker&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 09 Jan 2018 02:12:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5914805787426816</guid><category>stylus</category><category>node</category><category>docker</category><category>javascript</category><category>css</category></item><item><title>gci-leaders: Issue #73 Broken social link</title><link>https://codein.withgoogle.com/tasks/6380651144019968</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 11 Jan 2018 09:15:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5914805787426816</guid><category>stylus</category><category>node</category><category>docker</category><category>javascript</category><category>css</category></item><item><title>IGitt: Add a docstring</title><link>https://codein.withgoogle.com/tasks/4557542770343936</link><description>&lt;p&gt;IGitt is a simple library that allows you to access various git hosting
+services like GitHub and GitLab via one unified python interface.&lt;/p&gt;
+
+&lt;p&gt;Each function of the IGitt library should have the description of the function, including its parameters.  When the description is written as a &lt;a href="https://en.wikipedia.org/wiki/Docstring"&gt;'docstring'&lt;/a&gt;, it can be used to generate documentation using a tool like &lt;a href="http://www.sphinx-doc.org/en/stable/"&gt;Sphinx&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This task is to add one docstring to IGitt, using the style described in &lt;a href="https://www.python.org/dev/peps/pep-0257/"&gt;PEP 257&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You are expected to provide a patch in the GitLab repository, adding one docstring, with a commit message that abides by http://coala.io/commit .&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/"&gt;https://gitlab.com/gitmate/open-source/IGitt/&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 10 Jan 2018 09:08:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557542770343936</guid><category>docstring</category><category>python3</category></item><item><title>gci-leaders: Issue #73 Broken social link</title><link>https://codein.withgoogle.com/tasks/6380651144019968</link><description>&lt;p&gt;Your task is to solve a 'newcomer' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;#73&lt;/a&gt; Broken social link&lt;/p&gt;
