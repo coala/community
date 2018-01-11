@@ -166,3 +166,19 @@ def get_linked_students():
                               (student['id'], student['username'], url))
                         yield student
                         break
+
+                    if len(issue.mrs_closed_by) == 0:
+                        logger.info('task %d: No mrs closing %s' %
+                                    (task_id, url))
+                    elif len(issue.mrs_closed_by) == 0:
+                        logger.info('task %d: Many mrs closing %s' %
+                                    (task_id, url))
+                    else:
+                        mr = list(issue.mrs_closed_by)[0]
+                        user = mr.author
+
+                        student['username'] = user.username
+                        print('student %s is %s because of %s (from PR)' %
+                              (student['id'], student['username'], url))
+                        yield student
+                        break
