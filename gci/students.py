@@ -161,8 +161,8 @@ def get_linked_students():
                         logger.info('task %d: Many assignees for %s: %s' %
                                     (task_id, url, ', '.join(issue.assignees)))
                     else:
-                        student['username'] = issue.assignees[0]
+                        student['username'] = list(issue.assignees)[0].username
                         print('student %s is %s because of %s' %
-                              (student['id'], issue.assignees[0], url))
+                              (student['id'], student['username'], url))
                         yield student
                         break
