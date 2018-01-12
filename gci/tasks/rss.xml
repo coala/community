@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Thu, 11 Jan 2018 09:15:17 +0000</lastBuildDate><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 12 Jan 2018 00:45:46 +0000</lastBuildDate><item><title>Describe bug in Checker Framework</title><link>https://codein.withgoogle.com/tasks/6103044741660672</link><description>&lt;p&gt;Find and describe a bug in Checker Framework.&lt;/p&gt;
+
+&lt;p&gt;After you have found a bug in Checker Framework, discuss it with your mentor, and then create an issue at https://github.com/typetools/checker-framework/issues&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/typetools/checker-framework/issues"&gt;https://github.com/typetools/checker-framework/issues&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 12 Jan 2018 00:45:46 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6103044741660672</guid><category>checker framework</category><category>java</category></item><item><title>linterhub: Create a Docker image for stylint</title><link>https://codein.withgoogle.com/tasks/5914805787426816</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://github.com/SimenB/stylint"&gt;stylint&lt;/a&gt; linter.&lt;/p&gt;
 

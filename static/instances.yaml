@@ -898,17 +898,6 @@
   deadline: '2018-01-12 05:26:35'
   organization_id: 4884530416582656
   id: 5468460639322112
-5475398487900160:
-  student_display_name: Meet Veera-1
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 4901402214137856
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5475398487900160
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1563,17 +1552,6 @@
   deadline: '2017-12-18 06:14:26'
   organization_id: 4884530416582656
   id: 6092427968380928
-6100576074989568:
-  student_display_name: riki
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 5045892094623744
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6100576074989568
 6108075247271936:
   student_display_name: Alexander Voronkov
   status: COMPLETED
@@ -1889,17 +1867,6 @@
   deadline: '2017-12-09 03:59:26'
   organization_id: 4884530416582656
   id: 6357337122013184
-6369426397986816:
-  student_display_name: Palash Mandle
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 4718411105959936
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6369426397986816
 6385574669713408:
   student_display_name: Daniel O'Brien
   status: CLAIMED

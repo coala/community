@@ -4039,6 +4039,27 @@
   categories:
   - 1
   external_url: https://github.com/coala/corobo/issues/426
+6103044741660672:
+  status: 2
+  time_to_complete_in_days: 3
+  program_year: 2017
+  description: "Find and describe a bug in Checker Framework.\n\nAfter you have found\
+    \ a bug in Checker Framework, discuss it with your mentor, and then create an\
+    \ issue at https://github.com/typetools/checker-framework/issues"
+  tags:
+  - checker framework
+  - java
+  private_metadata: ''
+  max_instances: 1
+  name: Describe bug in Checker Framework
+  last_modified: '2018-01-12T00:45:46Z'
+  is_beginner: false
+  id: 6103044741660672
+  categories:
+  - 1
+  - 3
+  - 4
+  external_url: https://github.com/typetools/checker-framework/issues
 6129325361332224:
   status: 2
   time_to_complete_in_days: 3
