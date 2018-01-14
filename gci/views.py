@@ -18,7 +18,7 @@ STUDENT_URL = (
 def index(request):
     logger = logging.getLogger(__name__ + '.index')
     try:
-        tasks = get_tasks()
+        get_tasks()
     except FileNotFoundError:
         logger.info('GCI data not available')
         s = ['GCI data not available']

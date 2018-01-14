@@ -1,18 +1,11 @@
-from collections import OrderedDict
 import os.path
 
 from ruamel.yaml import YAML
 
 from django.core.management.base import BaseCommand
 
-from gci.students import (
-    _get_instances,
-    _get_tasks,
-    cleanse_instances,
-)
-from gci.task import (
-    cleanse_tasks,
-)
+from gci.students import cleanse_instances
+from gci.task import cleanse_tasks
 
 
 class Command(BaseCommand):
