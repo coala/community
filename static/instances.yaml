@@ -281,6 +281,17 @@
   deadline: '2017-12-14 07:27:38'
   organization_id: 4884530416582656
   id: 4786680533876736
+4790221952516096:
+  student_display_name: Vrishab Srivatsa
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5354246268518400
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4790221952516096
 4799000379129856:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1211,6 +1222,17 @@
   deadline: '2017-12-29 12:51:39'
   organization_id: 4884530416582656
   id: 5710322344132608
+5715936789135360:
+  student_display_name: Andrew Dassonville
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6103044741660672
+  student_id: 5302037795307520
+  task_definition_name: Describe bug in Checker Framework
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5715936789135360
 5726292039172096:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -2239,17 +2261,6 @@
   deadline: '2018-01-07 21:30:34'
   organization_id: 4884530416582656
   id: 6595171154132992
-6595976259174400:
-  student_display_name: PARTH DHULLA
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6138974911332352
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6595976259174400
 6598996678148096:
   student_display_name: Shukai Ni
   status: COMPLETED
