@@ -1,3 +1,14 @@
+4527095210311680:
+  student_display_name: Novelle Toh
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5032906328113152
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4527095210311680
 4546181105451008:
   student_display_name: Jayanth Nair
   status: COMPLETED
@@ -102,13 +113,15 @@
   id: 4590946677161984
 4604873779707904:
   student_display_name: Aryaman Singh
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5952910829551616
   student_id: 5248693152251904
+  modified: '2018-01-13 18:26:39'
   task_definition_name: Design a new logo for corobo
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-13 18:26:34'
+  deadline: '2018-01-14 08:27:33'
   organization_id: 4884530416582656
   id: 4604873779707904
 4614924791709696:
@@ -230,6 +243,17 @@
   deadline: '2018-01-12 12:37:16'
   organization_id: 4884530416582656
   id: 4747028473053184
+4752846140473344:
+  student_display_name: Adithya M S
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5628909024444416
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4752846140473344
 4761262212775936:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -431,13 +455,15 @@
   id: 4939571588497408
 4976599910842368:
   student_display_name: Andrew Dassonville
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6300122856030208
   student_id: 5302037795307520
+  modified: '2018-01-14 00:35:24'
   task_definition_name: 'IGitt: Issue #49 Add `merge` action to MergeRequest'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-14 00:35:20'
+  deadline: '2018-01-15 21:57:02'
   organization_id: 4884530416582656
   id: 4976599910842368
 4999650798993408:
@@ -661,6 +687,19 @@
   deadline: '2018-01-06 09:30:28'
   organization_id: 4884530416582656
   id: 5151585267089408
+5152824801361920:
+  student_display_name: Parth Shah
+  status: COMPLETED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 6665140617347072
+  modified: '2018-01-14 03:36:14'
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date: '2018-01-14 03:36:09'
+  deadline: '2018-01-16 10:34:57'
+  organization_id: 4884530416582656
+  id: 5152824801361920
 5168293855887360:
   student_display_name: ItsPugle
   status: COMPLETED
@@ -874,17 +913,18 @@
   deadline: '2017-12-09 07:53:50'
   organization_id: 4884530416582656
   id: 5357786093322240
-5453337119948800:
-  student_display_name: Jubel Kurian
+5366447247196160:
+  student_display_name: Joshua Chung
   status: CLAIMED
   program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 4997237027373056
-  task_definition_name: Create your own avatar
+  task_definition_id: 5144141820329984
+  student_id: 6479102439587840
+  task_definition_name: Detect undefined variable referenced by `global` keyword in
+    Python code
   organization_name: coala
   completion_date:
   organization_id: 4884530416582656
-  id: 5453337119948800
+  id: 5366447247196160
 5468460639322112:
   student_display_name: Nayan ansh
   status: COMPLETED
@@ -993,13 +1033,15 @@
   id: 5568869441732608
 5573852023226368:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4853393698848768
   student_id: 6479102439587840
+  modified: '2018-01-13 17:58:16'
   task_definition_name: 'username-availability: Issue #15 Add raml support'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-13 17:58:09'
+  deadline: '2018-01-15 12:04:59'
   organization_id: 4884530416582656
   id: 5573852023226368
 5588283406942208:
@@ -1016,19 +1058,6 @@
   deadline: '2017-12-05 15:49:20'
   organization_id: 4884530416582656
   id: 5588283406942208
-5595493088362496:
-  student_display_name: Rahul Castelino
-  status: COMPLETED
-  program_year: 2017
-  task_definition_id: 6583830645309440
-  student_id: 6259428477108224
-  modified: '2018-01-08 19:45:59'
-  task_definition_name: Create your own avatar
-  organization_name: coala
-  completion_date: '2018-01-08 07:43:27'
-  deadline: '2018-01-09 10:52:04'
-  organization_id: 4884530416582656
-  id: 5595493088362496
 5602122823368704:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1107,13 +1136,15 @@
   id: 5652082084282368
 5655810870870016:
   student_display_name: Siddhartha Koilada
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 6583830645309440
   student_id: 6045187253993472
+  modified: '2018-01-14 05:50:11'
   task_definition_name: Create your own avatar
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-14 04:58:34'
+  deadline: '2018-01-15 10:18:17'
   organization_id: 4884530416582656
   id: 5655810870870016
 5669598277926912:
@@ -1499,13 +1530,15 @@
   id: 6021694688854016
 6032675997483008:
   student_display_name: Nalin Bhardwaj
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4557542770343936
   student_id: 4552227639263232
+  modified: '2018-01-13 23:45:11'
   task_definition_name: 'IGitt: Add a docstring'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-13 23:45:06'
+  deadline: '2018-01-16 04:59:42'
   organization_id: 4884530416582656
   id: 6032675997483008
 6035071943311360:
@@ -1601,18 +1634,6 @@
   deadline: '2017-12-07 10:37:20'
   organization_id: 4884530416582656
   id: 6108075247271936
-6116627642843136:
-  student_display_name: Aaditya Karthik
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5144141820329984
-  student_id: 4964198192775168
-  task_definition_name: Detect undefined variable referenced by `global` keyword in
-    Python code
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6116627642843136
 6125146626588672:
   student_display_name: Andrew Dassonville
   status: COMPLETED
@@ -1917,17 +1938,6 @@
   completion_date:
   organization_id: 4884530416582656
   id: 6383319140794368
-6385574669713408:
-  student_display_name: Daniel O'Brien
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5314362094911488
-  student_id: 4973831292715008
-  task_definition_name: 'community: Issue #3 Build on forks with a static data file'
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 6385574669713408
 6399963774844928:
   student_display_name: Alexander Voronkov
   status: COMPLETED
@@ -2191,13 +2201,15 @@
   id: 6573184495124480
 6575677438427136:
   student_display_name: biscuitsnake
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 4706466046935040
   student_id: 6502237683580928
+  modified: '2018-01-13 23:45:24'
   task_definition_name: 'gitmate-2-frontend: Issue #74 Customise the 404 page'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-13 23:45:18'
+  deadline: '2018-01-16 09:33:24'
   organization_id: 4884530416582656
   id: 6575677438427136
 6579015617871872:
