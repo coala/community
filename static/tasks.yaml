@@ -1857,16 +1857,18 @@
     \ is submitted for review.\n\nOnly one translation should be added at a time,\
     \ and all messages for that language should be translated by a single person *after*\
     \ they have claimed this task.\n\nAll translations in weblate must be done while\
-    \ signed in using the same username as used on GitHub.\n\nThe next languages to\
-    \ be translated is: Indonesian"
+    \ signed in using the same username as used on GitHub.\n\nThe languages allowed\
+    \ to be translated are:\n\n- Hindi\n- Marathi\n- Sindhi\n- German\n\nIf someone\
+    \ else has started a translation, you *must* not help them.  Choose another language,\
+    \ or choose another task.  First in, best dressed."
   tags:
   - i18n
   - weblate
   - translation
   private_metadata: ''
-  max_instances: 1
+  max_instances: 5
   name: 'gci-leaders: Issue #126 Add translation'
-  last_modified: '2018-01-04T00:41:51Z'
+  last_modified: '2018-01-15T03:19:09Z'
   is_beginner: false
   id: 5253203052462080
   categories:
@@ -3003,9 +3005,9 @@
   tags:
   - README
   - git
+  - markdown
   - javascript
   - issues
-  - markdown
   private_metadata: issues
   max_instances: 1
   name: 'gci-leaders: Issue #2 Create a README.md'
@@ -3560,10 +3562,9 @@
   time_to_complete_in_days: 4
   program_year: 2017
   description: "# Blog Post\n\n**Note :- This task is only allowed for those students\
-    \ who have solved at least one medium difficulty issue in any coala repo and your\
-    \ PR for that has been merged.**\n\nPlease write a blog post with at least 300\
-    \ words describing your GCI experience till now. \n\nThe blog post can involve\
-    \ but not limited to following things :\n* Prior experience (newcomer/already\
+    \ who have already completed three tasks.**\n\nPlease write a blog post with at\
+    \ least 300 words describing your GCI experience till now. \n\nThe blog post can\
+    \ involve but not limited to following things :\n* Prior experience (newcomer/already\
     \ a contributor to some OSS projects/ex-GCI)\n* What were the general things you\
     \ kept in mind when solving tasks (eg. communication with mentors, researching\
     \ before claiming tasks etc.)\n* Some particular learnings during GCI until now\
@@ -3583,9 +3584,9 @@
   - blog
   - gci journey
   private_metadata: ''
-  max_instances: 1
+  max_instances: 15
   name: Create a blog post about your GCI journey so far
-  last_modified: '2017-12-29T15:12:38Z'
+  last_modified: '2018-01-15T03:25:24Z'
   is_beginner: false
   id: 5903063900487680
   categories:

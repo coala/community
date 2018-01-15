@@ -100,17 +100,6 @@
   deadline: '2017-12-06 01:18:22'
   organization_id: 4884530416582656
   id: 4588982627205120
-4590946677161984:
-  student_display_name: PATEL PARTH
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 5506726734331904
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 4590946677161984
 4604873779707904:
   student_display_name: Aryaman Singh
   status: COMPLETED
@@ -137,6 +126,17 @@
   deadline: '2017-12-13 07:50:35'
   organization_id: 4884530416582656
   id: 4614924791709696
+4632206750253056:
+  student_display_name: Keerthi Vasan-1
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 6583830645309440
+  student_id: 5830924824477696
+  task_definition_name: Create your own avatar
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4632206750253056
 4633085364666368:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -202,6 +202,17 @@
   deadline: '2017-12-03 04:24:44'
   organization_id: 4884530416582656
   id: 4646964484374528
+4687703465525248:
+  student_display_name: Prashant Kumar
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 5179714090041344
+  student_id: 5484567387439104
+  task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 4687703465525248
 4707918366638080:
   student_display_name: Nalin Bhardwaj
   status: COMPLETED
@@ -949,6 +960,18 @@
   deadline: '2018-01-12 05:26:35'
   organization_id: 4884530416582656
   id: 5468460639322112
+5483493259739136:
+  student_display_name: biscuitsnake
+  status: CLAIMED
+  program_year: 2017
+  task_definition_id: 4566570439278592
+  student_id: 6502237683580928
+  task_definition_name: 'gitmate-2-frontend: Issue #63 See what we can do for your
+    repository is off on mobile'
+  organization_name: coala
+  completion_date:
+  organization_id: 4884530416582656
+  id: 5483493259739136
 5514514013356032:
   student_display_name: Tio Irawan
   status: COMPLETED
@@ -1082,17 +1105,6 @@
   deadline: '2017-12-21 10:14:20'
   organization_id: 4884530416582656
   id: 5602122823368704
-5611567674556416:
-  student_display_name: PATEL VRAJ D
-  status: CLAIMED
-  program_year: 2017
-  task_definition_id: 5952910829551616
-  student_id: 6416834867757056
-  task_definition_name: Design a new logo for corobo
-  organization_name: coala
-  completion_date:
-  organization_id: 4884530416582656
-  id: 5611567674556416
 5631592892465152:
   student_display_name: Frumentius Daneswara N
   status: COMPLETED

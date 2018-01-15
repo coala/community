@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Fri, 12 Jan 2018 00:45:46 +0000</lastBuildDate><item><title>Describe bug in Checker Framework</title><link>https://codein.withgoogle.com/tasks/6103044741660672</link><description>&lt;p&gt;Find and describe a bug in Checker Framework.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Mon, 15 Jan 2018 03:25:24 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have already completed three tasks.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
+
+&lt;p&gt;The blog post can involve but not limited to following things :
+* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
+* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
+* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
+* What general perception did GCI provide you about Open Source
+* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
+
+&lt;p&gt;You can also include things which can help in outreach for coala like :
+* How did you find your way to coala?
+* What do you think about mentor support?
+* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
+
+&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
+
+&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
+
+&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
+https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 15 Jan 2018 03:25:24 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
+
+&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
+
+&lt;p&gt;This task is to add a translation using weblate.&lt;/p&gt;
+
+&lt;p&gt;https://hosted.weblate.org/projects/coala/gci-leaders&lt;/p&gt;
+
+&lt;p&gt;The entire set of messages for the language must be translated before the task is submitted for review.&lt;/p&gt;
+
+&lt;p&gt;Only one translation should be added at a time, and all messages for that language should be translated by a single person &lt;em&gt;after&lt;/em&gt; they have claimed this task.&lt;/p&gt;
+
+&lt;p&gt;All translations in weblate must be done while signed in using the same username as used on GitHub.&lt;/p&gt;
+
+&lt;p&gt;The languages allowed to be translated are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hindi&lt;/li&gt;
+&lt;li&gt;Marathi&lt;/li&gt;
+&lt;li&gt;Sindhi&lt;/li&gt;
+&lt;li&gt;German&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If someone else has started a translation, you &lt;em&gt;must&lt;/em&gt; not help them.  Choose another language, or choose another task.  First in, best dressed.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;https://github.com/coala/gci-leaders/issues/126&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 15 Jan 2018 03:19:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5253203052462080</guid><category>i18n</category><category>weblate</category><category>translation</category></item><item><title>Describe bug in Checker Framework</title><link>https://codein.withgoogle.com/tasks/6103044741660672</link><description>&lt;p&gt;Find and describe a bug in Checker Framework.&lt;/p&gt;
 
 &lt;p&gt;After you have found a bug in Checker Framework, discuss it with your mentor, and then create an issue at https://github.com/typetools/checker-framework/issues&lt;/p&gt;
 
@@ -413,24 +463,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/125"&gt;https://github.com/coala/gci-leaders/issues/125&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:42:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4864591391621120</guid><category>node</category><category>i18n</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
-
-&lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
-
-&lt;p&gt;This task is to add a translation using weblate.&lt;/p&gt;
-
-&lt;p&gt;https://hosted.weblate.org/projects/coala/gci-leaders&lt;/p&gt;
-
-&lt;p&gt;The entire set of messages for the language must be translated before the task is submitted for review.&lt;/p&gt;
-
-&lt;p&gt;Only one translation should be added at a time, and all messages for that language should be translated by a single person &lt;em&gt;after&lt;/em&gt; they have claimed this task.&lt;/p&gt;
-
-&lt;p&gt;All translations in weblate must be done while signed in using the same username as used on GitHub.&lt;/p&gt;
-
-&lt;p&gt;The next languages to be translated is: Indonesian&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;https://github.com/coala/gci-leaders/issues/126&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:41:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5253203052462080</guid><category>i18n</category><category>weblate</category><category>translation</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:42:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4864591391621120</guid><category>node</category><category>i18n</category><category>javascript</category><category>issues</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
 
 &lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
 
@@ -752,31 +785,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;It would be nice for autoflake to implement an automatic fixer for this, removing all but the last value for a key in a dictionary.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/myint/autoflake/issues/27"&gt;https://github.com/myint/autoflake/issues/27&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 01 Jan 2018 12:49:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5139733237727232</guid><category>python</category><category>autoflake</category><category>pyflakes</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have solved at least one medium difficulty issue in any coala repo and your PR for that has been merged.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please write a blog post with at least 300 words describing your GCI experience till now. &lt;/p&gt;
-
-&lt;p&gt;The blog post can involve but not limited to following things :
-* Prior experience (newcomer/already a contributor to some OSS projects/ex-GCI)
-* What were the general things you kept in mind when solving tasks (eg. communication with mentors, researching before claiming tasks etc.)
-* Some particular learnings during GCI until now (eg. particular technologies, git guidelines etc.)
-* What general perception did GCI provide you about Open Source
-* Any difficulty you faced during tasks and most importantly how you overcome them.&lt;/p&gt;
-
-&lt;p&gt;You can also include things which can help in outreach for coala like :
-* How did you find your way to coala?
-* What do you think about mentor support?
-* How should a newcomer go about exploring things after they join coala?&lt;/p&gt;
-
-&lt;p&gt;Also, feel free to write this at any time during GCI. You are encouraged to write such blog posts at different time during GCI period to give future participants a perspective about different times during GCI period.&lt;/p&gt;
-
-&lt;p&gt;This must be original work and must be in your own words. Any assets you use must be Creative Commons and attributed accordingly, or be your own original work.&lt;/p&gt;
-
-&lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
-https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 29 Dec 2017 15:12:38 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>username-availability: Issue #15 Add raml support</title><link>https://codein.withgoogle.com/tasks/4853393698848768</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 01 Jan 2018 12:49:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5139733237727232</guid><category>python</category><category>autoflake</category><category>pyflakes</category></item><item><title>username-availability: Issue #15 Add raml support</title><link>https://codein.withgoogle.com/tasks/4853393698848768</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 corobo repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/15"&gt;#15&lt;/a&gt; Add raml support&lt;/p&gt;
@@ -1805,7 +1814,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/2"&gt;https://github.com/coala/gci-leaders/issues/2&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>javascript</category><category>issues</category><category>markdown</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Fri, 08 Dec 2017 20:43:17 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5665887182913536</guid><category>README</category><category>git</category><category>markdown</category><category>javascript</category><category>issues</category></item><item><title>gci-leaders: Issue #3 Clickable org name</title><link>https://codein.withgoogle.com/tasks/5744202530947072</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/3"&gt;#3&lt;/a&gt; Clickable org name&lt;/p&gt;
