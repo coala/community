@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Mon, 15 Jan 2018 03:25:24 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Mon, 15 Jan 2018 08:53:35 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have already completed three tasks.&lt;/strong&gt;&lt;/p&gt;
 
@@ -23,7 +23,7 @@
 
 &lt;p&gt;Finally add your blog to http://blog.coala.io/ with a PR to
 https://github.com/coala/devops/tree/master/venus&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 15 Jan 2018 03:25:24 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 15 Jan 2018 08:53:35 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5903063900487680</guid><category>blog</category><category>gci journey</category></item><item><title>gci-leaders: Issue #126 Add translation</title><link>https://codein.withgoogle.com/tasks/5253203052462080</link><description>&lt;p&gt;Your task is to solve a low issue in the gci-leaders repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/gci-leaders/issues/126"&gt;#126&lt;/a&gt; Add translation&lt;/p&gt;
 

@@ -3584,9 +3584,9 @@
   - blog
   - gci journey
   private_metadata: ''
-  max_instances: 15
+  max_instances: 11
   name: Create a blog post about your GCI journey so far
-  last_modified: '2018-01-15T03:25:24Z'
+  last_modified: '2018-01-15T08:53:35Z'
   is_beginner: false
   id: 5903063900487680
   categories:
