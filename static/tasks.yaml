@@ -110,7 +110,7 @@
   private_metadata: ''
   max_instances: 238
   name: Join coala chat and set up your accounts
-  last_modified: '2018-01-03T11:45:21Z'
+  last_modified: '2018-01-16T10:29:43Z'
   is_beginner: true
   id: 4557720684331008
   categories:
@@ -230,7 +230,7 @@
   private_metadata: ''
   max_instances: 100
   name: Your first coala issue - describe a feature for the community repository
-  last_modified: '2017-12-25T10:44:22Z'
+  last_modified: '2018-01-16T11:51:29Z'
   is_beginner: false
   id: 4602539020386304
   categories:
@@ -385,7 +385,7 @@
   private_metadata: ''
   max_instances: 99
   name: 'CI1: Use coala'
-  last_modified: '2017-12-06T06:44:52Z'
+  last_modified: '2018-01-16T11:50:04Z'
   is_beginner: true
   id: 4705163153506304
   categories:
@@ -1700,7 +1700,7 @@
   private_metadata: ''
   max_instances: 99
   name: 'CI2: Use coala CI to tidy a popular GitHub project'
-  last_modified: '2017-12-21T11:04:42Z'
+  last_modified: '2018-01-16T11:51:24Z'
   is_beginner: false
   id: 5179714090041344
   categories:
@@ -3455,7 +3455,7 @@
   private_metadata: ''
   max_instances: 1
   name: 'linterhub: Create a Docker image for scancode'
-  last_modified: '2018-01-04T01:17:32Z'
+  last_modified: '2018-01-16T10:22:07Z'
   is_beginner: false
   id: 5782007009247232
   categories:
@@ -5115,9 +5115,9 @@
   - gravatar
   - avatar
   private_metadata: ''
-  max_instances: 29
+  max_instances: 28
   name: Create your own avatar
-  last_modified: '2018-01-08T10:35:01Z'
+  last_modified: '2018-01-16T10:19:59Z'
   is_beginner: false
   id: 6583830645309440
   categories:

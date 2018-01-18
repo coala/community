@@ -1,5 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Mon, 15 Jan 2018 08:53:35 +0000</lastBuildDate><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GCI tasks feed</title><link>https://coala.github.io/community/gci/tasks/rss.xml</link><description>GCI tasks ordered by modification time.</description><atom:link rel="self" href="http://testserver/gci/tasks/rss.xml"></atom:link><language>en-us</language><lastBuildDate>Tue, 16 Jan 2018 11:51:29 +0000</lastBuildDate><item><title>Your first coala issue - describe a feature for the community repository</title><link>https://codein.withgoogle.com/tasks/4602539020386304</link><description>&lt;p&gt;We have launched http://community.coala.io/ for our GCI website , and it needs features.&lt;/p&gt;
+
+&lt;p&gt;This task is to privately discuss a missing feature with a mentor, and then &lt;strong&gt;after review by a mentor&lt;/strong&gt; create a public issue with your description.&lt;/p&gt;
+
+&lt;p&gt;Do not create an issue before a mentor has approved your text.&lt;/p&gt;
+
+&lt;p&gt;Other GCI organisations also have GCI websites, so you may find inspiration by looking at them. e.g. http://gci17.fossasia.org/ .&lt;/p&gt;
+
+&lt;p&gt;However, this website must be re-usable, which means no coala data in the repository, and no mention of coala.  All data must be loaded dynamically from webservices, IGitt, or some other 'open data'.&lt;/p&gt;
+
+&lt;p&gt;Mentors will help you ensure your idea is feasible.&lt;/p&gt;
+
+&lt;p&gt;The process for your first issue is very important.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Write a comment &lt;em&gt;privately&lt;/em&gt; in your task instance describing the feature.  Your description must be a minimum of 500 characters.  Include as much information as you can, including suggestions on how to implement the feature.&lt;/li&gt;
+&lt;li&gt;Submit your task instance for review.&lt;/li&gt;
+&lt;li&gt;A mentor will review your description, and they will reply with a private comment, either telling you to improve your description, or their comment will say "PUBLISH!".&lt;/li&gt;
+&lt;li&gt;If you have been told to PUBLISH, do a quick check of &lt;a href="https://github.com/coala/community/issues"&gt;existing issues&lt;/a&gt; to prevent duplicates, and then create a new issue in the repository if nobody has beaten you to it .&lt;/li&gt;
+&lt;li&gt;Submit your GCI task for review.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After you have completed this task, you will be allowed to claim other GCI tasks to create an issue without mentor pre-approval.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues"&gt;https://github.com/coala/community/issues&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 11:51:29 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4602539020386304</guid><category>create-issue</category><category>technical-writing</category><category>open-data</category></item><item><title>CI2: Use coala CI to tidy a popular GitHub project</title><link>https://codein.withgoogle.com/tasks/5179714090041344</link><description>&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt; Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each GitHub Pull Request or Push.&lt;/p&gt;
+
+&lt;p&gt;See our coala &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;GCI task wiki page&lt;/a&gt; for step by step instructions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt; coala unifies code analysis. It provides a single simple user and a developer interface, wrapping many popular code analysis tools, and provides a native code analysis framework for new tools. &lt;a href="https://asciinema.org/a/42945"&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More documentation on coala can be found at http://docs.coala.io.&lt;/p&gt;
+
+&lt;h1&gt;Requirements&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This activity is done entirely in your own repositories, and does not involve interacting with other OSS projects.&lt;/li&gt;
+&lt;li&gt;The task steps use patch and git commands that can be run in a bash terminal. Windows users can install &lt;a href="https://git-for-windows.github.io/"&gt;Git-for-Windows&lt;/a&gt; or &lt;a href="https://msys2.github.io/"&gt;msys2&lt;/a&gt; for an equivalent environment. Good Windows GUI tools may also be used for this task, such as &lt;a href="https://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; and &lt;a href="http://meldmerge.org/"&gt;Meld&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Expected Outcome&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You are NOT expected to submit any changes to another OSS project in this task.&lt;/li&gt;
+&lt;li&gt;Accepted work by mentor following steps &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is a separate GCI task for submitting your changes to other OSS projects, which you can commence after a coala developer has reviewed and accepted your work for this task.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 11:51:24 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5179714090041344</guid><category>static analysis</category><category>git</category><category>testing</category><category>usability</category></item><item><title>CI1: Use coala</title><link>https://codein.withgoogle.com/tasks/4705163153506304</link><description>&lt;h2&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;Use coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and create a wiki page recording the coala output.&lt;/p&gt;
+
+&lt;p&gt;See our coala GCI task wiki page for step by step instructions using only a web browser.&lt;/p&gt;
+
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;coala unifies code analysis. It provides a single simple user and a developer interface, wrapping many popular code analysis tools, and provides a native code analysis framework for new tools. Demo&lt;/p&gt;
+
+&lt;p&gt;More documentation on coala can be found at http://docs.coala.io .&lt;/p&gt;
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;A GitHub account. This activity is done entirely using a web browser in your own repositories on GitHub, and does not involve interacting with other repositories, or installing or using any software on your own computer.
+Join us on our gitter channel where we are very active and happy to help you!&lt;/p&gt;
+
+&lt;h2&gt;Expected Outcome&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;* You are NOT expected to submit any changes to another OSS project in this beginner task. *&lt;/em&gt;
+Accepted work by mentor following steps here&lt;/p&gt;
+
+&lt;p&gt;Note: There is a separate GCI task for submitting your changes to other OSS projects, which you can commence after a coala developer has reviewed and accepted your work for this task.&lt;/p&gt;
+
+&lt;p&gt;https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 11:50:04 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4705163153506304</guid><category>static analysis</category><category>github</category><category>beginner task</category><category>testing</category><category>usability</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
+
+&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
+
+&lt;h1&gt;Steps&lt;/h1&gt;
+
+&lt;h2&gt;Join Zulip&lt;/h2&gt;
+
+&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
+
+&lt;h2&gt;Choosing your global username&lt;/h2&gt;
+
+&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
+
+&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
+
+&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GitHub.com&lt;/li&gt;
+&lt;li&gt;GitLab.com&lt;/li&gt;
+&lt;li&gt;OpenHub.net&lt;/li&gt;
+&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
+&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
+Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
+
+&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
+
+&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
+
+&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 10:29:43 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>linterhub: Create a Docker image for scancode</title><link>https://codein.withgoogle.com/tasks/5782007009247232</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://github.com/nexB/scancode-toolkit"&gt;scancode&lt;/a&gt; linter.&lt;/p&gt;
+
+&lt;h1&gt;Register an issue&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register an issue about missing scancode linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Fork repository&lt;/h1&gt;
+
+&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;h1&gt;Build&lt;/h1&gt;
+
+&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
+
+&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
+e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
+
+&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
+
+&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
+
+&lt;h1&gt;Manual tests&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
+&lt;code&gt;bash
+docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
+&lt;/code&gt;
+Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Automated tests&lt;/h1&gt;
+
+&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
+
+&lt;h1&gt;Submit a PR&lt;/h1&gt;
+
+&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 10:22:07 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5782007009247232</guid><category>python</category><category>dependencies</category><category>license</category><category>copyright</category><category>manifest</category></item><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
+The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Create digital artwork&lt;/h1&gt;
+
+&lt;p&gt;Create a simple &lt;em&gt;vector art&lt;/em&gt; that will become your avatar.&lt;/p&gt;
+
+&lt;p&gt;Make sure your work is not a infringing copyright.&lt;/p&gt;
+
+&lt;p&gt;To see if your work does not infringe any copyright, you can use
+&lt;em&gt;reverse image search&lt;/em&gt; using &lt;a href="https://www.tineye.com/"&gt;TinEye&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Upload to Behance&lt;/h2&gt;
+
+&lt;p&gt;Once your digital artwork is done, upload and publish your work in a vector format (e.g., PSD, XCF, SVG, AI, etc) to &lt;a href="https://behance.net/"&gt;Behance&lt;/a&gt; (Adobe).&lt;/p&gt;
+
+&lt;p&gt;Any components of your design that are not your own should be mentioned on the same Behance page where your design is shown.&lt;/p&gt;
+
+&lt;p&gt;Example: https://www.behance.net/gallery/55900041/Maelzels-Chess-Player&lt;/p&gt;
+
+&lt;h2&gt;Upload to Gravatar&lt;/h2&gt;
+
+&lt;p&gt;Gravatar hosts &lt;em&gt;&lt;strong&gt;G&lt;/strong&gt;lobally &lt;strong&gt;R&lt;/strong&gt;ecognized &lt;strong&gt;Avatar&lt;/strong&gt;&lt;/em&gt;s.&lt;/p&gt;
+
+&lt;p&gt;The logo that you upload on Gravatar will be your avatar on various sites
+connected with Gravatar, such as GitHub and GitLab.&lt;/p&gt;
+
+&lt;p&gt;To upload your logo creation to Gravatar, you must first have a
+&lt;a href="https://wordpress.com/start/account/user"&gt;WordPress account&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Register with the same email you used when creating an account on 
+GitHub, GitLab, or other services.&lt;/p&gt;
+
+&lt;p&gt;Once your account has been successfully created, go to the &lt;a href="https://en.gravatar.com/"&gt;Gravatar&lt;/a&gt; website and upload your logo.&lt;/p&gt;
+
+&lt;p&gt;After the logo is uploaded, it should appear on your GitLab profile automatically.&lt;/p&gt;
+
+&lt;h2&gt;Assessment&lt;/h2&gt;
+
+&lt;p&gt;The following tool is used to verify that your new avatar is used globally&lt;/p&gt;
+
+&lt;p&gt;https://username-check.herokuapp.com/&lt;/p&gt;
+
+&lt;p&gt;Add a comment with your gravatar username before submitting your task.&lt;/p&gt;
+
+&lt;p&gt;External URL: &lt;a href="https://en.gravatar.com/support/"&gt;https://en.gravatar.com/support/&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Tue, 16 Jan 2018 10:19:59 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>Create a blog post about your GCI journey so far</title><link>https://codein.withgoogle.com/tasks/5903063900487680</link><description>&lt;h1&gt;Blog Post&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Note :- This task is only allowed for those students who have already completed three tasks.&lt;/strong&gt;&lt;/p&gt;
 
@@ -118,55 +326,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/73"&gt;https://github.com/coala/gci-leaders/issues/73&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 08 Jan 2018 17:04:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6380651144019968</guid><category>Node</category><category>JavaScript</category><category>template</category><category>issues</category><category>css</category></item><item><title>Create your own avatar</title><link>https://codein.withgoogle.com/tasks/6583830645309440</link><description>&lt;h1&gt;Objective&lt;/h1&gt;
-
-&lt;p&gt;In this task, you will upload your design to Behance or DeviantArt, and to Gravatar.
-The design will become your personal &lt;em&gt;G&lt;/em&gt;lobally &lt;em&gt;R&lt;/em&gt;ecognized &lt;em&gt;Avatar&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h1&gt;Create digital artwork&lt;/h1&gt;
-
-&lt;p&gt;Create a simple &lt;em&gt;vector art&lt;/em&gt; that will become your avatar.&lt;/p&gt;
-
-&lt;p&gt;Make sure your work is not a infringing copyright.&lt;/p&gt;
-
-&lt;p&gt;To see if your work does not infringe any copyright, you can use
-&lt;em&gt;reverse image search&lt;/em&gt; using &lt;a href="https://www.tineye.com/"&gt;TinEye&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Upload to Behance&lt;/h2&gt;
-
-&lt;p&gt;Once your digital artwork is done, upload and publish your work in a vector format (e.g., PSD, XCF, SVG, AI, etc) to &lt;a href="https://behance.net/"&gt;Behance&lt;/a&gt; (Adobe).&lt;/p&gt;
-
-&lt;p&gt;Any components of your design that are not your own should be mentioned on the same Behance page where your design is shown.&lt;/p&gt;
-
-&lt;p&gt;Example: https://www.behance.net/gallery/55900041/Maelzels-Chess-Player&lt;/p&gt;
-
-&lt;h2&gt;Upload to Gravatar&lt;/h2&gt;
-
-&lt;p&gt;Gravatar hosts &lt;em&gt;&lt;strong&gt;G&lt;/strong&gt;lobally &lt;strong&gt;R&lt;/strong&gt;ecognized &lt;strong&gt;Avatar&lt;/strong&gt;&lt;/em&gt;s.&lt;/p&gt;
-
-&lt;p&gt;The logo that you upload on Gravatar will be your avatar on various sites
-connected with Gravatar, such as GitHub and GitLab.&lt;/p&gt;
-
-&lt;p&gt;To upload your logo creation to Gravatar, you must first have a
-&lt;a href="https://wordpress.com/start/account/user"&gt;WordPress account&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Register with the same email you used when creating an account on 
-GitHub, GitLab, or other services.&lt;/p&gt;
-
-&lt;p&gt;Once your account has been successfully created, go to the &lt;a href="https://en.gravatar.com/"&gt;Gravatar&lt;/a&gt; website and upload your logo.&lt;/p&gt;
-
-&lt;p&gt;After the logo is uploaded, it should appear on your GitLab profile automatically.&lt;/p&gt;
-
-&lt;h2&gt;Assessment&lt;/h2&gt;
-
-&lt;p&gt;The following tool is used to verify that your new avatar is used globally&lt;/p&gt;
-
-&lt;p&gt;https://username-check.herokuapp.com/&lt;/p&gt;
-
-&lt;p&gt;Add a comment with your gravatar username before submitting your task.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://en.gravatar.com/support/"&gt;https://en.gravatar.com/support/&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 08 Jan 2018 10:35:01 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6583830645309440</guid><category>logo</category><category>deviantart</category><category>behance</category><category>gravatar</category><category>avatar</category></item><item><title>username-availability: Issue #66 OpenHub site error is detected as taken</title><link>https://codein.withgoogle.com/tasks/4891699413254144</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 08 Jan 2018 17:04:51 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6380651144019968</guid><category>Node</category><category>JavaScript</category><category>template</category><category>issues</category><category>css</category></item><item><title>username-availability: Issue #66 OpenHub site error is detected as taken</title><link>https://codein.withgoogle.com/tasks/4891699413254144</link><description>&lt;p&gt;Your task is to solve a 'medium' difficulty issue in the
 manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/66"&gt;#66&lt;/a&gt; OpenHub site error is detected as taken&lt;/p&gt;
@@ -294,50 +454,7 @@ foo.py:2: undefined name 'x'
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/PyCQA/pyflakes/issues/249"&gt;https://github.com/PyCQA/pyflakes/issues/249&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 15:58:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5144141820329984</guid><category>python</category><category>pyflakes</category><category>linter</category><category>analysis</category><category>ast</category></item><item><title>linterhub: Create a Docker image for scancode</title><link>https://codein.withgoogle.com/tasks/5782007009247232</link><description>&lt;h1&gt;Task&lt;/h1&gt;
-
-&lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="https://github.com/nexB/scancode-toolkit"&gt;scancode&lt;/a&gt; linter.&lt;/p&gt;
-
-&lt;h1&gt;Register an issue&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register an issue about missing scancode linter: https://github.com/repometric/linterhub-docker/issues/new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Fork repository&lt;/h1&gt;
-
-&lt;p&gt;Fork the &lt;a href="https://github.com/repometric/linterhub-docker"&gt;linterhub-docker&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;h1&gt;Build&lt;/h1&gt;
-
-&lt;p&gt;Find an Alpine-base image on Dockerhub with a Java preinstalled.&lt;/p&gt;
-
-&lt;p&gt;Create a new Dockerfile based on the previous one and install the linter &lt;code&gt;checker framework&lt;/code&gt; (and dependencies if needed).
-e.g. https://github.com/repometric/linterhub-docker/blob/master/engines/jshint/Dockerfile &lt;/p&gt;
-
-&lt;p&gt;Please do not install unnecessary dependencies!&lt;/p&gt;
-
-&lt;p&gt;Build container, make sure there are no errors during build.&lt;/p&gt;
-
-&lt;h1&gt;Manual tests&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Run the checker framework linter on a sample java project using checker framework installed on your computer&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Perform the same analysis using your container
-&lt;code&gt;bash
-docker run -v /local_folder:/container_folder -it linterhub/your_favorite_engine engine_command
-&lt;/code&gt;
-Make sure that outputs are equal.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1&gt;Automated tests&lt;/h1&gt;
-
-&lt;p&gt;Introduce a simple test as described above using Automated Test: https://docs.docker.com/docker-cloud/builds/automated-testing/#set-up-automated-test-files (ensure that expected analysis results are equal to the actual results).&lt;/p&gt;
-
-&lt;h1&gt;Submit a PR&lt;/h1&gt;
-
-&lt;p&gt;Once you've finished, please submit a PR to linterhub-docker.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 01:17:32 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5782007009247232</guid><category>python</category><category>dependencies</category><category>license</category><category>copyright</category><category>manifest</category></item><item><title>linterhub: Create a Docker image for Scalastyle</title><link>https://codein.withgoogle.com/tasks/5101604732665856</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 15:58:33 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5144141820329984</guid><category>python</category><category>pyflakes</category><category>linter</category><category>analysis</category><category>ast</category></item><item><title>linterhub: Create a Docker image for Scalastyle</title><link>https://codein.withgoogle.com/tasks/5101604732665856</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;a href="http://www.scalastyle.org/"&gt;Scalastyle&lt;/a&gt; linter.&lt;/p&gt;
 
@@ -463,49 +580,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/125"&gt;https://github.com/coala/gci-leaders/issues/125&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:42:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4864591391621120</guid><category>node</category><category>i18n</category><category>javascript</category><category>issues</category></item><item><title>Join coala chat and set up your accounts</title><link>https://codein.withgoogle.com/tasks/4557720684331008</link><description>&lt;p&gt;During Google Code-in, the mentors and other participants will be chatting to you in our chat forums like Zulip and Gitter (and we also use Telegram and IRC!), reviewing Pull Requests on GitHub, Merge Requests on GitLab, and other collaborative services too!&lt;/p&gt;
-
-&lt;p&gt;To make it easier, it's essential for you to have a globally available username.&lt;/p&gt;
-
-&lt;h1&gt;Steps&lt;/h1&gt;
-
-&lt;h2&gt;Join Zulip&lt;/h2&gt;
-
-&lt;p&gt;First join our Zulip chat server at https://coala.zulipchat.com/ , using the same email address that you used when registering for Google Code-in.&lt;/p&gt;
-
-&lt;h2&gt;Choosing your global username&lt;/h2&gt;
-
-&lt;p&gt;Think of a username that you would like to use, and check if it is available globally.  e.g. if you want to use username &lt;code&gt;foo&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Some basic checks can be at https://username-check.herokuapp.com/, and more checks can be done at  https://knowem.com/checkusernames.php?u=&lt;code&gt;&amp;lt;username&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Keep trying different usernames until you have found a username that is not used by anyone else!&lt;/p&gt;
-
-&lt;p&gt;If you want to keep your existing username, contact any of the mentors.&lt;/p&gt;
-
-&lt;h2&gt;Create your accounts with your globally available username&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;GitHub.com&lt;/li&gt;
-&lt;li&gt;GitLab.com&lt;/li&gt;
-&lt;li&gt;OpenHub.net&lt;/li&gt;
-&lt;li&gt;openSUSE (https://connect.opensuse.org/)&lt;/li&gt;
-&lt;li&gt;Behance (see &lt;a href="https://help.behance.net/hc/en-us/articles/204484884-How-do-I-change-my-Behance-URL-"&gt;help&lt;/a&gt; ) or Deviantart (https://www.deviantart.com/)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Note&lt;/h2&gt;
-
-&lt;p&gt;Select your email as "Public email" at https://github.com/settings/profile.
-Go to https://github.com/settings/emails &amp;amp; uncheck "Keep my email address private".&lt;/p&gt;
-
-&lt;h2&gt;Submit your user profiles&lt;/h2&gt;
-
-&lt;p&gt;In your Google Code-in task instance, add links to your profiles on those services.&lt;/p&gt;
-
-&lt;p&gt;For more information, see &lt;a href="https://tinyurl.com/ybdg58f3"&gt;the zulip stream&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://coala.io/#/getinvolved"&gt;https://coala.io/#/getinvolved&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 03 Jan 2018 11:45:21 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4557720684331008</guid><category>opensuse</category><category>openhub</category><category>github</category><category>gitlab</category><category>zulip</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 00:42:09 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4864591391621120</guid><category>node</category><category>i18n</category><category>javascript</category><category>issues</category></item><item><title>linterhub: Create a Docker image for tslint</title><link>https://codein.withgoogle.com/tasks/5618267244724224</link><description>&lt;h1&gt;Task&lt;/h1&gt;
 
 &lt;p&gt;Create a Docker image with Alpine Linux for the &lt;code&gt;tslint&lt;/code&gt; linter.&lt;/p&gt;
 
@@ -920,32 +995,7 @@ community repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues/40"&gt;https://github.com/coala/community/issues/40&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:23 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6516122398490624</guid><category>Twitter</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>Your first coala issue - describe a feature for the community repository</title><link>https://codein.withgoogle.com/tasks/4602539020386304</link><description>&lt;p&gt;We have launched http://community.coala.io/ for our GCI website , and it needs features.&lt;/p&gt;
-
-&lt;p&gt;This task is to privately discuss a missing feature with a mentor, and then &lt;strong&gt;after review by a mentor&lt;/strong&gt; create a public issue with your description.&lt;/p&gt;
-
-&lt;p&gt;Do not create an issue before a mentor has approved your text.&lt;/p&gt;
-
-&lt;p&gt;Other GCI organisations also have GCI websites, so you may find inspiration by looking at them. e.g. http://gci17.fossasia.org/ .&lt;/p&gt;
-
-&lt;p&gt;However, this website must be re-usable, which means no coala data in the repository, and no mention of coala.  All data must be loaded dynamically from webservices, IGitt, or some other 'open data'.&lt;/p&gt;
-
-&lt;p&gt;Mentors will help you ensure your idea is feasible.&lt;/p&gt;
-
-&lt;p&gt;The process for your first issue is very important.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Write a comment &lt;em&gt;privately&lt;/em&gt; in your task instance describing the feature.  Your description must be a minimum of 500 characters.  Include as much information as you can, including suggestions on how to implement the feature.&lt;/li&gt;
-&lt;li&gt;Submit your task instance for review.&lt;/li&gt;
-&lt;li&gt;A mentor will review your description, and they will reply with a private comment, either telling you to improve your description, or their comment will say "PUBLISH!".&lt;/li&gt;
-&lt;li&gt;If you have been told to PUBLISH, do a quick check of &lt;a href="https://github.com/coala/community/issues"&gt;existing issues&lt;/a&gt; to prevent duplicates, and then create a new issue in the repository if nobody has beaten you to it .&lt;/li&gt;
-&lt;li&gt;Submit your GCI task for review.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;After you have completed this task, you will be allowed to claim other GCI tasks to create an issue without mentor pre-approval.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/community/issues"&gt;https://github.com/coala/community/issues&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:22 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4602539020386304</guid><category>create-issue</category><category>technical-writing</category><category>open-data</category></item><item><title>community: Issue #6 Create a .coafile</title><link>https://codein.withgoogle.com/tasks/4675973968560128</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 25 Dec 2017 10:44:23 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6516122398490624</guid><category>Twitter</category><category>frontend</category><category>community</category><category>issues</category><category>django</category></item><item><title>community: Issue #6 Create a .coafile</title><link>https://codein.withgoogle.com/tasks/4675973968560128</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 community repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/community/issues/6"&gt;#6&lt;/a&gt; Create a .coafile&lt;/p&gt;
@@ -1267,32 +1317,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/100"&gt;https://github.com/coala/gci-leaders/issues/100&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5363762775195648</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category></item><item><title>CI2: Use coala CI to tidy a popular GitHub project</title><link>https://codein.withgoogle.com/tasks/5179714090041344</link><description>&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt; Fix a popular GitHub project so that the repository contents conform to linter rules that are verified by coala CI on each GitHub Pull Request or Push.&lt;/p&gt;
-
-&lt;p&gt;See our coala &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;GCI task wiki page&lt;/a&gt; for step by step instructions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt; coala unifies code analysis. It provides a single simple user and a developer interface, wrapping many popular code analysis tools, and provides a native code analysis framework for new tools. &lt;a href="https://asciinema.org/a/42945"&gt;Demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;More documentation on coala can be found at http://docs.coala.io.&lt;/p&gt;
-
-&lt;h1&gt;Requirements&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This activity is done entirely in your own repositories, and does not involve interacting with other OSS projects.&lt;/li&gt;
-&lt;li&gt;The task steps use patch and git commands that can be run in a bash terminal. Windows users can install &lt;a href="https://git-for-windows.github.io/"&gt;Git-for-Windows&lt;/a&gt; or &lt;a href="https://msys2.github.io/"&gt;msys2&lt;/a&gt; for an equivalent environment. Good Windows GUI tools may also be used for this task, such as &lt;a href="https://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; and &lt;a href="http://meldmerge.org/"&gt;Meld&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Expected Outcome&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You are NOT expected to submit any changes to another OSS project in this task.&lt;/li&gt;
-&lt;li&gt;Accepted work by mentor following steps &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is a separate GCI task for submitting your changes to other OSS projects, which you can commence after a coala developer has reviewed and accepted your work for this task.&lt;/p&gt;
-
-&lt;p&gt;External URL: &lt;a href="https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced"&gt;https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala-Advanced&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 11:04:42 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5179714090041344</guid><category>static analysis</category><category>git</category><category>testing</category><category>usability</category></item><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 21 Dec 2017 12:10:08 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5363762775195648</guid><category>Node</category><category>GitHub</category><category>JavaScript</category><category>issues</category></item><item><title>Aspectize SpaceConsistencyBear</title><link>https://codein.withgoogle.com/tasks/6350994629722112</link><description>&lt;p&gt;Your task is to solve a 'low' difficulty issue in the
 coala repository. Here is the issue:&lt;/p&gt;
 
 &lt;p&gt;Issue &lt;a href="https://github.com/coala/coala-bears/issues/21812"&gt;#2181&lt;/a&gt; Aspectize SpaceConsistencyBear&lt;/p&gt;
@@ -1886,32 +1911,7 @@ gitmate-2-frontend repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74"&gt;https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 06 Dec 2017 12:36:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4706466046935040</guid><category>404</category><category>python3</category><category>issues</category><category>error</category></item><item><title>CI1: Use coala</title><link>https://codein.withgoogle.com/tasks/4705163153506304</link><description>&lt;h2&gt;Objective&lt;/h2&gt;
-
-&lt;p&gt;Use coala CI on a popular GitHub project, of your choice, using a Docker image on Travis CI, and create a wiki page recording the coala output.&lt;/p&gt;
-
-&lt;p&gt;See our coala GCI task wiki page for step by step instructions using only a web browser.&lt;/p&gt;
-
-&lt;h2&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;coala unifies code analysis. It provides a single simple user and a developer interface, wrapping many popular code analysis tools, and provides a native code analysis framework for new tools. Demo&lt;/p&gt;
-
-&lt;p&gt;More documentation on coala can be found at http://docs.coala.io .&lt;/p&gt;
-
-&lt;h2&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;A GitHub account. This activity is done entirely using a web browser in your own repositories on GitHub, and does not involve interacting with other repositories, or installing or using any software on your own computer.
-Join us on our gitter channel where we are very active and happy to help you!&lt;/p&gt;
-
-&lt;h2&gt;Expected Outcome&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;* You are NOT expected to submit any changes to another OSS project in this beginner task. *&lt;/em&gt;
-Accepted work by mentor following steps here&lt;/p&gt;
-
-&lt;p&gt;Note: There is a separate GCI task for submitting your changes to other OSS projects, which you can commence after a coala developer has reviewed and accepted your work for this task.&lt;/p&gt;
-
-&lt;p&gt;https://github.com/coala/coala/wiki/Google-Code-In-Task-Use-coala&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 06 Dec 2017 06:44:52 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4705163153506304</guid><category>static analysis</category><category>github</category><category>beginner task</category><category>testing</category><category>usability</category></item><item><title>corobo: Issue #462 (part 1) Create IGitt issues to support banning users</title><link>https://codein.withgoogle.com/tasks/4504880884482048</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality needed to ban a user from using corobo.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 06 Dec 2017 12:36:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4706466046935040</guid><category>404</category><category>python3</category><category>issues</category><category>error</category></item><item><title>corobo: Issue #462 (part 1) Create IGitt issues to support banning users</title><link>https://codein.withgoogle.com/tasks/4504880884482048</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality needed to ban a user from using corobo.&lt;/p&gt;
 
 &lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;&amp;quot;Your first coala issue&amp;quot;&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &amp;lt;code&amp;gt;low&amp;lt;/code&amp;gt;+ issue&lt;/a&gt;.&lt;/p&gt;
 
