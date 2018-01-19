@@ -208,13 +208,15 @@
   id: 4646964484374528
 4687703465525248:
   student_display_name: Prashant Kumar
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5179714090041344
   student_id: 5484567387439104
+  modified: '2018-01-18 14:23:37'
   task_definition_name: 'CI2: Use coala CI to tidy a popular GitHub project'
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-18 14:23:34'
+  deadline: '2018-01-17 16:59:59'
   organization_id: 4884530416582656
   id: 4687703465525248
 4707918366638080:
@@ -960,14 +962,16 @@
   id: 5357786093322240
 5366447247196160:
   student_display_name: Joshua Chung
-  status: CLAIMED
+  status: COMPLETED
   program_year: 2017
   task_definition_id: 5144141820329984
   student_id: 6479102439587840
+  modified: '2018-01-18 14:08:10'
   task_definition_name: Detect undefined variable referenced by `global` keyword in
     Python code
   organization_name: coala
-  completion_date:
+  completion_date: '2018-01-18 14:08:07'
+  deadline: '2018-01-17 16:59:59'
   organization_id: 4884530416582656
   id: 5366447247196160
 5468460639322112:
