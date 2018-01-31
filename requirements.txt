@@ -1,6 +1,7 @@
 git-url-parse
 django<2.0
 django-distill
+django-eventtools
 IGitt==0.4.1.dev20180111025558
 requests
 python-dateutil

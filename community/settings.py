@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver']
 
 INSTALLED_APPS = [
     'gci',
+    'gsoc',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',
