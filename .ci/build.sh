@@ -4,6 +4,7 @@ set -e -x
 
 mkdir private _site public
 
+scrapy crawl gsoc
 if [[ -n "$GCI_TOKEN" ]]; then
   python manage.py fetch_gci_task_data private
   python manage.py cleanse_gci_task_data private _site
