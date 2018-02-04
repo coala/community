@@ -4,6 +4,7 @@ django-distill
 django-eventtools
 IGitt==0.4.1.dev20180111025558
 requests
+scrapy
 python-dateutil
 pillow
 ruamel.yaml

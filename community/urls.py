@@ -7,6 +7,8 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.views.generic import TemplateView
 
+from gsoc.views import index as gsoc_index
+from gsoc.views import projects as gsoc_projects
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
@@ -50,6 +52,18 @@ urlpatterns = [
         name='community-gci',
         distill_func=get_index,
         distill_file='gci/index.html',
+    ),
+    distill_url(
+        r'^gsoc/$', gsoc_index,
+        name='community-gsoc',
+        distill_func=get_index,
+        distill_file='gsoc/index.html',
+    ),
+    distill_url(
+        r'^gsoc/projects/$', gsoc_projects,
+        name='community-gsoc-projects',
+        distill_func=get_index,
+        distill_file='gsoc/projects.html',
     ),
     distill_url(
         r'twitter/', twitter_index,

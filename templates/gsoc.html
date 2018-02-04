@@ -1,0 +1,27 @@
+<html>
+
+    <head>
+        <title> GSoC 2017 Data </title>
+    </head>
+
+    <body>
+            <p>{{id}}</p>
+            <hr>
+            <h3>Name</h3>
+            <p>{{name}}</p>
+            <hr>
+            <h3>Tagline</h3>
+            <p>{{tagline}}</p>
+            <hr>
+            <h3>Description</h3>
+            <p>{% autoescape off %}{{description}}{% endautoescape %}</p>
+            <hr>
+            <h3> Technology </h3>
+            <ul>
+            {% for technology in tech %}
+                <li>{{technology}}</li>
+            {% endfor %}
+            </ul>
+    </body>
+
+</html>
