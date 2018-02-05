@@ -9,6 +9,8 @@ from django.views.generic import TemplateView
 
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
+from gsoc.views import index as gsoc_index
+from gsoc.views import projects as gsoc_projects
 from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
@@ -50,6 +52,18 @@ urlpatterns = [
         name='community-gci',
         distill_func=get_index,
         distill_file='gci/index.html',
+    ),
+    distill_url(
+        r'^gsoc/$', gsoc_index,
+        name='community-gsoc',
+        distill_func=get_index,
+        distill_file='gsoc/index.html',
+    ),
+    distill_url(
+        r'^gsoc/projects/$', gsoc_projects,
+        name='community-gsoc-projects',
+        distill_func=get_index,
+        distill_file='gsoc/projects.html',
     ),
     distill_url(
         r'twitter/', twitter_index,
