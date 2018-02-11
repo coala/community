@@ -1,11 +1,12 @@
 import ruamel.yaml
 import os
+from community.settings import STATIC_ROOT
 
 API_KEY_FILE = '.%s_API_KEY'
 
 GCI_DATA_DIR = os.path.join(
     os.path.dirname(__file__), '..',
-    '_site',
+    STATIC_ROOT,
 )
 
 
