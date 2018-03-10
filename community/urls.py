@@ -6,12 +6,12 @@ from django_distill import distill_url
 from django.conf.urls.static import static
 from django.conf import settings
 from django.views.generic import TemplateView
-
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
+from data.views import index as contributors_index
 
 
 def get_index():
@@ -21,6 +21,7 @@ def get_index():
 
 
 urlpatterns = [
+
     distill_url(
         r'^$', TemplateView.as_view(template_name='index.html'),
         name='index',
@@ -62,5 +63,11 @@ urlpatterns = [
         name='log',
         distill_func=get_index,
         distill_file='log/index.html',
+    ),
+    distill_url(
+        r'^contributors/$', contributors_index,
+        name='community-gsoc',
+        distill_func=get_index,
+        distill_file='contributors/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

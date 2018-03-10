@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver']
 INSTALLED_APPS = [
     'gci',
     'gsoc',
+    'data',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',
@@ -96,6 +97,14 @@ TEMPLATES = [
         },
     },
 ]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
 
 WSGI_APPLICATION = 'community.wsgi.application'
 
