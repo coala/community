@@ -1,11 +1,11 @@
 import requests
-import json
+
+from community.git import get_owner
 from data.models import Contributor
 from django.core.management.base import BaseCommand
-from community.git import get_owner
 
-org_name =get_owner()
-IMPORT_URL = 'https://webservices.'+org_name+'.io/contrib/'
+org_name = get_owner()
+IMPORT_URL = 'https://webservices.' + org_name + '.io/contrib/'
 
 
 class Command(BaseCommand):
@@ -19,19 +19,19 @@ class Command(BaseCommand):
 
         try:
             c, created = Contributor.objects.get_or_create(
-                login = login,
-                name = name,
-                bio = bio,
-                num_commits = num_commits,
-                issues_opened = issues_opened,
-                reviews = reviews
+                login=login,
+                name=name,
+                bio=bio,
+                num_commits=num_commits,
+                issues_opened=issues_opened,
+                reviews=reviews
             )
             if created:
                 c.save()
-                print ("\nContributor, {}, has been saved.".format(c))
+                print('\nContributor, {}, has been saved.'.format(c))
         except Exception as ex:
-            print ("\n\nSomething went wrong saving this contributor: {}\n{}".format(login, str(ex)))
-
+            print('\n\nSomething went wrong saving this contributor: {}\n{}'
+                  .format(login, str(ex)))
 
     def handle(self, *args, **options):
         """

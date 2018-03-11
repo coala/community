@@ -1,8 +1,9 @@
 [all]
-files = *.py, community/**/*.py, gci/**/*.py, activity/*.py
-ignore = gci/client.py, gci/migrations/**, private/**, gsoc/migrations/**
+files = **.py, **.js, **.sh
+ignore = .git/**, **/__pycache__/**, gci/client.py, */migrations/**, private/*
 max_line_length = 80
 use_spaces = True
+preferred_quotation = '
 
 [all.whitespace]
 use_spaces = True
@@ -10,17 +11,22 @@ bears = SpaceConsistencyBear
 default_actions = *: ApplyPatchAction
 
 [all.python]
+files = **.py
 language = Python
-bears = QuotesBear, PyFlakesBear
-preferred_quotation = '
+
+[all.python.default]
+ignore += */models.py
+bears = PEP8Bear, PycodestylBear, PyFlakesBear, QuotesBear
 default_actions = *: ApplyPatchAction
 
-[all.autopep8]
-bears = PEP8Bear, PycodestyleBear
-default_actions = PEP8Bear: ApplyPatchAction
-
 [all.linelength]
+ignore += */models.py
 bears = LineLengthBear
+
+[all.python.models]
+files = */models.py
+bears = LineLengthBear, PycodestylBear, PyFlakesBear, QuotesBear
+max_line_length = 120
 
 [all.links]
 bears = InvalidLinkBear
@@ -36,11 +42,11 @@ files = *.sh
 bears = ShellCheckBear
 shell = bash
 
-[generalization]
+[all.generalization]
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.
 files = **
-ignore = .git/**, org_name.txt, .coafile, requirements.txt, .travis.yml, LICENSE, public/**, _site/**
+ignore += org_name.txt, .coafile, requirements.txt, .travis.yml, LICENSE, public/**, _site/**
 bears = KeywordBear
 language = python 3
 keywords = coala
