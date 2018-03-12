@@ -103,3 +103,6 @@ ENV/
 /private/
 _site/
 /public/
+
+#sqlite3
+.sqlite3
