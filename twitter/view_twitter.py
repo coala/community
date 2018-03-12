@@ -3,7 +3,7 @@ import requests
 import json
 import logging
 
-from community.git import get_owner
+from community.git import get_org_name
 
 
 def index(request):
@@ -11,7 +11,7 @@ def index(request):
     logger.info('this package is alive')
     s = []
 
-    org_twitter_handle = org_name = get_owner()
+    org_twitter_handle = org_name = get_org_name()
 
     s.append('<link rel="shortcut icon" type="image/png" '
              'href="../static/favicon.png"/>')

@@ -7,7 +7,7 @@ import logging
 from dateutil import parser, relativedelta
 from django.http import HttpResponse
 
-from community.git import get_owner
+from community.git import get_org_name
 
 
 class Scraper():
@@ -138,7 +138,7 @@ class Scraper():
 
 def activity_json(request):
 
-    org_name = get_owner()
+    org_name = get_org_name()
 
     # URL to grab all issues from
     issues_url = 'http://' + org_name + '.github.io/gh-board/issues.json'

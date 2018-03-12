@@ -6,6 +6,8 @@ from django_distill import distill_url
 from django.conf.urls.static import static
 from django.conf import settings
 from django.views.generic import TemplateView
+
+from community.views import info
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from activity.scraper import activity_json
@@ -28,6 +30,12 @@ urlpatterns = [
         name='index',
         distill_func=get_index,
         distill_file='index.html',
+    ),
+    distill_url(
+        'info.txt', info,
+        name='index',
+        distill_func=get_index,
+        distill_file='info.txt',
     ),
     distill_url(
         r'static/activity-data.json', activity_json,

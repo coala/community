@@ -7,7 +7,7 @@ from datetime import date
 from django.http import HttpResponse
 from gci.config import get_api_key
 
-from community.git import get_owner
+from community.git import get_org_name
 
 
 def run(issues):
@@ -50,7 +50,7 @@ def inactive_issues_json(request):
     except Exception:
         return HttpResponse('[]')
     g1 = Github(GH_TOKEN)
-    org_name = get_owner()
+    org_name = get_org_name()
     org = g1.get_organization(org_name)
     repo = org.get_repo(org_name)
     issues = repo.get_issues()

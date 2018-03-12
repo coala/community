@@ -1,11 +1,11 @@
 import requests
 import logging
 
-from community.git import get_owner
+from community.git import get_org_name
 from data.models import Contributor
 from django.core.management.base import BaseCommand
 
-org_name = get_owner()
+org_name = get_org_name()
 IMPORT_URL = 'https://webservices.' + org_name + '.io/contrib/'
 
 
@@ -40,13 +40,19 @@ class Command(BaseCommand):
         """
         Makes a GET request to the  API.
         """
+        logger = logging.getLogger(__name__)
         headers = {'Content-Type': 'application/json'}
-        response = requests.get(
-            url=IMPORT_URL,
-            headers=headers,
-        )
 
-        response.raise_for_status()
+        try:
+            response = requests.get(
+                url=IMPORT_URL,
+                headers=headers,
+            )
+            response.raise_for_status()
+        except Exception as e:
+            logger.error(e)
+            return
+
         data = response.json()
 
         for contributor in data:

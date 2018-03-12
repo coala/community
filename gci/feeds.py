@@ -4,14 +4,14 @@ import markdown2
 import dateutil.parser
 
 from django.contrib.syndication.views import Feed
-from community.git import get_deploy_url, get_owner
+from community.git import get_deploy_url, get_org_name
 
 
 class LatestTasksFeed(Feed):
     title = 'GCI tasks feed'
     link = get_deploy_url() + '/gci/tasks/rss.xml'
     description = 'GCI tasks ordered by modification time.'
-    author_name = get_owner()
+    author_name = get_org_name()
     author_link = get_deploy_url()
 
     def items(self):
