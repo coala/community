@@ -1,0 +1,24 @@
+<html>
+
+    <head>
+        <title> GSoC Projects </title>
+    </head>
+
+    <body>
+        <h3 style="text-align: center;"> {{org_name}} </h3>
+        {% for project in project_list %}
+            <p><b> Title:</b> {{project.title}} </p>
+            <p><b> Student:</b> {{project.student}} </p>
+            <p><b>Summary:</b> {% autoescape off %} {{project.summary}} {% endautoescape %}</p>
+            <p><b> Project Code: </b><a href="{{project.code}}"> Code </a></p>
+            <p><b> Mentors: </b></p>
+            <ul>
+                {% for mentor in project.mentors %}
+                    <li> {{mentor}} </li>
+                {% endfor %}
+            </ul>
+            <hr>
+        {% endfor %}
+    </body>
+
+</html>
