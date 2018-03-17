@@ -12,6 +12,7 @@ from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
 from data.views import index as contributors_index
+from inactive_issues.inactive_issues_scraper import inactive_issues_json
 
 
 def get_index():
@@ -69,5 +70,11 @@ urlpatterns = [
         name='community-gsoc',
         distill_func=get_index,
         distill_file='contributors/index.html',
+    ),
+    distill_url(
+        r'static/inactive-issues.json', inactive_issues_json,
+        name='inactive_issues_json',
+        distill_func=get_index,
+        distill_file='static/inactive-issues.json',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
