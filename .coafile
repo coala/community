@@ -16,7 +16,7 @@ language = Python
 
 [all.python.default]
 ignore += */models.py
-bears = PEP8Bear, PycodestylBear, PyFlakesBear, QuotesBear
+bears = PEP8Bear, PycodestyleBear, PyFlakesBear, QuotesBear
 default_actions = *: ApplyPatchAction
 
 [all.linelength]
@@ -25,7 +25,7 @@ bears = LineLengthBear
 
 [all.python.models]
 files = */models.py
-bears = LineLengthBear, PycodestylBear, PyFlakesBear, QuotesBear
+bears = LineLengthBear, PycodestyleBear, PyFlakesBear, QuotesBear
 max_line_length = 120
 
 [all.links]

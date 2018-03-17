@@ -47,7 +47,7 @@ def run(issues):
 def inactive_issues_json(request):
     try:
         GH_TOKEN = get_api_key('GH')
-    except:
+    except Exception:
         return HttpResponse('[]')
     g1 = Github(GH_TOKEN)
     org_name = get_owner()
