@@ -38,7 +38,7 @@ allow_unused_variables = True
 javascript_strictness = False
 
 [bash]
-files = *.sh
+files = **.sh
 bears = ShellCheckBear
 shell = bash
 

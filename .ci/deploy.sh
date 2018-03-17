@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 
 # Save some useful information
@@ -49,7 +48,7 @@ ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV \
   -in $TRAVIS_BUILD_DIR/.ci/deploy_key.enc -out ../deploy_key -d
 chmod 600 ../deploy_key
-eval `ssh-agent -s`
+eval "`ssh-agent -s`"
 ssh-add ../deploy_key
 
 # Now that we're all set up, we can push.
