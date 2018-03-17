@@ -1,4 +1,5 @@
 import requests
+import logging
 
 from community.git import get_owner
 from data.models import Contributor
@@ -17,6 +18,7 @@ class Command(BaseCommand):
         issues_opened = contributor.get('issues', None)
         reviews = contributor.get('reviews', None)
 
+        logger = logging.getLogger(__name__)
         try:
             c, created = Contributor.objects.get_or_create(
                 login=login,
@@ -28,10 +30,11 @@ class Command(BaseCommand):
             )
             if created:
                 c.save()
-                print('\nContributor, {}, has been saved.'.format(c))
+                logger.info('\nContributor, %s has been saved.' % c)
         except Exception as ex:
-            print('\n\nSomething went wrong saving this contributor: {}\n{}'
-                  .format(login, str(ex)))
+            logger.error(
+                '\n\nSomething went wrong saving this contributor %s: %s'
+                % (login, ex))
 
     def handle(self, *args, **options):
         """

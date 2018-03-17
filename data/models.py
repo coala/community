@@ -10,7 +10,7 @@ class Contributor(models.Model):
     issues_opened = models.IntegerField(default=None, null=True)
 
     def __str__(self):
-        return self.name
+        return self.login
 
     class Meta:
         ordering = ['login']
