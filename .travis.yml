@@ -43,6 +43,11 @@ script:
   - ./.ci/build.sh
   - rm -rf private/
   - pytest
+  # https://github.com/coala/coala-bears/issues/1037
+  - >
+    if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+      sed -i '/bears = GitCommitBear/d' .coafile
+    fi
   - coala --non-interactive -V
 
 notifications:

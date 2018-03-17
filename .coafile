@@ -72,3 +72,8 @@ ignore_list = LOGGING, MIDDLEWARE
 files = templates/**.html
 bears = Jinja2Bear
 check_end_labels = False
+
+[commit]
+bears = GitCommitBear
+shortlog_trailing_period = False
+shortlog_regex = ([^:]*|[^:]+[^ ]: [A-Z0-9*].*)
