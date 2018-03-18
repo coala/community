@@ -16,5 +16,6 @@ fi
 
 python manage.py migrate
 python manage.py import_contributors_data
+python manage.py import_openhub_data
 python manage.py collectstatic --noinput
 python manage.py distill-local public --force

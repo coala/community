@@ -15,6 +15,7 @@ from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
 from data.views import index as contributors_index
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
+from openhub.views import index as openhub_index
 
 
 def get_index():
@@ -75,7 +76,7 @@ urlpatterns = [
     ),
     distill_url(
         r'^contributors/$', contributors_index,
-        name='community-gsoc',
+        name='community-data',
         distill_func=get_index,
         distill_file='contributors/index.html',
     ),
@@ -84,5 +85,11 @@ urlpatterns = [
         name='inactive_issues_json',
         distill_func=get_index,
         distill_file='static/inactive-issues.json',
+    ),
+    distill_url(
+        r'^openhub/$', openhub_index,
+        name='community-openhub',
+        distill_func=get_index,
+        distill_file='openhub/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
