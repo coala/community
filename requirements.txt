@@ -3,6 +3,7 @@ django<2.0
 django-distill
 django-eventtools
 git+https://gitlab.com/gitmate/open-source/IGitt
+django-geoposition
 requests
 python-dateutil
 pillow
@@ -11,3 +12,6 @@ markdown2
 python_dateutil
 PyGithub
 xmltodict
+getorg
+jupyter
+ipyleaflet
