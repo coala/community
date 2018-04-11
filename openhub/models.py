@@ -99,7 +99,7 @@ class MostCommit(models.Model):
     commits = models.IntegerField()
 
     def __str__(self):
-        return self.project1
+        return self.project
 
 
 class MostRecentCommit(models.Model):
@@ -108,7 +108,7 @@ class MostRecentCommit(models.Model):
     date = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.project2
+        return self.project
 
 
 class AffiliatedCommitter(models.Model):
