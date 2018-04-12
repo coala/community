@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'gsoc',
     'data',
     'openhub',
+    'getorgdata',
+    'geoposition',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',
@@ -132,3 +134,9 @@ STATIC_ROOT = '_site/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = ['static/']
+
+
+gh_key = 'Your_github_token'
+
+# https://developers.google.com/maps/documentation/javascript/get-api-key
+GEOPOSITION_GOOGLE_MAPS_API_KEY = 'YOUR_API_KEY'

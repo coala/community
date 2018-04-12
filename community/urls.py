@@ -16,6 +16,7 @@ from log.view_log import index as log_index
 from data.views import index as contributors_index
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
+from getorgdata.views import index as getorgdata_index
 
 
 def get_index():
@@ -91,5 +92,11 @@ urlpatterns = [
         name='community-openhub',
         distill_func=get_index,
         distill_file='openhub/index.html',
+    ),
+    distill_url(
+        r'^getorgdata/$', getorgdata_index,
+        name='community-getorgdata',
+        distill_func=get_index,
+        distill_file='getorgdata/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
