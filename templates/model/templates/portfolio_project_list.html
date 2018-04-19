@@ -1,0 +1,18 @@
+{% extends "model/templates/base.html" %}
+{% block title %}
+<title>Portfolio Project List</title>
+{% endblock %}
+{% block content %}
+<h1>Portfolio Project List</h1>
+{% if portfolio_project_list %}
+<ul>
+  {% for portfolioproject in portfolio_project_list %}
+  <li>
+    <a href="{{ portfolioproject.get_absolute_url }}">{{ portfolioproject.name }}</a>
+  </li>
+  {% endfor %}{# for portfolioproject in portfolio_project_list #}
+</ul>
+{% else %}
+<p>There are no portfolio project.</p>
+{% endif %}{# if portfolio_project_list #}
+{% endblock %}

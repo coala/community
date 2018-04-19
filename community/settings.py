@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'gsoc',
     'data',
     'openhub',
+    'model',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',

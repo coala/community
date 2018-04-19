@@ -16,24 +16,24 @@
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <div class="caption">
-              <p>name: {{project.name}}</p>
-              <p>activity: {{project.activity}}</p>
-              <p>i_use_this: {{project.i_use_this}}</p>
-              <p>primary_language: {{project.primary_language}}</p>
-              <p>community_rating: {{project.community_rating}}</p>
-              <p>org: {{project.org}}</p>
-              <p>commits: {{project.twelve_mo_activity_and_year_on_year_change.commits}}</p>
-              <p>change_in_commits: {{project.twelve_mo_activity_and_year_on_year_change.change_in_commits}}</p>
-              <p>percentage_change_in_commits: {{project.twelve_mo_activity_and_year_on_year_change.percentage_change_in_commits}}</p>
-              <p>contributors: {{project.twelve_mo_activity_and_year_on_year_change.contributors}}</p>
-              <p>change_in_contributors: {{project.twelve_mo_activity_and_year_on_year_change.change_in_contributors}}</p>
-              <p>percentage_change_in_committers: {{project.twelve_mo_activity_and_year_on_year_change.percentage_change_in_committers}}</p>
+              <p>name: {{ project.name }}</p>
+              <p>activity: {{ project.activity }}</p>
+              <p>i_use_this: {{ project.i_use_this }}</p>
+              <p>primary_language: {{ project.primary_language }}</p>
+              <p>community_rating: {{ project.community_rating }}</p>
+              <p>org: {{ project.org }}</p>
+              <p>commits: {{ project.twelve_mo_activity_and_year_on_year_change.commits }}</p>
+              <p>change_in_commits: {{ project.twelve_mo_activity_and_year_on_year_change.change_in_commits }}</p>
+              <p>percentage_change_in_commits: {{ project.twelve_mo_activity_and_year_on_year_change.percentage_change_in_commits }}</p>
+              <p>contributors: {{ project.twelve_mo_activity_and_year_on_year_change.contributors }}</p>
+              <p>change_in_contributors: {{ project.twelve_mo_activity_and_year_on_year_change.change_in_contributors }}</p>
+              <p>percentage_change_in_committers: {{ project.twelve_mo_activity_and_year_on_year_change.percentage_change_in_committers }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <hr>
-    {% endfor %}
+    {% endfor %}{# for project in projects #}
   </body>
 </html>

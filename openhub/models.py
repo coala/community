@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class OpenhubOrganization(models.Model):
@@ -53,6 +54,12 @@ class PortfolioProject(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        """
+        Returns the url to access a particular portfolio project instance.
+        """
+        return reverse('portfolioproject-detail', args=[str(self.id)])
+
 
 class OutsideProject(models.Model):
 
@@ -67,6 +74,9 @@ class OutsideProject(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('outsideproject-detail', args=[str(self.id)])
 
 
 class ContributionsToPortfolioProject(models.Model):
@@ -91,6 +101,9 @@ class OutsideCommitter(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('outsidecommitter-detail', args=[str(self.id)])
 
 
 class MostCommit(models.Model):
@@ -124,6 +137,9 @@ class AffiliatedCommitter(models.Model):
 
     def __str__(self):
         return self.org
+
+    def get_absolute_url(self):
+        return reverse('affiliatedcommitter-detail', args=[str(self.id)])
 
 
 class InfographicDetail(models.Model):
@@ -166,3 +182,6 @@ class Organization(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('org-detail', args=[str(self.id)])

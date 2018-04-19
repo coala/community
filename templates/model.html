@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Visit your models</title>
+  </head>
+  <body>
+    <h1>Visit Your Models and its Imported data</h1>
+    <hr>
+    <div class="container">
+      <h2>openhub app models</h2>
+      <li>
+        <a href="{% url 'portfolioprojects' %}">Portfolio Projects</a><br>
+      </li>
+      <li>
+        <a href="{% url 'outsideprojects' %}">Outside Projects</a><br>
+      </li>
+      <li>
+        <a href="{% url 'affiliatedcommitters' %}">Affiliated Committers</a><br>
+      </li>
+      <li>
+        <a href="{% url 'outsidecommitters' %}">Outside Committers</a><br>
+      </li>
+      <li>
+        <a href="{% url 'organization' %}">Organizations</a><br>
+      </li>
+    </div>
+    <hr>
+  </body>
+</html>

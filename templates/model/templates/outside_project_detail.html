@@ -1,0 +1,14 @@
+{% extends "model/templates/base.html" %}
+{% block title %}
+<title>{{ outsideproject.name }}</title>
+{% endblock %}
+{% block content %}
+<h1>Details of: {{ outsideproject.name }}</h1>
+<p><strong>name:</strong>{{ outsideproject.name }}</p>
+<p><strong>activity:</strong> {{ outsideproject.activity }}</p>
+<p><strong>i_use_this:</strong> {{ outsideproject.i_use_this }}</p>
+<p><strong>community_rating:</strong> {{ outsideproject.community_rating }}</p>
+<p><strong>affiliates_contributing:</strong>{{ outsideproject.affiliates_contributing }}</p>
+<p><strong>commits_by_current_affiliates:</strong>{{ outsideproject.commits_by_current_affiliates }}</p>
+<p><strong>org:</strong>{{ outsideproject.org }}</p>
+{% endblock %}

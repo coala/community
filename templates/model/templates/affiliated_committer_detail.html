@@ -1,0 +1,15 @@
+{% extends "model/templates/base.html" %}
+{% block title %}
+<title>{{ affiliatedcommitter.name }}</title>
+{% endblock %}
+{% block content %}
+<h1>Details of: {{ affiliatedcommitter.name }}</h1>
+<p><strong>name:</strong>{{ affiliatedcommitter.name }}</p>
+<p><strong>org:</strong> {{ affiliatedcommitter.org }}</p>
+<p><strong>kudos:</strong> {{ affiliatedcommitter.kudos }}</p>
+<p><strong>level:</strong> {{ affiliatedcommitter.level }}</p>
+<p><strong>most commits project:</strong>{{ affiliatedcommitter.most_commits.project }}</p>
+<p><strong>most commits date:</strong>{{ affiliatedcommitter.most_commits.date }}</p>
+<p><strong>most recent commits project:</strong>{{ affiliatedcommitter.most_recent_commit.project }}</p>
+<p><strong>most recent commits data:</strong>{{ affiliatedcommitter.most_recent_commit.date }}</p>
+{% endblock %}

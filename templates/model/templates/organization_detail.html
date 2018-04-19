@@ -1,0 +1,28 @@
+{% extends "model/templates/base.html" %}
+{% block title %}
+<title>{{ organization.name }}</title>
+{% endblock %}
+{% block content %}
+<h1>Details of: {{ organization.name }}</h1>
+<p><strong>name:</strong>{{ organization.name }}</p>
+<p><strong>url:</strong> {{ organization.url }}</p>
+<p><strong>html_url:</strong> {{ organization.html_url }}</p>
+<p><strong>created_at:</strong> {{ organization.created_at }}</p>
+<p><strong>updated_at:</strong>{{ organization.updated_at }}</p>
+<p><strong>description:</strong>{{ organization.description }}</p>
+<p><strong>homepage_url:</strong>{{ organization.homepage_url }}</p>
+<p><strong>url_name:</strong>{{ organization.url_name }}</p>
+<p><strong>org_type:</strong>{{ organization.org_type }}</p>
+<p><strong>medium_logo_url:</strong>{{ organization.medium_logo_url }}</p>
+<p><strong>small_logo_url:</strong>{{ organization.small_logo_url }}</p>
+<p><strong>outside_committers:</strong>{{ organization.infographic_details.outside_committers }}</p>
+<p><strong>outside_committers_commits:</strong>{{ organization.infographic_details.outside_committers_commits }}</p>
+<p><strong>projects_having_outside_commits:</strong>{{ organization.infographic_details.projects_having_outside_commits }}</p>
+<p><strong>portfolio_projects:</strong>{{ organization.infographic_details.portfolio_projects }}</p>
+<p><strong>affiliators:</strong>{{ organization.infographic_details.affiliators }}</p>
+<p><strong>affiliators_committing_to_portfolio_projects:</strong>{{ organization.infographic_details.affiliators_committing_to_portfolio_projects }}</p>
+<p><strong>affiliator_commits_to_portfolio_projects:</strong>{{ organization.infographic_details.affiliator_commits_to_portfolio_projects }}</p>
+<p><strong>outside_projects:</strong>{{ organization.infographic_details.affiliators_commiting_projects.outside_projects }}</p>
+<p><strong>outside_projects_commits:</strong>{{ organization.infographic_details.outside_projects_commits }}</p>
+<p><strong>affiliators_committing_to_outside_projects:</strong>{{ organization.infographic_details.affiliators_committing_to_outside_projects }}</p>
+{% endblock %}
