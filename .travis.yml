@@ -26,5 +26,10 @@ script:
   - rm -rf private/
   - coala --non-interactive -V
 
+notifications:
+  email: false
+  webhooks: https://www.travisbuddy.com/
+  on_success: never
+
 after_success:
   - ./.ci/deploy.sh
