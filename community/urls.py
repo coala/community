@@ -36,6 +36,9 @@ from model.views import (
     OutsideCommitterListView,
     OutsideCommitterDetailView,
     )
+from unassigned_issues.unassigned_issues_scraper import (
+    unassigned_issues_activity_json,
+)
 
 
 def get_index():
@@ -201,5 +204,11 @@ urlpatterns = [
         OrganizationDetailView.as_view(),
         name='org-detail',
         distill_func=get_organization,
+    ),
+    distill_url(
+        r'static/unassigned-issues.json', unassigned_issues_activity_json,
+        name='unassigned_issues_activity_json',
+        distill_func=get_index,
+        distill_file='static/unassigned-issues.json',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
