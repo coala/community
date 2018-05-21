@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'data',
     'openhub',
     'model',
+    'meta_review',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',

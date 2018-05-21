@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Meta-review Score Ranking List</title>
+  </head>
+  <body>
+    <h1>Details of meta-review score</h1>
+    <ul>
+      {% for participant in participants %}
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <p>login: {{ participant.login }}</p>
+                <p>name: {{ participant.name }}</p>
+                <p>score: {{ participant.score|floatformat:2 }}</p>
+                <p>rank: {{ participant.rank }}</p>
+                <p>trend: {{ participant.trend }}</p>
+                <p>received: </p>
+                <p>number of positive reactions: {{ participant.pos_in }}</p>
+                <p>
+                  weighted positive reactions:
+                  {{ participant.weighted_pos_in|floatformat:2 }}
+                </p>
+                <p>number of negative reactions: {{ participant.neg_in }}</p>
+                <p>
+                  weighted negative reactions:
+                  {{ participant.weighted_neg_in|floatformat:2 }}
+                </p>
+                <p>give away: </p>
+                <p>number of positive reactions: {{ participant.pos_out }}</p>
+                <p>number of negative reactions: {{ participant.neg_out }}</p>
+                <p>
+                  punishment points:
+                  {{ participant.punishment|floatformat:2 }}
+                </p>
+                <p>weight_factor: {{ participant.weight_factor|floatformat:2 }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      {% endfor %}{# for participant in participants #}
+    </ul>
+  </body>
+</html>

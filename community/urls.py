@@ -14,6 +14,7 @@ from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
 from data.views import index as contributors_index
+from meta_review.views import index as meta_review_index
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
 from model.views import index as model_index
@@ -126,6 +127,12 @@ urlpatterns = [
         name='community-data',
         distill_func=get_index,
         distill_file='contributors/index.html',
+    ),
+    distill_url(
+        r'meta-review/$', meta_review_index,
+        name='meta_review_data',
+        distill_func=get_index,
+        distill_file='meta-review/index.html',
     ),
     distill_url(
         r'static/inactive-issues.json', inactive_issues_json,
