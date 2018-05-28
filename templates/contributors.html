@@ -23,6 +23,11 @@
                 <p>num_commits: {{ contributor.num_commits }}</p>
                 <p>reviews: {{ contributor.reviews }}</p>
                 <p>issues_opened: {{ contributor.issues_opened }}</p>
+                <p>teams:
+                {% for team in contributor.teams.all %}
+                    {{ team.name }}
+                {% endfor %}
+                </p>
               </div>
             </div>
           </div>

@@ -2,13 +2,14 @@ import logging
 
 import requests
 
-from community.git import get_org_name
-from data.models import Contributor
+from data.models import Contributor, Team
+from data.webservices import webservices_url
 
 
 def get_contrib_data():
     logger = logging.getLogger(__name__)
-    IMPORT_URL = 'https://webservices.' + get_org_name() + '.io/contrib/'
+    IMPORT_URL = webservices_url('contrib')
+
     headers = {'Content-Type': 'application/json'}
     try:
         response = requests.get(
@@ -27,14 +28,18 @@ def get_contrib_data():
 def import_data(contributor):
     logger = logging.getLogger(__name__)
     login = contributor.get('login', None)
+    teams = contributor.get('teams')
     try:
         contributor['issues_opened'] = contributor.pop('issues')
         contributor['num_commits'] = contributor.pop('contributions')
+        contributor.pop('teams')
         c, create = Contributor.objects.get_or_create(
             **contributor
         )
         if create:
-            c.save()
+            for team in teams:
+                t, created = Team.objects.get_or_create(name=team)
+                c.teams.add(t)
             logger.info('Contributor, %s has been saved.' % c)
     except Exception as ex:
         logger.error(
