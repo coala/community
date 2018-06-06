@@ -18,7 +18,9 @@ env:
   - AUTH=true
 
 before_install:
-  - sed -i '1s/^/coala-bears\n/' requirements.txt
+  - printf '%s\n'
+           "$(cat test-requirements.txt requirements.txt)"
+           > requirements.txt
   - npm i -g jshint
 
 script:

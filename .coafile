@@ -52,7 +52,7 @@ shell = bash
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.
 files = **
-ignore += .coafile, requirements.txt, .travis.yml, LICENSE, public/**, _site/**
+ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, public/**, _site/**
 bears = KeywordBear
 language = python 3
 keywords = coala
