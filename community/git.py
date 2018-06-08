@@ -155,18 +155,23 @@ def get_upstream_repo():
     return parent
 
 
-def get_deploy_url():
-    """Obtain the http where deploys appear.
+def get_deploy_url(name=None):
+    """
+    Obtain the http where deploys appear.
+    When `name` is None, fetch current repo of current org,
+    otherwise, fetch a specified repo of current org.
     """
     # Use environment variable URL when Netlify detected
-    if os.environ.get('REPOSITORY_URL'):
+    if not name and os.environ.get('REPOSITORY_URL'):
         return os.environ.get('URL')
 
     url = get_remote_url()
     if url.resource != 'github.com':
         raise Exception('remotes %s is not supported' % url)
 
-    deploy_url = 'https://{url.owner}.github.io/{url.name}'.format(url=url)
+    owner = url.owner
+    path = name if name else url.name
+    deploy_url = 'https://%s.github.io/%s' % (owner, path)
 
     return deploy_url
 
