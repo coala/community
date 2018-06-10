@@ -43,6 +43,11 @@ bears = JSHintBear
 allow_unused_variables = True
 javascript_strictness = False
 
+[all.yml]
+bears = YAMLLintBear
+files = **.yml, **.yaml
+ignore += public/**, _site/**
+
 [bash]
 files = **.sh
 bears = ShellCheckBear

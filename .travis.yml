@@ -6,16 +6,15 @@ cache:
 
 env:
   global:
-  - ENCRYPTION_LABEL: "defac9b1fa56"
-  - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
-
-env:
-  # This more closely emulates a forked build
-  # However the git remote is not correct
-  # Only a GH_TOKEN is required.
-  - GL_TOKEN="" GCI_TOKEN="" OH_TOKEN=""
-  # A proper build with the tokens available
-  - AUTH=true
+    - ENCRYPTION_LABEL: "defac9b1fa56"
+    - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
+  matrix:
+    # This more closely emulates a forked build
+    # However the git remote is not correct
+    # Only a GH_TOKEN is required.
+    - GL_TOKEN="" GCI_TOKEN="" OH_TOKEN=""
+    # A proper build with the tokens available
+    - AUTH=true
 
 jobs:
   include:
