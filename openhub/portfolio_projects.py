@@ -2,12 +2,18 @@ import logging
 
 from community.git import get_org_name
 from openhub.models import PortfolioProject, PortfolioProjectActivity
+from openhub.checker import data_checker
 
 
 def get_portfolio_projects_data(json_object):
+    """
+    :param json_object: json data of portfolio projects
+    :return: a list of portfolio projects dict
+    """
     data = json_object['response']['result'
                                    ]['portfolio_projects']['project']
-    return data
+    _data = data_checker(data)
+    return _data
 
 
 def import_data(project):
