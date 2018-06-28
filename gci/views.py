@@ -81,8 +81,8 @@ def gci_overview():
              .format(unix=timegm(datetime.utcnow().utctimetuple()),
                      timestamp=timestamp))
 
-    s.append('<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js">'
-             '</script>')
+    s.append('<script src="//cdn.jsdelivr.net/gh/lepture/github-cards@1.0.2'
+             '/jsdelivr/widget.js"></script>')
     s.append('<script src="static/timeago.js"></script>')
     s.append('<script>loadTimeElements()</script>')
 
