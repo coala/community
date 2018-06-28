@@ -479,3 +479,6 @@ _site/
 *.patch
 *.orig
 *.diff
+
+# Pytest profile files
+prof/
