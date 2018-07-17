@@ -61,3 +61,8 @@ ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, .moban.yaml, .moban
 bears = KeywordBear
 language = python 3
 keywords = coala
+
+[all.plural]
+bears = PyPluralNamingBear
+files = **.py
+ignore_list = LOGGING, MIDDLEWARE

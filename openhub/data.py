@@ -14,7 +14,7 @@ from openhub.affiliated_committers import get_affiliated_committers_data
 
 def get_data(for_what):
     n = 100
-    data1 = []
+    data_list = []
     logger = logging.getLogger(__name__)
     for i in range(1, n):
         import_url = ('https://www.openhub.net/orgs/'
@@ -51,5 +51,5 @@ def get_data(for_what):
             except Exception as ex:
                 logger.error(ex)
                 break
-        data1 = data1 + data
-    return data1
+        data_list = data_list + data
+    return data_list

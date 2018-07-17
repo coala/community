@@ -1,2 +1,3 @@
 coala-bears
 moban
+git+https://gitlab.com/virresh/coala-antlr.git

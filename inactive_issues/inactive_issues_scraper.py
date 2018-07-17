@@ -15,14 +15,14 @@ def run(issues):
     for j in issues:
         issue_no = j.number
         events = j.get_events()
-        myevent = []
+        myevent_list = []
         data = []
         for i in events:
-            myevent.append(str(i.event))
+            myevent_list.append(str(i.event))
         for i in events:
             if i.commit_id is not None:
                 data.append(str(i.created_at))
-        for i, myevents in reversed(list(enumerate(myevent))):
+        for i, myevents in reversed(list(enumerate(myevent_list))):
             if myevents == 'unassigned':
                 break
             elif myevents == 'assigned':
@@ -56,10 +56,10 @@ def inactive_issues_json(request):
     issues = repo.get_issues()
     issues_list = []
     for myissue in issues:
-        label = []
+        labels = []
         for mylabel in myissue.labels:
-            label.append(mylabel.name)
-        if 'status/blocked' not in label:
+            labels.append(mylabel.name)
+        if 'status/blocked' not in labels:
             if myissue.state == 'open' and myissue.pull_request is None:
                 issues_list.append(myissue)
 

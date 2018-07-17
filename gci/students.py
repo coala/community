@@ -101,7 +101,7 @@ def get_students():
     for _, instance in get_instances().items():
         student_id = instance['student_id']
         if student_id not in students:
-            student = {
+            student_data = {
                 'id': student_id,
                 'display_name': instance['student_display_name'],
                 'organization_id': instance['organization_id'],
@@ -109,12 +109,12 @@ def get_students():
                 'program_year': instance['program_year'],
                 'instances': [],
             }
-            students[student_id] = student
-            yield student
+            students[student_id] = student_data
+            yield student_data
         else:
-            student = students[student_id]
+            student_data = students[student_id]
 
-        student['instances'].append(instance)
+        student_data['instances'].append(instance)
 
 
 def get_issue_related_students():
