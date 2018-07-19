@@ -37,8 +37,8 @@
                 <p>number of positive reactions: {{ participant.pos_out }}</p>
                 <p>number of negative reactions: {{ participant.neg_out }}</p>
                 <p>
-                  punishment points:
-                  {{ participant.punishment|floatformat:2 }}
+                  negative point offset:
+                  {{ participant.offset|floatformat:2 }}
                 </p>
                 <p>weight_factor: {{ participant.weight_factor|floatformat:2 }}</p>
               </div>
