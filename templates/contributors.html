@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contributors Data</title>
   </head>
   <body>
@@ -13,20 +14,45 @@
     <ul>
       {% for contributor in contributors %}
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <p>login: {{ contributor.login }}</p>
-                <p>name: {{ contributor.name }}</p>
-                <p>bio: {{ contributor.bio }}</p>
-                <p>num_commits: {{ contributor.num_commits }}</p>
-                <p>reviews: {{ contributor.reviews }}</p>
-                <p>issues_opened: {{ contributor.issues_opened }}</p>
-              </div>
+        <div class="card-deck">
+          <div class="card bg-success">
+            <img class="card-img-top" src="//avatars.githubusercontent.com/{{contributor.login}}" alt="Profile picture" style="border-radius:50%">
+            <div class="card-body text-center">
+              <h4 class="card-title">{{ contributor.name }}</h4>
+              <p class="card-title">@{{ contributor.login }}</p>
+              <p class="card-text">Bio: {{ contributor.bio }}</p>
+              <p class="card-text">Commits: {{ contributor.num_commits }}</p>
+              <p class="card-text">Reiviews: {{ contributor.reviews }}</p>
+              <p class="card-text">Issues Opened: {{ contributor.issues_opened }}</p>
+              <a href="//github.com/{{contributor.login}}"><i class="fa fa-github" style="font-size:30px"></i></a>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <img class="card-img-top" src="//avatars.githubusercontent.com/{{contributor.login}}" alt="Profile picture" style="border-radius:50%">
+            <div class="card-body text-center">
+              <h4 class="card-title">{{ contributor.name }}</h4>
+              <p class="card-title">@{{ contributor.login }}</p>
+              <p class="card-text">Bio: {{ contributor.bio }}</p>
+              <p class="card-text">Commits: {{ contributor.num_commits }}</p>
+              <p class="card-text">Reiviews: {{ contributor.reviews }}</p>
+              <p class="card-text">Issues Opened: {{ contributor.issues_opened }}</p>
+              <a href="//github.com/{{contributor.login}}"><i class="fa fa-github" style="font-size:30px"></i></a>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <img class="card-img-top" src="//avatars.githubusercontent.com/{{contributor.login}}" alt="Profile picture" style="border-radius:50%">
+            <div class="card-body text-center">
+              <h4 class="card-title">{{ contributor.name }}</h4>
+              <p class="card-title">@{{ contributor.login }}</p>
+              <p class="card-text">Bio: {{ contributor.bio }}</p>
+              <p class="card-text">Commits: {{ contributor.num_commits }}</p>
+              <p class="card-text">Reiviews: {{ contributor.reviews }}</p>
+              <p class="card-text">Issues Opened: {{ contributor.issues_opened }}</p>
+              <a href="//github.com/{{contributor.login}}"><i class="fa fa-github" style="font-size:30px"></i></a>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <hr>
       {% endfor %}{# for contributor in contributors #}
