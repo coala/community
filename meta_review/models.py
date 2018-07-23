@@ -31,24 +31,11 @@ class Participant(models.Model):
     # number of negative reactions give away
     neg_out = models.IntegerField(default=0, null=True)
 
-    # point offset
-    offset = models.FloatField(default=0, null=True)
+    # punishment points
+    punishment = models.FloatField(default=0, null=True)
 
     # weight factor
     weight_factor = models.FloatField(default=0.1, null=True)
-
-    # number of comments which are modified after they have been meta-reviewed
-    modified_comments_after_meta_review = models.IntegerField(default=0,
-                                                              null=True)
-
-    def clear_score(self):
-        self.pos_in = 0
-        self.weighted_pos_in = 0
-        self.neg_in = 0
-        self.weighted_neg_in = 0
-        self.pos_out = 0
-        self.neg_out = 0
-        self.score = 0
 
     def __str__(self):
         return 'Meta-reviewer: ' + self.login
@@ -79,13 +66,6 @@ class Comment(models.Model):
 
     # review comment score = positive - negative
     score = models.FloatField(default=0, null=True)
-
-    def clear_score(self):
-        self.pos = 0
-        self.weighted_pos = 0
-        self.neg = 0
-        self.weighted_neg = 0
-        self.score = 0
 
 
 class Reaction(models.Model):

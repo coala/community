@@ -9,7 +9,7 @@ def index(request):
         Q(neg_in=0),
         Q(pos_out=0),
         Q(neg_out=0),
-        Q(offset=0)
+        Q(punishment=0)
     )
     args = {'participants': participants}
     return render(request, 'meta_review.html', args)
