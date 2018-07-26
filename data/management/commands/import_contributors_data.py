@@ -10,5 +10,7 @@ class Command(BaseCommand):
     IMPORT_DATA = staticmethod(import_data)
 
     def handle(self, *args, **options):
-        for contributor in self.CONTRIBUTORS():
-            self.IMPORT_DATA(contributor)
+        CONTRIBUTORS_DATA = self.CONTRIBUTORS()
+        if CONTRIBUTORS_DATA:
+            for contributor in CONTRIBUTORS_DATA:
+                self.IMPORT_DATA(contributor)
