@@ -53,7 +53,7 @@ def get_issue(url):
     try:
         issue = repo.get_issue(int(issue_number))
     except Exception as e:
-        logger.error('Unable to load issue %s' % url)
+        logger.error('Unable to load issue %s: %s' % (url, e))
         return
     return issue
 
