@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.views import generic
 
 from openhub.models import (
-    PortfolioProject,
     OutsideProject,
     OutsideCommitter,
     AffiliatedCommitter,
@@ -12,24 +11,12 @@ from openhub.models import (
 
 def index(request):
     args = {
-        'portfolioprojects': 'portfolio_projects',
         'outsidecommitters': 'outside_committers',
         'affiliatedcommitters': 'affiliated_committers',
         'outsideprojects': 'outside_projects',
         'organization': 'organization',
         }
     return render(request, 'model.html', args)
-
-
-class PortfolioProjectListView(generic.ListView):
-    model = PortfolioProject
-    context_object_name = 'portfolio_project_list'
-    template_name = 'model/templates/portfolio_project_list.html'
-
-
-class PortfolioProjectDetailView(generic.DetailView):
-    model = PortfolioProject
-    template_name = 'model/templates/portfolio_project_detail.html'
 
 
 class OutsideProjectListView(generic.ListView):
