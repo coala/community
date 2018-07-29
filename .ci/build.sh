@@ -22,7 +22,13 @@ fi
 python manage.py fetch_deployed_data _site $ISSUES_JSON --repo-name gh-board
 
 python manage.py migrate
-python manage.py test
+
+if [[ "$OH_TOKEN" ]] && [[ "$GH_TOKEN" ]]; then
+    python manage.py test
+else
+    python manage.py test data.tests
+fi
+
 python manage.py import_contributors_data
 python manage.py import_openhub_data
 
