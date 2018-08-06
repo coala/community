@@ -8,6 +8,7 @@ packages:
   - data
   - gci
   - gsoc
+  - gamification
   - log
   - meta_review
   - openhub

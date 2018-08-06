@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Newcomers Data</title>
+  </head>
+  <body>
+    <h1>The gamification leaderboard</h1>
+    <p>Note: All the datetime is in UTC</p>
+    <hr>
+    <ul>
+      {% for participant in participants %}
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <div class="caption">
+                <p>Username: {{ participant.username }}</p>
+                <p><a href="//github.com/{{ participant.username }}">
+                GitHub Profile</a></p>
+                <p><a href="//gitlab.com/{{ participant.username }}">
+                GitLab Profile</a></p>
+                <p><a href="//www.openhub.net/accounts/{{ participant.username }}">OpenHub Profile</a></p>
+                <p>Score: {{ participant.score }}</p>
+                <p>Level: {{ participant.level.name }}</p>
+                <p>Activities Performed:
+                {% for activity in participant.activities.all %}
+                  <p>{{ forloop.counter }}. {{ activity.name }}, performed_at:
+                    {{ activity.performed_at }} updated_at: {{ activity.updated_at }}
+                  </p>
+                {% endfor %}
+                <p>Badges Earned:
+                {% for badge in participant.badges.all %}
+                  <p>{{ forloop.counter }}.{{ badge.name }}</p>
+                {% endfor %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      {% endfor %}{# for contributor in contributors #}
+    </ul>
+  </body>
+</html>

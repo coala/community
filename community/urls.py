@@ -14,6 +14,7 @@ from activity.scraper import activity_json
 from twitter.view_twitter import index as twitter_index
 from log.view_log import index as log_index
 from data.views import index as contributors_index
+from gamification.views import index as gamification_index
 from meta_review.views import index as meta_review_index
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
@@ -217,5 +218,11 @@ urlpatterns = [
         name='unassigned_issues_activity_json',
         distill_func=get_index,
         distill_file='static/unassigned-issues.json',
+    ),
+    distill_url(
+        r'gamification/$', gamification_index,
+        name='community-gamification',
+        distill_func=get_index,
+        distill_file='gamification/index.html',
     ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

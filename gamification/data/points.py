@@ -1,0 +1,43 @@
+ISSUE_POINTS_DICT = {
+    'difficulty/newcomer': 5,
+    'difficulty/low': 7,
+    'difficulty/medium': 15,
+    'difficulty/high': 20,
+    'importance/low': 5,
+    'importance/medium': 7,
+    'importance/high': 10,
+    'importance/critical': 13,
+    'area/documentation': 5,
+    'area/upstream': 7,
+    'area/genericbears': 10,
+    'area/lintbears': 7,
+    'area/nativebears': 5,
+    'type/bug': 5,
+    'type/feature': 5,
+    'bear proposal': 5,
+    'status/invalid': -5,
+    'status/duplicate': -5,
+}
+
+MR_POINTS_DICT = {
+    'difficulty/newcomer': 7,
+    'difficulty/low': 10,
+    'difficulty/medium': 15,
+    'difficulty/high': 20,
+    'importance/low': 5,
+    'importance/medium': 7,
+    'importance/high': 10,
+    'importance/critical': 13,
+    'area/documentation': 7,
+    'area/upstream': 7,
+    'area/genericbears': 13,
+    'area/lintbears': 10,
+    'area/nativebears': 7,
+    'type/bug': 10,
+    'type/feature': 7,
+    'bear proposal': 5,
+    'status/invalid': -5,
+    'status/duplicate': -5,
+}
+
+MERGE_REQUEST_CLOSED_WITHOUT_MERGE = -5

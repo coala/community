@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'data',
     'openhub',
     'model',
+    'gamification',
     'meta_review',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
