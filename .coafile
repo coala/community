@@ -57,7 +57,8 @@ shell = bash
 # Do not allow the word "coala" to ensure the repository can be generalized out
 # for use by other organizations.
 files = **
-ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, .moban.yaml, .moban.dt/community-gitignore.jj2, public/**, _site/**, .ci/check_moban.sh
+# .coverage crashes AnnotationBear
+ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, .nocover.yaml, .moban.yaml, .moban.dt/community-*.jj2, public/**, _site/**, .ci/check_moban.sh, .coverage
 bears = KeywordBear
 language = python 3
 keywords = coala

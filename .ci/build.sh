@@ -22,7 +22,6 @@ fi
 python manage.py fetch_deployed_data _site $ISSUES_JSON --repo-name gh-board
 
 python manage.py migrate
-python manage.py test
 python manage.py import_contributors_data
 python manage.py import_issues_data
 python manage.py import_merge_requests_data

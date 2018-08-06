@@ -1,0 +1,3 @@
+coala-bears
+git+https://gitlab.com/virresh/coala-antlr.git
+{% include 'test-requirements.txt.jj2' %}

@@ -1,4 +1,19 @@
-overrides: coala.yaml
+overrides: .nocover.yaml
+
+package_module: community
+packages:
+  - community
+  - activity
+  - inactive_issues
+  - data
+  - gci
+  - gsoc
+  - log
+  - meta_review
+  - openhub
+  - model
+  - twitter
+  - unassigned_issues
 
 configuration:
   template_dir:
@@ -9,3 +24,6 @@ configuration:
   configuration_dir: ../coala-mobans/
 targets:
   - .gitignore: community-gitignore.jj2
+  - setup.cfg: setup.cfg.jj2
+  - test-requirements.txt: community-test-requirements.txt.jj2
+  - conftest.py: conftest.py

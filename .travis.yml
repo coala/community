@@ -35,6 +35,7 @@ before_install:
 script:
   - ./.ci/build.sh
   - rm -rf private/
+  - pytest
   - coala --non-interactive -V
 
 notifications:

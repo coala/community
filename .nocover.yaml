@@ -1,0 +1,38 @@
+overrides: coala.yaml
+
+allow_generic_no_cover: true
+
+nocover_file_globs:
+  # These all need to be covered by tests
+  - activity/*.py
+  - community/git.py
+  - data/*.py
+  - gci/*.py
+  - gsoc/*.py
+  - log/*.py
+  - meta_review/handler.py
+  - model/*.py
+  - openhub/*.py
+  - twitter/*.py
+  # Optional coverage. Once off scripts.
+  - inactive_issues/inactive_issues_scraper.py
+  - unassigned_issues/unassigned_issues_scraper.py
+  # The following rules can remain here
+  # django db
+  - '*/migrations/*.py'
+  # django commands and related modules
+  - '*/management/commands/*.py'
+  - meta_review/load_from_db.py
+  - meta_review/dump_to_db.py
+  # django-distill runs these
+  - community/urls.py
+  - '*/views.py'
+  # tests
+  - '*/tests/*.py'
+
+nocover_regexes:
+  # community/config.py
+  - def get_api_key
+  # meta_review/models.py
+  - def clear_score
+  - def __str__
