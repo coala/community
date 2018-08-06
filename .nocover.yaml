@@ -27,8 +27,6 @@ nocover_file_globs:
   # django-distill runs these
   - community/urls.py
   - '*/views.py'
-  # tests
-  - '*/tests/*.py'
 
 nocover_regexes:
   # community/config.py
