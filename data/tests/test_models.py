@@ -180,7 +180,7 @@ class IssueNumberModelTest(TestCase):
         self.assertEquals(issue, issue_object)
 
 
-class MergeRequestModelTest():
+class MergeRequestModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
@@ -251,7 +251,7 @@ class MergeRequestModelTest():
 
     def test_object_name_is_title(self):
         mr = MergeRequest.objects.get(number=58, repo_id=52889504)
-        expected_object_name = 'Test Merge Request'
+        expected_object_name = 'Removed python 3.3 dependency'
         self.assertEquals(expected_object_name, str(mr))
 
     def test_many_to_many_field(self):
@@ -272,9 +272,9 @@ class MergeRequestModelTest():
         self.assertEquals(mr.closes_issues.get(pk=closes_issue.pk),
                           closes_issue)
 
-    def test_get_closes_issue_objects(self):
+    def test_get_closes_issues_object(self):
         mr = MergeRequest.objects.get(number=58, repo_id=52889504)
-        closes_issues = mr.test_get_closes_issue_objects()
+        closes_issues = mr.get_closes_issues_object()
 
         # Expected closes issue objects list
         issue_objects_list = [
