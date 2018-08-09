@@ -6,7 +6,6 @@ nocover_file_globs:
   # These all need to be covered by tests
   - activity/*.py
   - community/git.py
-  - data/*.py
   - gci/*.py
   - gsoc/*.py
   - log/*.py
