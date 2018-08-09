@@ -4,20 +4,27 @@ python: 3.6
 cache:
   pip: true
 
+stages:
+  - test
+  - moban
+  - name: deploy
+    if: type != pull_request
+
 env:
   global:
     - ENCRYPTION_LABEL: "defac9b1fa56"
     - COMMIT_AUTHOR_EMAIL: "nobody@coala.io"
-  matrix:
-    # This more closely emulates a forked build
-    # However the git remote is not correct
-    # Only a GH_TOKEN is required.
-    - GL_TOKEN="" GCI_TOKEN="" OH_TOKEN=""
-    # A proper build with the tokens available
-    - AUTH=true
 
 jobs:
   include:
+    # This more closely emulates a forked build
+    # However the git remote is not correct
+    # Only a GH_TOKEN is required.
+    - stage: test
+      env: GL_TOKEN="" GCI_TOKEN="" OH_TOKEN=""
+    # A proper build with the tokens available
+    - stage: deploy
+      after_success: ./.ci/deploy.sh
     - python: 3.6
       stage: moban
       env:
@@ -42,6 +49,3 @@ notifications:
   email: false
   webhooks: https://www.travisbuddy.com/
   on_success: never
-
-after_success:
-  - ./.ci/deploy.sh
