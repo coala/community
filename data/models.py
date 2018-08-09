@@ -47,6 +47,7 @@ class Issue(models.Model):
                                        related_name='issue_assignees',
                                        blank=True)
     hoster = models.CharField(max_length=100)
+    url = models.URLField(null=True)
 
     def __str__(self):
         return str(self.title)
@@ -87,6 +88,7 @@ class MergeRequest(models.Model):
     ci_status = models.BooleanField()
     labels = models.ManyToManyField(Label, blank=True)
     hoster = models.CharField(max_length=100)
+    url = models.URLField(null=True)
 
     def __str__(self):
         return self.title

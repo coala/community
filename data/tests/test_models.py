@@ -104,6 +104,7 @@ class IssueModelTest(TestCase):
         labels = issue._meta.get_field('labels').verbose_name
         assignees = issue._meta.get_field(
             'assignees').verbose_name
+        url = issue._meta.get_field('url').verbose_name
         self.assertEquals(number, 'number')
         self.assertEquals(title, 'title')
         self.assertEquals(repo_id, 'repo id')
@@ -115,6 +116,7 @@ class IssueModelTest(TestCase):
         self.assertEquals(hoster, 'hoster')
         self.assertEquals(labels, 'labels')
         self.assertEquals(assignees, 'assignees')
+        self.assertEquals(url, 'url')
 
     def test_object_name_is_title(self):
         issue = Issue.objects.get(number=1)
@@ -235,6 +237,7 @@ class MergeRequestModelTest(TestCase):
             'assignees').verbose_name
         closes_issues = mr._meta.get_field(
             'closes_issues').verbose_name
+        url = mr._meta.get_field('url').verbose_name
         self.assertEquals(number, 'number')
         self.assertEquals(title, 'title')
         self.assertEquals(repo_id, 'repo id')
@@ -248,6 +251,7 @@ class MergeRequestModelTest(TestCase):
         self.assertEquals(labels, 'labels')
         self.assertEquals(assignees, 'assignees')
         self.assertEquals(closes_issues, 'closes issues')
+        self.assertEquals(url, 'url')
 
     def test_object_name_is_title(self):
         mr = MergeRequest.objects.get(number=58, repo_id=52889504)
