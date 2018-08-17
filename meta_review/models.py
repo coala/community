@@ -63,7 +63,7 @@ class Comment(models.Model):
     diff = models.TextField(default=None, null=True)
     created_at = models.DateTimeField(default=None, null=True)
     last_edited_at = models.DateTimeField(default=None, null=True)
-    author = models.ForeignKey(Participant, null=True)
+    author = models.ForeignKey(Participant, null=True, on_delete=models.CASCADE)
 
     # number of positive reactions received
     pos = models.IntegerField(default=0, null=True)
@@ -92,6 +92,8 @@ class Reaction(models.Model):
     id = models.TextField(default=None, primary_key=True)
     created_at = models.DateTimeField(default=None, null=True)
     content = models.TextField(default=None, null=True)
-    giver = models.ForeignKey(Participant, related_name='give', null=True)
-    receiver = models.ForeignKey(Participant, related_name='receive', null=True)
-    review = models.ForeignKey(Comment, null=True)
+    giver = models.ForeignKey(Participant, related_name='give', null=True,
+                              on_delete=models.CASCADE)
+    receiver = models.ForeignKey(Participant, related_name='receive', null=True,
+                                 on_delete=models.CASCADE)
+    review = models.ForeignKey(Comment, null=True, on_delete=models.CASCADE)

@@ -17,7 +17,7 @@ class GsocEvent(BaseEvent):
 
 
 class GsocOccurrence(BaseOccurrence):
-    event = models.ForeignKey(GsocEvent)
+    event = models.ForeignKey(GsocEvent, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.event
@@ -29,24 +29,46 @@ class Program(models.Model):
     org_accepted_count = models.IntegerField()
     state = models.CharField(max_length=100)
     is_current = models.BooleanField()
-    org_signup_open = models.OneToOneField(GsocEvent, related_name='org_signup_open')
-    org_approval = models.OneToOneField(GsocEvent, related_name='org_approval')
-    orgs_published = models.OneToOneField(GsocEvent, related_name='org_published')
-    student_signup_open = models.OneToOneField(GsocEvent, related_name='student_signup_open')
-    slot_request = models.OneToOneField(GsocEvent, related_name='slot_request')
-    slot_allocation_grace_period = models.OneToOneField(GsocEvent, related_name='slot_allocation_grace_period')
-    project_acceptance = models.OneToOneField(GsocEvent, related_name='project_acceptance')
-    project_decisions_finalization = models.OneToOneField(GsocEvent, related_name='project_decisions_finalization')
-    first_work_period = models.OneToOneField(GsocEvent, related_name='first_work_period')
-    first_evaluations = models.OneToOneField(GsocEvent, related_name='first_evaluations')
-    second_work_period = models.OneToOneField(GsocEvent, related_name='second_work_period')
-    second_evaluations = models.OneToOneField(GsocEvent, related_name='second_evaluations')
-    third_work_period = models.OneToOneField(GsocEvent, related_name='third_work_period')
-    final_week = models.OneToOneField(GsocEvent, related_name='final_week')
-    final_evaluations_mentor = models.OneToOneField(GsocEvent, related_name='final_evaluations_mentor')
-    post_program = models.OneToOneField(GsocEvent, related_name='post_program')
-    community_bonding_period = models.OneToOneField(GsocEvent, related_name='community_bonding_period')
-    coding_period = models.OneToOneField(GsocEvent, related_name='coding_period')
+    org_signup_open = models.OneToOneField(
+        GsocEvent, related_name='org_signup_open', on_delete=models.CASCADE)
+    org_approval = models.OneToOneField(
+        GsocEvent, related_name='org_approval', on_delete=models.CASCADE)
+    orgs_published = models.OneToOneField(
+        GsocEvent, related_name='org_published', on_delete=models.CASCADE)
+    student_signup_open = models.OneToOneField(
+        GsocEvent, related_name='student_signup_open', on_delete=models.CASCADE)
+    slot_request = models.OneToOneField(
+        GsocEvent, related_name='slot_request', on_delete=models.CASCADE)
+    slot_allocation_grace_period = models.OneToOneField(
+        GsocEvent, related_name='slot_allocation_grace_period',
+        on_delete=models.CASCADE)
+    project_acceptance = models.OneToOneField(
+        GsocEvent, related_name='project_acceptance', on_delete=models.CASCADE)
+    project_decisions_finalization = models.OneToOneField(
+        GsocEvent, related_name='project_decisions_finalization',
+        on_delete=models.CASCADE)
+    first_work_period = models.OneToOneField(
+        GsocEvent, related_name='first_work_period', on_delete=models.CASCADE)
+    first_evaluations = models.OneToOneField(
+        GsocEvent, related_name='first_evaluations', on_delete=models.CASCADE)
+    second_work_period = models.OneToOneField(
+        GsocEvent, related_name='second_work_period', on_delete=models.CASCADE)
+    second_evaluations = models.OneToOneField(
+        GsocEvent, related_name='second_evaluations', on_delete=models.CASCADE)
+    third_work_period = models.OneToOneField(
+        GsocEvent, related_name='third_work_period', on_delete=models.CASCADE)
+    final_week = models.OneToOneField(
+        GsocEvent, related_name='final_week', on_delete=models.CASCADE)
+    final_evaluations_mentor = models.OneToOneField(
+        GsocEvent, related_name='final_evaluations_mentor',
+        on_delete=models.CASCADE)
+    post_program = models.OneToOneField(
+        GsocEvent, related_name='post_program', on_delete=models.CASCADE)
+    community_bonding_period = models.OneToOneField(
+        GsocEvent, related_name='community_bonding_period',
+        on_delete=models.CASCADE)
+    coding_period = models.OneToOneField(
+        GsocEvent, related_name='coding_period', on_delete=models.CASCADE)
     results_announced = models.DateField()
     tax_forms_deadline = models.DateField()
     first_payments = models.DateField()
@@ -64,7 +86,7 @@ class Program(models.Model):
 
 
 class Feature(models.Model):
-    program = models.OneToOneField(Program)
+    program = models.OneToOneField(Program, on_delete=models.CASCADE)
     student_finals_can_be_submitted = models.BooleanField()
     org_payment_details_can_be_changed = models.BooleanField()
     admins_can_register = models.BooleanField()
@@ -120,7 +142,7 @@ class Feature(models.Model):
 
 
 class ProgramStatistic(models.Model):
-    program = models.OneToOneField(Program)
+    program = models.OneToOneField(Program, on_delete=models.CASCADE)
     number_of_lines_of_code = models.IntegerField()
     homepage_start_button = models.CharField(max_length=100)
     homepage_intro_paragraph = models.TextField()
@@ -180,7 +202,7 @@ class Project(models.Model):
     name = models.CharField(max_length=100, primary_key=True)
     summary = models.TextField(max_length=300, default='')
     org = models.ForeignKey(Organization, on_delete=models.CASCADE)
-    student = models.OneToOneField(Student)
+    student = models.OneToOneField(Student, on_delete=models.CASCADE)
     mentor = models.ForeignKey(Mentor, on_delete=models.CASCADE)
     program = models.ForeignKey(Program, on_delete=models.CASCADE)
 
