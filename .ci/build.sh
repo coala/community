@@ -2,6 +2,9 @@
 
 set -e -x
 
+rm db.sqlite3 || true
+rm -rf private _site public
+
 mkdir private _site public
 
 META_REVIEW_DATA="meta_review.json"
