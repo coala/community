@@ -24,7 +24,7 @@ def get_mr_objects():
 
 def update_participants_data_with_mr(mr):
     """
-    Update particiapnts data based on mr.
+    Update participants data based on mr.
 
     This method updates the total score earned by the
     participant based on the activities performed,
