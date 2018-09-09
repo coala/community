@@ -76,6 +76,8 @@ def create_badge_activities():
             name='Solved a area/genericbears bear proposal issue'),
         BadgeActivity(
             name='Solved a area/lintbears bear proposal issue'),
+        BadgeActivity(
+            name='Did a meta-review or received a meta-review'),
     ]
     BadgeActivity.objects.bulk_create(b_activity__object_list)
 
@@ -241,9 +243,12 @@ def add_activities_to_badges():
         name='Solved a difficulty/newcomer issue')
     all_rounder_activity2 = BadgeActivity.objects.get(
         name='Solved a difficulty/low issue')
+    all_rounder_activity3 = BadgeActivity.objects.get(
+        name='Did a meta-review or received a meta-review')
     all_rounder_activities_list = [
         all_rounder_activity1,
         all_rounder_activity2,
+        all_rounder_activity3,
     ]
     all_rounder_badge.b_activities.add(
         *all_rounder_activities_list)

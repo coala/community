@@ -9,6 +9,8 @@ from gamification.process.update import (
     update_participants_data_with_issue,
     get_participant_objects,
     award_badges,
+    get_meta_review_participant_objects,
+    update_participants_data_with_meta_review,
 )
 
 
@@ -31,3 +33,5 @@ class Command(BaseCommand):
             update_participants_data_with_issue(issue)
         for participant in get_participant_objects():
             award_badges(participant)
+        for participant in get_meta_review_participant_objects():
+            update_participants_data_with_meta_review(participant.login)

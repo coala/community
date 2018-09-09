@@ -4,12 +4,14 @@ from data.models import (
     MergeRequest,
     Issue,
 )
+from data.newcomers import active_newcomers
 from gamification.process.activity_points import (
     get_activity_with_points
 )
 from gamification.labels import NEGATIVE_POINT_LABELS
 from gamification.data.points import MERGE_REQUEST_CLOSED_WITHOUT_MERGE
 from gamification.models import Participant
+from meta_review.models import Reaction, Participant as meta_review_participants
 
 
 def get_mr_objects():
@@ -133,6 +135,45 @@ def update_participants_data_with_issue(issue):
 def get_participant_objects():
     participants = Participant.objects.all()
     return participants
+
+
+def get_meta_review_participant_objects():
+    return meta_review_participants.objects.all()
+
+
+meta_review_completed_list = []
+
+
+def update_participants_data_with_meta_review(meta_review_participant):
+    """
+    Update participants based on meta-review
+
+    This method updates every participant based on the meta-review
+    received or given. If the  meta-review participant is
+    in the active newcomers list then it will check if the meta-review
+    is complete or not and update the activity accordingly.
+    """
+    active_newcomers_list = active_newcomers()
+    if (meta_review_participant.login in active_newcomers_list and
+            meta_review_participant.login not in meta_review_completed_list):
+        # Get the corresponding gamification participant
+        gamification_participant = Participant.objects.get(
+            username=meta_review_participant.login)
+        reaction = Reaction.objects.get(id=meta_review_participant.login)
+        if (meta_review_participant.pos_in > 0 or
+                meta_review_participant.pos_out > 0 or
+                meta_review_participant.neg_in > 0 or
+                meta_review_participant.neg_out > 0):
+            # Add a meta-review activity to the participant
+            activity = 'Did a meta-review or received a meta-review'
+            created_at = reaction.created_at
+            updated_at = None
+            gamification_participant.add_activity(0, activity, created_at,
+                                                  updated_at)
+            meta_review_completed_list.append(meta_review_participant.login)
+            logger = logging.getLogger(__name__)
+            logger.info(meta_review_participant.login,
+                        ' has completed the meta-review activity')
 
 
 def award_badges(participant):

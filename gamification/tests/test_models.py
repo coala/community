@@ -1,5 +1,7 @@
 from django.test import TestCase
 
+from data.newcomers import active_newcomers
+
 from gamification.models import (
     Activity,
     Level,
@@ -7,6 +9,12 @@ from gamification.models import (
     Badge,
     Participant,
 )
+
+from gamification.process.update import (
+    update_participants_data_with_meta_review
+)
+
+from meta_review.models import Reaction, Participant as meta_review_participant
 
 
 class ActivityModelTest(TestCase):
@@ -341,3 +349,64 @@ class ParticipantModelTest(TestCase):
 
         # After applying add_badge method
         self.assertEquals(test_participant.badges.count(), 0)
+
+    def test_update_participants_data_with_meta_review_complete(self):
+        # Test the participant who has completed the meta-review activity
+        active_newcomers_list = active_newcomers()
+        active_newcomers_list.extend(['test2', 'test3'])
+        # meta-review participant
+        meta_review_participant.objects.create(login='test2')
+        test_meta_review_participant = meta_review_participant.objects.get(
+                                       login='test2')
+
+        Reaction.objects.create(id='test2')
+        reaction = Reaction.objects.get(
+            id=test_meta_review_participant.login)
+        # corresponding gamification participant for 'test2'
+        Participant.objects.create(username='test2')
+        test_gamification_participant = Participant.objects.get(
+                                        username='test2')
+
+        test_meta_review_participant.pos_in = 2
+        reaction.created_at = '2018-10-25 14:30:59'
+        # Before applying update_participants_data_with_meta_review method
+        self.assertEquals(test_gamification_participant.activities.count(), 0)
+        # After applying update_participants_data_with_meta_review method
+        update_participants_data_with_meta_review(test_meta_review_participant)
+        self.assertEquals(test_gamification_participant.activities.count(), 1)
+        self.assertEquals(
+            test_gamification_participant.activities.all()[0].name,
+            'Did a meta-review or received a meta-review')
+        # Check if multiple activities are not adding up for the same
+        # participant 'test2' already has meta-review added so check
+        # if activity is not added again
+        update_participants_data_with_meta_review(test_meta_review_participant)
+        self.assertEquals(test_gamification_participant.activities.count(), 1)
+
+    def test_update_participants_data_with_meta_review_incomplete(self):
+        # Test the participant who has zero meta-review activity
+        meta_review_participant.objects.create(login='test3')
+        test_meta_review_participant = meta_review_participant.objects.get(
+                                        login='test3')
+        Reaction.objects.create(id='test3')
+        reaction = Reaction.objects.get(
+            id=test_meta_review_participant.login)
+        # The corresponding gamification participant
+        Participant.objects.create(username='test3')
+        test_gamification_participant = Participant.objects.get(
+                                         username='test3')
+
+        reaction.created_at = '2018-10-25 14:30:59'
+        update_participants_data_with_meta_review(test_meta_review_participant)
+        self.assertEquals(test_gamification_participant.activities.count(), 0)
+
+        # if (meta_review_participant.login in active_newcomers_list):  is false
+        meta_review_participant.objects.create(login='test4')
+        test_meta_review_participant = meta_review_participant.objects.get(
+                                        login='test4')
+        # The corresponding gamification participant for 'test4'
+        Participant.objects.create(username='test4')
+        test_gamification_participant = Participant.objects.get(
+                                         username='test4')
+        update_participants_data_with_meta_review(test_meta_review_participant)
+        self.assertEquals(test_gamification_participant.activities.count(), 0)

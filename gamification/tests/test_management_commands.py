@@ -24,10 +24,10 @@ class CreateConfigDataTest(TestCase):
         self.assertEquals(levels.count(), 8)
 
         b_activities = BadgeActivity.objects.all()
-        # There must be 26 badge activities created
-        # as there are 26 badge_activities listed in
+        # There must be 27 badge activities created
+        # as there are 27 badge_activities listed in
         # file config.py
-        self.assertEquals(b_activities.count(), 26)
+        self.assertEquals(b_activities.count(), 27)
 
         badges = Badge.objects.all()
         # There must be 8 badges created
@@ -61,7 +61,7 @@ class CreateConfigDataTest(TestCase):
 
         # The All-Rounder badge must have two activities
         badge7 = Badge.objects.get(name='The All-Rounder')
-        self.assertEquals(badge7.b_activities.count(), 2)
+        self.assertEquals(badge7.b_activities.count(), 3)
 
 
 class CreateParticipantsTest(TestCase):
@@ -97,4 +97,4 @@ class UpdateParticipantsTest(TestCase):
         self.assertEquals(current_level, 'Intermediate-II')
 
         number_of_badges = participant.badges.all().count()
-        self.assertEquals(number_of_badges, 2)
+        self.assertEquals(number_of_badges, 1)
