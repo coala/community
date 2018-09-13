@@ -12,7 +12,7 @@ def get_activity_with_points(activity_type, labels):
                           activity. e.g. issue or merge_request.
     :param labels:        a QuerySet dict containing the 'name'
                           as key and 'name of the label' as value.
-    :return:              a touple of points and activity string.
+    :return:              a tuple of points and activity string.
     """
     labels = get_sorted_labels(labels)
     points = get_total_points(activity_type, labels)
