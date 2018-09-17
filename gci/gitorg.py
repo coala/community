@@ -24,10 +24,10 @@ def get_repo(url):
     return _repos[url]
 
 
-def get_issue(url):
+def get_parsed_issue_url(url):
     logger = logging.getLogger(__name__ + '.get_issue')
     match = re.match(r'https://(github|gitlab)\.com/'
-                     r'([^/]+)/(.+)/issues/(\d+)',
+                     r'(.+)/([^/]+)/issues/(\d+)',
                      url)
     if not match:
         logger.info('not an issue %s' % url)
@@ -44,7 +44,11 @@ def get_issue(url):
         org_name,
         repo_name,
     )
+    return issue_url, issue_number
 
+
+def get_issue(url):
+    issue_url, issue_number = get_parsed_issue_url(url)
     try:
         repo = get_repo(issue_url)
     except Exception as e:

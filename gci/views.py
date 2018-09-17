@@ -7,6 +7,7 @@ import requests
 from .students import get_linked_students
 from .gitorg import get_logo
 from .task import get_tasks
+from .issues import get_issue_list
 
 STUDENT_URL = (
     'https://codein.withgoogle.com/dashboard/task-instances/?'

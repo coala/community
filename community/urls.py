@@ -75,6 +75,15 @@ def get_organization():
 
 urlpatterns = [
     distill_url(
+        r'gci/', gci_index,
+        name='community-gci',
+        distill_func=get_index,
+        distill_file='gci/index.html',
+    ),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns2 = [
+    distill_url(
         r'^$', TemplateView.as_view(template_name='index.html'),
         name='index',
         distill_func=get_index,
