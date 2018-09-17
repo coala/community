@@ -17,6 +17,7 @@ packages:
   - unassigned_issues
 
 dependencies:
+  - git+https://gitlab.com/coala/coala-utils.git
   - git-url-parse
   - django
   - django-distill
