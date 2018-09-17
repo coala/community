@@ -9,6 +9,7 @@ __all__ = (
     'GCI_PRIVATE_DATA_ROOT',
     'get_api_key',
     'load_cache',
+    'load_yaml',
 )
 
 GCI_PRIVATE_DATA_ROOT = 'private'
@@ -24,6 +25,11 @@ GCI_PRIVATE_DATA_DIR = os.path.join(
 )
 
 
+def load_yaml(filename):
+    with open(filename, 'r') as f:
+        return ruamel.yaml.load(f, Loader=ruamel.yaml.Loader)
+
+
 def load_cache(filename, private=False):
     if private:
         data_dir = GCI_PRIVATE_DATA_ROOT
@@ -31,5 +37,4 @@ def load_cache(filename, private=False):
         data_dir = GCI_DATA_DIR
 
     path = os.path.join(data_dir, filename)
-    with open(path, 'r') as f:
-        return ruamel.yaml.load(f, Loader=ruamel.yaml.Loader)
+    return load_yaml(path)
