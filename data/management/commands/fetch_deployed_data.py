@@ -29,7 +29,7 @@ class Command(BaseCommand):
 
         deploy_url = get_deploy_url(repo_name)
         try:
-            upstream_deploy_url = get_upstream_deploy_url()
+            upstream_deploy_url = get_upstream_deploy_url(repo_name)
         except RuntimeError as e:
             upstream_deploy_url = None
             logger.info(str(e))
