@@ -176,11 +176,15 @@ def get_deploy_url(name=None):
     return deploy_url
 
 
-def get_upstream_deploy_url():
-    """Obtain the http where the upstream deploys appear.
+def get_upstream_deploy_url(name=None):
+    """
+    Obtain the http where the upstream deploys appear.
+    When `name` is None, fetch current repo of current org,
+    otherwise, fetch a specified repo of current org.
     """
     repo = get_upstream_repo()
-    owner, _, path = repo.full_name.partition('/')
+    owner, _, repo_name = repo.full_name.partition('/')
+    path = name if name else repo_name
     deploy_url = 'https://%s.github.io/%s' % (owner, path)
 
     return deploy_url
