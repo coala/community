@@ -1,0 +1,43 @@
+image: python:3.6
+
+stages:
+  - build
+  - deploy
+
+variables:
+  XDG_CACHE_HOME: "$CI_PROJECT_DIR/.cache/"
+
+.test_env:
+  stage: test
+  cache:
+    key: test
+    paths:
+      - .cache/pip
+
+.build_env:
+  extends: .test_env
+  artifacts:
+    name: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG"
+    paths:
+      - public
+
+build:
+  extends: .build_env
+  stage: build
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - ./.ci/build.sh
+
+pages:
+  stage: deploy
+  variables:
+    # Simulate the netlify production flag
+    CONTEXT: production
+  script:
+    - echo 'Nothing to do'
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
