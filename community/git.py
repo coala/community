@@ -59,6 +59,7 @@ def get_remote_url():
     url = os.environ.get('REPOSITORY_URL')
     if not url:
         remote = get_config_remote()
+        assert remote[0][0] == 'url'
         url = remote[0][1]
 
     try:
@@ -166,12 +167,15 @@ def get_deploy_url(name=None):
         return os.environ.get('URL')
 
     url = get_remote_url()
-    if url.resource != 'github.com':
-        raise Exception('remotes %s is not supported' % url)
 
     owner = url.owner
     path = name if name else url.name
-    deploy_url = 'https://%s.github.io/%s' % (owner, path)
+    if url.resource == 'github.com':
+        deploy_url = 'https://%s.github.io/%s' % (owner, path)
+    elif url.resource == 'gitlab.com':
+        deploy_url = 'https://%s.gitlab.io/%s' % (owner, path)
+    else:
+        raise Exception('remote %s is not supported' % url)
 
     return deploy_url
 
