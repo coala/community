@@ -16,6 +16,21 @@ packages:
   - twitter
   - unassigned_issues
 
+dependencies:
+  - git-url-parse
+  - django
+  - django-distill
+  - django-eventtools
+  - git+https://gitlab.com/gitmate/open-source/IGitt.git@1fa5a0a21ea4fb8739d467c06972f748717adbdc
+  - requests
+  - python-dateutil
+  - pillow
+  - ruamel.yaml
+  - markdown2
+  - python_dateutil
+  - PyGithub
+  - xmltodict
+
 configuration:
   template_dir:
     - .moban.dt/
@@ -26,5 +41,6 @@ configuration:
 targets:
   - .gitignore: community-gitignore.jj2
   - setup.cfg: setup.cfg.jj2
+  - requirements.txt: requirements.txt.jj2
   - test-requirements.txt: community-test-requirements.txt.jj2
   - conftest.py: conftest.py
