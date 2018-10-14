@@ -31,13 +31,13 @@ max_line_length = 120
 [all.links]
 bears = InvalidLinkBear
 
-[html]
+[all.html]
 bears = HTMLLintBear
 files = **.html
 htmllint_ignore = optional_tag, concerns_separation
 ignore = public/**
 
-[javascript]
+[all.javascript]
 files = static/**/*.js
 bears = JSHintBear
 allow_unused_variables = True
@@ -48,7 +48,7 @@ bears = YAMLLintBear
 files = **.yml, **.yaml
 ignore += public/**, _site/**
 
-[bash]
+[all.bash]
 files = **.sh
 bears = ShellCheckBear
 shell = bash
