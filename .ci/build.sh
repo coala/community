@@ -22,7 +22,8 @@ if [[ -n "$GCI_TOKEN" ]]; then
 fi
 
 # fetch deployed issues data in gh-board repo
-python manage.py fetch_deployed_data _site $ISSUES_JSON --repo-name gh-board
+python manage.py fetch_deployed_data _site $ISSUES_JSON \
+                 --repo-name gh-board --hoster github
 
 python manage.py migrate
 python manage.py import_contributors_data

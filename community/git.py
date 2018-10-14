@@ -156,7 +156,7 @@ def get_upstream_repo():
     return parent
 
 
-def get_deploy_url(name=None):
+def get_deploy_url(name=None, hoster=None):
     """
     Obtain the http where deploys appear.
     When `name` is None, fetch current repo of current org,
@@ -170,7 +170,9 @@ def get_deploy_url(name=None):
 
     owner = url.owner
     path = name if name else url.name
-    if url.resource == 'github.com':
+    if hoster is not None:
+        deploy_url = 'https://%s.%s.io/%s' % (owner, hoster, path)
+    elif url.resource == 'github.com':
         deploy_url = 'https://%s.github.io/%s' % (owner, path)
     elif url.resource == 'gitlab.com':
         deploy_url = 'https://%s.gitlab.io/%s' % (owner, path)
@@ -180,7 +182,7 @@ def get_deploy_url(name=None):
     return deploy_url
 
 
-def get_upstream_deploy_url(name=None):
+def get_upstream_deploy_url(name=None, hoster='github'):
     """
     Obtain the http where the upstream deploys appear.
     When `name` is None, fetch current repo of current org,
@@ -189,6 +191,6 @@ def get_upstream_deploy_url(name=None):
     repo = get_upstream_repo()
     owner, _, repo_name = repo.full_name.partition('/')
     path = name if name else repo_name
-    deploy_url = 'https://%s.github.io/%s' % (owner, path)
+    deploy_url = 'https://%s.%s.io/%s' % (owner, hoster, path)
 
     return deploy_url

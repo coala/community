@@ -16,6 +16,8 @@ class Command(BaseCommand):
         parser.add_argument('filenames', nargs='+', type=str)
         parser.add_argument('--repo-name', action='store',
                             dest='repo-name', type=str)
+        parser.add_argument('--hoster', action='store',
+                            dest='hoster', type=str, default='github')
         parser.add_argument('--allow-failure', action='store_true',
                             dest='allow-failure', default=False,
                             help='Don\'t raise exceptions.')
@@ -25,11 +27,12 @@ class Command(BaseCommand):
         output_dir = options.get('output_dir')
         filenames = options.get('filenames')
         repo_name = options.get('repo-name')
+        hoster = options.get('hoster')
         allow_failure = options.get('allow-failure')
 
-        deploy_url = get_deploy_url(repo_name)
+        deploy_url = get_deploy_url(repo_name, hoster)
         try:
-            upstream_deploy_url = get_upstream_deploy_url(repo_name)
+            upstream_deploy_url = get_upstream_deploy_url(repo_name, hoster)
         except RuntimeError as e:
             upstream_deploy_url = None
             logger.info(str(e))
