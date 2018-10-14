@@ -14,6 +14,7 @@ def active_newcomers():
     """
     NEWCOMERS_URL = webservices_url('newcomers/active')
     response = requests.get(NEWCOMERS_URL)
+    response.raise_for_status()
     newcomers = response.json()
     active_newcomers_list = []
     for newcomer in newcomers:
