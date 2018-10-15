@@ -1,18 +1,64 @@
 from .config import load_cache
 
-_tasks = {}
+_tasks = None
+_private_tasks = None
+_tasks_by_url = None
+_private_tasks_by_url = None
 
 
-def get_tasks():
+def get_tasks(private=False):
     global _tasks
-    if not _tasks:
-        _tasks = load_cache('tasks.yaml')
+    global _private_tasks
 
-    return _tasks
+    if private:
+        if _private_tasks is None:
+            _private_tasks = load_cache('tasks.yaml', private=True)
+            print(f'Loaded {len(_private_tasks)} private tasks')
+        tasks = _private_tasks
+    else:
+        if _tasks is None:
+            _tasks = load_cache('tasks.yaml')
+            print(f'Loaded {len(_tasks)} tasks')
+        tasks = _tasks
+
+    return tasks
 
 
-def get_task(task_id):
-    return get_tasks()[task_id]
+def index_tasks_by_url(private=False):
+    global _tasks_by_url
+    global _private_tasks_by_url
+
+    if private:
+        if _private_tasks_by_url is not None:
+            return
+        url_indexed_tasks = _private_tasks_by_url = {}
+
+    else:
+        if _tasks_by_url is not None:
+            return
+        url_indexed_tasks = _tasks_by_url = {}
+
+    for task in get_tasks(private).values():
+        if 'external_url' not in task:
+            continue
+
+        url = task['external_url']
+        url_indexed_tasks[url] = task
+
+
+def get_task(task_id, private=False):
+    return get_tasks(private)[task_id]
+
+
+def lookup_url(url, private=False):
+    index_tasks_by_url(private)
+
+    if private:
+        index = _private_tasks_by_url
+    else:
+        index = _tasks_by_url
+
+    return index.get(url)
 
 
 def published_tasks(tasks):
