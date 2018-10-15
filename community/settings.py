@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import sys
 
 from .filters import NoDebugFilter
 
@@ -65,11 +66,16 @@ LOGGING = {
             'formatter': 'standard',
             'filters': ['noDebugFilter'],
             'level': 'INFO'
-        }
+        },
+        'log_to_stderr': {
+            'level': 'WARNING',
+            'class': 'logging.StreamHandler',
+            'stream': sys.stderr,
+        },
     },
     'loggers': {
         '': {
-            'handlers': ['communityHandler'],
+            'handlers': ['communityHandler', 'log_to_stderr'],
             'level': 'INFO'
         }
     }
