@@ -13,8 +13,8 @@ class Command(BaseCommand):
     help = 'Cleanse GCI data'
 
     def add_arguments(self, parser):
-        parser.add_argument('input_dir', nargs='?', type=str)
-        parser.add_argument('output_dir', nargs='?', type=str)
+        parser.add_argument('input_dir', type=str)
+        parser.add_argument('output_dir', type=str)
 
     def handle(self, *args, **options):
         input_dir = options.get('input_dir')
@@ -30,6 +30,9 @@ class Command(BaseCommand):
 
         tasks = cleanse_tasks(tasks)
         instances = cleanse_instances(instances, tasks)
+
+        if not os.path.exists(output_dir):
+            os.mkdir(output_dir)
 
         with open(os.path.join(output_dir, 'tasks.yaml'), 'w') as f:
             yaml.dump(tasks, f)
