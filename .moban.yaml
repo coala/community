@@ -21,7 +21,7 @@ dependencies:
   - django
   - django-distill
   - django-eventtools
-  - git+https://gitlab.com/gitmate/open-source/IGitt.git@1fa5a0a21ea4fb8739d467c06972f748717adbdc
+  - git+https://gitlab.com/jayvdb/IGitt.git@74a0141f3d77b8a51b6d964f9c64da67751e3762
   - requests
   - python-dateutil
   - pillow
