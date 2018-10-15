@@ -27,12 +27,13 @@ def get_repo(url):
 def get_issue(url):
     logger = logging.getLogger(__name__ + '.get_issue')
     match = re.match(r'https://(github|gitlab)\.com/'
-                     r'([^/]+)/(.+)/issues/(\d+)',
+                     r'(.+)/([^/]+)/issues/(\d+)',
                      url)
     if not match:
         logger.info('not an issue %s' % url)
         return
 
+    # Note 'org_name' may contain slashes for GitLab groups.
     resource = match.group(1) + '.com'
     org_name = match.group(2)
     repo_name = match.group(3)
