@@ -58,7 +58,7 @@ shell = bash
 # for use by other organizations.
 files = **
 # .coverage crashes AnnotationBear
-ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, .nocover.yaml, .moban.yaml, .moban.dt/community-*.jj2, public/**, _site/**, .ci/check_moban.sh, .coverage
+ignore += .coafile, *requirements.txt, .travis.yml, LICENSE, .nocover.yaml, .moban.yaml, .moban.dt/community-*.jj2, public/**, _site/**, .ci/check_moban.sh, .coverage, gci/issues.yaml
 bears = KeywordBear
 language = python 3
 keywords = coala
