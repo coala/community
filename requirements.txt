@@ -12,3 +12,4 @@ markdown2
 python_dateutil
 PyGithub
 xmltodict
+termcolor
