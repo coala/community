@@ -32,7 +32,6 @@ python manage.py import_merge_requests_data
 python manage.py create_config_data
 python manage.py create_participants
 python manage.py update_participants_data
-python manage.py import_openhub_data
 
 if [[ -f "_site/$META_REVIEW_DATA" ]]; then
   echo "File $META_REVIEW_DATA exists."
