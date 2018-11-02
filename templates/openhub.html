@@ -10,6 +10,10 @@
   </head>
   <body>
     <h1>All of our Portfolio Projects</h1>
+    {%  for error in errors %}
+    <p>{{ error | safe }}</p>
+    {%  endfor  %}
+
     {% for project in projects %}
     <div class="container">
       <div class="row">
