@@ -67,3 +67,7 @@ keywords = coala
 bears = PyPluralNamingBear
 files = **.py
 ignore_list = LOGGING, MIDDLEWARE
+
+[all.jinja]
+files = templates/**
+bears = Jinja2Bear
