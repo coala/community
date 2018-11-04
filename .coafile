@@ -71,3 +71,4 @@ ignore_list = LOGGING, MIDDLEWARE
 [all.jinja]
 files = templates/**
 bears = Jinja2Bear
+check_end_labels = False
