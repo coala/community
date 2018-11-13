@@ -38,7 +38,7 @@ def gci_overview():
     org_id = linked_students[0]['organization_id']
     org_name = linked_students[0]['organization_name']
     s = []
-    s.append('<link rel="stylesheet" href="static/main.css">')
+    s.append('<link rel="stylesheet" href="../static/main.css">')
 
     favicon = get_logo(org_name, 16)
     with open('_site/favicon.png', 'wb') as favicon_file:
@@ -49,8 +49,8 @@ def gci_overview():
         org_logo_file.write(org_logo)
 
     s.append('<link rel="shortcut icon" type="image/png" '
-             'href="static/favicon.png"/>')
-    s.append('<img src="static/org_logo.png" alt="'+org_name+'">')
+             'href="../static/favicon.png"/>')
+    s.append('<img src="../static/org_logo.png" alt="'+org_name+'">')
     s.append('<h2>Welcome</h2>')
     s.append('Hello, world. You are at the {org_name} community GCI website.'
              .format(org_name=org_name))
@@ -83,7 +83,7 @@ def gci_overview():
 
     s.append('<script src="//cdn.jsdelivr.net/gh/lepture/github-cards@1.0.2'
              '/jsdelivr/widget.js"></script>')
-    s.append('<script src="static/timeago.js"></script>')
+    s.append('<script src="../static/timeago.js"></script>')
     s.append('<script>loadTimeElements()</script>')
 
     return s
