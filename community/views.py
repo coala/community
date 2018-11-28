@@ -17,7 +17,7 @@ class HomePageView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['isTravis'] = Travis.TRAVIS
-        context['travisLink'] = Travis.BUILD_WEB_URL
+        context['travisLink'] = Travis.TRAVIS_BUILD_WEB_URL
 
         print('Running on Travis: {}, build link: {}'.format(
             context['isTravis'],
