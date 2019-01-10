@@ -32,11 +32,11 @@
                   <p>{{ forloop.counter }}. {{ activity.name }}, performed_at:
                     {{ activity.performed_at }} updated_at: {{ activity.updated_at }}
                   </p>
-                {% endfor %}
+                  {% endfor %}{# for activity in participant.activities.all #}
                 <p>Badges Earned:
                 {% for badge in participant.badges.all %}
                   <p>{{ forloop.counter }}.{{ badge.name }}</p>
-                {% endfor %}
+                  {% endfor %}{# for badge in participant.badges.all #}
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <hr>
-      {% endfor %}{# for contributor in contributors #}
+      {% endfor %}{# for participant in participants #}
     </ul>
   </body>
 </html>
