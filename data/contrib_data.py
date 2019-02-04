@@ -32,6 +32,7 @@ def import_data(contributor):
     try:
         contributor['issues_opened'] = contributor.pop('issues')
         contributor['num_commits'] = contributor.pop('contributions')
+        contributor['image_url'] = get_image_url(login)
         contributor.pop('teams')
         c, create = Contributor.objects.get_or_create(
             **contributor
@@ -45,3 +46,7 @@ def import_data(contributor):
         logger.error(
             'Something went wrong saving this contributor %s: %s'
             % (login, ex))
+
+
+def get_image_url(username):
+    return 'https://avatars1.githubusercontent.com/{}'.format(username)

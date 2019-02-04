@@ -5,3 +5,7 @@
 .students {
     list-style: none;
 }
+
+.user-image {
+    width: 100%;
+}
