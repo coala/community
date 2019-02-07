@@ -1,3 +1,6 @@
+import requests
+import os
+
 from .config import load_cache
 
 _tasks = None
@@ -81,12 +84,49 @@ def beginner_tasks(tasks):
 
 def strip_mentors(tasks):
     for task in tasks.values():
-        del task['mentors']
+        if task.__contains__('mentors'):
+            del task['mentors']
 
 
 def cleanse_tasks(tasks):
+    tokens = {
+        'GH_TOKEN': os.environ.get('GH_TOKEN'),
+    }
+
+    for task in tasks.values():
+        if (task['max_instances'] == 1 and
+                str(task['external_url']).__contains__('issues/')):
+            task['state'] = get_task_state(task['external_url'], tokens)
+
     cleansed_tasks = published_tasks(tasks)
 
     strip_mentors(tasks)
 
     return cleansed_tasks
+
+
+def get_task_state(task_url, tokens):
+    if task_url.__contains__('github'):
+        task_url = task_url.replace('github.com', 'api.github.com/repos')
+        headers = {'Authorization': 'token {}'.format(tokens['GH_TOKEN'])}
+    else:
+        issue_id = task_url.split('issues/')[1]
+        project_id = ((task_url.split('https://gitlab.com/')
+                       [1]).split('/issues')[0]).replace('/', '%2F')
+        task_url = 'https://gitlab.com/api/v4/projects/{}/issues/{}'.format(
+            project_id, issue_id)
+        headers = {}
+
+    if tokens['GH_TOKEN']:
+        task_data = requests.get(task_url, headers=headers).json()
+    else:
+        task_data = requests.get(task_url).json()
+
+    if task_data['state'] == 'closed':
+        task_state = 'COMPLETED'
+    elif task_data['state'] == 'open' and len(task_data['assignees']) > 0:
+        task_state = 'CLAIMED'
+    else:
+        task_state = 'AVAILABLE'
+
+    return task_state
