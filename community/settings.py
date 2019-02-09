@@ -104,6 +104,10 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.messages.context_processors.messages',
             ],
+
+            'libraries':{
+                'ribbon_link': 'community.templatetags.ribbon_link',
+            },
         },
     },
 ]
