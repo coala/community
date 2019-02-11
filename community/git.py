@@ -6,6 +6,7 @@ import giturlparse
 import giturlparse.parser
 from IGitt.GitHub.GitHub import GitHub, GitHubToken
 from IGitt.GitLab.GitLab import GitLab, GitLabPrivateToken
+from IGitt.GitHub.GitHubRepository import GitHubRepository
 
 from .config import get_api_key
 
@@ -72,6 +73,11 @@ def get_remote_url():
 def get_repo_slug(url):
     """Obtain the slug of the repository URL.
     """
+    if not (url.owner or url.name):
+        href_ = url.href.split('/')
+        owner = href_[-2]
+        name = href_[-1]
+        return owner + '/' + name
     return url.owner + '/' + url.name
 
 
@@ -79,19 +85,26 @@ def get_owner():
     """Obtain the owner of the repository.
     """
     url = get_remote_url()
+    if not url.owner:
+        href_ = url.href.split('/')
+        owner = href_[-2]
+        return owner
     return url.owner
+
+
+def get_gh_token():
+    try:
+        return get_api_key('GH')
+    except Exception:
+        return None
 
 
 def get_ihoster(url):
     global _IGH, _IGL
-    if url.resource == 'github.com':
+    if url.resource == 'github.com' or not url.resource:
         if not _IGH:
             # Allow unauthenticated requests
-            try:
-                token = get_api_key('GH')
-            except Exception:
-                token = None
-            _IGH = GitHub(GitHubToken(token))
+            _IGH = GitHub(GitHubToken(get_gh_token()))
         return _IGH
     elif url.resource == 'gitlab.com':
         if not _IGL:
@@ -168,7 +181,7 @@ def get_deploy_url(name=None, hoster=None):
 
     url = get_remote_url()
 
-    owner = url.owner
+    owner = url.owner or get_owner()
     path = name if name else url.name
     if hoster is not None:
         deploy_url = 'https://%s.%s.io/%s' % (owner, hoster, path)
