@@ -1,40 +1,60 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{% static 'main.css' %}" rel="stylesheet">
     <title>Contributors Data</title>
   </head>
   <body>
     <h1>Details of all the contributors</h1>
     <ul>
-      {% for contributor in contributors %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <p>login: {{ contributor.login }}</p>
-                <p>name: {{ contributor.name }}</p>
-                <p>bio: {{ contributor.bio }}</p>
-                <p>num_commits: {{ contributor.num_commits }}</p>
-                <p>reviews: {{ contributor.reviews }}</p>
-                <p>issues_opened: {{ contributor.issues_opened }}</p>
-                <p>teams:
-                {% for team in contributor.teams.all %}
-                    {{ team.name }}
-                {% endfor %}{# for team in contributor.teams.all #}
-                </p>
+      <div class="contributors">
+        {% for contributor in contributors %}
+        <div class="card contributor-card">
+          <div class="empty"></div>
+          <div class="card-action center">
+            <img class="center contributor-image"
+               src="//avatars.githubusercontent.com/{{ contributor.login }}"
+               alt="Profile picture">
+            <h5 class="card-title">
+              {% if contributor.name %}
+                {{ contributor.name }}
+              {% else %}
+                {{ contributor.login }}
+              {% endif %}{# if contributor.name #}
+            </h5>
+            <div class="bio">{{ contributor.bio }}</div>
+            <div class="stats">
+              <div class="center contributors">
+                <div>
+                  <div>{{ contributor.num_commits }}</div>
+                  <div class="tiny-label">COMMITS</div>
+                </div>
+                <div>
+                  <div>{{ contributor.reviews }}</div>
+                  <div class="tiny-label">REVIEWS</div>
+                </div>
+                <div>
+                  <div>{{ contributor.issues_opened }}</div>
+                  <div class="tiny-label">ISSUES</div>
+                </div>
               </div>
             </div>
+            <a class="btn center github-icon"
+               href="//github.com/{{ contributor.login }}"
+               target="_blank">
+              <i class="fa fa-github icon"></i>
+            </a>
           </div>
         </div>
+        {% endfor %}{# for contributor in contributors #}
       </div>
-      <hr>
-      {% endfor %}{# for contributor in contributors #}
     </ul>
   </body>
 </html>

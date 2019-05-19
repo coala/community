@@ -1,7 +1,68 @@
+.bio {
+    padding: 2rem 0rem;
+    height: 45%;
+}
+
+.card .card-action {
+    background-color: #263238;
+    color:white;
+    height: 380px;
+    padding: 10px;
+}
+
+.contributor-card {
+    width: 300px;
+}
+
+.contributor-image {
+    margin-top: -5rem;
+    border-radius: 100%;
+    max-width:40%;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.data {
+    background-color: #263238;
+    height: 300px;
+    padding: 10px;
+}
+
+.empty {
+    background-color: #eceff1;
+    height: 5em;
+}
+
+.github-icon {
+    width: 100px;
+    background-color: black;
+}
+
+.icon {
+    font-size:30px;
+    color: white;
+}
+
+.stats {
+    margin: 1rem 0rem;
+}
+
 .student {
     padding-bottom: 20px;
 }
 
 .students {
     list-style: none;
+}
+
+.tiny-label {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: 500;
+    opacity: 0.2;
 }
