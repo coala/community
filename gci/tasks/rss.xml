@@ -353,7 +353,7 @@ manu-chroma/username-availability-checker repository. Here is the issue:&lt;/p&g
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/manu-chroma/username-availability-checker/issues/39"&gt;https://github.com/manu-chroma/username-availability-checker/issues/39&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 07 Jan 2018 12:15:28 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>Design a new logo for corobo</title><link>https://codein.withgoogle.com/tasks/5952910829551616</link><description>&lt;p&gt;Before doing this task, you should have completed the &lt;a href="https://codein.withgoogle.com/tasks/6583830645309440/"&gt;&amp;quot;avatar&amp;quot; task&lt;/a&gt;,&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Sun, 07 Jan 2018 12:15:28 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5692569096814592</guid><category>Python</category><category>Flask</category><category>heroku</category><category>openSUSE</category><category>issues</category></item><item><title>Design a new logo for corobo</title><link>https://codein.withgoogle.com/tasks/5952910829551616</link><description>&lt;p&gt;Before doing this task, you should have completed the &lt;a href="https://codein.withgoogle.com/tasks/6583830645309440/"&gt;"avatar" task&lt;/a&gt;,&lt;/p&gt;
 
 &lt;p&gt;This task involves designing a new logo for the coala bot, corobo.&lt;/p&gt;
 
@@ -416,7 +416,7 @@ gci-leaders repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://github.com/coala/gci-leaders/issues/88"&gt;https://github.com/coala/gci-leaders/issues/88&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 16:00:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5198834521079808</guid><category>Node</category><category>JavaScript</category><category>Facebook</category><category>OpenGraph</category><category>issues</category></item><item><title>Detect and reject Markdown-style links in reStructuredText</title><link>https://codein.withgoogle.com/tasks/6387222930522112</link><description>&lt;p&gt;&lt;a href="https://github.com/myint/rstcheck"&gt;&amp;lt;code&amp;gt;rstcheck&amp;lt;/code&amp;gt;&lt;/a&gt; is a linter for &lt;a href="https://en.wikipedia.org/wiki/ReStructuredText"&gt;reStucturedText&lt;/a&gt; files. It checks syntax of reStructuredText and code blocks nested within it.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 04 Jan 2018 16:00:20 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/5198834521079808</guid><category>Node</category><category>JavaScript</category><category>Facebook</category><category>OpenGraph</category><category>issues</category></item><item><title>Detect and reject Markdown-style links in reStructuredText</title><link>https://codein.withgoogle.com/tasks/6387222930522112</link><description>&lt;p&gt;&lt;a href="https://github.com/myint/rstcheck"&gt;&lt;code&gt;rstcheck&lt;/code&gt;&lt;/a&gt; is a linter for &lt;a href="https://en.wikipedia.org/wiki/ReStructuredText"&gt;reStucturedText&lt;/a&gt; files. It checks syntax of reStructuredText and code blocks nested within it.&lt;/p&gt;
 
 &lt;p&gt;Sometimes people accidentally add Markdown-style links into their reStructuredText documents:&lt;/p&gt;
 
@@ -1373,7 +1373,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/package_manager/issues/67"&gt;https://gitlab.com/coala/package_manager/issues/67&lt;/a&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Mon, 18 Dec 2017 10:33:14 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4753765758402560</guid><category>packaging</category><category>Haskell</category><category>issues</category><category>python3</category></item><item><title>corobo: Issue #420 (part 1) Create IGitt issues to remove github3.py as a corobo dependency</title><link>https://codein.withgoogle.com/tasks/6465165027442688</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality in corobo that is currently using &lt;a href="https://github.com/github3py"&gt;github3.py&lt;/a&gt; .&lt;/p&gt;
 
-&lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;&amp;quot;Your first coala issue&amp;quot;&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &amp;lt;code&amp;gt;low&amp;lt;/code&amp;gt;+ issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;"Your first coala issue"&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &lt;code&gt;low&lt;/code&gt;+ issue&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Be sure to read &lt;em&gt;all&lt;/em&gt; of the other issues and pull requests in IGitt repository, to avoid creating a duplicate.&lt;/p&gt;
 
@@ -1398,7 +1398,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -1555,7 +1555,7 @@ landing repository. Here is the issue:&lt;/p&gt;
 according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/coala/landing/issues/44"&gt;https://gitlab.com/coala/landing/issues/44&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 09:05:39 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6243208164016128</guid><category>cron</category><category>GitHub</category><category>issues</category><category>python3</category><category>devops</category></item><item><title>Add Codecov to an open source project hosted on GitHub</title><link>https://codein.withgoogle.com/tasks/6240661474902016</link><description>&lt;p&gt;If you are not already familiar with continuous integration and unit testing, please following the steps of our beginner &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4705163153506304/"&gt;&amp;quot;CI1&amp;quot;&lt;/a&gt; task before attempting this codecov task.  CI1 will help you do the first three steps of this codecov task.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Thu, 14 Dec 2017 09:05:39 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/6243208164016128</guid><category>cron</category><category>GitHub</category><category>issues</category><category>python3</category><category>devops</category></item><item><title>Add Codecov to an open source project hosted on GitHub</title><link>https://codein.withgoogle.com/tasks/6240661474902016</link><description>&lt;p&gt;If you are not already familiar with continuous integration and unit testing, please following the steps of our beginner &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4705163153506304/"&gt;"CI1"&lt;/a&gt; task before attempting this codecov task.  CI1 will help you do the first three steps of this codecov task.&lt;/p&gt;
 
 &lt;p&gt;Find an open source project on GitHub.com in any language and add Codecov through a pull request.&lt;/p&gt;
 
@@ -1692,7 +1692,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;syntax errors, such as invariant parts of the source message that have been translated when they should not be translated.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;There are existing open source tools that find and even fix these problems automatically.  A linter supported by coala DennisBear is &lt;a href="https://github.com/willkg/dennis"&gt;&amp;lt;code&amp;gt;dennis&amp;lt;/code&amp;gt;&lt;/a&gt;.  Another open source tool is &lt;a href="https://en.wikipedia.org/wiki/Translate_Toolkit"&gt;&amp;lt;code&amp;gt;translate-toolkit&amp;lt;/code&amp;gt;&lt;/a&gt;, which is included in most Linux distributions.  &lt;/p&gt;
+&lt;p&gt;There are existing open source tools that find and even fix these problems automatically.  A linter supported by coala DennisBear is &lt;a href="https://github.com/willkg/dennis"&gt;&lt;code&gt;dennis&lt;/code&gt;&lt;/a&gt;.  Another open source tool is &lt;a href="https://en.wikipedia.org/wiki/Translate_Toolkit"&gt;&lt;code&gt;translate-toolkit&lt;/code&gt;&lt;/a&gt;, which is included in most Linux distributions.  &lt;/p&gt;
 
 &lt;p&gt;Choose translations projects in either:&lt;/p&gt;
 
@@ -1913,7 +1913,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 &lt;p&gt;External URL: &lt;a href="https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74"&gt;https://gitlab.com/gitmate/open-source/gitmate-2-frontend/issues/74&lt;/a&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">coala</dc:creator><pubDate>Wed, 06 Dec 2017 12:36:13 +0000</pubDate><guid>https://codein.withgoogle.com/tasks/4706466046935040</guid><category>404</category><category>python3</category><category>issues</category><category>error</category></item><item><title>corobo: Issue #462 (part 1) Create IGitt issues to support banning users</title><link>https://codein.withgoogle.com/tasks/4504880884482048</link><description>&lt;p&gt;The task here is to create feature requests in the &lt;a href="https://gitlab.com/gitmate/open-source/IGitt"&gt;IGitt&lt;/a&gt; library, for any functionality needed to ban a user from using corobo.&lt;/p&gt;
 
-&lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;&amp;quot;Your first coala issue&amp;quot;&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &amp;lt;code&amp;gt;low&amp;lt;/code&amp;gt;+ issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This task &lt;strong&gt;must&lt;/strong&gt; only be done by GCI participants that have completed &lt;a href="https://codein.withgoogle.com/dashboard/tasks/4602539020386304/"&gt;"Your first coala issue"&lt;/a&gt; and a GCI task of an &lt;a href="https://gitlab.com/gitmate/open-source/IGitt/issues/"&gt;IGitt &lt;code&gt;low&lt;/code&gt;+ issue&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Be sure to read &lt;em&gt;all&lt;/em&gt; of the other issues and pull requests in IGitt repository, to avoid creating a duplicate.&lt;/p&gt;
 
@@ -2001,7 +2001,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2016,7 +2016,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2031,7 +2031,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2046,7 +2046,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2061,7 +2061,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2076,7 +2076,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2091,7 +2091,7 @@ according to the rules, otherwise the bot will tell you to fix it.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2133,7 +2133,7 @@ to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2148,7 +2148,7 @@ to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2163,7 +2163,7 @@ to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
@@ -2178,7 +2178,7 @@ to learn how to prepare your patch properly.&lt;/p&gt;
 
 &lt;p&gt;Once you've created it, send a Pull Request to the main tldr-pages repository.&lt;/p&gt;
 
-&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&amp;lt;code&amp;gt;7z&amp;lt;/code&amp;gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&amp;lt;code&amp;gt;tar&amp;lt;/code&amp;gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&amp;lt;code&amp;gt;cd&amp;lt;/code&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;General guidelines on what the page could look like can be found in the &lt;a href="https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md"&gt;contributing guidelines&lt;/a&gt; in the main tldr-pages repository. Great example pages include &lt;a href="https://tldr.ostera.io/7z"&gt;&lt;code&gt;7z&lt;/code&gt;&lt;/a&gt;, &lt;a href="https://tldr.ostera.io/tar"&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/a&gt;, and &lt;a href="https://tldr.ostera.io/cd"&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you need additional assistance, you can comment on the issue associated task. You can also send an instant message in the main &lt;a href="https://gitter.im/tldr-pages/tldr"&gt;tldr-pages gitter channel&lt;/a&gt;. If you've opened a pull request, then you can also comment on there too.&lt;/p&gt;
 
