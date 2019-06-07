@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+
+    <link href="//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    {% block add_css_files %}{% endblock %}
+
+    <script src="//code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block add_js_files %}{% endblock %}
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper bold-text">
+        <a href="/" class="brand-logo">
+          <img src="{% static 'images/os_community_logo.png' %}" alt="OpenSource Community Logo">
+        </a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down nav-menu-font-size">
+          <li><a href="/" class="nav-menu-font-size">Home</a></li>
+          <li><a href="/#about" class="nav-menu-font-size">About</a></li>
+          <li><a href="#" class="nav-menu-font-size">Join</a></li>
+          <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+          <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons"></i></a></li>
+          <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
+          <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
+          <li><a class="dropdown-trigger" href="#user" data-target="user-dropdown"><i class="fa fa-user social-icons"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav bold-text" id="mobile-menu">
+      <li><a href="/#about" class="nav-menu-font-size">About</a></li>
+      <li><a href="#" class="nav-menu-font-size">Join</a></li>
+      <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+      <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
+      <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
+      <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav" href="#user" data-target="user-dropdown"><i class="fa fa-user social-icons"></i><i class="fa fa-caret-down"></i></a></li>
+    </ul>
+
+    <ul id="organisation-dropdown" class="dropdown-content">
+      <li><a href="#">Teams</a></li>
+      <li><a href="{% url 'community-data' %}">Contributors Information</a></li>
+      <li><a href="#">Mentors</a></li>
+      <li><a href="{% url 'community-gci' %}">Google Code-in Students</a></li>
+      <li><a href="{% url 'inactive_issues_json' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
+      <li><a href="{% url 'unassigned_issues_activity_json' %}" title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it.">Unassigned issues activity</a></li>
+      <li><a href="#">Newcomer issues</a></li>
+      <li><a href="{% url 'log' %}">Project CI Build</a></li>
+      {% if isTravis %}
+        <li><a href="{{ travisLink }}" title="This website was built automatically using Travis CI.">TravisCI build info</a></li>
+      {% endif %}{# if isTravis #}
+    </ul>
+
+    <ul id="contributors-dropdown" class="dropdown-content">
+      <li><a href="{% url 'community-gamification' %}">Gamification Leaderboard</a></li>
+      <li><a href="{% url 'meta_review_data' %}">Meta-review</a></li>
+    </ul>
+
+    <ul id="openhub-dropdown" class="dropdown-content">
+      <li><a href="{% url 'community-openhub' %}">Org. Portfolio Projects</a></li>
+      <li><a href="{% url 'community-model' %}">Imported data</a></li>
+    </ul>
+
+    <ul id="user-dropdown" class="dropdown-content">
+      <li><a href="#">Login</a></li>
+    </ul>
+
+    <div class="main-content">
+      {% block main-content %}
+      {% endblock %}
+    </div>
+
+  <footer class="page-footer">
+    <div class="row">
+      <div class="col m3 s12">
+        <h5 class="white-text fine">Site Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.docs }}">Documentation</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.newcomer_docs }}">Newcomer Docs</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.coc }}">Code of Conduct</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.blog_url }}">Blog</a></li>
+          </ul>
+      </div>
+      <div class="col m9 s12 center">
+        <div class="center">
+          <h3 class="fine white-text">
+            <span>
+              <img class="footer-logo" src="{{ org.logo_url }}" alt="{{ org.name }}">
+            </span>
+            <span>{{ org.name }}</span>
+          </h3>
+        </div>
+        <div class="center footer-icons">
+          <span class="icon">
+            <a href="{{ org.twitter_url }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-twitter" aria-hidden="true">
+                Follow us on Twitter
+              </i>
+            </a>
+          </span>
+          <span class="icon">
+            <a href="{{ org.gitter_chat }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-commenting-o" aria-hidden="true">
+                Join Chat on Gitter
+              </i>
+            </a>
+          </span>
+          <span class="icon">
+            <a href="{{ org.github_core_repo }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-github" aria-hidden="true">
+                Star us on GitHub
+              </i>
+            </a>
+          </span>
+        </div>
+      </div>
+      </div>
+    <div class="footer-copyright bold-text">
+      <div class="container ">
+        <span class="left">
+          ©
+          <span id="current-year"></span>
+          {{ org.name }}
+        </span>
+        <span class="grey-text text-lighten-4 right">{{ org.licence_type }}</span>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
