@@ -1,29 +1,118 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Community website</title>
-  </head>
-  <body>
-    <img src="static/org_logo.png" alt="org logo" height="42" width="42">
-    <ul>
-      <li><a href="gci/">Google Code-in</a>
-      <li><a href="activity/">GitHub activity</a>
-      <li><a href="twitter/">Twitter Feed</a>
-      <li><a href="info.txt">Build info</a>
-      <li><a href="log/">Logs</a>
-      <li><a href="contributors/">Contributors data</a>
-      <li><a href="meta-review/">Meta-review data</a>
-      <li><a href="gamification/">Gamification leaderboard</a>
-      <li><a title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months."
-        href="static/inactive-issues.json">Inactive Issues</a>
-      <li><a href="openhub/">OpenHub Data</a>
-      <li><a href="model/">Visit imported data</a>
-      <li><a title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it."
-        href="static/unassigned-issues.json">Unassigned issues activity</a>
-    </ul>
-    {% if isTravis %}
-    <small>This website was built automatically using Travis CI. A link to the build can be found <a href="{{ travisLink }}">here</a>.</small>
-    {% endif %}{# if isTravis #}
-  </body>
-</html>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+  Community | Homepage
+{% endblock %}
+
+{% block add_css_files %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+<script src="{% static 'js/index.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+
+  <div class="community-header-image">
+    <img src="{% static 'images/os_community_header.jpg' %}" alt="OpenSource Community">
+  </div>
+
+  <div class="center about-org custom-green-color-font" id="about" style="margin-top: -2%">
+    <div class="center">
+      <h3>Welcome to {{ org.name }}</h3>
+      <p style="margin: 0 10%; color: black">{{ org.about }}</p>
+    </div>
+  </div>
+  {% if quote_details %}
+  <div class="center quote-of-day custom-green-color-font">
+    <div class="center apply-flex center-content">
+      <h3 style="padding-right: 15px">~</h3>
+      <div class="quote">
+        <p style="margin-bottom: 0">{{ quote_details.quote }}</p>
+        <h6 style="margin-top: 0">- {{ quote_details.author }}</h6>
+      </div>
+      <h3 style="padding-left: 15px">~</h3>
+    </div>
+  </div>
+  {% endif %}{# if quote_details #}
+
+  <div class="center org-teams-stats apply-flex evenly-spread-content custom-green-color-font">
+    {% for team_name, members_count in org.team_details.items %}
+    <div class="team" style="margin-right: 20px">
+      <h3 style="margin-bottom: 0">{{ members_count }}</h3>
+      <h4 style="margin-top: 0">{{ team_name }}</h4>
+    </div>
+    {% endfor %}{# for team_name, members_count in org.team_details.items #}
+  </div>
+
+  <div class="organization-map">
+    {% include 'map.html' %}
+  </div>
+
+  <div class="top-contributors">
+    <div class="top-meta-reviewers">
+      <table class="highlight centered">
+        <thead class="custom-green-color-font">
+          <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Meta-review Score</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for contrib in top_meta_review_users %}
+          <tr class="clickable-row" data-href="/meta-review/#{{ contrib.login }}">
+            <td>{{ contrib.rank }}</td>
+            <td>{{ contrib.login }}</td>
+            <td>{{ contrib.score|floatformat:0 }}</td>
+          </tr>
+        {% endfor %}{# for contrib in top_meta_review_users #}
+        </tbody>
+      </table>
+      <a href="{% url 'meta_review_data' %}" class="waves-effect waves-light btn leaderboards-btn">Contributors Meta-review</a>
+    </div>
+    <div class="top-gamifiers">
+      <table class="highlight centered">
+        <thead class="custom-green-color-font">
+          <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Gamification Score</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for index, contrib in top_gamification_users %}
+          <tr class="clickable-row" data-href="/gamification/#{{ contrib.username }}">
+            <td>{{ index|add:"1" }}</td>
+            <td>{{ contrib.username }}</td>
+            <td>{{ contrib.score }}</td>
+          </tr>
+        {% endfor %}{# for index, contrib in top_gamification_users #}
+        </tbody>
+      </table>
+      <a href="{% url 'community-gamification' %}" class="waves-effect waves-light btn leaderboards-btn">Gamification leaderboard</a>
+    </div>
+  </div>
+
+  <div class="join-btn apply-flex center-content">
+    <a href="#" id="join" class="waves-effect waves-light btn-large">
+      <b>Want to join {{ org.name }}?</b>
+    </a>
+  </div>
+
+  <div class="activity-graph">
+    <div class="activity-graph-canvas">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="input-field">
+      <select id="chart-type">
+        <option value="Month">Year</option>
+        <option value="Week">Month</option>
+        <option value="Day">Week</option>
+      </select>
+    </div>
+  </div>
+
+{% endblock %}
