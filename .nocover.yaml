@@ -12,7 +12,6 @@ nocover_file_globs:
   - meta_review/handler.py
   - model/*.py
   - openhub/*.py
-  - twitter/*.py
   # Optional coverage. Once off scripts.
   - inactive_issues/inactive_issues_scraper.py
   - unassigned_issues/unassigned_issues_scraper.py

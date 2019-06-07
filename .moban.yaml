@@ -12,10 +12,10 @@ packages:
   - log
   - meta_review
   - model
-  - twitter
   - unassigned_issues
 
 dependencies:
+  - getorg~=0.3.1
   - git+https://gitlab.com/coala/coala-utils.git
   - git-url-parse
   - django>2.1,<2.2
