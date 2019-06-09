@@ -29,7 +29,7 @@
         </a>
         <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
         <ul class="right hide-on-med-and-down nav-menu-font-size">
-          <li><a href="/" class="nav-menu-font-size">Home</a></li>
+          <li><a href="{% url 'index' %}" class="nav-menu-font-size">Home</a></li>
           <li><a href="/#about" class="nav-menu-font-size">About</a></li>
           <li><a href="#" class="nav-menu-font-size">Join</a></li>
           <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
@@ -65,7 +65,7 @@
       <li><a href="{% url 'inactive_issues_json' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
       <li><a href="{% url 'unassigned_issues_activity_json' %}" title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it.">Unassigned issues activity</a></li>
       <li><a href="#">Newcomer issues</a></li>
-      <li><a href="{% url 'log' %}">Project CI Build</a></li>
+      <li><a href="{% url 'ci_build' %}">Project CI Build</a></li>
       {% if isTravis %}
         <li><a href="{{ travisLink }}" title="This website was built automatically using Travis CI.">TravisCI build info</a></li>
       {% endif %}{# if isTravis #}
