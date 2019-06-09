@@ -9,7 +9,7 @@ packages:
   - gci
   - gsoc
   - gamification
-  - log
+  - ci_build
   - meta_review
   - model
   - unassigned_issues

@@ -6,10 +6,10 @@ from django_distill import distill_url
 from django.conf.urls.static import static
 from django.conf import settings
 
-from community.views import HomePageView, info
+from community.views import HomePageView
 from gci.views import index as gci_index
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
-from log.view_log import index as log_index
+from ci_build.view_log import BuildLogsView
 from data.views import index as contributors_index
 from gamification.views import index as gamification_index
 from meta_review.views import index as meta_review_index
@@ -79,12 +79,6 @@ urlpatterns = [
         distill_file='index.html',
     ),
     distill_url(
-        'info.txt', info,
-        name='index',
-        distill_func=get_index,
-        distill_file='info.txt',
-    ),
-    distill_url(
         r'gci/tasks/rss.xml', gci_tasks_rss(),
         name='gci-tasks-rss',
         distill_func=get_index,
@@ -97,10 +91,10 @@ urlpatterns = [
         distill_file='gci/index.html',
     ),
     distill_url(
-        r'log/', log_index,
-        name='log',
+        r'ci/build/', BuildLogsView.as_view(),
+        name='ci_build',
         distill_func=get_index,
-        distill_file='log/index.html',
+        distill_file='ci/build/index.html',
     ),
     distill_url(
         r'contributors/$', contributors_index,
