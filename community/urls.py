@@ -7,7 +7,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 from community.views import HomePageView
-from gci.views import index as gci_index
+from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from ci_build.view_log import BuildLogsView
 from data.views import index as contributors_index
@@ -85,7 +85,7 @@ urlpatterns = [
         distill_file='gci/tasks/rss.xml',
     ),
     distill_url(
-        r'gci/', gci_index,
+        r'gci/', GCIStudentsList.as_view(),
         name='community-gci',
         distill_func=get_index,
         distill_file='gci/index.html',
