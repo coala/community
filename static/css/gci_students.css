@@ -1,0 +1,52 @@
+.data-fetch-error {
+    padding: 20px 20px 0 20px;
+}
+
+.gci-students {
+    padding: 2% 2%;
+}
+
+.gci-students .student-card {
+    box-shadow: 0 0 25px 2px black;
+    background-color: #c7da99;
+    font-size: large;
+    border: 4px #6c9a55 solid;
+}
+
+
+.gci-students .student-image {
+    align-items: normal;
+}
+
+.gci-students .student-details {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .gci-students .student-card {
+       width: 45%;
+       height: 300px;
+       overflow-y: auto;
+    }
+}
+
+.participated-year,
+.gci-student-id,
+.public-repos,
+.public-gists,
+.followers {
+    color: #37474f;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.web-page-details {
+    width: 100%;
+}
+
+.web-page-description,
+.data-updated-time,
+.data-fetch-error {
+    text-align: center;
+    font-size: large;
+}
