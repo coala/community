@@ -15,6 +15,7 @@ class Contributor(models.Model):
     num_commits = models.IntegerField(default=None, null=True)
     reviews = models.IntegerField(default=None, null=True)
     issues_opened = models.IntegerField(default=None, null=True)
+    image_url = models.ImageField(default=None, null=True)
     teams = models.ManyToManyField(Team)
 
     def __str__(self):

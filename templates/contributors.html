@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Contributors Data</title>
+    <link href="{% static "main.css" %}" rel="stylesheet">
   </head>
   <body>
     <h1>Details of all the contributors</h1>
@@ -14,6 +16,9 @@
       {% for contributor in contributors %}
       <div class="container">
         <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <img src="{{ contributor.image_url }}" class="user-image" alt="User Avatar">
+          </div>
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
               <div class="caption">
