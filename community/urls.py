@@ -10,7 +10,7 @@ from community.views import HomePageView
 from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from ci_build.view_log import BuildLogsView
-from data.views import index as contributors_index
+from data.views import ContributorsListView
 from gamification.views import index as gamification_index
 from meta_review.views import index as meta_review_index
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
@@ -97,7 +97,7 @@ urlpatterns = [
         distill_file='ci/build/index.html',
     ),
     distill_url(
-        r'contributors/$', contributors_index,
+        r'contributors/$', ContributorsListView.as_view(),
         name='community-data',
         distill_func=get_index,
         distill_file='contributors/index.html',
