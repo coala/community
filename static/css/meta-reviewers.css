@@ -1,0 +1,96 @@
+.contributor-details-part-1 {
+    padding-right: 5px;
+}
+
+.contributor-details-part-2 {
+    padding-left: 5px;
+    border-left: 1px #37474f solid;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.received-reactions div {
+    padding-left: 14px;
+}
+
+.meta-reviewer {
+    background-color: #c7da99;
+    width: 580px;
+    border: 4px #6c9a55 solid;
+}
+
+.metareviewer-details {
+    display: flex;
+    width: 66%;
+}
+
+.meta-reviewer-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.meta-reviewer-image img{
+    border-radius: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #37474f;
+}
+
+@media only screen and (max-width: 706px){
+    .contributors-cards {
+        margin: 50px 0;
+    }
+    .contributor-card {
+        margin: 0 10px 20px;
+        min-height: 230px;
+    }
+
+    .metareviewer-details {
+        width: 60%;
+    }
+
+    .meta-reviewer-image {
+        width: 40%;
+    }
+
+    .meta-reviewer-image img {
+        max-width: 80%;
+        margin: 20px 10px;
+    }
+
+    @media only screen and (max-width:419px){
+
+        .metareviewer-details {
+            width: 100%;
+        }
+
+        .meta-reviewer {
+            margin: 0 10px 20px 10px;
+        }
+
+        .meta-reviewer-image {
+            width: 100%;
+        }
+
+        .contributor-details-part-1 {
+            padding: 0 0 10px 10px;
+        }
+
+        .top-right {
+            right: 105px;
+        }
+
+    }
+}

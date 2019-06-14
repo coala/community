@@ -1,53 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Meta-review Score Ranking List</title>
-  </head>
-  <body>
-    <h1>Details of meta-review score</h1>
-    <ul>
-      {% for participant in participants %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <p>login: {{ participant.login }}</p>
-                <p>name: {{ participant.name }}</p>
-                <p>score: {{ participant.score|floatformat:2 }}</p>
-                <p>rank: {{ participant.rank }}</p>
-                <p>trend: {{ participant.trend }}</p>
-                <p>received: </p>
-                <p>number of positive reactions: {{ participant.pos_in }}</p>
-                <p>
-                  weighted positive reactions:
-                  {{ participant.weighted_pos_in|floatformat:2 }}
-                </p>
-                <p>number of negative reactions: {{ participant.neg_in }}</p>
-                <p>
-                  weighted negative reactions:
-                  {{ participant.weighted_neg_in|floatformat:2 }}
-                </p>
-                <p>give away: </p>
-                <p>number of positive reactions: {{ participant.pos_out }}</p>
-                <p>number of negative reactions: {{ participant.neg_out }}</p>
-                <p>
-                  negative point offset:
-                  {{ participant.offset|floatformat:2 }}
-                </p>
-                <p>weight_factor: {{ participant.weight_factor|floatformat:2 }}</p>
-              </div>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+  Community | Meta-Review
+{% endblock %}
+
+{% block add_css_files %}
+  <link rel="stylesheet" href="{% static 'css/contributors.css' %}">
+  <link rel="stylesheet" href="{% static 'css/meta-reviewers.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+  <script src="{% static 'js/contributors.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+      Contributors Meta-Review Details
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+
+  <div class="apply-flex center-content">
+    <p class="container web-page-description">
+      Contributor meta-review related details are calculated based upon the
+      GitHub reactions made by that contributor on any issue or merge request
+      within an organization, for example - {{ org.name }}.
+    </p>
+  </div>
+
+  <div class="contributors-section apply-flex center-content">
+    <div class="form-fields">
+      <form>
+        <div class="input-field apply-flex center-content search-field">
+          <i class="fa fa-search social-icons"></i>
+          <input id="search" type="search" autocomplete="off" placeholder="Search by username or name" required>
+          <i class="fa fa-close social-icons"></i>
+        </div>
+      </form>
+    <div class="apply-flex center-content">
+    </div>
+      <div class="search-results">
+        <table>
+          <thead>
+            <tr>
+              <th>Search Results</th>
+            </tr>
+          </thead>
+          <tbody class="search-results-tbody large-font">
+            <tr>
+              <td>
+                No results found!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="contributors-cards">
+  {% for contributor in contributors_meta_review_details %}
+  <div class="contributor-card meta-reviewer apply-flex" login="{{ contributor.login }}" name="{{ contributor.name }}">
+    <div class="contributor-image meta-reviewer-image">
+      <img src="//github.com/{{ contributor.login }}.png/?size=210"
+           alt="user-image">
+      <div class="top-right large-font bold-text">
+        {{ contributor.rank }}
+      </div>
+    </div>
+    <div class="metareviewer-details">
+      <div class="contributor-details-part-1 column-flex">
+        <a class="bold-text large-font" href="//github.com/{{ contributor.login }}" target="_blank">
+          {% if contributor.name %}
+          {{ contributor.login }} ({{ contributor.name }})
+          {% else %}
+          {{ contributor.login }}
+          {% endif %}{# if contributor.name #}
+        </a>
+        <div class="large-font gray-font-color">
+          <span>
+            <b>Score:</b>
+            {{ contributor.score|floatformat:2 }}
+          </span>
+          <span>
+            <b>Trend:</b>
+            {{ contributor.trend }}
+          </span>
+          <div>
+            <b>Given reactions:</b>
+            <div>
+              <span>
+                <i class="fa fa-smile-o"></i>
+                {{ contributor.pos_out }}
+                <i class="fa fa-frown-o"></i>
+                {{ contributor.neg_out }}
+              </span>
             </div>
+          </div>
+          <span>
+            <b>Weight factor:</b>
+            {{ contributor.weight_factor|floatformat:2 }}
+          </span>
+        </div>
+      </div>
+      <div class="contributor-details-part-2 column-flex large-font gray-font-color">
+      <div class="received-reactions">
+        <b>Received reactions:</b>
+        <div>
+          <b>> Count</b>
+          <div>
+            <span>
+              <i class="fa fa-smile-o"></i>
+              {{ contributor.pos_in }}
+              <i class="fa fa-frown-o"></i>
+              {{ contributor.neg_in }}
+            </span>
+          </div>
+        </div>
+        <div>
+          <b>> Weighted</b>
+          <div>
+            <span>
+              <i class="fa fa-smile-o"></i>
+              {{ contributor.weighted_pos_in|floatformat:0 }}
+              <i class="fa fa-frown-o"></i>
+              {{ contributor.weighted_neg_in|floatformat:0 }}
+            </span>
           </div>
         </div>
       </div>
-      <hr>
-      {% endfor %}{# for participant in participants #}
-    </ul>
-  </body>
-</html>
+      <span>
+        <b>Negative point offset:</b>
+        {{ contributor.offset|floatformat:2 }}
+      </span>
+    </div>
+    </div>
+  </div>
+  {% endfor %}{# for contributor in contributors_meta_review_details #}
+  </div>
+{% endblock %}
