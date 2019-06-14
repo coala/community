@@ -13,7 +13,13 @@ $(document).ready(function(){
                 var row_id = result_td.id;
                 var login = row_id.replace('td-', '');
                 $('.contributor-card').css('display', 'none');
-                $('[login=' + login +']').css('display', 'block');
+                var contrib_card = $('[login=' + login +']');
+                if(contrib_card.hasClass('meta-reviewer')){
+                    contrib_card.css('display', 'flex');
+                }
+                else{
+                    contrib_card.css('display', 'block');
+                }
                 $('.search-results').css('display', 'none');
             });
         }
@@ -57,8 +63,15 @@ $(document).ready(function(){
     });
 
     close_icon.on('click', function(){
-        $('.contributor-card').css('display', 'block');
+        var all_contrib_cards = $('.contributor-card');
+        if(all_contrib_cards.hasClass('meta-reviewer')){
+            all_contrib_cards.css('display', 'flex');
+        }
+        else {
+            all_contrib_cards.css('display', 'block');
+        }
         close_icon.css('display', 'none');
         search_input.val(null);
+        $('.search-results').css('display', 'none');
     });
 });
