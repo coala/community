@@ -11,7 +11,7 @@ from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from ci_build.view_log import BuildLogsView
 from data.views import ContributorsListView
-from gamification.views import index as gamification_index
+from gamification.views import GamificationResults
 from meta_review.views import ContributorsMetaReview
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
@@ -193,7 +193,7 @@ urlpatterns = [
         distill_file='static/unassigned-issues.json',
     ),
     distill_url(
-        r'gamification/$', gamification_index,
+        r'gamification/$', GamificationResults.as_view(),
         name='community-gamification',
         distill_func=get_index,
         distill_file='gamification/index.html',
