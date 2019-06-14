@@ -19,8 +19,8 @@ class CreateConfigDataTest(TestCase):
     def test_command_create_config_data(self):
         levels = Level.objects.all()
 
-        # There must be 9 levels created
-        # as there are 9 levels listed in file config.py
+        # There must be 8 levels created
+        # as there are 8 levels listed in file config.py
         self.assertEquals(levels.count(), 8)
 
         b_activities = BadgeActivity.objects.all()
@@ -30,8 +30,8 @@ class CreateConfigDataTest(TestCase):
         self.assertEquals(b_activities.count(), 26)
 
         badges = Badge.objects.all()
-        # There must be 8 badges created
-        # as there are 8 badges listed in
+        # There must be 10 badges created
+        # as there are 10 badges listed in
         # file config.py
         self.assertEquals(badges.count(), 10)
 
