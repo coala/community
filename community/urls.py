@@ -12,7 +12,7 @@ from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from ci_build.view_log import BuildLogsView
 from data.views import ContributorsListView
 from gamification.views import index as gamification_index
-from meta_review.views import index as meta_review_index
+from meta_review.views import ContributorsMetaReview
 from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
 from model.views import index as model_index
@@ -103,7 +103,7 @@ urlpatterns = [
         distill_file='contributors/index.html',
     ),
     distill_url(
-        r'meta-review/$', meta_review_index,
+        r'meta-review/$', ContributorsMetaReview.as_view(),
         name='meta_review_data',
         distill_func=get_index,
         distill_file='meta-review/index.html',
