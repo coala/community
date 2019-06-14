@@ -35,8 +35,12 @@ $(document).ready(function(){
         else {
             $('.search-results').css('display', 'block');
             close_icon.css('display', 'block');
-            var search_by_login = $('[login^=' + searched_keyword +']');
-            var search_by_name = $('[name^=' + searched_keyword +']');
+            var search_by_login = $(
+              '.contributor-card[login^=' + searched_keyword +']'
+            );
+            var search_by_name = $(
+              '.contributor-card[name^=' + searched_keyword +']'
+            );
             var results_tbody_tr = $('.search-results-tbody tr');
             results_tbody_tr.remove();
             if(search_by_login.length + search_by_name.length === 0 ){
