@@ -10,7 +10,6 @@ nocover_file_globs:
   - gsoc/*.py
   - ci_build/*.py
   - meta_review/handler.py
-  - openhub/*.py
   # Optional coverage. Once off scripts.
   - inactive_issues/inactive_issues_scraper.py
   - unassigned_issues/unassigned_issues_scraper.py

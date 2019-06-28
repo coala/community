@@ -44,6 +44,8 @@ fi
 
 # Run meta review system
 python manage.py run_meta_review_system
+# Run openhub system
+python manage.py import_openhub_data
 
 rm _site/$ISSUES_JSON
 

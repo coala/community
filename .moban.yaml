@@ -11,7 +11,6 @@ packages:
   - gamification
   - ci_build
   - meta_review
-  - model
   - unassigned_issues
 
 dependencies:
@@ -24,6 +23,7 @@ dependencies:
   - git+https://gitlab.com/gitmate/open-source/IGitt.git@1fa5a0a21ea4fb8739d467c06972f748717adbdc
   - requests
   - git+https://github.com/andrewda/trav.git@ce805d12d3d1db0a51b1aa26bba9cd9ecc0d96b8
+  - openhub-django~=0.1.0
   - python-dateutil
   - pillow
   - ruamel.yaml
