@@ -17,6 +17,9 @@
 
     <script src="//code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Nelify's authentiation library -->
+    <script src="//unpkg.com/netlify-auth-providers"></script>
+    <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
     {% block add_js_files %}{% endblock %}
 
@@ -81,8 +84,35 @@
     </ul>
 
     <ul id="user-dropdown" class="dropdown-content">
-      <li><a href="#">Login</a></li>
+      <li class="login-user"><a>Login</a></li>
+      <li class="user-logout"><a>Logout</a></li>
     </ul>
+
+    <div class="apply-flex form-popup">
+      <div class="login-form">
+        <div class="apply-flex close-form">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="oauth-error">
+          <p class="error-message"></p>
+        </div>
+        <span class="apply-flex organizations">
+          <img src="{{ org.logo_url }}" class="org-logo" alt="org-logo">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <img src="//flaviocopes.com/netlify/banner.png" class="netlify-image" alt="netlify-logo">
+        </span>
+        <div class="apply-flex oauth-providers">
+          <a class="waves-effect waves-light btn-large login-with-github">
+            <i class="fa fa-github left" aria-hidden="true"></i>
+            Login with GitHub
+          </a>
+          <a class="waves-effect waves-light btn-large login-with-gitlab">
+            <i class="fa fa-gitlab left" aria-hidden="true"></i>
+            Login with GitLab
+          </a>
+        </div>
+      </div>
+    </div>
 
     <div class="main-content">
       {% block main-content %}
