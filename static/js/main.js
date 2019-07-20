@@ -1,8 +1,14 @@
-/* globals Cookies, netlify */
+/* globals Cookies, netlify, URLSearchParams */
 $(document).ready(function(){
 
     var login_user_el = $('.login-user');
     var logout_user_el = $('.user-logout');
+
+    var urlParams = new URLSearchParams(location.search);
+    var formSubmitted = urlParams.get('form_submitted');
+    if(formSubmitted==='True'){
+        $('.form-submission-popup').css('display', 'block');
+    }
 
     function activate_dropdown(){
         if ($('nav').width() < 992 ){
@@ -100,6 +106,7 @@ $(document).ready(function(){
 
     $('.close-form').click(function () {
         $('.form-popup').css('display', 'none');
+        $('.form-submission-popup').css('display', 'none');
         $('.oauth-error').css('display', 'none');
     });
 

@@ -34,7 +34,7 @@
         <ul class="right hide-on-med-and-down nav-menu-font-size">
           <li><a href="{% url 'index' %}" class="nav-menu-font-size">Home</a></li>
           <li><a href="/#about" class="nav-menu-font-size">About</a></li>
-          <li><a href="#" class="nav-menu-font-size">Join</a></li>
+          <li><a href="{% url 'join-community' %}" class="nav-menu-font-size">Join</a></li>
           <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
           <li><a class="dropdown-trigger nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
           <li><a class="dropdown-trigger nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
@@ -49,7 +49,7 @@
 
     <ul class="sidenav bold-text" id="mobile-menu">
       <li><a href="/#about" class="nav-menu-font-size">About</a></li>
-      <li><a href="#" class="nav-menu-font-size">Join</a></li>
+      <li><a href="{% url 'join-community' %}" class="nav-menu-font-size">Join</a></li>
       <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
       <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
       <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
@@ -110,6 +110,25 @@
             <i class="fa fa-gitlab left" aria-hidden="true"></i>
             Login with GitLab
           </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="apply-flex form-submission-popup">
+      <div class="form-submission-message">
+        <div class="apply-flex close-form">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <span class="apply-flex organizations">
+          <img src="{{ org.logo_url }}" class="org-logo" alt="org-logo">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <img src="//flaviocopes.com/netlify/banner.png" class="netlify-image" alt="netlify-logo">
+        </span>
+        <div class="apply-flex message text-justify">
+          <h6>You request to join community, form has been submitted! You will receive
+          an invite email within 24hrs, if all the validation checks are passed. Else, you
+          will receive an email with the information regarding what all checks got failed!</h6>
+          <h6>Enjoy Coding 'n' Learning</h6>
         </div>
       </div>
     </div>

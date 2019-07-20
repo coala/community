@@ -1,3 +1,5 @@
+import os
+
 import logging
 
 import requests
@@ -10,9 +12,14 @@ from .git import (
     get_org_name,
     get_remote_url
 )
+from .forms import JoinCommunityForm
 from data.models import Team
 from gamification.models import Participant as GamificationParticipant
 from meta_review.models import Participant as MetaReviewer
+
+GL_NEWCOMERS_GRP = 'https://gitlab.com/{}/roles/newcomers'.format(
+    get_org_name()
+)
 
 
 def initialize_org_context_details():
@@ -109,4 +116,19 @@ class HomePageView(TemplateView):
             count=5)
         context['top_gamification_users'] = self.get_top_gamification_users(
             count=5)
+        return context
+
+
+class JoinCommunityView(TemplateView):
+
+    template_name = 'join_community.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context = get_header_and_footer(context)
+        context['join_community_form'] = JoinCommunityForm()
+        context['gitlab_newcomers_group_url'] = GL_NEWCOMERS_GRP
+        context['join_community_form_name'] = os.environ.get(
+            'JOIN_COMMUNITY_FORM_NAME', None
+        )
         return context
