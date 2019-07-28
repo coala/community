@@ -9,7 +9,9 @@
 {% endblock %}
 
 {% block add_js_files %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
   <script src="{% static 'js/contributors.js' %}"></script>
+  <script src="{% static 'js/contributor_statistics.js' %}"></script>
 {% endblock %}
 
 {% block main-content %}
@@ -63,7 +65,12 @@
   {% for contributor in contributors %}
   <div class="contributor-card" login="{{ contributor.login }}" name="{{ contributor.name }}">
     <div class="contributor-image">
-      <img src="//github.com/{{ contributor.login }}.png/?size=210" alt="user-image">
+      {% if contributor.statistics %}
+      <div class="user-statistics-option" username="{{ contributor.login }}">
+        <strong>s</strong>
+      </div>
+      {% endif %}{# if contributor.statistics #}
+      <img src="//github.com/{{ contributor.login }}.png/?size=210">
     </div>
     <div class="contributor-details">
       <a class="bold-text large-font" href="//github.com/{{ contributor.login }}" target="_blank">
@@ -90,6 +97,65 @@
     </div>
   </div>
   {% endfor %}{# for contributor in contributors #}
+  </div>
+
+  <div class="user-statistics">
+    <div class="close-statistics apply-flex close-form">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <div class="input-field row">
+      <div class="col s6 m3 l2">
+        <select id="hoster-selector">
+          <option value="github">GitHub</option>
+          <option value="gitlab">GitLab</option>
+        </select>
+      </div>
+      <div class="col s6 m3 l2">
+        <select id="stats-divider">
+          <option value="yearly">Yearly</option>
+          <option value="monthly">Last 12 Months</option>
+          <option value="weekly">Last 12 weeks</option>
+        </select>
+      </div>
+    </div>
+    <div class="statistics-graphs apply-flex">
+      <div class="stats-canvas bar-issues-canvas">
+        <canvas id="issues-canvas"></canvas>
+      </div>
+      <div class="stats-canvas bar-commits-canvas">
+        <canvas id="commits-canvas"></canvas>
+      </div>
+      <div class="stats-canvas bar-reviews-canvas">
+        <canvas id="reviews-canvas"></canvas>
+      </div>
+      <div class="stats-canvas line-merge-requests-canvas">
+        <canvas id="merge-requests-canvas"></canvas>
+      </div>
+    </div>
+    <div class="repository-canvas">
+      <canvas id="repository-stats-canvas"></canvas>
+    </div>
+    <div class="some-important-information">
+      <div class="worked-on-issues">
+        <h6><strong>Types of issues user worked on-</strong></h6>
+        <div class="issues-labels">
+          <h6>GitHub:</h6>
+          <div class="github-issue-labels apply-flex center-content"></div>
+          <h6>GitLab:</h6>
+          <div class="gitlab-issue-labels apply-flex center-content"></div>
+        </div>
+      </div>
+      <div class="working-on-issues-count">
+        <h6><strong>Working on issues count-</strong></h6>
+        <div class="issues-count">
+          <ol class="count-list"></ol>
+        </div>
+      </div>
+      <div class="data-updated-at">
+        <h6><strong>User lasted updated on-</strong></h6>
+        <div class="user-updated-datetime apply-flex"></div>
+      </div>
+    </div>
   </div>
 
 {% endblock %}
