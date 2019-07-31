@@ -7,20 +7,19 @@
     <meta content="text/html">
     <title>{% block title %}{% endblock %}</title>
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
-
     <link href="//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     {% block add_css_files %}{% endblock %}
 
-    <script src="//code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Nelify's authentiation library -->
     <script src="//unpkg.com/netlify-auth-providers"></script>
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/forms.js' %}"></script>
     {% block add_js_files %}{% endblock %}
 
   </head>
@@ -39,6 +38,7 @@
           <li><a class="dropdown-trigger nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
           <li><a class="dropdown-trigger nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
           <li><a class="dropdown-trigger nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size forms-dropdown-option display-none" href="#forms" data-target="forms-dropdown">Forms <i class="fa fa-caret-down"></i></a></li>
           <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons"></i></a></li>
           <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
           <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
@@ -54,6 +54,12 @@
       <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
       <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
       <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+      <li class=" forms-dropdown-option display-none">
+        <a class="dropdown-trigger-sidenav nav-menu-font-size" href="#forms"
+           data-target="forms-dropdown">
+          Forms <i class="fa fa-caret-down"></i>
+        </a>
+      </li>
       <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
       <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
       <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
@@ -81,6 +87,27 @@
     <ul id="openhub-dropdown" class="dropdown-content">
       <li><a href="{% url 'community-openhub' %}">Org. Portfolio Projects</a></li>
       <li><a href="{% url 'community-model' %}">Imported data</a></li>
+    </ul>
+
+    <ul id="forms-dropdown" class="dropdown-content">
+      <li class="community-google-form-op">
+        <a>Upload a community google form</a>
+      </li>
+      <li class="newcomer-promotion-form-op">
+        <a>Newcomer promotion request form</a>
+      </li>
+      <li class="calendar-event-form-op">
+        <a>Add an Event in Calendar?</a>
+      </li>
+      <li class="get-issue-assigned-form-op">
+        <a>Want to work on an issue?</a>
+      </li>
+      <li class="participated-in-gsoc-form-op">
+        <a>Participated in GSoC with {{ org.name }}?</a>
+      </li>
+      <li class="mentor-students-form-op">
+        <a>Mentor students in GSoC?</a>
+      </li>
     </ul>
 
     <ul id="user-dropdown" class="dropdown-content">
@@ -125,9 +152,7 @@
           <img src="//flaviocopes.com/netlify/banner.png" class="netlify-image" alt="netlify-logo">
         </span>
         <div class="apply-flex message text-justify">
-          <h6>You request to join community, form has been submitted! You will receive
-          an invite email within 24hrs, if all the validation checks are passed. Else, you
-          will receive an email with the information regarding what all checks got failed!</h6>
+          <h6 class="important-message"></h6>
           <h6>Enjoy Coding 'n' Learning</h6>
         </div>
       </div>
@@ -136,6 +161,13 @@
     <div class="main-content">
       {% block main-content %}
       {% endblock %}
+    </div>
+
+    <div class="community-form apply-flex center-content display-none">
+      <div class="apply-flex close-form">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      {% include 'community_forms.html' %}
     </div>
 
   <footer class="page-footer">

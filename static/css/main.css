@@ -38,6 +38,46 @@ body {
     justify-content: center;
 }
 
+.community-form {
+    position: fixed;
+    width: 70%;
+    min-width: 330px;
+    top: 15%;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0 -5px 15px black;
+    background-color: #edf5af;
+    padding: 20px;
+    height: 80%;
+    overflow-x: auto;
+}
+
+.community-form form {
+    padding-bottom: inherit;
+
+}
+.community-form form label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: darkcyan;
+}
+
+.community-form form p{
+    margin: 0;
+}
+
+.community-form form textarea{
+    margin-top: 10px;
+}
+
+.community-form form .row{
+    margin-bottom: 0;
+}
+
+.community-form ::placeholder {
+    color: black;
+}
+
 .evenly-spread-content {
     justify-content: space-evenly;
 }
@@ -51,6 +91,10 @@ body {
     color: white;
     margin: 0 10px;
     padding: 5px 10px;
+}
+
+.display-none {
+    display: none;
 }
 
 .form-popup,
@@ -221,6 +265,10 @@ strong {
     list-style: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 #user-dropdown li.user-logout {
     display: none;
 }
@@ -246,5 +294,11 @@ strong {
 @media only screen and (max-width: 530px){
     .page-name {
         margin: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .community-form {
+        left: 10px;
     }
 }

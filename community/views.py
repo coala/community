@@ -12,7 +12,7 @@ from .git import (
     get_org_name,
     get_remote_url
 )
-from .forms import JoinCommunityForm
+from .forms import JoinCommunityForm, CommunityGoogleForm
 from data.models import Team
 from gamification.models import Participant as GamificationParticipant
 from meta_review.models import Participant as MetaReviewer
@@ -42,10 +42,19 @@ def initialize_org_context_details():
     return org_details
 
 
+def get_community_google_form_variables(context):
+    context['community_google_form'] = CommunityGoogleForm()
+    context['community_google_form_name'] = os.environ.get(
+        'OSFORMS_NETLIFY_FORM_NAME', None
+    )
+    return context
+
+
 def get_header_and_footer(context):
     context['isTravis'] = Travis.TRAVIS
     context['travisLink'] = Travis.TRAVIS_BUILD_WEB_URL
     context['org'] = initialize_org_context_details()
+    context = get_community_google_form_variables(context)
     print('Running on Travis: {}, build link: {}'.format(context['isTravis'],
                                                          context['travisLink']
                                                          ))
