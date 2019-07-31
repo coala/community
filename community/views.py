@@ -16,7 +16,8 @@ from .forms import (
     JoinCommunityForm,
     CommunityGoogleForm,
     CommunityEvent,
-    OrganizationMentor
+    OrganizationMentor,
+    GSOCStudent,
 )
 from data.models import Team
 from gamification.models import Participant as GamificationParticipant
@@ -47,6 +48,14 @@ def initialize_org_context_details():
     return org_details
 
 
+def get_gsoc_student_form_variables(context):
+    context['gsoc_student_form'] = GSOCStudent()
+    context['gsoc_student_form_name'] = os.environ.get(
+        'GSOC_STUDENT_FORM_NAME', None
+    )
+    return context
+
+
 def get_community_mentor_form_variables(context):
     context['organization_mentor_form'] = OrganizationMentor()
     context['organization_mentor_form_name'] = os.environ.get(
@@ -75,6 +84,7 @@ def get_all_community_forms(context):
     context = get_community_google_form_variables(context)
     context = get_community_event_form_variables(context)
     context = get_community_mentor_form_variables(context)
+    context = get_gsoc_student_form_variables(context)
     return context
 
 

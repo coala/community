@@ -148,3 +148,47 @@ class OrganizationMentor(forms.Form):
         choices=[('GSoC', 'Google Summer of Code'), ('GCI', 'Google Code-In')],
         label='Mentoring Program'
     )
+
+
+class GSOCStudent(forms.Form):
+    user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    year = forms.IntegerField(
+        label='Participation year',
+        widget=forms.NumberInput(attrs={'autocomplete': 'off'})
+    )
+    project_topic = forms.CharField(
+        max_length=300, label='GSoC Project Topic',
+        help_text='Should be same as on GSoC Website!',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    project_desc = forms.CharField(
+        max_length=2000, label='Project Description',
+        widget=forms.Textarea(attrs={'autocomplete': 'off'})
+    )
+    accepted_proposal = forms.URLField(
+        label='Accepted Proposal URL',
+        help_text='The proposal you submitted during GSoC Program!',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    cEP = forms.URLField(
+        label='Org Enhancement Proposal Merge Request', required=False,
+        help_text='For example, in {org} we have cEP({org} Enhancement '
+                  'Proposal)'.format(org='coala'),  # Ignore KeywordBear
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    project_url = forms.URLField(
+        label='GSoC Project URL',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    mentors = forms.CharField(
+        max_length=200, label='Project Mentors',
+        help_text='Separate name of mentor by comma(,)',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    image = forms.URLField(
+        label='Personal Image URL', required=False,
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
