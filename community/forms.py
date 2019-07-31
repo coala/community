@@ -104,3 +104,28 @@ class CommunityGoogleForm(forms.Form):
         help_text='DateTime Format should be YYYY-MM-DD HH:MM:SS',
         widget=forms.TextInput(attrs={'autocomplete': 'off'})
     )
+
+
+class CommunityEvent(forms.Form):
+    user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    title = forms.CharField(
+        max_length=300, label='Event Title',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    description = forms.CharField(
+        max_length=1000, label='Event Description', required=False,
+        widget=forms.Textarea(attrs={'autocomplete': 'off'})
+    )
+    start_date_time = forms.DateTimeField(
+        label='Event occurrence date and time(in UTC)',
+        help_text='DateTime Format should be YYYY-MM-DD HH:MM:SS',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    end_date_time = forms.DateTimeField(
+        label='Event end date and time(in UTC)', required=False,
+        help_text='DateTime Format should be YYYY-MM-DD HH:MM:SS',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )

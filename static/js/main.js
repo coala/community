@@ -128,6 +128,7 @@ $(document).ready(function(){
         $('.form-submission-popup').css('display', 'none');
         $('.oauth-error').css('display', 'none');
         $('.community-form').css('display', 'none');
+        $('.community-form form').css('display', 'none');
     });
 
     logout_user_el.click(function () {
