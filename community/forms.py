@@ -1,4 +1,8 @@
+from datetime import datetime
+
 from django import forms
+
+TODAY = datetime.now().today()
 
 
 class JoinCommunityForm(forms.Form):
@@ -128,4 +132,19 @@ class CommunityEvent(forms.Form):
         label='Event end date and time(in UTC)', required=False,
         help_text='DateTime Format should be YYYY-MM-DD HH:MM:SS',
         widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+
+
+class OrganizationMentor(forms.Form):
+    user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    year = forms.ChoiceField(
+        choices=[(TODAY.year, TODAY.year), (TODAY.year + 1, TODAY.year + 1)],
+        label='Mentoring Year', widget=forms.Select()
+    )
+    program = forms.ChoiceField(
+        choices=[('GSoC', 'Google Summer of Code'), ('GCI', 'Google Code-In')],
+        label='Mentoring Program'
     )

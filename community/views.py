@@ -12,7 +12,12 @@ from .git import (
     get_org_name,
     get_remote_url
 )
-from .forms import JoinCommunityForm, CommunityGoogleForm, CommunityEvent
+from .forms import (
+    JoinCommunityForm,
+    CommunityGoogleForm,
+    CommunityEvent,
+    OrganizationMentor
+)
 from data.models import Team
 from gamification.models import Participant as GamificationParticipant
 from meta_review.models import Participant as MetaReviewer
@@ -42,6 +47,14 @@ def initialize_org_context_details():
     return org_details
 
 
+def get_community_mentor_form_variables(context):
+    context['organization_mentor_form'] = OrganizationMentor()
+    context['organization_mentor_form_name'] = os.environ.get(
+        'MENTOR_FORM_NAME', None
+    )
+    return context
+
+
 def get_community_event_form_variables(context):
     context['community_event_form'] = CommunityEvent()
     context['community_event_form_name'] = os.environ.get(
@@ -58,12 +71,18 @@ def get_community_google_form_variables(context):
     return context
 
 
+def get_all_community_forms(context):
+    context = get_community_google_form_variables(context)
+    context = get_community_event_form_variables(context)
+    context = get_community_mentor_form_variables(context)
+    return context
+
+
 def get_header_and_footer(context):
     context['isTravis'] = Travis.TRAVIS
     context['travisLink'] = Travis.TRAVIS_BUILD_WEB_URL
     context['org'] = initialize_org_context_details()
-    context = get_community_google_form_variables(context)
-    context = get_community_event_form_variables(context)
+    context = get_all_community_forms(context)
     print('Running on Travis: {}, build link: {}'.format(context['isTravis'],
                                                          context['travisLink']
                                                          ))
