@@ -22,7 +22,7 @@ $(document).ready(function () {
   username_input.attr('value', authenticated_username || 'Anonymous User');
   username_input.attr('disabled', true);
 
-  $('form').attr(
+  $('.community-form form').attr(
     'action',window.location.pathname +
                    '?form_submitted=True&form_type=community'
   );
@@ -86,7 +86,7 @@ $(document).ready(function () {
     display_form_or_error(mentor_students_form);
   });
 
-  $(':input').focusin(function () {
+  $('.community-form :input').focusin(function () {
     if (is_user_authenticated===undefined &&
           authenticated_username===undefined) {
       $('.community-form').css('display', 'none');
