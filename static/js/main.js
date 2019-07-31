@@ -6,7 +6,24 @@ $(document).ready(function(){
 
     var urlParams = new URLSearchParams(location.search);
     var formSubmitted = urlParams.get('form_submitted');
+    var formType = urlParams.get('form_type');
+
     if(formSubmitted==='True'){
+        var message = '';
+        if(formType==='login'){
+            message = 'You request to join community, form has been' +
+              ' submitted! You will receive an invite email within 24hrs, if' +
+              ' all the validation checks are passed. Else, you will receive' +
+              ' an email with the information regarding what all checks got' +
+              ' failed!';
+        }
+        else if(formType==='community'){
+            message = 'Your request has been received and will be soon' +
+              ' processed. You will receive an email notifying you whether' +
+              ' the validation checks are passed or not. If not, the email' +
+              ' will contain the validation errors. Correct them, if any';
+        }
+        $('.important-message').text(message);
         $('.form-submission-popup').css('display', 'block');
     }
 
@@ -23,7 +40,7 @@ $(document).ready(function(){
 
     function check_user_authenticated_or_not() {
         if(Cookies.get('authenticated')){
-            modify_html_elements('none', 'none', 'block');
+            modify_html_elements('none', 'none','block', 'block');
         }
     }
 
@@ -38,10 +55,12 @@ $(document).ready(function(){
     }
 
     function modify_html_elements(popup_form_display, login_option_display,
-                                  logout__option_display) {
+                                  logout__option_display,
+                                  form_option_display) {
         $('.form-popup').css('display', popup_form_display);
         login_user_el.css('display', login_option_display);
         logout_user_el.css('display', logout__option_display);
+        $('.forms-dropdown-option').css('display', form_option_display);
     }
 
     function manipulate_web_page_data(oauth_provider, http_response_text) {
@@ -50,7 +69,7 @@ $(document).ready(function(){
             // Cookies expires in 3 days
             Cookies.set('authenticated', true, {expires: 3});
             Cookies.set('username', json_data.user, {expires: 3});
-            modify_html_elements('none', 'none', 'block');
+            modify_html_elements('none', 'none','block', 'block');
         }
         else {
             display_error_message(oauth_provider, json_data.message);
@@ -108,12 +127,13 @@ $(document).ready(function(){
         $('.form-popup').css('display', 'none');
         $('.form-submission-popup').css('display', 'none');
         $('.oauth-error').css('display', 'none');
+        $('.community-form').css('display', 'none');
     });
 
     logout_user_el.click(function () {
         Cookies.remove('authenticated');
         Cookies.remove('username');
-        modify_html_elements('none', 'block','none');
+        modify_html_elements('none', 'block','none', 'none');
     });
 
     $('.login-with-github').click(function(e) {

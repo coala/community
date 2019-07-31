@@ -80,3 +80,27 @@ class JoinCommunityForm(forms.Form):
             }
         )
     )
+
+
+class CommunityGoogleForm(forms.Form):
+    user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    title = forms.CharField(
+        max_length=100, label='Title',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    description = forms.CharField(
+        max_length=1000, label='Form Description', required=False,
+        widget=forms.Textarea(attrs={'autocomplete': 'off'})
+    )
+    url = forms.URLField(
+        label='Google Form URL',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    expiry_date = forms.DateTimeField(
+        label='Expiry date and time', required=False,
+        help_text='DateTime Format should be YYYY-MM-DD HH:MM:SS',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
