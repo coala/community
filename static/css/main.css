@@ -108,6 +108,13 @@ body {
     position:fixed;
 }
 
+.form-step-div {
+    box-shadow: 0 -5px 15px black;
+    margin: 30px 0 20px 0;
+    border-radius: 30px;
+    padding: 5px 10px 0 10px;
+}
+
 footer .footer-icons {
     display: flex;
     flex-wrap: wrap;

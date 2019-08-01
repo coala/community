@@ -18,7 +18,8 @@ from .forms import (
     CommunityEvent,
     OrganizationMentor,
     GSOCStudent,
-    AssignIssue
+    AssignIssue,
+    NewcomerPromotion
 )
 from data.models import Team
 from gamification.models import Participant as GamificationParticipant
@@ -47,6 +48,14 @@ def initialize_org_context_details():
         'licence_type': 'GNU AGPL v3.0'
     }
     return org_details
+
+
+def get_newcomer_promotion_form_variables(context):
+    context['newcomer_promotion_form'] = NewcomerPromotion()
+    context['newcomer_promotion_form_name'] = os.environ.get(
+        'NEWCOMER_PROMOTION_REQUEST_FORM_NAME', None
+    )
+    return context
 
 
 def get_assign_issue_form_variables(context):
@@ -95,6 +104,7 @@ def get_all_community_forms(context):
     context = get_community_mentor_form_variables(context)
     context = get_gsoc_student_form_variables(context)
     context = get_assign_issue_form_variables(context)
+    context = get_newcomer_promotion_form_variables(context)
     return context
 
 
