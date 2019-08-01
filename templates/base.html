@@ -158,17 +158,61 @@
       </div>
     </div>
 
-    <div class="main-content">
-      {% block main-content %}
-      {% endblock %}
+  <div class="feedback display-none">
+    <div class="apply-flex close-form">
+      <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-
-    <div class="community-form apply-flex center-content display-none">
-      <div class="apply-flex close-form">
-        <i class="fa fa-times" aria-hidden="true"></i>
+    <form name="{{ feedback_form_name }}" method="post"
+          netlify-honeypot="bot-field" class="feedback-form"
+          data-netlify="true" action="/">
+      <h5 class="text-center custom-green-color-font bold-text">
+        Feedback Form
+      </h5>
+      {% csrf_token %}
+      {% for field in feedback_form %}
+        {% if field.name != 'experience' %}
+        <div class="row">
+          <div class="input-field col s12">
+            {{ field.label_tag }}
+            {{ field }}
+          </div>
+        </div>
+        {% else %}
+        {{ field }}
+        {% endif %}
+      {% endfor %}
+      <div class="row">
+        <div class="input-field col s12">
+          <h6 class="experience">Feeling about {{ org.name }} organization?</h6>
+          <div class="user-feeling-level apply-flex evenly-spread-content">
+            <i class="fa fa-frown-o" experience="Negative" aria-hidden="true"></i>
+            <i class="fa fa-meh-o" experience="Neutral" aria-hidden="true"></i>
+            <i class="fa fa-smile-o" experience="Positive" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
-      {% include 'community_forms.html' %}
+      <div class="apply-flex center-content submit-btn">
+        <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <div class="main-content">
+    {% block main-content %}
+    {% endblock %}
+  </div>
+
+  <div class="community-form apply-flex center-content display-none">
+    <div class="apply-flex close-form">
+      <i class="fa fa-times" aria-hidden="true"></i>
     </div>
+    {% include 'community_forms.html' %}
+  </div>
+
+  <div class="feedback-icon">
+    <img alt="feedback" class="feedback-comment"
+         src="//www.agcsoftware.com/wp-content/uploads//2017/06/feedback-icon.png">
+  </div>
 
   <footer class="page-footer">
     <div class="row">

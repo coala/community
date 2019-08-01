@@ -7,6 +7,7 @@ $(document).ready(function () {
   var get_issue_assigned_form_op = $('.get-issue-assigned-form-op');
   var participated_in_gsoc_form_op = $('.participated-in-gsoc-form-op');
   var mentor_students_form_op = $('.mentor-students-form-op');
+  var feedback_form_op = $('.feedback-comment');
 
   var community_google_form = $('.community-google-form');
   var newcomer_promotion_form = $('.newcomer-promotion-form');
@@ -14,6 +15,7 @@ $(document).ready(function () {
   var get_issue_assigned_form = $('.get-issue-assigned-form');
   var participated_in_gsoc_form = $('.participated-in-gsoc-form');
   var mentor_students_form = $('.mentor-students-form');
+  var feedback_form = $('.feedback');
 
   var is_user_authenticated = Cookies.get('authenticated');
   var authenticated_username = Cookies.get('username');
@@ -26,6 +28,11 @@ $(document).ready(function () {
   $('.community-form form').attr(
     'action',window.location.pathname +
                    '?form_submitted=True&form_type=community'
+  );
+
+  $('.feedback-form').attr(
+    'action',window.location.pathname +
+                   '?form_submitted=True&form_type=feedback'
   );
 
   $.getJSON("/static/contributors-data.json", function (data) {
@@ -85,6 +92,24 @@ $(document).ready(function () {
 
   mentor_students_form_op.on('click', function () {
     display_form_or_error(mentor_students_form);
+  });
+
+  feedback_form_op.on('click', function () {
+    feedback_form.css('display', 'block');
+    $('.user-feeling-level i').on('click', function () {
+      var experience = $(this).attr('experience');
+      $('input[name="experience"]').val(experience);
+      $('.user-feeling-level i').css('color', 'black');
+      if(experience==='Negative'){
+        $(this).css('color', 'red');
+      }
+      else if(experience==='Neutral'){
+        $(this).css('color', 'blue');
+      }
+      else {
+        $(this).css('color', 'darkgreen');
+      }
+    });
   });
 
   $('.community-form :input').focusin(function () {

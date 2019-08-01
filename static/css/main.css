@@ -38,7 +38,8 @@ body {
     justify-content: center;
 }
 
-.community-form {
+.community-form,
+.feedback {
     position: fixed;
     width: 70%;
     min-width: 330px;
@@ -52,25 +53,31 @@ body {
     overflow-x: auto;
 }
 
-.community-form form {
+.community-form form,
+.feedback form {
     padding-bottom: inherit;
 
 }
-.community-form form label {
+.community-form form label,
+.feedback form label,
+.experience {
     font-weight: bold;
     font-size: 1.5rem;
     color: darkcyan;
 }
 
-.community-form form p{
+.community-form form p,
+.feedback form p {
     margin: 0;
 }
 
-.community-form form textarea{
+.community-form form textarea,
+.feedback form textarea {
     margin-top: 10px;
 }
 
-.community-form form .row{
+.community-form form .row,
+.feedback form .row {
     margin-bottom: 0;
 }
 
@@ -95,6 +102,17 @@ body {
 
 .display-none {
     display: none;
+}
+
+.feedback-icon {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+}
+
+.feedback-comment {
+    width: 80px;
+    cursor: pointer;
 }
 
 .form-popup,
@@ -274,6 +292,11 @@ strong {
 
 .text-center {
     text-align: center;
+}
+
+.user-feeling-level i {
+    font-size: 3rem;
+    cursor: pointer;
 }
 
 #user-dropdown li.user-logout {
