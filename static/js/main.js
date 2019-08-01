@@ -23,6 +23,10 @@ $(document).ready(function(){
               ' the validation checks are passed or not. If not, the email' +
               ' will contain the validation errors. Correct them, if any';
         }
+        else if(formType==='feedback'){
+          message = 'Your valuable feedback has been received. Thanks for' +
+                    ' providing feedback.';
+        }
         $('.important-message').text(message);
         $('.form-submission-popup').css('display', 'block');
     }
@@ -123,11 +127,17 @@ $(document).ready(function(){
         $('.form-popup').css('display', 'block');
     });
 
+    $('.feedback form').attr(
+      'action',window.location.pathname +
+                   '?form_submitted=True&form_type=feedback'
+    );
+
     $('.close-form').click(function () {
         $('.form-popup').css('display', 'none');
         $('.form-submission-popup').css('display', 'none');
         $('.oauth-error').css('display', 'none');
         $('.community-form').css('display', 'none');
+        $('.feedback').css('display', 'none');
         $('.community-form form').css('display', 'none');
     });
 

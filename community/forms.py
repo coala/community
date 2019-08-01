@@ -293,3 +293,18 @@ class NewcomerPromotion(forms.Form):
         max_length=50, label='GitHub Username',
         widget=forms.TextInput(attrs={'autocomplete': 'off', 'hidden': True})
     )
+
+
+class Feedback(forms.Form):
+    username = forms.CharField(
+        label='GitHub Username', required=False,
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    feedback = forms.CharField(
+        max_length=1000, label='Feedback',
+        widget=forms.Textarea(attrs={'autocomplete': 'off'})
+    )
+    experience = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'autocomplete': 'off', 'hidden': True})
+    )
