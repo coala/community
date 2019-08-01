@@ -18,7 +18,8 @@ $(document).ready(function () {
   var is_user_authenticated = Cookies.get('authenticated');
   var authenticated_username = Cookies.get('username');
 
-  var username_input = $('[name$=user]');
+  var username_input = $('[name$=user]').add($('.newcomer-promotion-form' +
+    ' [name$=username]'));
   username_input.attr('value', authenticated_username || 'Anonymous User');
   username_input.attr('disabled', true);
 

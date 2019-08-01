@@ -218,3 +218,78 @@ class AssignIssue(forms.Form):
         max_length=50, label='GitHub Username',
         widget=forms.TextInput(attrs={'autocomplete': 'off', 'hidden': True})
     )
+
+
+class NewcomerPromotion(forms.Form):
+    github_username = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    gitlab_user_id = forms.IntegerField(
+        label='GitLab User ID',
+        widget=forms.NumberInput(attrs={'autocomplete': 'off'})
+    )
+    project_web_url = forms.URLField(
+        label='Personal Project URL',
+        help_text="A project in which you've added .coafile and build it!",
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    build_file_relative_path = forms.CharField(
+        label='Build File',
+        help_text='For example, if integrated Travis CI, provide '
+                  '/relative/path/to/travis.yml',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    coafile_relative_path = forms.CharField(
+        label='.coafile File',
+        help_text="Add 5 or more sections in '.coafile'! Provide "
+                  '/relative/path/to/.coafile',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    gist_or_snippet_id = forms.IntegerField(
+        label='Gist or Snippet ID',
+        help_text='Paste your local build output to gist or snippet! Choose '
+                  'Gist, if personal project on GitHub else choose '
+                  'GitLab Snippet.',
+        widget=forms.NumberInput(attrs={'autocomplete': 'off'})
+    )
+    newcomer_solved_issue_web_url = forms.URLField(
+        label='Issue URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community/'
+                  'issues/1',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    newcomer_issue_related_pr = forms.URLField(
+        label='Merge Request URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community'
+                  '/pulls/1',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    newcomer_issue_pr_reviewed_url = forms.URLField(
+        label='Reviewed PR URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community/'
+                  'pulls/2',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    low_level_solved_issue_web_url = forms.URLField(
+        label='Issue URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community/'
+                  'issues/1',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    low_level_issue_related_pr = forms.URLField(
+        label='Merge Request URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community'
+                  '/pulls/1',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    low_level_issue_pr_reviewed_url = forms.URLField(
+        label='Reviewed PR URL',
+        help_text=f'For example, https://github.com/{ORG_NAME}/community/'
+                  'pulls/2',
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+    request_created_by_user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off', 'hidden': True})
+    )
