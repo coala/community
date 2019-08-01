@@ -2,7 +2,10 @@ from datetime import datetime
 
 from django import forms
 
+from community.git import get_org_name
+
 TODAY = datetime.now().today()
+ORG_NAME = get_org_name()
 
 
 class JoinCommunityForm(forms.Form):
@@ -190,5 +193,21 @@ class GSOCStudent(forms.Form):
     )
     image = forms.URLField(
         label='Personal Image URL', required=False,
+        widget=forms.URLInput(attrs={'autocomplete': 'off'})
+    )
+
+
+class AssignIssue(forms.Form):
+    user = forms.CharField(
+        max_length=50, label='GitHub Username',
+        widget=forms.TextInput(attrs={'autocomplete': 'off'})
+    )
+    hoster = forms.ChoiceField(
+        choices=[('github', 'GitHub'), ('gitlab', 'GitLab')], label='Hoster'
+    )
+    url = forms.URLField(
+        label='Issue URL',
+        help_text=f'For example, https://github.com/'
+                  f'{ORG_NAME}/community/issues/1',
         widget=forms.URLInput(attrs={'autocomplete': 'off'})
     )
