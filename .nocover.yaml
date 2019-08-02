@@ -11,7 +11,6 @@ nocover_file_globs:
   - ci_build/*.py
   - meta_review/handler.py
   # Optional coverage. Once off scripts.
-  - inactive_issues/inactive_issues_scraper.py
   - unassigned_issues/unassigned_issues_scraper.py
   # The following rules can remain here
   # django db
