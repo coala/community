@@ -9,7 +9,8 @@ from django.conf import settings
 
 from community.views import (
     HomePageView, JoinCommunityView,
-    OrganizationTeams, InactiveIssuesList
+    OrganizationTeams, InactiveIssuesList,
+    UnassignedIssuesActivityList
 )
 from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
@@ -17,9 +18,6 @@ from ci_build.view_log import BuildLogsView
 from data.views import ContributorsListView
 from gamification.views import GamificationResults
 from meta_review.views import ContributorsMetaReview
-from unassigned_issues.unassigned_issues_scraper import (
-    unassigned_issues_activity_json,
-)
 
 
 def get_index():
@@ -84,10 +82,10 @@ urlpatterns = [
         distill_file='inactive-issues/index.html',
     ),
     distill_url(
-        r'static/unassigned-issues.json', unassigned_issues_activity_json,
-        name='unassigned_issues_activity_json',
+        r'unassigned-issues/', UnassignedIssuesActivityList.as_view(),
+        name='unassigned-issues',
         distill_func=get_index,
-        distill_file='static/unassigned-issues.json',
+        distill_file='unassigned-issues/index.html',
     ),
     distill_url(
         r'gamification/$', GamificationResults.as_view(),
