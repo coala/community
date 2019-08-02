@@ -8,6 +8,17 @@ $(document).ready(function(){
     var formSubmitted = urlParams.get('form_submitted');
     var formType = urlParams.get('form_type');
 
+    var userAuthenticated = urlParams.get('auth');
+
+    var current_search_location = window.location;
+    if(current_search_location.toString().search('teams')>0){
+        var is_authenticated = Cookies.set('authenticated');
+        var username = Cookies.set('username');
+        if(is_authenticated !== true && username === undefined){
+            window.location = window.location.origin + '?auth=false';
+        }
+    }
+
     if(formSubmitted==='True'){
         var message = '';
         if(formType==='login'){
@@ -30,6 +41,13 @@ $(document).ready(function(){
         $('.important-message').text(message);
         $('.form-submission-popup').css('display', 'block');
     }
+    else if(userAuthenticated === 'false'){
+        $('.important-message').text(
+          'You tried to access a webpage, which is available to only' +
+          ' authenticated users. Please join the community or Login(if' +
+          ' already a member of organization)');
+        $('.form-submission-popup').css('display', 'block');
+    }
 
     function activate_dropdown(){
         if ($('nav').width() < 992 ){
@@ -44,7 +62,7 @@ $(document).ready(function(){
 
     function check_user_authenticated_or_not() {
         if(Cookies.get('authenticated')){
-            modify_html_elements('none', 'none','block', 'block');
+            modify_html_elements('none', 'none','block', 'block', 'block');
         }
     }
 
@@ -60,11 +78,12 @@ $(document).ready(function(){
 
     function modify_html_elements(popup_form_display, login_option_display,
                                   logout__option_display,
-                                  form_option_display) {
+                                  form_option_display, teams_option_display) {
         $('.form-popup').css('display', popup_form_display);
         login_user_el.css('display', login_option_display);
         logout_user_el.css('display', logout__option_display);
         $('.forms-dropdown-option').css('display', form_option_display);
+        $('.teams-dropdown-option').css('display', teams_option_display);
     }
 
     function manipulate_web_page_data(oauth_provider, http_response_text) {
@@ -73,7 +92,7 @@ $(document).ready(function(){
             // Cookies expires in 3 days
             Cookies.set('authenticated', true, {expires: 3});
             Cookies.set('username', json_data.user, {expires: 3});
-            modify_html_elements('none', 'none','block', 'block');
+            modify_html_elements('none', 'none','block', 'block', 'block');
         }
         else {
             display_error_message(oauth_provider, json_data.message);
@@ -144,7 +163,7 @@ $(document).ready(function(){
     logout_user_el.click(function () {
         Cookies.remove('authenticated');
         Cookies.remove('username');
-        modify_html_elements('none', 'block','none', 'none');
+        modify_html_elements('none', 'block','none', 'none', 'none');
     });
 
     $('.login-with-github').click(function(e) {

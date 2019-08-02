@@ -7,7 +7,10 @@ from django_distill import distill_url
 from django.conf.urls.static import static
 from django.conf import settings
 
-from community.views import HomePageView, JoinCommunityView
+from community.views import (
+    HomePageView, JoinCommunityView,
+    OrganizationTeams
+)
 from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
 from ci_build.view_log import BuildLogsView
@@ -38,6 +41,12 @@ urlpatterns = [
         name='join-community',
         distill_func=get_index,
         distill_file='join/index.html',
+    ),
+    distill_url(
+        r'teams/', OrganizationTeams.as_view(),
+        name='org-teams',
+        distill_func=get_index,
+        distill_file='teams/index.html',
     ),
     distill_url(
         r'gci/tasks/rss.xml', gci_tasks_rss(),
