@@ -7,6 +7,7 @@ import requests
 from trav import Travis
 
 from django.views.generic.base import TemplateView
+from django.views.generic import ListView
 
 from .git import (
     get_org_name,
@@ -208,4 +209,15 @@ class JoinCommunityView(TemplateView):
         context['join_community_form_name'] = os.environ.get(
             'JOIN_COMMUNITY_FORM_NAME', None
         )
+        return context
+
+
+class OrganizationTeams(ListView):
+
+    template_name = 'teams.html'
+    model = Team
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context = get_header_and_footer(context)
         return context

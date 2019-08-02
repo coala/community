@@ -3,6 +3,9 @@ from django.db import models
 
 class Team(models.Model):
     name = models.CharField(max_length=200, default=None)
+    description = models.TextField(max_length=500, default=None, null=True)
+    members_count = models.PositiveSmallIntegerField(default=0)
+    increased_count = models.PositiveSmallIntegerField(default=0)
 
     def __str__(self):
         return self.name
