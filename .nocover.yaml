@@ -10,8 +10,6 @@ nocover_file_globs:
   - gsoc/*.py
   - ci_build/*.py
   - meta_review/handler.py
-  # Optional coverage. Once off scripts.
-  - unassigned_issues/unassigned_issues_scraper.py
   # The following rules can remain here
   # django db
   - '*/migrations/*.py'

@@ -10,7 +10,6 @@ packages:
   - gamification
   - ci_build
   - meta_review
-  - unassigned_issues
 
 dependencies:
   - getorg~=0.3.1

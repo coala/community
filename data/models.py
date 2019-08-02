@@ -124,3 +124,11 @@ class InactiveIssue(models.Model):
     repository = models.CharField(max_length=100)
     number = models.SmallIntegerField()
     url = models.URLField()
+
+
+class UnassignedIssuesActivity(models.Model):
+    hoster = models.CharField(max_length=30)
+    title = models.CharField(max_length=500)
+    repository = models.CharField(max_length=100)
+    number = models.SmallIntegerField()
+    url = models.URLField()
