@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 import logging
 
@@ -23,7 +24,7 @@ from .forms import (
     NewcomerPromotion,
     Feedback
 )
-from data.models import Team, InactiveIssue, UnassignedIssuesActivity
+from data.models import Team, InactiveIssue, UnassignedIssuesActivity, Mentor
 from gamification.models import Participant as GamificationParticipant
 from meta_review.models import Participant as MetaReviewer
 
@@ -247,3 +248,48 @@ class UnassignedIssuesActivityList(ListView):
         context = get_header_and_footer(context)
         context['page_name'] = 'Unassigned Issues Activity List'
         return context
+
+
+class OrganizationMentors(ListView):
+
+    template_name = 'mentors.html'
+    model = Mentor
+    today = datetime.today()
+    context = None
+
+    def get_gsoc_students_details(self):
+        gsoc_previous_year_mentors = False
+        if self.today.month > 10:  # GSoC ends in September
+            year = self.today.year + 1
+            mentors = Mentor.objects.filter(year=year, program='GSoC')
+            if not mentors.exists():
+                year = self.today.year
+                gsoc_previous_year_mentors = True
+
+        else:
+            year = self.today.year
+        section_name = f"Google Summer of Code'{year} Mentors"
+        mentors = Mentor.objects.filter(year=year, program='GSoC')
+        self.context['gsoc_previous_mentors'] = gsoc_previous_year_mentors
+        self.context['gsoc_section_name'] = section_name
+        self.context['gsoc_mentors'] = mentors
+
+    def get_gci_students_details(self):
+        gci_previous_year_mentors = False
+        year = self.today.year
+        mentors = Mentor.objects.filter(year=year, program='GCI')
+        if not mentors.exists():
+            year = self.today.year-1
+            mentors = Mentor.objects.filter(year=year, program='GCI')
+            gci_previous_year_mentors = True
+        section_name = f"Google Code-In'{year} Mentors"
+        self.context['gci_previous_mentors'] = gci_previous_year_mentors
+        self.context['gci_section_name'] = section_name
+        self.context['gci_mentors'] = mentors
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        self.context = get_header_and_footer(context)
+        self.get_gsoc_students_details()
+        self.get_gci_students_details()
+        return self.context

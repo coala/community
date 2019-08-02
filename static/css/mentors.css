@@ -1,0 +1,13 @@
+.mentors-list {
+    width: 100%;
+}
+
+.program-input-field {
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+}
+
+.program-input-field label {
+    font-size: 1.3em;
+}

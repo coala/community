@@ -10,7 +10,7 @@ from django.conf import settings
 from community.views import (
     HomePageView, JoinCommunityView,
     OrganizationTeams, InactiveIssuesList,
-    UnassignedIssuesActivityList
+    UnassignedIssuesActivityList, OrganizationMentors
 )
 from gci.views import GCIStudentsList
 from gci.feeds import LatestTasksFeed as gci_tasks_rss
@@ -44,6 +44,12 @@ urlpatterns = [
         name='org-teams',
         distill_func=get_index,
         distill_file='teams/index.html',
+    ),
+    distill_url(
+        r'mentors/', OrganizationMentors.as_view(),
+        name='org-mentors',
+        distill_func=get_index,
+        distill_file='mentors/index.html',
     ),
     distill_url(
         r'gci/tasks/rss.xml', gci_tasks_rss(),

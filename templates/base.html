@@ -69,7 +69,7 @@
     <ul id="organisation-dropdown" class="dropdown-content">
       <li class="teams-dropdown-option display-none"><a href="{% url 'org-teams' %}" class="">Teams</a></li>
       <li><a href="{% url 'community-data' %}">Contributors Information</a></li>
-      <li><a href="#">Mentors</a></li>
+      <li><a href="{% url 'org-mentors' %}">Mentors</a></li>
       <li><a href="{% url 'community-gci' %}">Google Code-in Students</a></li>
       <li><a href="{% url 'inactive-issues' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
       <li><a href="{% url 'unassigned-issues' %}" title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it.">Unassigned issues activity</a></li>
