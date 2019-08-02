@@ -71,7 +71,7 @@
       <li><a href="{% url 'community-data' %}">Contributors Information</a></li>
       <li><a href="#">Mentors</a></li>
       <li><a href="{% url 'community-gci' %}">Google Code-in Students</a></li>
-      <li><a href="{% url 'inactive_issues_json' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
+      <li><a href="{% url 'inactive-issues' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
       <li><a href="{% url 'unassigned_issues_activity_json' %}" title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it.">Unassigned issues activity</a></li>
       <li><a href="{% url 'ci_build' %}">Project CI Build</a></li>
       {% if isTravis %}

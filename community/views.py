@@ -23,7 +23,7 @@ from .forms import (
     NewcomerPromotion,
     Feedback
 )
-from data.models import Team
+from data.models import Team, InactiveIssue
 from gamification.models import Participant as GamificationParticipant
 from meta_review.models import Participant as MetaReviewer
 
@@ -220,4 +220,17 @@ class OrganizationTeams(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context = get_header_and_footer(context)
+        return context
+
+
+class InactiveIssuesList(ListView):
+
+    template_name = 'issues.html'
+    model = InactiveIssue
+    ordering = 'hoster'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context = get_header_and_footer(context)
+        context['page_name'] = 'Inactive Issues List'
         return context

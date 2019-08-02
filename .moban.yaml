@@ -4,7 +4,6 @@ package_module: community
 packages:
   - community
   - activity
-  - inactive_issues
   - data
   - gci
   - gsoc

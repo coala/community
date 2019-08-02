@@ -116,3 +116,11 @@ class MergeRequest(models.Model):
             issue_object = issue_number.get_issue()
             issues_object_list.append(issue_object)
         return issues_object_list
+
+
+class InactiveIssue(models.Model):
+    hoster = models.CharField(max_length=30)
+    title = models.CharField(max_length=500)
+    repository = models.CharField(max_length=100)
+    number = models.SmallIntegerField()
+    url = models.URLField()
