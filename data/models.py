@@ -132,3 +132,10 @@ class UnassignedIssuesActivity(models.Model):
     repository = models.CharField(max_length=100)
     number = models.SmallIntegerField()
     url = models.URLField()
+
+
+class Mentor(models.Model):
+    username = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
+    year = models.SmallIntegerField(verbose_name='Mentoring year')
+    program = models.CharField(max_length=20, verbose_name='Mentoring program')
