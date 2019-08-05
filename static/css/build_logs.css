@@ -1,0 +1,84 @@
+.build-info-section section,
+.build-logs-section section {
+    min-width: 300px;
+    width: 80%;
+}
+
+.build-information,
+.build-logs {
+    background-color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.build-information p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.build-logs {
+    max-height: 900px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.build-logs p {
+    margin: 0;
+}
+
+.build-logs-section .log-chooser {
+    width: 25%;
+    min-width: 150px;
+    border-radius: 100px;
+    box-shadow: 0 0 25px 2px black;
+    color: #454343;
+    background-color: #c7da99;
+    padding-left: 10px;
+    margin: auto 0 auto auto;
+}
+
+.build-logs-section .log-chooser input,
+.build-logs-section .log-chooser input:focus:not(.browser-default) {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.build-logs-section .small-screen,
+.build-logs-section .fa-close {
+    display: none;
+}
+
+.form-fields {
+    margin: auto 0 auto auto;
+    width: 60%;
+    padding-top: 10px;
+}
+
+.search-field {
+    width: 60%;
+    min-width: 180px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+}
+
+.section-header form {
+    display: flex;
+}
+
+@media only screen and (max-width: 660px) {
+    .build-logs-section .search-field {
+        display: none;
+    }
+    .build-logs-section .small-screen {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-right: 3px;
+        font-size: 2em;
+    }
+}

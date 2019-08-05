@@ -1,0 +1,169 @@
+.apply-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #edf5af;
+}
+
+.bold-text,
+.sidenav.bold-text {
+    font-weight: bold;
+}
+
+.bold-text i.social-icons,
+.sidenav i.social-icons {
+    font-size: 1.5em;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.custom-green-color-font {
+    color: #2d5d13
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.evenly-spread-content {
+    justify-content: space-evenly;
+}
+
+.gray-font-color {
+    color: #37474f;
+}
+
+footer .footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 3em;
+}
+
+footer.footer-icons.icon {
+    color: white;
+}
+
+footer .social-buttons {
+    background-color: black;
+    text-transform: none;
+}
+
+.large-font {
+    font-size: larger;
+}
+
+.main-content {
+    background-color: #edf5af;
+    padding-bottom: 3%;
+}
+
+.main-content h3 {
+    color: #37474f;
+}
+
+nav {
+    background-color: #37474f;
+}
+
+nav .brand-logo img {
+    width: 60px;
+}
+
+.nav-menu-font-size,
+.sidenav .nav-menu-font-size {
+    font-size: 20px;
+}
+p {
+    font-size: medium;
+}
+
+.page-name {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.page-footer {
+    background-color: #37474f;
+    box-shadow: 0 -5px 15px black;
+}
+
+.page-footer .footer-copyright {
+    background-color: #263238;
+}
+
+.inline-contents {
+    display: inline-flex;
+}
+
+.search-field {
+    border-radius: 100px;
+    box-shadow: 0 0 25px 2px black;
+    color: #454343;
+    background-color: #edf5af;
+    padding: 0 20px;
+    flex-flow: row;
+    margin: auto auto auto 0;
+}
+
+#search {
+    border-bottom: none;
+    padding-left: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#search::placeholder {
+    color: grey;
+}
+
+#search:focus:not(.browser-default) {
+    background-color: #edf5af;
+    border-radius: 100px;
+    font-size: medium;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.sidenav .dropdown-trigger-sidenav i {
+    float: none;
+}
+
+.student {
+    padding-bottom: 20px;
+}
+
+.students {
+    list-style: none;
+}
+
+.web-page-details {
+    width: 100%;
+}
+
+.web-page-description,
+.data-updated-time,
+.data-fetch-error {
+    text-align: center;
+    font-size: large;
+    color: #2d5d13;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .brand-logo img {
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .page-name {
+        margin: 0;
+    }
+}

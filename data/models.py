@@ -13,9 +13,13 @@ class Contributor(models.Model):
     name = models.TextField(default=None, null=True)
     bio = models.TextField(default=None, null=True)
     num_commits = models.IntegerField(default=None, null=True)
+    public_repos = models.IntegerField(default=None, null=True)
+    public_gists = models.IntegerField(default=None, null=True)
+    followers = models.IntegerField(default=None, null=True)
     reviews = models.IntegerField(default=None, null=True)
     issues_opened = models.IntegerField(default=None, null=True)
-    teams = models.ManyToManyField(Team)
+    location = models.TextField(default=None, null=True)
+    teams = models.ManyToManyField(Team, related_name='contributors')
 
     def __str__(self):
         return self.login
