@@ -28,11 +28,10 @@ def get_contrib_data():
 def import_data(contributor):
     logger = logging.getLogger(__name__)
     login = contributor.get('login', None)
-    teams = contributor.get('teams')
+    teams = contributor.pop('teams')
     try:
         contributor['issues_opened'] = contributor.pop('issues')
         contributor['num_commits'] = contributor.pop('contributions')
-        contributor.pop('teams')
         c, create = Contributor.objects.get_or_create(
             **contributor
         )

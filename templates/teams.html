@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block add_css_files %}
+  <link rel="stylesheet" href="{% static 'css/teams.css' %}">
+{% endblock %}
+
+{% block main-content %}
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+      <img src="{{ org.logo_url }}" alt="{{ org.name }}">
+       Organization Teams
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+  <div class="organization-teams">
+    <table class="highlight">
+      <thead>
+        <tr class="custom-green-color-font">
+          <th>
+            <h5>Team</h5>
+          </th>
+          <th class="text-center">
+            <h5>No. of Members</h5>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team in object_list %}
+        <tr>
+          <td>
+            <div>
+              <h6 class="team-name">{{ team.name }}</h6>
+              <p class="team-desc"><em>{{ team.description }}</em></p>
+            </div>
+          </td>
+          <td class="text-center bold-text">
+            {{ team.members_count }}
+            {% if team.increased_count > 0 %}
+            (<i class="fa fa-arrow-up light-green-color"
+               aria-hidden="true">
+            </i>
+            {{ team.increased_count }} members)
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  <p class="custom-green-color-font">Note: The increased members count
+    refreshes every week.</p>
+  </div>
+
+{% endblock %}

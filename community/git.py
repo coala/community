@@ -49,7 +49,7 @@ def get_config_remote(name='origin'):
     raise KeyError('No git remotes found')
 
 
-def get_remote_url():
+def get_remote_url(name='origin'):
     """Obtain a parsed remote URL.
 
     Uses CI environment variables or git remotes.
@@ -58,7 +58,7 @@ def get_remote_url():
     # It only sets the REPOSITORY_URL
     url = os.environ.get('REPOSITORY_URL')
     if not url:
-        remote = get_config_remote()
+        remote = get_config_remote(name)
         assert remote[0][0] == 'url'
         url = remote[0][1]
 
@@ -146,7 +146,7 @@ def get_upstream_repo():
     """Obtain the parent slug of the repository.
     """
     try:
-        remote = get_config_remote(name='upstream')
+        remote = get_remote_url(name='origin')
     except KeyError:
         remote = None
 
