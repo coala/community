@@ -12,3 +12,4 @@ ruamel.yaml
 markdown2
 PyGithub
 xmltodict
+nltk

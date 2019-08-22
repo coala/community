@@ -81,6 +81,7 @@ class UpdateParticipantsTest(TestCase):
     def setUpTestData(cls):
         call_command('import_issues_data')
         call_command('import_merge_requests_data')
+        call_command('import_messages_data')
         call_command('create_config_data')
         call_command('create_participants')
         call_command('update_participants_data')
@@ -98,3 +99,17 @@ class UpdateParticipantsTest(TestCase):
 
         number_of_badges = participant.badges.all().count()
         self.assertEquals(number_of_badges, 2)
+
+        activity1 = participant.activities.all()[0]
+
+        # Number of questions aksed during performing this
+        # activity should be one
+        self.assertEquals(activity1.questions_asked, 1)
+
+        # Number of answers given during performing this
+        # activity should be one
+        self.assertEquals(activity1.answers_given, 1)
+
+        # Number of ignore messages send during performing this
+        # activity should be one
+        self.assertEquals(activity1.ignore_messages, 1)

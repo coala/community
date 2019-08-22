@@ -29,6 +29,8 @@ python manage.py migrate
 python manage.py import_contributors_data
 python manage.py import_issues_data
 python manage.py import_merge_requests_data
+python manage.py download_nltk_data
+python manage.py import_messages_data
 python manage.py create_config_data
 python manage.py create_participants
 python manage.py update_participants_data

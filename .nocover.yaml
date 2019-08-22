@@ -8,6 +8,7 @@ nocover_file_globs:
   - community/git.py
   - gci/*.py
   - gsoc/*.py
+  - gitter/nlp/dict_tagger.py
   - log/*.py
   - meta_review/handler.py
   - model/*.py

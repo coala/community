@@ -22,6 +22,15 @@ class Activity(models.Model):
     # The date and time this activity was last updated
     updated_at = models.DateTimeField(null=True)
 
+    # Number of questions asked by the participant
+    questions_asked = models.IntegerField(default=0, null=True)
+
+    # Number of answers given by the participant
+    answers_given = models.IntegerField(default=0, null=True)
+
+    # Number of ignore messages send by the participant
+    ignore_messages = models.IntegerField(default=0, null=True)
+
     def __str__(self):
         return self.name
 
@@ -81,7 +90,8 @@ class Participant(models.Model):
     class Meta:
         ordering = ['-score']
 
-    def add_points(self, points, activity_string, performed_at, updated_at):
+    def add_points(self, points, activity_string, performed_at, updated_at,
+                   questions_asked, answers_given, ignore_messages):
         """
         Update score, level and add activities peformed.
 
@@ -94,16 +104,26 @@ class Participant(models.Model):
                                 and time when this activity was performed.
         :param updated_at:      a datetime object representing the date and time when
                                 this activity was performed.
+        :param question_asked:  an integer representing the number of questions asked
+                                by the participant during performing this activity.
+        :param answers_given:   an integer representing the number of answers given
+                                by the participant during performing this activity.
+        :param ignore_messages: an integer representing the number of ignore messages
+                                sent by the participant during performing this activity.
         """
         self.update_score_and_level(points)
         self.add_activity(points,
                           activity_string,
                           performed_at,
                           updated_at,
+                          questions_asked,
+                          answers_given,
+                          ignore_messages,
                           )
 
     def deduct_points(self, points_to_deduct, activity_string,
-                      performed_at, updated_at):
+                      performed_at, updated_at, questions_asked,
+                      answers_given, ignore_messages):
         """
         Deduct points for performing some specific activities.
         """
@@ -111,6 +131,9 @@ class Participant(models.Model):
                         activity_string,
                         performed_at,
                         updated_at,
+                        questions_asked,
+                        answers_given,
+                        ignore_messages,
                         )
 
     def find_level_for_score(self, score):
@@ -132,7 +155,8 @@ class Participant(models.Model):
         self.level = self.find_level_for_score(self.score)
         self.save()
 
-    def add_activity(self, points, activity_string, performed_at, updated_at):
+    def add_activity(self, points, activity_string, performed_at, updated_at,
+                     questions_asked, answers_given, ignore_messages):
         """
         Add a new activity to the participant.
         """
@@ -141,7 +165,10 @@ class Participant(models.Model):
             points=points,
             performer=self,
             performed_at=performed_at,
-            updated_at=updated_at)
+            updated_at=updated_at,
+            questions_asked=questions_asked,
+            answers_given=answers_given,
+            ignore_messages=ignore_messages)
         self.activities.add(activity)
 
     def find_badges_for_activity(self, activities):

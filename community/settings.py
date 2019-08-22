@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'model',
     'gamification',
     'meta_review',
+    'gitter',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',

@@ -10,6 +10,7 @@ from gamification.process.activity_points import (
 from gamification.labels import NEGATIVE_POINT_LABELS
 from gamification.data.points import MERGE_REQUEST_CLOSED_WITHOUT_MERGE
 from gamification.models import Participant
+from gitter.models import Message
 
 
 def get_mr_objects():
@@ -46,6 +47,18 @@ def update_participants_data_with_mr(mr):
     mr_author = Participant.objects.get(username=mr.author)
     mr_performed_at = mr.created_at
     mr_updated_at = mr.updated_at
+    mr_questions_asked = Message.objects.filter(
+        message_type='question',
+        sent_at__gte=mr_performed_at,
+        sent_at__lte=mr_updated_at).count()
+    mr_answers_given = Message.objects.filter(
+        message_type='answer',
+        sent_at__gte=mr_performed_at,
+        sent_at__lte=mr_updated_at).count()
+    mr_ignore_messages = Message.objects.filter(
+        message_type='ignore',
+        sent_at__gte=mr_performed_at,
+        sent_at__lte=mr_updated_at).count()
 
     if mr.state == 'merged':
         mr_labels = mr.labels.values('name')
@@ -59,6 +72,9 @@ def update_participants_data_with_mr(mr):
                              mr_activity_string,
                              mr_performed_at,
                              mr_updated_at,
+                             mr_questions_asked,
+                             mr_answers_given,
+                             mr_ignore_messages,
                              )
         # Get all the issues this mr is closing
         try:
@@ -70,6 +86,18 @@ def update_participants_data_with_mr(mr):
             issue_labels = issue.labels.values('name')
             issue_performed_at = issue.created_at
             issue_updated_at = issue.updated_at
+            issue_questions_asked = Message.objects.filter(
+                message_type='question',
+                sent_at__gte=issue_performed_at,
+                sent_at__lte=issue_updated_at).count()
+            issue_answers_given = Message.objects.filter(
+                message_type='answer',
+                sent_at__gte=issue_performed_at,
+                sent_at__lte=issue_updated_at).count()
+            issue_ignore_messages = Message.objects.filter(
+                message_type='ignore',
+                sent_at__gte=issue_performed_at,
+                sent_at__lte=issue_updated_at).count()
             # Get activity and points based on the labels on the issue
             issue_points, issue_activity_string = get_activity_with_points(
                 'issue', issue_labels)
@@ -82,6 +110,9 @@ def update_participants_data_with_mr(mr):
                                     issue_activity_string,
                                     issue_performed_at,
                                     issue_updated_at,
+                                    issue_questions_asked,
+                                    issue_answers_given,
+                                    issue_ignore_messages,
                                     )
 
     elif mr.state == 'closed':
@@ -91,6 +122,9 @@ def update_participants_data_with_mr(mr):
                                 mr_activity_string,
                                 mr_performed_at,
                                 mr_updated_at,
+                                mr_questions_asked,
+                                mr_answers_given,
+                                mr_ignore_messages,
                                 )
 
 
@@ -122,10 +156,25 @@ def update_participants_data_with_issue(issue):
         issue_points, issue_activity = get_activity_with_points('issue', labels)
         issue_performed_at = issue.created_at
         issue_updated_at = issue.updated_at
+        issue_questions_asked = Message.objects.filter(
+            message_type='question',
+            sent_at__gte=issue_performed_at,
+            sent_at__lte=issue_updated_at).count()
+        issue_answers_given = Message.objects.filter(
+            message_type='answer',
+            sent_at__gte=issue_performed_at,
+            sent_at__lte=issue_updated_at).count()
+        issue_ignore_messages = Message.objects.filter(
+            message_type='ignore',
+            sent_at__gte=issue_performed_at,
+            sent_at__lte=issue_updated_at).count()
         issue_author.deduct_points(issue_points,
                                    issue_activity,
                                    issue_performed_at,
                                    issue_updated_at,
+                                   issue_questions_asked,
+                                   issue_answers_given,
+                                   issue_ignore_messages,
                                    )
         issue_author.save()
 

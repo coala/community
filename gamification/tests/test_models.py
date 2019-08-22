@@ -30,12 +30,21 @@ class ActivityModelTest(TestCase):
             'performed_at').verbose_name
         updated_at = activity._meta.get_field(
             'updated_at').verbose_name
+        questions_asked = activity._meta.get_field(
+            'questions_asked').verbose_name
+        answers_given = activity._meta.get_field(
+            'answers_given').verbose_name
+        ignore_messages = activity._meta.get_field(
+            'ignore_messages').verbose_name
         self.assertEquals(name, 'name')
         self.assertEquals(points, 'points')
         self.assertEquals(number_of_times, 'number of times')
         self.assertEquals(performer, 'performer')
         self.assertEquals(updated_at, 'updated at')
         self.assertEquals(performed_at, 'performed at')
+        self.assertEquals(questions_asked, 'questions asked')
+        self.assertEquals(answers_given, 'answers given')
+        self.assertEquals(ignore_messages, 'ignore messages')
 
     def test_object_name_is_activity_name(self):
         activity = Activity.objects.get(id=1)
@@ -212,10 +221,16 @@ class ParticipantModelTest(TestCase):
         activity_string = 'Created a difficulty/newcomer bug issue'
         performed_at = '2017-08-24 05:59:31+00:00'
         updated_at = '2018-06-02 17:06:18+00:00'
+        questions_asked = 1
+        answers_given = 1
+        ignore_messages = 1
         participant.add_points(points,
                                activity_string,
                                performed_at,
                                updated_at,
+                               questions_asked,
+                               answers_given,
+                               ignore_messages,
                                )
         self.assertEquals(participant.score, 10)
         self.assertEquals(participant.level.name, 'Beginner-I')
@@ -229,10 +244,16 @@ class ParticipantModelTest(TestCase):
         activity_string = 'Merge request was closed without merge'
         performed_at = '2017-08-24 05:59:31+00:00'
         updated_at = '2018-06-02 17:06:18+00:00'
+        questions_asked = 1
+        answers_given = 1
+        ignore_messages = 1
         participant.deduct_points(points,
                                   activity_string,
                                   performed_at,
                                   updated_at,
+                                  questions_asked,
+                                  answers_given,
+                                  ignore_messages,
                                   )
         self.assertEquals(participant.score, 0)
         self.assertEquals(participant.level.name, 'Fresher')
@@ -277,10 +298,16 @@ class ParticipantModelTest(TestCase):
         activity = 'Created a difficulty/newcomer type/bug issue'
         performed_at = '2017-08-24 05:59:31+00:00'
         updated_at = '2018-06-02 17:06:18+00:00'
+        questions_asked = 1
+        answers_given = 1
+        ignore_messages = 1
         participant.add_activity(points,
                                  activity,
                                  performed_at,
                                  updated_at,
+                                 questions_asked,
+                                 answers_given,
+                                 ignore_messages,
                                  )
 
         # After applying add_activity
@@ -294,6 +321,9 @@ class ParticipantModelTest(TestCase):
                                  activity,
                                  performed_at,
                                  updated_at,
+                                 questions_asked,
+                                 answers_given,
+                                 ignore_messages,
                                  )
 
         # A new activity is added
