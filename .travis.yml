@@ -1,14 +1,21 @@
 language: python
 python: 3.6.3
 
-cache:
-  pip: true
+cache: false
 
 stages:
   - test
   - moban
   - name: deploy
     if: type != pull_request
+
+.moban: &moban
+  python: 3.6
+  stage: moban
+  install: pip install moban~=0.5.0 gitfs2 pypifs
+  script:
+    - moban
+    - git diff --exit-code
 
 env:
   global:
@@ -25,13 +32,9 @@ jobs:
     # A proper build with the tokens available
     - stage: deploy
       after_success: ./.ci/deploy.sh
-    - python: 3.6
-      stage: moban
-      env:
-      before_install: false
-      install: pip install moban
-      script: .ci/check_moban.sh
-      after_success: false
+    - *moban
+  allow_failures:
+    - *moban
 
 before_install:
   - printf '%s\n'
@@ -43,7 +46,7 @@ script:
   - ./.ci/build.sh
   - rm -rf private/
   - pytest
-  - coala --non-interactive -V
+  - coala --flush-cache --non-interactive -V
 
 notifications:
   email: false
