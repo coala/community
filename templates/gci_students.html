@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+  Community | GCI Students
+{% endblock %}
+
+{% block add_css_files %}
+<link rel="stylesheet" href="{% static 'css/gci_students.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+<script src="{% static 'js/timeago.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+      <img src="{{ org.logo_url }}" alt="{{ org.name }}">
+      GCI Students
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+
+  <div class="apply-flex-center">
+    <p class="container web-page-description">
+      Hello, World! {{ org.name }} has been participating in GCI (Google Code-In) from last few years and will
+      be participating in coming years too. Following are the GCI students who  participated in GCI with {{ org.name }}
+      organization.
+    </p>
+  </div>
+
+  {% if gci_students.data %}
+  <div class="gci-students apply-flex evenly-spread-content custom-green-color-font">
+  {% for student in gci_students.data %}
+    <div class="student-card card horizontal">
+      <div class="student-image card-image apply-flex">
+        <img src="//github.com/{{ student.username }}.png/">
+      </div>
+      <div class="student-details card-content">
+        <a class="user-name bold-text" href="//github.com/{{ student.username }}" target="_blank">
+          {% if student.display_name %}
+            {{ student.display_name }}
+          {% else %}
+            {{ student.username }}
+          {% endif %}
+        </a><br>
+        {% if student.bio %}
+          <p>{{ student.bio }}</p>
+        {% endif %}{# if student.bio #}
+        <div class="inline-contents">
+          <p class="gci-student-id">ID:</p>
+          <a href="{{ student.url }}" target="_blank"> {{ student.id }}</a>
+        </div><br>
+        <div class="inline-contents">
+          <p class="participated-year">Participation year: {{ student.program_year }}</p>
+        </div><br>
+        <div class="inline-contents">
+          <p class="public-repos">Repos:</p>
+          <p> {{ student.public_repos }}</p>
+        </div>
+        <div class="inline-contents">
+          <p class="public-gists">Gists:</p>
+          <p> {{ student.public_gists }}</p>
+        </div>
+        <div class="inline-contents">
+          <p class="followers">Followers:</p>
+          <p> {{ student.followers }}</p>
+        </div><br>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+  {% else %}
+  <div class="apply-flex center-content data-fetch-error">
+    <h5><b>ERROR:</b></h5>
+    <h5>{{ gci_students.error }}</h5>
+  </div>
+  {% endif %}{# if gci_students.data #}
+
+  <div class="apply-flex center-content data-updated-time">
+    <b>GCI Students data was updated:</b>
+    <p id="time" data-time="{{ updated_time }}"></p>
+  </div>
+{% endblock %}
