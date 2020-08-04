@@ -13,11 +13,23 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 import sys
 
+from community.git import get_api_key, get_org_name
+from community.config import TokenMissing
+
 from .filters import NoDebugFilter
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
+# Set Environment variables needed by OpenHub-Django package
+try:
+    OH_TOKEN = get_api_key('OH')
+except TokenMissing:
+    os.environ['OH_TOKEN'] = ''
+
+ORG_NAME = get_org_name()
+os.environ['ORG_NAME'] = ORG_NAME
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -37,8 +49,7 @@ INSTALLED_APPS = [
     'gci',
     'gsoc',
     'data',
-    'openhub',
-    'model',
+    'openhub_django.apps.OpenhubDjangoConfig',
     'gamification',
     'meta_review',
     'django.contrib.contenttypes',
