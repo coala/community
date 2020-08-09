@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    {% block add_css_files %}{% endblock %}
+
+    <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Nelify's authentiation library -->
+    <script src="//unpkg.com/netlify-auth-providers"></script>
+    <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/forms.js' %}"></script>
+    {% block add_js_files %}{% endblock %}
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper bold-text">
+        <a href="/" class="brand-logo">
+          <img src="{% static 'images/os_community_logo.png' %}" alt="OpenSource Community Logo">
+        </a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down nav-menu-font-size">
+          <li><a href="{% url 'index' %}" class="nav-menu-font-size">Home</a></li>
+          <li><a href="/#about" class="nav-menu-font-size">About</a></li>
+          <li><a href="{% url 'join-community' %}" class="nav-menu-font-size">Join</a></li>
+          <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="dropdown-trigger nav-menu-font-size forms-dropdown-option display-none" href="#forms" data-target="forms-dropdown">Forms <i class="fa fa-caret-down"></i></a></li>
+          <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons"></i></a></li>
+          <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
+          <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
+          <li><a class="dropdown-trigger" href="#user" data-target="user-dropdown"><i class="fa fa-user social-icons"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav bold-text" id="mobile-menu">
+      <li><a href="/#about" class="nav-menu-font-size">About</a></li>
+      <li><a href="{% url 'join-community' %}" class="nav-menu-font-size">Join</a></li>
+      <li><a href="{{ org.blog_url }}" target="_blank" class="nav-menu-font-size">Blog</a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#organisation" data-target="organisation-dropdown">Organisation <i class="fa fa-caret-down"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#contributors" data-target="contributors-dropdown">Contributors <i class="fa fa-caret-down"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav nav-menu-font-size" href="#openhub" data-target="openhub-dropdown">OpenHub <i class="fa fa-caret-down"></i></a></li>
+      <li class=" forms-dropdown-option display-none">
+        <a class="dropdown-trigger-sidenav nav-menu-font-size" href="#forms"
+           data-target="forms-dropdown">
+          Forms <i class="fa fa-caret-down"></i>
+        </a>
+      </li>
+      <li><a href="{{ org.twitter_url }}" target="_blank"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
+      <li><a href="{{ org.facebook_url }}" target="_blank"><i class="fa fa-facebook-f social-icons"></i></a></li>
+      <li><a href="{{ org.repo_url }}" target="_blank"><i class="fa fa-github social-icons"></i></a></li>
+      <li><a class="dropdown-trigger-sidenav" href="#user" data-target="user-dropdown"><i class="fa fa-user social-icons"></i><i class="fa fa-caret-down"></i></a></li>
+    </ul>
+
+    <ul id="organisation-dropdown" class="dropdown-content">
+      <li class="teams-dropdown-option display-none"><a href="{% url 'org-teams' %}" class="">Teams</a></li>
+      <li><a href="{% url 'community-data' %}">Contributors Information</a></li>
+      <li><a href="{% url 'org-mentors' %}">Mentors</a></li>
+      <li><a href="{% url 'community-gci' %}">Google Code-in Students</a></li>
+      <li><a href="{% url 'inactive-issues' %}" title="List of all the issues on organization's main repository on which assignee has not shown any activity for more than 2 months.">Inactive issues</a></li>
+      <li><a href="{% url 'unassigned-issues' %}" title="List of all the issues on organization main repository on which someone has opened a pull request without getting assigned to it.">Unassigned issues activity</a></li>
+      <li><a href="{% url 'ci_build' %}">Project CI Build</a></li>
+      {% if isTravis %}
+        <li><a href="{{ travisLink }}" title="This website was built automatically using Travis CI.">TravisCI build info</a></li>
+      {% endif %}{# if isTravis #}
+    </ul>
+
+    <ul id="contributors-dropdown" class="dropdown-content">
+      <li><a href="{% url 'community-gamification' %}">Gamification Leaderboard</a></li>
+      <li><a href="{% url 'meta_review_data' %}">Meta-review</a></li>
+    </ul>
+
+    <ul id="openhub-dropdown" class="dropdown-content">
+      <li><a href="{% url 'community-openhub' %}">Org. Portfolio Projects</a></li>
+    </ul>
+
+    <ul id="forms-dropdown" class="dropdown-content">
+      <li class="community-google-form-op">
+        <a>Upload a community google form</a>
+      </li>
+      <li class="newcomer-promotion-form-op">
+        <a>Newcomer promotion request form</a>
+      </li>
+      <li class="calendar-event-form-op">
+        <a>Add an Event in Calendar?</a>
+      </li>
+      <li class="get-issue-assigned-form-op">
+        <a>Want to work on an issue?</a>
+      </li>
+      <li class="participated-in-gsoc-form-op">
+        <a>Participated in GSoC with {{ org.name }}?</a>
+      </li>
+      <li class="mentor-students-form-op">
+        <a>Mentor students in GSoC?</a>
+      </li>
+    </ul>
+
+    <ul id="user-dropdown" class="dropdown-content">
+      <li class="login-user"><a>Login</a></li>
+      <li class="user-logout"><a>Logout</a></li>
+    </ul>
+
+    <div class="apply-flex form-popup">
+      <div class="login-form">
+        <div class="apply-flex close-form">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="oauth-error">
+          <p class="error-message"></p>
+        </div>
+        <span class="apply-flex organizations">
+          <img src="{{ org.logo_url }}" class="org-logo" alt="org-logo">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <img src="//flaviocopes.com/netlify/banner.png" class="netlify-image" alt="netlify-logo">
+        </span>
+        <div class="apply-flex oauth-providers">
+          <a class="waves-effect waves-light btn-large login-with-github">
+            <i class="fa fa-github left" aria-hidden="true"></i>
+            Login with GitHub
+          </a>
+          <a class="waves-effect waves-light btn-large login-with-gitlab">
+            <i class="fa fa-gitlab left" aria-hidden="true"></i>
+            Login with GitLab
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="apply-flex form-submission-popup">
+      <div class="form-submission-message">
+        <div class="apply-flex close-form">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <span class="apply-flex organizations">
+          <img src="{{ org.logo_url }}" class="org-logo" alt="org-logo">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <img src="//flaviocopes.com/netlify/banner.png" class="netlify-image" alt="netlify-logo">
+        </span>
+        <div class="apply-flex message text-justify">
+          <h6 class="important-message"></h6>
+          <h6>Enjoy Coding 'n' Learning</h6>
+        </div>
+      </div>
+    </div>
+
+  <div class="feedback display-none">
+    <div class="apply-flex close-form">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <form name="{{ feedback_form_name }}" method="post"
+          netlify-honeypot="bot-field" class="feedback-form"
+          data-netlify="true" action="/">
+      <h5 class="text-center custom-green-color-font bold-text">
+        Feedback Form
+      </h5>
+      {% csrf_token %}
+      {% for field in feedback_form %}
+        {% if field.name != 'experience' %}
+        <div class="row">
+          <div class="input-field col s12">
+            {{ field.label_tag }}
+            {{ field }}
+          </div>
+        </div>
+        {% else %}
+        {{ field }}
+        {% endif %}
+      {% endfor %}
+      <div class="row">
+        <div class="input-field col s12">
+          <h6 class="experience">Feeling about {{ org.name }} organization?</h6>
+          <div class="user-feeling-level apply-flex evenly-spread-content">
+            <i class="fa fa-frown-o" experience="Negative" aria-hidden="true"></i>
+            <i class="fa fa-meh-o" experience="Neutral" aria-hidden="true"></i>
+            <i class="fa fa-smile-o" experience="Positive" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="apply-flex center-content submit-btn">
+        <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <div class="main-content">
+    {% block main-content %}
+    {% endblock %}
+  </div>
+
+  <div class="community-form apply-flex center-content display-none">
+    <div class="apply-flex close-form">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    {% include 'community_forms.html' %}
+  </div>
+
+  <div class="feedback-icon">
+    <img alt="feedback" class="feedback-comment"
+         src="//www.agcsoftware.com/wp-content/uploads//2017/06/feedback-icon.png">
+  </div>
+
+  <footer class="page-footer">
+    <div class="row">
+      <div class="col m3 s12">
+        <h5 class="white-text fine">Site Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.docs }}">Documentation</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.newcomer_docs }}">Newcomer Docs</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.coc }}">Code of Conduct</a></li>
+            <li><a class="grey-text text-lighten-3 bold-text" target="_blank" href="{{ org.blog_url }}">Blog</a></li>
+          </ul>
+      </div>
+      <div class="col m9 s12 center">
+        <div class="center">
+          <h3 class="fine white-text">
+            <span>
+              <img class="footer-logo" src="{{ org.logo_url }}" alt="{{ org.name }}">
+            </span>
+            <span>{{ org.name }}</span>
+          </h3>
+        </div>
+        <div class="center footer-icons">
+          <span class="icon">
+            <a href="{{ org.twitter_url }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-twitter" aria-hidden="true">
+                Follow us on Twitter
+              </i>
+            </a>
+          </span>
+          <span class="icon">
+            <a href="{{ org.gitter_chat }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-commenting-o" aria-hidden="true">
+                Join Chat on Gitter
+              </i>
+            </a>
+          </span>
+          <span class="icon">
+            <a href="{{ org.github_core_repo }}" target="_blank" class="btn center social-buttons">
+              <i class="fa fa-github" aria-hidden="true">
+                Star us on GitHub
+              </i>
+            </a>
+          </span>
+        </div>
+      </div>
+      </div>
+    <div class="footer-copyright bold-text">
+      <div class="container ">
+        <span class="left">
+          ©
+          <span id="current-year"></span>
+          {{ org.name }}
+        </span>
+        <span class="grey-text text-lighten-4 right">{{ org.licence_type }}</span>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

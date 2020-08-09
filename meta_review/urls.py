@@ -1,7 +1,7 @@
 from django.conf.urls import url
 
-from . import views
+from .views import ContributorsMetaReview
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', ContributorsMetaReview.as_view(), name='index'),
 ]

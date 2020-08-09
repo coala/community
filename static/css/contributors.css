@@ -1,0 +1,119 @@
+.commits,
+.reviews,
+.issues-opened {
+    padding: 0 5px;
+}
+
+.contributions {
+    margin: 10px;
+}
+
+.contributions p {
+    margin: 0;
+}
+
+.contributors-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 50px;
+}
+
+.contributor-card {
+    background-color: #efefef;
+    box-shadow: 0 0 25px 2px black;
+    border-radius: 30px;
+    margin: 0 15px 20px 15px;
+    width: 220px;
+    border: 5px #c0c5d1 solid;
+}
+
+.contributors-section .fa-close {
+    display: none;
+}
+
+.contributor-details {
+    text-align: center;
+}
+
+.contributor-image img {
+    border-radius: 30px 30px 0 0;
+    width: 210px;
+}
+
+.form-fields {
+    margin-top: 3%;
+    width: 40%;
+    min-width: 300px;
+}
+
+.repository-canvas {
+    position: relative;
+    margin: auto;
+    width: 60vw;
+    height: 70vh;
+}
+
+.search-results {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 30px;
+    overflow: auto;
+    padding: 0 20px;
+    max-height: 150px;
+    display: none;
+}
+
+.side-border {
+    border-width: 0 0 0 1px;
+    border-color: darkgray;
+    border-style: solid;
+}
+
+.some-important-information, .issues-labels,
+.github-issue-labels, .issues-count, .user-updated-datetime,
+.gitlab-issue-labels{
+    padding: 0 10px;
+}
+
+.stats-canvas {
+    position: relative;
+    margin: auto;
+    width: 35vw;
+    height: 50vh;
+}
+
+.user-statistics {
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 70vh;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 2px black;
+}
+
+.user-statistics-option {
+    position: absolute;
+    float: right;
+    margin-left: 180px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .stats-canvas {
+        width: 50vw;
+        height: 50vh;
+    }
+}
