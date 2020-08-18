@@ -1,50 +1,185 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Newcomers Data</title>
-  </head>
-  <body>
-    <h1>The gamification leaderboard</h1>
-    <p>Note: All the datetime is in UTC</p>
-    <hr>
-    <ul>
-      {% for participant in participants %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <p>Username: {{ participant.username }}</p>
-                <p><a href="//github.com/{{ participant.username }}">
-                GitHub Profile</a></p>
-                <p><a href="//gitlab.com/{{ participant.username }}">
-                GitLab Profile</a></p>
-                <p><a href="//www.openhub.net/accounts/{{ participant.username }}">OpenHub Profile</a></p>
-                <p>Score: {{ participant.score }}</p>
-                <p>Level: {{ participant.level.name }}</p>
-                <p>Activities Performed:
-                {% for activity in participant.activities.all %}
-                  <p>{{ forloop.counter }}. {{ activity.name }}, performed_at:
-                    {{ activity.performed_at }} updated_at: {{ activity.updated_at }}
-                  </p>
-                  {% endfor %}{# for activity in participant.activities.all #}
-                <p>Badges Earned:
-                {% for badge in participant.badges.all %}
-                  <p>{{ forloop.counter }}.{{ badge.name }}</p>
-                  {% endfor %}{# for badge in participant.badges.all #}
-                </p>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+  Community | Gamification Leaderboard
+{% endblock %}
+
+{% block add_css_files %}
+  <link rel="stylesheet" href="{% static 'css/contributors.css' %}">
+  <link rel="stylesheet" href="{% static 'css/meta-reviewers.css' %}">
+  <link rel="stylesheet" href="{% static 'css/gamification.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+  <script src="{% static 'js/contributors.js' %}"></script>
+  <script src="{% static 'js/gamification.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+      Contributors Gamification Leaderboard
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+
+  <div class="apply-flex center-content">
+    <p class="container web-page-description">
+      The leaderboard is based upon the gamification system which automates the
+      recognition of activities performed by community contributors. Based on activities
+      performed, various parameters are calculated.
+    </p>
+  </div>
+
+  <div class="contributors-section apply-flex center-content">
+    <div class="form-fields">
+      <form>
+        <div class="input-field apply-flex center-content search-field">
+          <i class="fa fa-search social-icons"></i>
+          <input id="search" type="search" autocomplete="off" placeholder="Search by username or name" required>
+          <i class="fa fa-close social-icons"></i>
+        </div>
+      </form>
+      <div class="search-results">
+        <table>
+          <thead>
+            <tr>
+              <th>Search Results</th>
+            </tr>
+          </thead>
+          <tbody class="search-results-tbody large-font">
+            <tr>
+              <td>
+                No results found!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="filter-btn apply-flex center-content">
+      <a id="filters" class="waves-effect waves-light btn-large">
+        <b>Filter Participants</b>
+      </a>
+    </div>
+  </div>
+  <div class="filters-option apply-flex center-content fade-in">
+    <div class="filter-select-fields apply-flex evenly-spread-content">
+      <label class="score-filter">
+        <select class="score-range-selector" name="score-filter">
+          <option value="[]" selected>Choose a score range</option>
+          {% for group, val in grouped_participants.items %}
+            <option value="{{ val }}">{{ group }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label class="level-filter">
+        <select class="level-selector" name="level-filter">
+          <option value="" selected>Choose any level</option>
+          {% for level in levels %}
+            <option value="{{ level.number }}">{{ level.name }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label class="badge-filter">
+        <select class="badge-selector" name="badge-filter">
+          <option value="" selected>Choose any badge</option>
+          {% for badge in badges %}
+            <option value="{{ badge.number }}">{{ badge.name }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <i class="fa fa-eraser clear-filters"> Filters</i>
+    </div>
+  </div>
+
+  <div class="contributors-cards column-flex">
+    <div class="no-contribs-found custom-green-color-font">
+      <h5 class="search-message"></h5>
+      <i class="fa fa-smile-o fa-2x"></i>
+    </div>
+  {% for contributor in gamification_results %}
+    <div class="contributor-card meta-reviewer gamifier-card apply-flex" login="{{ contributor.username }}">
+      <div class="contributor-image meta-reviewer-image gamifier-image">
+        <img src="//github.com/{{ contributor.username }}.png/?size=400"
+             alt="user-image">
+        <div class="bottom-center large-font bold-text social-links">
+          <a href="//github.com/{{ contributor.username }}" target="_blank">
+            <i class="fa fa-github github-icon social-icons" aria-hidden="true"></i>
+          </a>
+          <a href="//gitlab.com/{{ contributor.username }}" target="_blank">
+            <i class="fa fa-gitlab social-icons gitlab-icon" aria-hidden="true"></i>
+          </a>
+          <a href="//www.openhub.net/accounts/{{ contributor.username }}" target="_blank" class="social-icons">OH</a>
+        </div>
+      </div>
+      <div class="gamifier-details">
+        <div class="gamifier-details-part-1 column-flex">
+          <div class="column-flex large-font gray-font-color">
+            <span>
+              <b>Username:</b>
+              {{ contributor.username }}
+            </span>
+            <span>
+              <b>Score:</b>
+              {{ contributor.score }}
+            </span>
+            <span id="level-{{ contributor.level.number }}" login="{{ contributor.username }}">
+              <b>Level:</b>
+              {{ contributor.level.name }}
+            </span>
+            <div>
+              {% if contributor.badges.all %}
+              <b>Badges Earned:</b>
+              <div class="column-flex">
+              {% for badge in contributor.badges.all %}
+                <span id="badge-{{ badge.number }}" login="{{ contributor.username }}">
+                  <b>-></b>
+                  {{ badge.name }}
+                </span>
+              {% endfor %}{# for badge in contributor.badges.all #}
               </div>
+              {% else %}{# if contributor.badges.all #}
+              <span>
+                <b>No badges earned!<i class="fa fa-frown-o"></i></b>
+              </span>
+              {% endif %}{# if contributor.badges.all #}
+            </div>
+            <div class="column-flex">
+              <b>Some Activities permormed:</b>
+              {% for activity in contributor.activities.all|slice:":2" %}
+              <span>
+                <b>{{ forloop.counter }}.</b> {{ activity.name }}, on {{ activity.performed_at }}
+              </span>
+              {% endfor %}{# for activity in contributor.activities.all|slice:":2" #}
             </div>
           </div>
         </div>
+
+        {% if contributor.activities.all|slice:"2:6" %}
+        <div class="gamifier-details-part-2 column-flex large-font gray-font-color">
+          {% for activity in contributor.activities.all|slice:"2:6" %}
+          <span>
+            <b>{{ forloop.counter|add:2 }}.</b> {{ activity.name }}, on {{ activity.performed_at }}
+          </span>
+          {% endfor %}{# for activity in contributor.activities.all|slice:"2:6" #}
+        </div>
+        {% endif %}{# if contributor.activities.all|slice:"2:6" #}
+
+        {% if contributor.activities.all|slice:"6:10" %}
+        <div class="gamifier-details-part-3 column-flex large-font gray-font-color">
+          {% for activity in contributor.activities.all|slice:"6:10" %}
+          <span>
+            <b>{{ forloop.counter|add:6 }}.</b> {{ activity.name }}, on: {{ activity.performed_at }}
+          </span>
+          {% endfor %}{# for activity in contributor.activities.all|slice:"6:10" #}
+        </div>
+        {% endif %}{# if contributor.activities.all|slice:"6:10" #}
       </div>
-      <hr>
-      {% endfor %}{# for participant in participants #}
-    </ul>
-  </body>
-</html>
+    </div>
+    {% endfor %}{# for contributor in gamification_results #}
+  </div>
+
+{% endblock %}

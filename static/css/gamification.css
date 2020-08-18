@@ -1,0 +1,165 @@
+.badge-filter {
+    width: 150px;
+}
+
+.bottom-center {
+    position: absolute;
+    width: 100px;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clear-filters {
+    cursor: pointer;
+}
+
+.gamifier-details {
+    max-width: 79%;
+    display: flex;
+}
+
+.gamifier-details-part-1,
+.gamifier-details-part-2,
+.gamifier-details-part-3 {
+    max-width: 44%;
+    max-height: 80%;
+    padding: 10px 5px;
+}
+
+.gamifier-card {
+    width: 100%;
+    min-height: 380px;
+}
+
+.gamifier-image {
+    width: 20%;
+}
+
+.gamifier-image img{
+    width: 90%;
+    margin-right: 0;
+    margin-left: 1%;
+    min-width: 100px;
+
+}
+
+.github-icon {
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.gitlab-icon {
+    color: #e33834;
+    border-radius: 100px;
+}
+
+.filter-btn {
+    width: 250px;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 0;
+}
+
+.filter-btn .btn-large {
+    border-radius: 100px;
+}
+
+.filter-btn .btn {
+    text-transform: none;
+    border-radius: 100px;
+    box-shadow: 0 0 25px 2px black;
+}
+
+.filters-option {
+    margin: 3% auto auto;
+    display: none;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.filter-select-fields {
+    width: 50%;
+    min-width: 350px;
+    box-shadow: 0 0 15px 2px black;
+    border-radius: 20px;
+}
+
+.level-filter {
+    width: 145px;
+}
+
+.no-contribs-found {
+    display: none;
+    justify-content: center;
+}
+
+.no-contribs-found h5 {
+    margin: 0;
+}
+
+.score-filter {
+    width: 175px;
+}
+
+.social-icons {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 890px){
+
+    .gamifier-card {
+        max-width: 100%;
+        width: auto;
+        margin: 10px;
+    }
+
+    .gamifier-details {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .gamifier-image {
+        margin: auto;
+        width: 35%;
+    }
+
+    .bottom-center {
+        bottom: 2%;
+    }
+
+    @media only screen and (max-width: 526px){
+
+        .gamifier-details-part-3 {
+            display: none;
+        }
+
+        .gamifier-details-part-1,
+        .gamifier-details-part-2 {
+            max-width: 50%;
+        }
+
+        .gamifier-image {
+            width: 50%;
+        }
+
+    }
+}
+
+@-webkit-keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
+}
