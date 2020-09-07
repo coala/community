@@ -1,0 +1,53 @@
+<form name="{{ community_google_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="community-google-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Community Google Form Details
+  </h5>
+  {% csrf_token %}
+  {% for field in community_google_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        {% if field.name == 'user' %}
+        <p>{{ field.label_tag }}</p>
+        {% else %}
+        {{ field.label_tag }}
+        {% endif %}
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} developers group.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
