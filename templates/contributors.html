@@ -1,40 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Contributors Data</title>
-  </head>
-  <body>
-    <h1>Details of all the contributors</h1>
-    <ul>
-      {% for contributor in contributors %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                <p>login: {{ contributor.login }}</p>
-                <p>name: {{ contributor.name }}</p>
-                <p>bio: {{ contributor.bio }}</p>
-                <p>num_commits: {{ contributor.num_commits }}</p>
-                <p>reviews: {{ contributor.reviews }}</p>
-                <p>issues_opened: {{ contributor.issues_opened }}</p>
-                <p>teams:
-                {% for team in contributor.teams.all %}
-                    {{ team.name }}
-                {% endfor %}{# for team in contributor.teams.all #}
-                </p>
-              </div>
-            </div>
-          </div>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+  Community | Contributors
+{% endblock %}
+
+{% block add_css_files %}
+  <link rel="stylesheet" href="{% static 'css/contributors.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+  <script src="{% static 'js/contributors.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+      Our Precious Contributors
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+
+  <div class="apply-flex center-content">
+    <p class="container web-page-description">
+      Contributor's who've been putting their hard-work to make {{ org.name }} best of its
+      own. Thanks to all contributors to make {{ org.name }} what is it today.
+    </p>
+  </div>
+
+  <div class="contributors-section apply-flex center-content">
+    <div class="form-fields">
+      <form>
+        <div class="input-field apply-flex center-content search-field">
+          <i class="fa fa-search social-icons"></i>
+          <input id="search" type="search" autocomplete="off" placeholder="Search by username or name" required>
+          <i class="fa fa-close social-icons"></i>
+        </div>
+      </form>
+    <div class="apply-flex center-content">
+    </div>
+      <div class="search-results">
+        <table>
+          <thead>
+            <tr>
+              <th>Search Results</th>
+            </tr>
+          </thead>
+          <tbody class="search-results-tbody large-font">
+            <tr>
+              <td>
+                No results found!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="contributors-cards">
+  {% for contributor in contributors %}
+  <div class="contributor-card" login="{{ contributor.login }}" name="{{ contributor.name }}">
+    <div class="contributor-image">
+      <img src="//github.com/{{ contributor.login }}.png/?size=210" alt="user-image">
+    </div>
+    <div class="contributor-details">
+      <a class="bold-text large-font" href="//github.com/{{ contributor.login }}" target="_blank">
+        {% if contributor.name %}
+        {{ contributor.name }}
+        {% else %}
+        {{ contributor.login }}
+        {% endif %}{# if contributor.name #}
+      </a>
+      <div class="apply-flex evenly-spread-content contributions gray-font-color">
+        <div class="commits">
+          <p>{{ contributor.num_commits }}</p>
+          <p class="bold-text">Commits</p>
+        </div>
+        <div class="reviews">
+          <p>{{ contributor.reviews }}</p>
+          <p class="bold-text">Reviews</p>
+        </div>
+        <div class="issues-opened">
+          <p>{{ contributor.issues_opened }}</p>
+          <p class="bold-text">Issues</p>
         </div>
       </div>
-      <hr>
-      {% endfor %}{# for contributor in contributors #}
-    </ul>
-  </body>
-</html>
+    </div>
+  </div>
+  {% endfor %}{# for contributor in contributors #}
+  </div>
+
+{% endblock %}
