@@ -1,10 +1,14 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
+from community.views import get_header_and_footer
 from gamification.models import Participant
 
 
-def index(request):
-    Participant.objects.filter(username__startswith='testuser').delete()
-    participants = Participant.objects.all()
-    args = {'participants': participants}
-    return render(request, 'gamification.html', args)
+class GamificationResults(TemplateView):
+    template_name = 'gamification.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context = get_header_and_footer(context)
+        context['gamification_results'] = Participant.objects.all()
+        return context

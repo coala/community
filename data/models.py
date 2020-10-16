@@ -3,6 +3,9 @@ from django.db import models
 
 class Team(models.Model):
     name = models.CharField(max_length=200, default=None)
+    description = models.TextField(max_length=500, default=None, null=True)
+    members_count = models.PositiveSmallIntegerField(default=0)
+    increased_count = models.PositiveSmallIntegerField(default=0)
 
     def __str__(self):
         return self.name
@@ -19,7 +22,13 @@ class Contributor(models.Model):
     reviews = models.IntegerField(default=None, null=True)
     issues_opened = models.IntegerField(default=None, null=True)
     location = models.TextField(default=None, null=True)
-    teams = models.ManyToManyField(Team)
+    teams = models.ManyToManyField(Team, related_name='contributors')
+    statistics = models.TextField(default=None, null=True)
+    type_of_issues_worked_on = models.TextField(default=None, null=True)
+    is_gci_participant = models.BooleanField(default=False)
+    working_on_issues_count = models.TextField(default=None, null=True)
+    updated_at = models.TextField(default=None, null=True)
+    oauth_completed = models.BooleanField(default=False)
 
     def __str__(self):
         return self.login
