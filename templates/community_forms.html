@@ -1,0 +1,418 @@
+<form name="{{ community_google_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="community-google-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Community Google Form Details
+  </h5>
+  {% csrf_token %}
+  {% for field in community_google_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        {% if field.name == 'user' %}
+        <p>{{ field.label_tag }}</p>
+        {% else %}
+        {{ field.label_tag }}
+        {% endif %}
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} developers group.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
+
+
+<form name="{{ community_event_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="calendar-event-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Community Event Details
+  </h5>
+  {% csrf_token %}
+  {% for field in community_event_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        {% if field.name == 'user' %}
+        <p>{{ field.label_tag }}</p>
+        {% else %}
+        {{ field.label_tag }}
+        {% endif %}
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} developers group.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
+
+<form name="{{ organization_mentor_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="mentor-students-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Mentoring Program Details
+  </h5>
+  {% csrf_token %}
+  {% for field in organization_mentor_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        <p>{{ field.label_tag }}</p>
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} developers group.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
+
+<form name="{{ gsoc_student_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="participated-in-gsoc-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Google Summer of Code, Participation Student Details
+  </h5>
+  {% csrf_token %}
+  {% for field in gsoc_student_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        {% if field.name == 'user' %}
+        <p>{{ field.label_tag }}</p>
+        {% else %}
+        {{ field.label_tag }}
+        {% endif %}
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} oragnization.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
+
+<form name="{{ assign_issue_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="get-issue-assigned-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    On which Issue you want to work?
+  </h5>
+  {% csrf_token %}
+  {% for field in assign_issue_form %}
+    <div class="row">
+      <div class="input-field col s12">
+        {% if field.name == 'user' or field.name == 'hoster' %}
+        <p>{{ field.label_tag }}</p>
+        {% elif field.name != 'requested_user' %}
+        {{ field.label_tag }}
+        {% endif %}
+        {{ field }}
+        {% if field.help_text %}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ field.help_text }}</i>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} oragnization.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>
+
+<form name="{{ newcomer_promotion_form_name }}" method="post"
+      netlify-honeypot="bot-field" class="newcomer-promotion-form display-none"
+      data-netlify="true" action="/">
+  <h5 class="text-center custom-green-color-font bold-text">
+    Newcomer Promotion Request Form
+  </h5>
+  {% csrf_token %}
+  <div class="form-step-div">
+    <h6 class="bold-text custom-green-color-font">User Details</h6>
+    <div class="row">
+      <div class="input-field col s12">
+        <p>{{ newcomer_promotion_form.github_username.label_tag }}</p>
+        {{ newcomer_promotion_form.github_username }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.gitlab_user_id.label_tag }}
+        {{ newcomer_promotion_form.gitlab_user_id }}
+      </div>
+    </div>
+  </div>
+  <div class="form-step-div">
+    <h6 class="bold-text custom-green-color-font">Personal Project Details</h6>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.project_web_url.label_tag }}
+        {{ newcomer_promotion_form.project_web_url }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.project_web_url.help_text }}</i>
+      </div>
+    </div>
+    <div style="padding-left: 10px">
+      <h6 class="bold-text custom-green-color-font">Files Relative Path
+        (to project root)
+      </h6>
+      <div class="row">
+        <div class="input-field col s12">
+          {{ newcomer_promotion_form.build_file_relative_path.label_tag }}
+          {{ newcomer_promotion_form.build_file_relative_path }}
+          <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.build_file_relative_path.help_text }}</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          {{ newcomer_promotion_form.coafile_relative_path.label_tag }}
+          {{ newcomer_promotion_form.coafile_relative_path }}
+          <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.coafile_relative_path.help_text }}</i>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.gist_or_snippet_id.label_tag }}
+        {{ newcomer_promotion_form.gist_or_snippet_id }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.gist_or_snippet_id.help_text }}</i>
+      </div>
+    </div>
+  </div>
+  <div class="form-step-div">
+    <h6 class="bold-text custom-green-color-font">Newcomer Issue Related
+      Details</h6>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.newcomer_solved_issue_web_url.label_tag }}
+        {{ newcomer_promotion_form.newcomer_solved_issue_web_url }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.newcomer_solved_issue_web_url.help_text }}</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.newcomer_issue_related_pr.label_tag }}
+        {{ newcomer_promotion_form.newcomer_issue_related_pr }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.newcomer_issue_related_pr.help_text }}</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.newcomer_issue_pr_reviewed_url.label_tag }}
+        {{ newcomer_promotion_form.newcomer_issue_pr_reviewed_url }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.newcomer_issue_pr_reviewed_url.help_text }}</i>
+      </div>
+    </div>
+  </div>
+  <div class="form-step-div">
+    <h6 class="bold-text custom-green-color-font">Low Difficulty Issue
+      Related Details</h6>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.low_level_solved_issue_web_url.label_tag }}
+        {{ newcomer_promotion_form.low_level_solved_issue_web_url }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.low_level_solved_issue_web_url.help_text }}</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.low_level_issue_related_pr.label_tag }}
+        {{ newcomer_promotion_form.low_level_issue_related_pr }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.low_level_issue_related_pr.help_text }}</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.low_level_issue_pr_reviewed_url.label_tag }}
+        {{ newcomer_promotion_form.low_level_issue_pr_reviewed_url }}
+        <i class="fa fa-info-circle" aria-hidden="true">{{ newcomer_promotion_form.low_level_issue_pr_reviewed_url.help_text }}</i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        {{ newcomer_promotion_form.request_created_by_user }}
+      </div>
+    </div>
+  </div>
+  <div class="validation-checkboxes">
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I am a member of {{ org.name }} oragnization.</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>I have not submitted this form for more than 3 times. If so, I
+          am liable of getting blacklisted!</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" required>
+        <span>All of the above information provided by me has no false
+          entries. If so, I am liable of getting blacklisted.</span>
+      </label>
+    </p>
+    <p style="display: none">
+      <label>
+        <input type="checkbox" name="bot-field">
+        <span>I am a bot</span>
+      </label>
+    </p>
+    <p>
+      <strong>
+        Note: You will receive an email within 24 hrs, if any of the
+        validation checks are not passed.
+      </strong>
+    </p>
+  </div>
+  <div class="apply-flex center-content submit-btn">
+    <input class="waves-effect waves-light btn-large large-font" type="submit" value="Submit">
+  </div>
+</form>

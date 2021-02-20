@@ -1,0 +1,17 @@
+.light-green-color {
+    color: green;
+}
+
+.organization-teams {
+    margin: auto;
+    width: 60%;
+    min-width: 330px;
+}
+
+.team-name {
+    font-size: 1.5em;
+}
+
+.team-desc {
+    padding-left: 20px;
+}

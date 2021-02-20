@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block main-content %}
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <h3 class="page-name">
+       {{ page_name }}
+    </h3>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+  <div class="issues-list" style="margin: auto; width: 60%; min-width: 350px;
+   padding-bottom: 30px;">
+  {% if object_list.count > 0 %}
+    <table class="highlight centered">
+      <thead>
+        <tr class="custom-green-color-font">
+          <th>
+            <h5>Hoster</h5>
+          </th>
+          <th>
+            <h5>Title</h5>
+          </th>
+          <th>
+            <h5>Issue</h5>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for issue in object_list %}
+        <tr>
+          <td>{{ issue.hoster }}</td>
+          <td>{{ issue.title }}</td>
+          <td class="bold-text">
+            <a href="{{ issue.url }}">{{ issue.repository }}#{{ issue.number }}</a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <h5 class="empty-list apply-flex center-content" style="min-height: 124px">
+      No Issues Found! <i class="fa fa-smile-o"></i>
+    </h5>
+  {% endif %}
+  </div>
+
+{% endblock %}
