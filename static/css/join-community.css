@@ -1,0 +1,25 @@
+.join-community-form .row {
+    margin: 5px auto;
+}
+
+.join-community-form .row .input-field,
+.join-community-form p {
+    margin: 0 auto;
+}
+
+.join-community-form label{
+    font-size: 1.3em;
+    color: black;
+}
+
+.join-community-form ::placeholder{
+    color: gray;
+}
+
+.validation-checkboxes {
+    padding: 0 15px;
+}
+
+.submit-btn{
+    margin: 15px;
+}
