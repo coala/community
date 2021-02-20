@@ -19,7 +19,7 @@ class Contributor(models.Model):
     reviews = models.IntegerField(default=None, null=True)
     issues_opened = models.IntegerField(default=None, null=True)
     location = models.TextField(default=None, null=True)
-    teams = models.ManyToManyField(Team)
+    teams = models.ManyToManyField(Team, related_name='contributors')
 
     def __str__(self):
         return self.login
