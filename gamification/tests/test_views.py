@@ -25,4 +25,4 @@ class GamificationViewTest(TestCase):
     def test_all_contributors_on_template(self):
         resp = self.client.get(reverse('community-gamification'))
         self.assertEqual(resp.status_code, 200)
-        self.assertTrue(len(resp.context['participants']) == 10)
+        self.assertTrue(len(resp.context['gamification_results']) == 10)

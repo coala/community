@@ -1,0 +1,311 @@
+.apply-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #edf5af;
+}
+
+.bold-text,
+.sidenav.bold-text {
+    font-weight: bold;
+}
+
+.bold-text i.social-icons,
+.sidenav i.social-icons {
+    font-size: 1.5em;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.close-form {
+    justify-content: end;
+    padding: 10px 10px 0 0;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.custom-green-color-font {
+    color: #2d5d13
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.community-form {
+    position: fixed;
+    width: 70%;
+    min-width: 330px;
+    top: 15%;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0 -5px 15px black;
+    background-color: #edf5af;
+    padding: 20px;
+    height: 80%;
+    overflow-x: auto;
+}
+
+.community-form form {
+    padding-bottom: inherit;
+
+}
+.community-form form label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: darkcyan;
+}
+
+.community-form form p{
+    margin: 0;
+}
+
+.community-form form textarea{
+    margin-top: 10px;
+}
+
+.community-form form .row{
+    margin-bottom: 0;
+}
+
+.community-form ::placeholder {
+    color: black;
+}
+
+.evenly-spread-content {
+    justify-content: space-evenly;
+}
+
+.gray-font-color {
+    color: #37474f;
+}
+
+.error-message {
+    background-color: #d57c7b;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+.display-none {
+    display: none;
+}
+
+.form-popup,
+.form-submission-popup {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: none;
+    opacity:.95;
+    z-index: 1002;
+    position:fixed;
+}
+
+.form-step-div {
+    box-shadow: 0 -5px 15px black;
+    margin: 30px 0 20px 0;
+    border-radius: 30px;
+    padding: 5px 10px 0 10px;
+}
+
+footer .footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 3em;
+}
+
+footer.footer-icons.icon {
+    color: white;
+}
+
+footer .social-buttons {
+    background-color: black;
+    text-transform: none;
+}
+
+.inline-contents {
+    display: inline-flex;
+}
+
+.large-font {
+    font-size: larger;
+}
+
+.login-form,
+.form-submission-message {
+    width: 30%;
+    min-width: 340px;
+    background-color: white;
+    box-shadow: 0 -5px 15px black;
+    margin: 5em auto;
+}
+
+.main-content {
+    background-color: #edf5af;
+    padding-bottom: 3%;
+}
+
+.main-content h3 {
+    color: #37474f;
+}
+
+.message {
+    padding: 10px;
+    text-align: justify;
+}
+
+nav {
+    background-color: #37474f;
+}
+
+nav .brand-logo img {
+    width: 60px;
+}
+
+.netlify-image {
+    min-width:133px;
+    width: 50%;
+}
+
+.nav-menu-font-size,
+.sidenav .nav-menu-font-size {
+    font-size: 20px;
+}
+
+.oauth-error {
+    display: none;
+}
+
+.oauth-providers {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oauth-providers a{
+    margin: 0.5em;
+    font-weight: bold;
+    width: 80%;
+}
+
+.organizations {
+    justify-content: center;
+}
+
+.org-logo {
+    min-width: 133px;
+    width: 35%;
+}
+
+.organizations img {
+    padding: 10px;
+}
+
+p {
+    font-size: medium;
+}
+
+.page-name {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.page-footer {
+    background-color: #37474f;
+    box-shadow: 0 -5px 15px black;
+}
+
+.page-footer .footer-copyright {
+    background-color: #263238;
+}
+
+.search-field {
+    border-radius: 100px;
+    box-shadow: 0 0 25px 2px black;
+    color: #454343;
+    background-color: #edf5af;
+    padding: 0 20px;
+    flex-flow: row;
+    margin: auto auto auto 0;
+}
+
+#search {
+    border-bottom: none;
+    padding-left: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#search::placeholder {
+    color: grey;
+}
+
+#search:focus:not(.browser-default) {
+    background-color: #edf5af;
+    border-radius: 100px;
+    font-size: medium;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.sidenav .dropdown-trigger-sidenav i {
+    float: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.student {
+    padding-bottom: 20px;
+}
+
+.students {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#user-dropdown li.user-logout {
+    display: none;
+}
+
+.web-page-details {
+    width: 100%;
+}
+
+.web-page-description,
+.data-updated-time,
+.data-fetch-error {
+    text-align: center;
+    font-size: large;
+    color: #2d5d13;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .brand-logo img {
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .page-name {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .community-form {
+        left: 10px;
+    }
+}
