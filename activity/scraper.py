@@ -136,7 +136,7 @@ class Scraper():
         return self.data
 
 
-def activity_json(request):
+def activity_json(filename):
 
     org_name = get_org_name()
 
@@ -152,4 +152,5 @@ def activity_json(request):
     real_data = Scraper(parsed_json['issues'], datetime.datetime.today())
     real_data = real_data.get_data()
 
-    return HttpResponse(json.dumps(real_data))
+    with open(filename, 'w+') as f:
+        json.dump(real_data, f, indent=4)
