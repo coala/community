@@ -28,6 +28,7 @@ python manage.py fetch_deployed_data _site $ISSUES_JSON \
 
 python manage.py migrate
 python manage.py import_contributors_data
+python manage.py create_org_cluster_map_and_activity_graph org_map
 python manage.py import_issues_data
 python manage.py import_merge_requests_data
 python manage.py create_config_data
