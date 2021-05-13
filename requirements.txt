@@ -4,7 +4,7 @@ git-url-parse
 django>2.1,<2.2
 django-distill
 django-eventtools
-git+https://gitlab.com/gitmate/open-source/IGitt.git@1fa5a0a21ea4fb8739d467c06972f748717adbdc
+git+https://gitlab.com/coala/gitmate/IGitt.git
 requests
 git+https://github.com/andrewda/trav.git@ce805d12d3d1db0a51b1aa26bba9cd9ecc0d96b8
 python-dateutil
