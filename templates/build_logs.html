@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title_block %}
+  Community | Build Logs
+{% endblock %}
+
+{% block add_css_files %}
+<link rel="stylesheet" href="{% static 'css/build_logs.css' %}">
+{% endblock %}
+
+{% block add_js_files %}
+<script src="{% static 'js/build_logs.js' %}"></script>
+{% endblock %}
+
+{% block main-content %}
+  <div class="web-page-details apply-flex center-content">
+    <h3 style="padding-right: 15px">~</h3>
+    <div class="page-name">
+      <h3>Project CI Build</h3>
+    </div>
+    <h3 style="padding-left: 15px">~</h3>
+  </div>
+
+  <div class="build-info-section apply-flex center-content">
+    <section>
+      <h3>Information</h3>
+      <div class="build-information">
+        {% for key, value in build_info.items %}
+        <p>{{ key }}: {{ value }}</p>
+        {% endfor %}{# for key, value in build_info.items #}
+      </div>
+    </section>
+  </div>
+
+
+  <div class="build-logs-section apply-flex center-content">
+    <section>
+      <div class="section-header">
+        <h3>Logs</h3>
+        <div class="form-fields">
+          <form>
+            <i class="fa fa-search social-icons small-screen"></i>
+            <div class="input-field apply-flex center-content search-field">
+              <i class="fa fa-search social-icons"></i>
+              <input id="search" type="search" placeholder="Type your query, and press enter"
+                     required autocomplete="off">
+              <i class="fa fa-close social-icons"></i>
+            </div>
+            <div class="input-field log-chooser">
+              <select id="log-chooser-input">
+                <option value="logs" selected>All logs</option>
+                <optgroup label="Log Levels-">
+                  <option value="INFO">INFO</option>
+                  <option value="DEBUG">DEBUG</option>
+                  <option value="ERROR">ERROR</option>
+                  <option value="WARNING">WARNING</option>
+                  <option value="CRITICAL">CRITICAL</option>
+                </optgroup>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="build-logs">
+        {% if logs_stored %}
+        <p>Great! Wait for build logs to get displayed.</p>
+        {% else %}
+        <p>No logs found! Please run '.ci/build.sh' on the project.</p>
+        {% endif %}{# if logs_stored #}
+      </div>
+    </section>
+  </div>
+
+{% endblock %}

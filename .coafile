@@ -1,6 +1,6 @@
 [all]
 files = **.py, **.js, **.sh
-ignore = .git/**, **/__pycache__/**, gci/client.py, */migrations/**, private/*, openhub/**, **/leaflet_dist/**
+ignore = .git/**, **/__pycache__/**, gci/client.py, */migrations/**, private/*, openhub/**, **/leaflet_dist/**, .idea/**
 max_line_length = 80
 use_spaces = True
 preferred_quotation = '
