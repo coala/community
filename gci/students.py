@@ -83,6 +83,8 @@ def cleanse_instances(instances, tasks):
         for instance_id, instance
         in instances.items()
         if instance['status'] not in PRIVATE_INSTANCE_STATUSES
+        and tasks[instance['task_definition_id']]
+        .__contains__('state').__eq__('COMPLETED')
         and instance['task_definition_id'] in tasks
         and instance['task_definition_id'] not in beginner_tasks(tasks)
     )
