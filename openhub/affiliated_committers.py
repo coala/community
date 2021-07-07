@@ -2,12 +2,18 @@ import logging
 
 from community.git import get_org_name
 from openhub.models import MostCommit, MostRecentCommit, AffiliatedCommitter
+from openhub.checker import data_checker
 
 
 def get_affiliated_committers_data(json_object):
+    """
+    :param json_object: json data of affiliated committers
+    :return: a list of affiliated committers dict
+    """
     data = json_object['response']['result'
                                    ]['affiliated_committers']['affiliator']
-    return data
+    _data = data_checker(data)
+    return _data
 
 
 def import_data(affiliator):

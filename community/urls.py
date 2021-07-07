@@ -17,15 +17,12 @@ from inactive_issues.inactive_issues_scraper import inactive_issues_json
 from openhub.views import index as openhub_index
 from model.views import index as model_index
 from openhub.models import (
-    PortfolioProject,
     OutsideCommitter,
     AffiliatedCommitter,
     OutsideProject,
     Organization,
     )
 from model.views import (
-    PortfolioProjectListView,
-    PortfolioProjectDetailView,
     AffiliatedCommitterListView,
     AffiliatedCommitterDetailView,
     OrganizationListView,
@@ -44,11 +41,6 @@ def get_index():
     # The index URI regex, ^$, contains no parameters, named or otherwise.
     # You can simply just return nothing here.
     return None
-
-
-def get_all_portfolioprojects():
-    for portfolioproject in PortfolioProject.objects.all():
-        yield {'pk': portfolioproject.id}
 
 
 def get_all_outsidecommitters():
@@ -167,18 +159,6 @@ urlpatterns = [
         AffiliatedCommitterDetailView.as_view(),
         name='affiliatedcommitter-detail',
         distill_func=get_all_affiliatedcommitters,
-    ),
-    distill_url(
-        r'model/openhub/portfolio_projects/$',
-        PortfolioProjectListView.as_view(),
-        name='portfolioprojects',
-        distill_func=get_index,
-    ),
-    distill_url(
-        r'model/openhub/portfolio_project/(?P<pk>\d+)/$',
-        PortfolioProjectDetailView.as_view(),
-        name='portfolioproject-detail',
-        distill_func=get_all_portfolioprojects,
     ),
     distill_url(
         r'model/openhub/organization/$',

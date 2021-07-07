@@ -2,12 +2,18 @@ import logging
 
 from community.git import get_org_name
 from openhub.models import OutsideCommitter, ContributionsToPortfolioProject
+from openhub.checker import data_checker
 
 
 def get_outside_committers_data(json_object):
+    """
+    :param json_object: json data of outside committers
+    :return: a list of outside committers dict
+    """
     data = json_object['response']['result'
                                    ]['outside_committers']['contributor']
-    return data
+    _data = data_checker(data)
+    return _data
 
 
 def import_data(contributor):

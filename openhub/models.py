@@ -54,12 +54,6 @@ class PortfolioProject(models.Model):
     def __str__(self):
         return self.name
 
-    def get_absolute_url(self):
-        """
-        Returns the url to access a particular portfolio project instance.
-        """
-        return reverse('portfolioproject-detail', args=[str(self.id)])
-
 
 class OutsideProject(models.Model):
 
