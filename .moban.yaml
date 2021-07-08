@@ -30,6 +30,7 @@ dependencies:
   - markdown2
   - PyGithub
   - xmltodict
+  - termcolor
 
 configuration:
   template_dir:
