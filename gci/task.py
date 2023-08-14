@@ -1,5 +1,8 @@
 from .config import load_cache
 
+TASK_STATUS_DRAFT = 1
+TASK_STATUS_PUBLISHED = 2
+
 _tasks = None
 _private_tasks = None
 _tasks_by_url = None
@@ -66,7 +69,7 @@ def published_tasks(tasks):
         (task_id, task)
         for task_id, task
         in tasks.items()
-        if task['status'] == 2
+        if task['status'] == TASK_STATUS_PUBLISHED
     )
 
 

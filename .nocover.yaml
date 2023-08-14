@@ -24,6 +24,7 @@ nocover_file_globs:
   - meta_review/dump_to_db.py
   # django-distill runs these
   - community/urls.py
+  - community/diff.py
   - '*/views.py'
   # tests
   - '*/tests/*.py'

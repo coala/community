@@ -6,6 +6,7 @@ from gci.api_actions import upload_tasks
 from gci.config import load_yaml
 from gci.issues import get_all_issues
 from gci.issues import get_issue_tasks
+from gci.issues import filter_issue_config
 from gci.issues import print_tasks
 
 
@@ -35,9 +36,7 @@ class Command(BaseCommand):
         issue_config = load_yaml(filename)
 
         if repo:
-            issue_config = dict((key, data)
-                                for (key, data) in issue_config.items()
-                                if key == 'global' or repo in key)
+            issue_config = filter_issue_config(issue_config, repo)
 
         if raw:
             issues = list(get_all_issues(issue_config))
